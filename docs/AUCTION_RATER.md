@@ -42,4 +42,4 @@ The PM captures it into `build\review\auction_rN\`:
 
 - `solo\`: AutoShot play-through, `-PlayTest`.
 - `rooms\`: 3-window `-aplroomtest`, plus logs and server.log.
-- `tourney\`: `-apltourneyshots`.
+- `solo_tourney\`: `-aplsimulate -apltourneyafter`. This covers the tournament screens and sim buttons. No match or gameplay captures: the owner wants auction only.
