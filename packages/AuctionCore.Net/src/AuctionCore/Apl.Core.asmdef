@@ -1,0 +1,13 @@
+{
+  "name": "Apl.Core",
+  "rootNamespace": "Apl.Core",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["Newtonsoft.Json.dll"],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": true
+}

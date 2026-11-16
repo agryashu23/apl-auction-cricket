@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- uGUI built from the editor's bundled package source; named UnityEngine.UI so its InternalsVisibleTo apply. -->
+  <PropertyGroup>
+    <AssemblyName>UnityEngine.UI</AssemblyName>
+    <NoWarn>$(NoWarn);CS0618;CS0649;CS0414;CS0169;CS0108;CS0114;CS0067;CS8632</NoWarn>
+    <DefineConstants>UNITY_EDITOR;UNITY_6000_0_OR_NEWER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_ANIMATION;PACKAGE_UITOOLKIT</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(UnityData)\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UGUI\**\*.cs" />
+    <Reference Include="$(UnityData)\Managed\UnityEngine\*.dll" Private="false" />
+  </ItemGroup>
+</Project>

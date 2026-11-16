@@ -1,0 +1,5170 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones, mixamorig: names), skeleton only, 30 fps, frames start at 1",
+  "world": "the bowler runs toward the rig's forward direction (at the batter). Positions: 'behind_crease'/'forward_of_crease' along the pitch from the bowler's popping crease, 'left' = the bowler's left of the middle-stump line, 'up' = height",
+  "start": "each clip starts standing at the top of the mark (start_position_m) and contains the whole run-up, bound, back-foot contact, front-foot contact, release, follow-through and deceleration",
+  "ball": "attach the ball to the bowling hand (RightHand, or LeftHand for left-arm clips) until release_frame; release_point_m is where it leaves the hand",
+  "lateral_convention": "in deliveries: positive lateral_m = INTO a right-handed batter (toward his pads), negative = AWAY (toward the slips)",
+  "around_the_wicket": "release variants are over the wicket; for a variant from around the wicket play the matching *_around_* stock clip with that variant's release physics",
+  "lengths_and_lines": "see lengths_pitching_m_from_batters_stumps / lines_m_from_middle_stump; play the bouncer clip for bouncer/short lengths and the yorker clip for yorker/full-toss lengths (length_to_release_variant)"
+ },
+ "clips": [
+  {
+   "file": "la_chinaman_around_leg_break.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "left",
+   "side": "around the wicket",
+   "release_variant": "leg_break",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": 0.48
+   },
+   "release_point_m": {
+    "left": 0.612,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked inward, ring finger rips the ball"
+  },
+  {
+   "file": "la_chinaman_over_flipper.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "flipper",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "squeezed out from under the hand, palm up, hand toward the target"
+  },
+  {
+   "file": "la_chinaman_over_googly.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "googly",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.036,
+    "up": 2.006
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist dropped, back of the hand faces the batter"
+  },
+  {
+   "file": "la_chinaman_over_leg_break.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "leg_break",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked inward, ring finger rips the ball"
+  },
+  {
+   "file": "la_chinaman_over_top_spinner.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "top_spinner",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.189,
+    "forward_of_crease": 0.004,
+    "up": 1.998
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "side of the hand toward the batter, seam rolls forward"
+  },
+  {
+   "file": "la_fast_around_stock.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.48
+   },
+   "release_point_m": {
+    "left": 0.576,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "la_fast_medium_around_stock.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "left",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.48
+   },
+   "release_point_m": {
+    "left": 0.61,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "la_fast_medium_over_stock.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "la_fast_over_back_of_hand.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.222,
+    "forward_of_crease": 0.176,
+    "up": 1.938
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "la_fast_over_bouncer.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "bouncer",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "released ~5% of height lower, hit-the-deck"
+  },
+  {
+   "file": "la_fast_over_inswinger.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "inswinger",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward fine leg"
+  },
+  {
+   "file": "la_fast_over_knuckle.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "knuckle",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "ball pushed out on bent knuckles"
+  },
+  {
+   "file": "la_fast_over_leg_cutter.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "leg_cutter",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers cut across the ball the other way, wrist rolls toward off"
+  },
+  {
+   "file": "la_fast_over_off_cutter.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "off_cutter",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers drag down the right side of the ball, wrist rolls toward leg"
+  },
+  {
+   "file": "la_fast_over_outswinger.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "outswinger",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward the slips"
+  },
+  {
+   "file": "la_fast_over_stock.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "la_fast_over_yorker.fbx",
+   "bowler_action": "express_fast",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "yorker",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "higher release, wrist cocked back longer"
+  },
+  {
+   "file": "la_orthodox_around_off_break.fbx",
+   "bowler_action": "off_spin",
+   "arm": "left",
+   "side": "around the wicket",
+   "release_variant": "off_break",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.48
+   },
+   "release_point_m": {
+    "left": 0.59,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "palm toward the batter, fingers rip clockwise"
+  },
+  {
+   "file": "la_orthodox_over_arm_ball.fbx",
+   "bowler_action": "off_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "arm_ball",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand behind the ball, goes on with the arm"
+  },
+  {
+   "file": "la_orthodox_over_carrom.fbx",
+   "bowler_action": "off_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "carrom",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "flicked out between thumb and bent middle finger"
+  },
+  {
+   "file": "la_orthodox_over_doosra.fbx",
+   "bowler_action": "off_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "doosra",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": -0.003,
+    "up": 2.0
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked, back of the hand faces the batter"
+  },
+  {
+   "file": "la_orthodox_over_off_break.fbx",
+   "bowler_action": "off_spin",
+   "arm": "left",
+   "side": "over the wicket",
+   "release_variant": "off_break",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": -0.32
+   },
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "palm toward the batter, fingers rip clockwise"
+  },
+  {
+   "file": "mystery_side_arm_over.fbx",
+   "bowler_action": "side_arm",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "off_break",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.178,
+    "forward_of_crease": 0.005,
+    "up": 1.789
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "palm toward the batter, fingers rip clockwise"
+  },
+  {
+   "file": "ra_express_fast_around_stock.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.576,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_express_fast_over_back_of_hand.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.222,
+    "forward_of_crease": 0.176,
+    "up": 1.938
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_express_fast_over_bouncer.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "bouncer",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "released ~5% of height lower, hit-the-deck"
+  },
+  {
+   "file": "ra_express_fast_over_inswinger.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "inswinger",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward fine leg"
+  },
+  {
+   "file": "ra_express_fast_over_knuckle.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "knuckle",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "ball pushed out on bent knuckles"
+  },
+  {
+   "file": "ra_express_fast_over_leg_cutter.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "leg_cutter",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers cut across the ball the other way, wrist rolls toward off"
+  },
+  {
+   "file": "ra_express_fast_over_off_cutter.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "off_cutter",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers drag down the right side of the ball, wrist rolls toward leg"
+  },
+  {
+   "file": "ra_express_fast_over_outswinger.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "outswinger",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward the slips"
+  },
+  {
+   "file": "ra_express_fast_over_stock.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_express_fast_over_yorker.fbx",
+   "bowler_action": "express_fast",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "yorker",
+   "frames": 202,
+   "seconds": 6.73,
+   "back_foot_contact_frame": 131,
+   "front_foot_contact_frame": 137,
+   "release_frame": 141,
+   "run_up_m": 25.6,
+   "start_position_m": {
+    "behind_crease": 25.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "higher release, wrist cocked back longer"
+  },
+  {
+   "file": "ra_fast_medium_around_stock.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.61,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_fast_medium_over_back_of_hand.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": 0.175,
+    "up": 1.929
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_fast_medium_over_bouncer.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "bouncer",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.201,
+    "forward_of_crease": 0.313,
+    "up": 1.865
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "released ~5% of height lower, hit-the-deck"
+  },
+  {
+   "file": "ra_fast_medium_over_inswinger.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "inswinger",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward fine leg"
+  },
+  {
+   "file": "ra_fast_medium_over_knuckle.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "knuckle",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "ball pushed out on bent knuckles"
+  },
+  {
+   "file": "ra_fast_medium_over_leg_cutter.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "leg_cutter",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers cut across the ball the other way, wrist rolls toward off"
+  },
+  {
+   "file": "ra_fast_medium_over_off_cutter.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "off_cutter",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers drag down the right side of the ball, wrist rolls toward leg"
+  },
+  {
+   "file": "ra_fast_medium_over_outswinger.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "outswinger",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward the slips"
+  },
+  {
+   "file": "ra_fast_medium_over_stock.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_fast_medium_over_yorker.fbx",
+   "bowler_action": "fast_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "yorker",
+   "frames": 188,
+   "seconds": 6.27,
+   "back_foot_contact_frame": 117,
+   "front_foot_contact_frame": 123,
+   "release_frame": 127,
+   "run_up_m": 19.3,
+   "start_position_m": {
+    "behind_crease": 19.32,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.183,
+    "forward_of_crease": 0.095,
+    "up": 1.954
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "higher release, wrist cocked back longer"
+  },
+  {
+   "file": "ra_leg_spin_around_leg_break.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "leg_break",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.612,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked inward, ring finger rips the ball"
+  },
+  {
+   "file": "ra_leg_spin_over_flipper.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "flipper",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "squeezed out from under the hand, palm up, hand toward the target"
+  },
+  {
+   "file": "ra_leg_spin_over_googly.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "googly",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.036,
+    "up": 2.006
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist dropped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_leg_spin_over_leg_break.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "leg_break",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked inward, ring finger rips the ball"
+  },
+  {
+   "file": "ra_leg_spin_over_top_spinner.fbx",
+   "bowler_action": "leg_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "top_spinner",
+   "frames": 151,
+   "seconds": 5.03,
+   "back_foot_contact_frame": 87,
+   "front_foot_contact_frame": 95,
+   "release_frame": 100,
+   "run_up_m": 8.63,
+   "start_position_m": {
+    "behind_crease": 8.65,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.004,
+    "up": 1.998
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "side of the hand toward the batter, seam rolls forward"
+  },
+  {
+   "file": "ra_medium_around_stock.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.641,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_medium_over_back_of_hand.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.157,
+    "forward_of_crease": 0.175,
+    "up": 1.93
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_medium_over_bouncer.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "bouncer",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.172,
+    "forward_of_crease": 0.312,
+    "up": 1.866
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "released ~5% of height lower, hit-the-deck"
+  },
+  {
+   "file": "ra_medium_over_inswinger.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "inswinger",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward fine leg"
+  },
+  {
+   "file": "ra_medium_over_knuckle.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "knuckle",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "ball pushed out on bent knuckles"
+  },
+  {
+   "file": "ra_medium_over_leg_cutter.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "leg_cutter",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.158,
+    "forward_of_crease": 0.189,
+    "up": 1.925
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers cut across the ball the other way, wrist rolls toward off"
+  },
+  {
+   "file": "ra_medium_over_off_cutter.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "off_cutter",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.158,
+    "forward_of_crease": 0.189,
+    "up": 1.925
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "fingers drag down the right side of the ball, wrist rolls toward leg"
+  },
+  {
+   "file": "ra_medium_over_outswinger.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "outswinger",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward the slips"
+  },
+  {
+   "file": "ra_medium_over_stock.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_medium_over_yorker.fbx",
+   "bowler_action": "medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "yorker",
+   "frames": 174,
+   "seconds": 5.8,
+   "back_foot_contact_frame": 103,
+   "front_foot_contact_frame": 109,
+   "release_frame": 113,
+   "run_up_m": 14.0,
+   "start_position_m": {
+    "behind_crease": 14.02,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.151,
+    "forward_of_crease": 0.095,
+    "up": 1.955
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "higher release, wrist cocked back longer"
+  },
+  {
+   "file": "ra_off_spin_around_off_break.fbx",
+   "bowler_action": "off_spin",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "off_break",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.59,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "palm toward the batter, fingers rip clockwise"
+  },
+  {
+   "file": "ra_off_spin_over_arm_ball.fbx",
+   "bowler_action": "off_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "arm_ball",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand behind the ball, goes on with the arm"
+  },
+  {
+   "file": "ra_off_spin_over_carrom.fbx",
+   "bowler_action": "off_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "carrom",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "flicked out between thumb and bent middle finger"
+  },
+  {
+   "file": "ra_off_spin_over_doosra.fbx",
+   "bowler_action": "off_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "doosra",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": -0.003,
+    "up": 2.0
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "wrist cocked, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_off_spin_over_off_break.fbx",
+   "bowler_action": "off_spin",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "off_break",
+   "frames": 150,
+   "seconds": 5.0,
+   "back_foot_contact_frame": 86,
+   "front_foot_contact_frame": 94,
+   "release_frame": 99,
+   "run_up_m": 8.03,
+   "start_position_m": {
+    "behind_crease": 8.05,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "palm toward the batter, fingers rip clockwise"
+  },
+  {
+   "file": "ra_slinger_around_stock.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.981,
+    "forward_of_crease": 0.214,
+    "up": 1.67
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_slinger_over_back_of_hand.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.189,
+    "forward_of_crease": 0.193,
+    "up": 1.676
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_slinger_over_bouncer.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "bouncer",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.136,
+    "forward_of_crease": 0.331,
+    "up": 1.636
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "released ~5% of height lower, hit-the-deck"
+  },
+  {
+   "file": "ra_slinger_over_inswinger.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "inswinger",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.181,
+    "forward_of_crease": 0.214,
+    "up": 1.67
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "seam and wrist angled toward fine leg"
+  },
+  {
+   "file": "ra_slinger_over_stock.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.181,
+    "forward_of_crease": 0.214,
+    "up": 1.67
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_slinger_over_yorker.fbx",
+   "bowler_action": "slinger",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "yorker",
+   "frames": 190,
+   "seconds": 6.33,
+   "back_foot_contact_frame": 119,
+   "front_foot_contact_frame": 125,
+   "release_frame": 129,
+   "run_up_m": 21.4,
+   "start_position_m": {
+    "behind_crease": 21.42,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": -0.211,
+    "forward_of_crease": 0.113,
+    "up": 1.691
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "higher release, wrist cocked back longer"
+  },
+  {
+   "file": "ra_slow_medium_around_stock.fbx",
+   "bowler_action": "slow_medium",
+   "arm": "right",
+   "side": "around the wicket",
+   "release_variant": "stock",
+   "frames": 160,
+   "seconds": 5.33,
+   "back_foot_contact_frame": 89,
+   "front_foot_contact_frame": 95,
+   "release_frame": 99,
+   "run_up_m": 9.6,
+   "start_position_m": {
+    "behind_crease": 9.62,
+    "left": -0.48
+   },
+   "release_point_m": {
+    "left": -0.641,
+    "forward_of_crease": 0.177,
+    "up": 1.931
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  },
+  {
+   "file": "ra_slow_medium_over_back_of_hand.fbx",
+   "bowler_action": "slow_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "back_of_hand",
+   "frames": 160,
+   "seconds": 5.33,
+   "back_foot_contact_frame": 89,
+   "front_foot_contact_frame": 95,
+   "release_frame": 99,
+   "run_up_m": 9.6,
+   "start_position_m": {
+    "behind_crease": 9.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.157,
+    "forward_of_crease": 0.156,
+    "up": 1.941
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": "hand flipped, back of the hand faces the batter"
+  },
+  {
+   "file": "ra_slow_medium_over_stock.fbx",
+   "bowler_action": "slow_medium",
+   "arm": "right",
+   "side": "over the wicket",
+   "release_variant": "stock",
+   "frames": 160,
+   "seconds": 5.33,
+   "back_foot_contact_frame": 89,
+   "front_foot_contact_frame": 95,
+   "release_frame": 99,
+   "run_up_m": 9.6,
+   "start_position_m": {
+    "behind_crease": 9.62,
+    "left": 0.32
+   },
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.177,
+    "up": 1.931
+   },
+   "elbow_flexion_at_release_deg": 4.6,
+   "technique": ""
+  }
+ ],
+ "deliveries": [
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 1,
+   "delivery": "Stock seam-up ball",
+   "what_it_does": "Upright seam, hits the deck hard",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 2,
+   "delivery": "Outswinger",
+   "what_it_does": "Swings away from the batter",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 147,
+   "swing": {
+    "type": "conventional",
+    "direction": "away",
+    "lateral_m": -0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 3,
+   "delivery": "Inswinger",
+   "what_it_does": "Swings into the batter",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 147,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 4,
+   "delivery": "Reverse inswinger",
+   "what_it_does": "Old ball swings in late",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 147,
+   "swing": {
+    "type": "reverse",
+    "direction": "in",
+    "lateral_m": 0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 5,
+   "delivery": "Reverse outswinger",
+   "what_it_does": "Old ball swings away late",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 147,
+   "swing": {
+    "type": "reverse",
+    "direction": "away",
+    "lateral_m": -0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 6,
+   "delivery": "Nip-backer",
+   "what_it_does": "Seams back in off the pitch",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.1
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 7,
+   "delivery": "Seamer away",
+   "what_it_does": "Seams away off the pitch",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.1
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 8,
+   "delivery": "Bouncer",
+   "what_it_does": "Short, rises at head height",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 9,
+   "delivery": "Body-line short ball",
+   "what_it_does": "Short, aimed at ribs/chest",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "short",
+   "default_line": "middle stump (at the body)",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 10,
+   "delivery": "Skiddy short ball",
+   "what_it_does": "Short but stays low and fast",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 0.85,
+   "default_length": "short",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 11,
+   "delivery": "Yorker",
+   "what_it_does": "Full, lands at the base of the stumps",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 12,
+   "delivery": "Toe-crusher yorker",
+   "what_it_does": "Full, aimed at the batter's toes",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump (at the body)",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 13,
+   "delivery": "Wide yorker",
+   "what_it_does": "Full, just inside the wide line",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "wide outside off",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 14,
+   "delivery": "Back-of-length ball",
+   "what_it_does": "Just short of good length, rises off the pitch",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "short",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 15,
+   "delivery": "Good-length ball",
+   "what_it_does": "Lands where the batter can't decide forward or back",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 16,
+   "delivery": "Wobble seam",
+   "what_it_does": "Seam wobbles, unpredictable movement",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.05
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 17,
+   "delivery": "Cross-seam ball",
+   "what_it_does": "Seam held across, variable bounce",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_stock.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 147,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.15
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 18,
+   "delivery": "Slower ball",
+   "what_it_does": "(off-cutter) Cut, slower, turns in",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_off_cutter.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "off_cutter",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   }
+  },
+  {
+   "section": 1,
+   "section_name": "RIGHT-ARM EXPRESS / FAST",
+   "no": 19,
+   "delivery": "Slower bouncer",
+   "what_it_does": "Short and slow, mistimes the pull/hook",
+   "bowler": "ra_express_fast",
+   "clip": "ra_express_fast_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_express_fast_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.222,
+    "forward_of_crease": 0.176,
+    "up": 1.938
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 1,
+   "delivery": "Stock seam-up ball",
+   "what_it_does": "Upright seam, relies on seam movement",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_stock.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 2,
+   "delivery": "Outswinger",
+   "what_it_does": "Swings away from the batter",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "conventional",
+    "direction": "away",
+    "lateral_m": -0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 3,
+   "delivery": "Inswinger",
+   "what_it_does": "Swings into the batter",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 4,
+   "delivery": "Late outswinger",
+   "what_it_does": "Swings away late in flight",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "conventional",
+    "direction": "away",
+    "lateral_m": -0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 5,
+   "delivery": "Late inswinger",
+   "what_it_does": "Swings in late in flight",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 6,
+   "delivery": "Reverse inswinger",
+   "what_it_does": "Old ball swings in",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "reverse",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 7,
+   "delivery": "Reverse outswinger",
+   "what_it_does": "Old ball swings away",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 133,
+   "swing": {
+    "type": "reverse",
+    "direction": "away",
+    "lateral_m": -0.3,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 8,
+   "delivery": "Off-cutter",
+   "what_it_does": "Fingers cut across the ball, moves in",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_off_cutter.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "off_cutter",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 9,
+   "delivery": "Leg-cutter",
+   "what_it_does": "Fingers cut the other way, moves away",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_leg_cutter.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "leg_cutter",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 10,
+   "delivery": "Wobble seam",
+   "what_it_does": "Unpredictable seam movement",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_stock.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.05
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 11,
+   "delivery": "Knuckle ball",
+   "what_it_does": "Held on the knuckles, slow and floats",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_knuckle.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "knuckle",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "dip": "floats, then dips late",
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 12,
+   "delivery": "Split-finger slower ball",
+   "what_it_does": "Wide finger grip, takes pace off",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_knuckle.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "knuckle",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "wide outside off",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.19,
+    "forward_of_crease": 0.196,
+    "up": 1.919
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 13,
+   "delivery": "Back-of-hand slower ball",
+   "what_it_does": "Released from back of hand, dips",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": 0.175,
+    "up": 1.929
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 14,
+   "delivery": "Off-cut slower ball",
+   "what_it_does": "Slower and moves in",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_off_cutter.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "off_cutter",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 15,
+   "delivery": "Leg-cut slower ball",
+   "what_it_does": "Slower and moves away",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_leg_cutter.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "leg_cutter",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.19,
+    "up": 1.924
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 16,
+   "delivery": "Bouncer",
+   "what_it_does": "Short, rises sharply",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.201,
+    "forward_of_crease": 0.313,
+    "up": 1.865
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 17,
+   "delivery": "Yorker",
+   "what_it_does": "Full, at the base of the stumps",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.183,
+    "forward_of_crease": 0.095,
+    "up": 1.954
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 18,
+   "delivery": "Wide yorker",
+   "what_it_does": "Full, outside off near the wide line",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "wide outside off",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.183,
+    "forward_of_crease": 0.095,
+    "up": 1.954
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 19,
+   "delivery": "Bumper (slower)",
+   "what_it_does": "Short slower ball",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 104,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": 0.175,
+    "up": 1.929
+   }
+  },
+  {
+   "section": 2,
+   "section_name": "RIGHT-ARM FAST-MEDIUM / MEDIUM-FAST",
+   "no": 20,
+   "delivery": "Hard length / hit the deck",
+   "what_it_does": "Back of length, extra bounce",
+   "bowler": "ra_fast_medium",
+   "clip": "ra_fast_medium_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_fast_medium_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 133,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "back of length",
+   "default_line": "middle stump",
+   "release_frame": 127,
+   "release_point_m": {
+    "left": 0.201,
+    "forward_of_crease": 0.313,
+    "up": 1.865
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 1,
+   "delivery": "Stock medium ball",
+   "what_it_does": "Line and length, accuracy-based",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_stock.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 2,
+   "delivery": "Outswinger",
+   "what_it_does": "Swings away from the batter",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_outswinger.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 115,
+   "swing": {
+    "type": "conventional",
+    "direction": "away",
+    "lateral_m": -0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 3,
+   "delivery": "Inswinger",
+   "what_it_does": "Swings into the batter",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 115,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 4,
+   "delivery": "Off-cutter",
+   "what_it_does": "Grips and moves in",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_off_cutter.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "off_cutter",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.158,
+    "forward_of_crease": 0.189,
+    "up": 1.925
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 5,
+   "delivery": "Leg-cutter",
+   "what_it_does": "Grips and moves away",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_leg_cutter.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "leg_cutter",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.158,
+    "forward_of_crease": 0.189,
+    "up": 1.925
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 6,
+   "delivery": "Wobble seam",
+   "what_it_does": "Variable seam movement",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_stock.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.05
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 7,
+   "delivery": "Knuckle ball",
+   "what_it_does": "Slow, floats, little spin",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_knuckle.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "knuckle",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "dip": "floats, then dips late",
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 8,
+   "delivery": "Back-of-hand slower ball",
+   "what_it_does": "Dips late, deceives timing",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.157,
+    "forward_of_crease": 0.175,
+    "up": 1.93
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 9,
+   "delivery": "Cross-seam ball",
+   "what_it_does": "Variable bounce",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_stock.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.15
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.159,
+    "forward_of_crease": 0.196,
+    "up": 1.92
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 10,
+   "delivery": "Dibbly-dobbly ball",
+   "what_it_does": "Very slow, gentle, hard to hit cleanly",
+   "bowler": "ra_slow_medium",
+   "clip": "ra_slow_medium_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_slow_medium_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.157,
+    "forward_of_crease": 0.156,
+    "up": 1.941
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 11,
+   "delivery": "Wide yorker",
+   "what_it_does": "Full, near the wide line",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "wide outside off",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.151,
+    "forward_of_crease": 0.095,
+    "up": 1.955
+   }
+  },
+  {
+   "section": 3,
+   "section_name": "RIGHT-ARM MEDIUM / SLOW-MEDIUM",
+   "no": 12,
+   "delivery": "Into-the-pitch ball",
+   "what_it_does": "Slower ball dug into the pitch",
+   "bowler": "ra_medium",
+   "clip": "ra_medium_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_medium_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 115,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "back of length",
+   "default_line": "middle stump",
+   "release_frame": 113,
+   "release_point_m": {
+    "left": 0.172,
+    "forward_of_crease": 0.312,
+    "up": 1.866
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 1,
+   "delivery": "Stock angled ball",
+   "what_it_does": "Angles across, away from the batter",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_stock.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 138,
+   "angle_across_m": -0.25,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 2,
+   "delivery": "Inswinger (to RHB)",
+   "what_it_does": "Swings back into the right-hander",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_inswinger.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 138,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 3,
+   "delivery": "Outswinger (to RHB)",
+   "what_it_does": "Swings further away from the right-hander",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_outswinger.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 138,
+   "swing": {
+    "type": "conventional",
+    "direction": "away",
+    "lateral_m": -0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 4,
+   "delivery": "Reverse inswinger",
+   "what_it_does": "Old ball swings in late",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_inswinger.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 138,
+   "swing": {
+    "type": "reverse",
+    "direction": "in",
+    "lateral_m": 0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 5,
+   "delivery": "Reverse outswinger",
+   "what_it_does": "Old ball swings away late",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_outswinger.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "outswinger",
+   "release_speed_kmh": 138,
+   "swing": {
+    "type": "reverse",
+    "direction": "away",
+    "lateral_m": -0.22,
+    "onset": "late (last 30% of flight)"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 6,
+   "delivery": "Angle-in delivery",
+   "what_it_does": "From around the wicket, angles into the batter",
+   "bowler": "la_fast",
+   "clip": "la_fast_around_stock.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 138,
+   "angle_in_m": 0.25,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": 0.576,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 7,
+   "delivery": "Nip-backer",
+   "what_it_does": "Seams back in off the pitch",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_stock.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.1
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 8,
+   "delivery": "Bouncer",
+   "what_it_does": "Short, rises at head height",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_bouncer.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.233,
+    "forward_of_crease": 0.315,
+    "up": 1.873
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 9,
+   "delivery": "Yorker",
+   "what_it_does": "Full, at the base of the stumps",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 10,
+   "delivery": "Toe-crusher yorker",
+   "what_it_does": "Full, aimed at the toes",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump (at the body)",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 11,
+   "delivery": "Wide yorker",
+   "what_it_does": "Full, near the wide line",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_yorker.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "wide outside off",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.218,
+    "forward_of_crease": 0.096,
+    "up": 1.963
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 12,
+   "delivery": "Off-cutter",
+   "what_it_does": "Cutter, moves away from RHB",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_off_cutter.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "off_cutter",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 13,
+   "delivery": "Leg-cutter",
+   "what_it_does": "Cutter, moves into RHB",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_leg_cutter.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "leg_cutter",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.223,
+    "forward_of_crease": 0.191,
+    "up": 1.933
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 14,
+   "delivery": "Knuckle ball",
+   "what_it_does": "Slow, floats",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_knuckle.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "knuckle",
+   "release_speed_kmh": 108,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "dip": "floats, then dips late",
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 15,
+   "delivery": "Back-of-hand slower ball",
+   "what_it_does": "Dips late",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 108,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.222,
+    "forward_of_crease": 0.176,
+    "up": 1.938
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 16,
+   "delivery": "Slower bouncer",
+   "what_it_does": "Short and slow",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 108,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.222,
+    "forward_of_crease": 0.176,
+    "up": 1.938
+   }
+  },
+  {
+   "section": 4,
+   "section_name": "LEFT-ARM PACE (fast / fast-medium / medium)",
+   "no": 17,
+   "delivery": "Wobble seam",
+   "what_it_does": "Variable movement",
+   "bowler": "la_fast",
+   "clip": "la_fast_over_stock.fbx",
+   "around_the_wicket_clip": "la_fast_around_stock.fbx",
+   "release_variant": "stock",
+   "release_speed_kmh": 138,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "random",
+    "lateral_m": 0.08,
+    "bounce_variation": 0.05
+   },
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 141,
+   "release_point_m": {
+    "left": -0.224,
+    "forward_of_crease": 0.197,
+    "up": 1.928
+   }
+  },
+  {
+   "section": 5,
+   "section_name": "SLINGY / ROUND-ARM PACE (unusual actions)",
+   "no": 1,
+   "delivery": "Slinging yorker",
+   "what_it_does": "Low arm, ball dips into the toes",
+   "bowler": "ra_slinger",
+   "clip": "ra_slinger_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_slinger_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 142,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "middle stump (at the body)",
+   "release_frame": 129,
+   "release_point_m": {
+    "left": -0.211,
+    "forward_of_crease": 0.113,
+    "up": 1.691
+   }
+  },
+  {
+   "section": 5,
+   "section_name": "SLINGY / ROUND-ARM PACE (unusual actions)",
+   "no": 2,
+   "delivery": "Slinging inswinger",
+   "what_it_does": "Low trajectory, swings in",
+   "bowler": "ra_slinger",
+   "clip": "ra_slinger_over_inswinger.fbx",
+   "around_the_wicket_clip": "ra_slinger_around_stock.fbx",
+   "release_variant": "inswinger",
+   "release_speed_kmh": 142,
+   "swing": {
+    "type": "conventional",
+    "direction": "in",
+    "lateral_m": 0.3,
+    "onset": "progressive"
+   },
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 129,
+   "release_point_m": {
+    "left": -0.181,
+    "forward_of_crease": 0.214,
+    "up": 1.67
+   }
+  },
+  {
+   "section": 5,
+   "section_name": "SLINGY / ROUND-ARM PACE (unusual actions)",
+   "no": 3,
+   "delivery": "Skiddy bouncer",
+   "what_it_does": "Rises without much warning",
+   "bowler": "ra_slinger",
+   "clip": "ra_slinger_over_bouncer.fbx",
+   "around_the_wicket_clip": "ra_slinger_around_stock.fbx",
+   "release_variant": "bouncer",
+   "release_speed_kmh": 142,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.12,
+   "default_length": "bouncer",
+   "default_line": "middle stump",
+   "release_frame": 129,
+   "release_point_m": {
+    "left": -0.136,
+    "forward_of_crease": 0.331,
+    "up": 1.636
+   }
+  },
+  {
+   "section": 5,
+   "section_name": "SLINGY / ROUND-ARM PACE (unusual actions)",
+   "no": 4,
+   "delivery": "Dipping slower ball",
+   "what_it_does": "Low release, dips sharply",
+   "bowler": "ra_slinger",
+   "clip": "ra_slinger_over_back_of_hand.fbx",
+   "around_the_wicket_clip": "ra_slinger_around_stock.fbx",
+   "release_variant": "back_of_hand",
+   "release_speed_kmh": 110,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 129,
+   "release_point_m": {
+    "left": -0.189,
+    "forward_of_crease": 0.193,
+    "up": 1.676
+   }
+  },
+  {
+   "section": 5,
+   "section_name": "SLINGY / ROUND-ARM PACE (unusual actions)",
+   "no": 5,
+   "delivery": "Round-arm wide yorker",
+   "what_it_does": "Full, outside off, hard to reach",
+   "bowler": "ra_slinger",
+   "clip": "ra_slinger_over_yorker.fbx",
+   "around_the_wicket_clip": "ra_slinger_around_stock.fbx",
+   "release_variant": "yorker",
+   "release_speed_kmh": 142,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": null,
+   "bounce_factor": 1.0,
+   "default_length": "yorker",
+   "default_line": "wide outside off",
+   "release_frame": 129,
+   "release_point_m": {
+    "left": -0.211,
+    "forward_of_crease": 0.113,
+    "up": 1.691
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 1,
+   "delivery": "Off break",
+   "what_it_does": "Stock ball, turns into the batter",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 2,
+   "delivery": "Flighted off break",
+   "what_it_does": "Tossed up, slower, more dip",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 79,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 3,
+   "delivery": "Quicker off break",
+   "what_it_does": "Flatter and faster",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 4,
+   "delivery": "Arm ball",
+   "what_it_does": "Goes straight on with the arm, no turn",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 5,
+   "delivery": "Floater",
+   "what_it_does": "Drifts away, little spin",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "drift_m": 0.12,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 6,
+   "delivery": "Slider",
+   "what_it_does": "Skids on, straight and fast",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 7,
+   "delivery": "Top spinner",
+   "what_it_does": "Over-spin, extra bounce, goes straight",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 8,
+   "delivery": "Doosra",
+   "what_it_does": "Turns the other way, away from the batter",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_doosra.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "doosra",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": -0.003,
+    "up": 2.0
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 9,
+   "delivery": "Teesra",
+   "what_it_does": "Back-spinner, skids straight on (rare)",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 10,
+   "delivery": "Carrom ball",
+   "what_it_does": "Flicked by finger, turns away",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_carrom.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "carrom",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 11,
+   "delivery": "Undercutter",
+   "what_it_does": "Back-spin, stays low",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "in",
+    "lateral_m": 0.14
+   },
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 12,
+   "delivery": "Drifter",
+   "what_it_does": "Drifts in the air, then turns",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "drift_m": 0.12,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 6,
+   "section_name": "RIGHT-ARM OFF SPIN (finger spin)",
+   "no": 13,
+   "delivery": "Round-the-wicket off break",
+   "what_it_does": "Angles in, turns more",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_around_off_break.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "angle_in_m": 0.25,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.59,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 1,
+   "delivery": "Stock left-arm spin",
+   "what_it_does": "Turns away from the batter",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 2,
+   "delivery": "Flighted delivery",
+   "what_it_does": "Tossed up, more dip and turn",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 79,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 3,
+   "delivery": "Quicker ball",
+   "what_it_does": "Flatter, faster, less turn",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 4,
+   "delivery": "Arm ball",
+   "what_it_does": "Goes straight on, angled in",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_arm_ball.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 5,
+   "delivery": "Slider",
+   "what_it_does": "Skids on with no turn",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_arm_ball.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 6,
+   "delivery": "Top spinner",
+   "what_it_does": "Extra bounce, goes straight",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 7,
+   "delivery": "Drifter",
+   "what_it_does": "Drifts in the air, then turns away",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "drift_m": -0.12,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 8,
+   "delivery": "Left-arm doosra",
+   "what_it_does": "Turns into the batter (rare)",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_doosra.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "doosra",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": -0.003,
+    "up": 2.0
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 9,
+   "delivery": "Carrom ball",
+   "what_it_does": "Flicked, turns into the batter",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_carrom.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "carrom",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 10,
+   "delivery": "Undercutter",
+   "what_it_does": "Back-spin, stays low",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_over_arm_ball.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": {
+    "direction": "away",
+    "lateral_m": 0.14
+   },
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 7,
+   "section_name": "LEFT-ARM ORTHODOX (finger spin)",
+   "no": 11,
+   "delivery": "Round-the-wicket delivery",
+   "what_it_does": "Angles in, then turns away",
+   "bowler": "la_orthodox",
+   "clip": "la_orthodox_around_off_break.fbx",
+   "around_the_wicket_clip": "la_orthodox_around_off_break.fbx",
+   "release_variant": "off_break",
+   "release_speed_kmh": 88,
+   "angle_in_m": 0.25,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.59,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 1,
+   "delivery": "Leg break",
+   "what_it_does": "Stock ball, turns away from the batter",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_leg_break.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 2,
+   "delivery": "Big-turning leg break",
+   "what_it_does": "Extra revolutions, sharp turn",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_leg_break.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2900,
+    "turn": "away",
+    "turn_deg": -6
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 3,
+   "delivery": "Googly / wrong'un",
+   "what_it_does": "Turns the other way, into the batter",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_googly.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "googly",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.036,
+    "up": 2.006
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 4,
+   "delivery": "Top spinner",
+   "what_it_does": "Over-spin, extra bounce, goes straight",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_top_spinner.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "top_spinner",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.189,
+    "forward_of_crease": 0.004,
+    "up": 1.998
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 5,
+   "delivery": "Flipper",
+   "what_it_does": "Back-spin, skids low and fast",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_flipper.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 92,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 6,
+   "delivery": "Slider",
+   "what_it_does": "Back-spin, skids on straight",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_flipper.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 92,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 7,
+   "delivery": "Zooter",
+   "what_it_does": "Pushed out of the front of the hand, skids",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_flipper.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 92,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 8,
+   "delivery": "Back-spinner",
+   "what_it_does": "Stops on the batter",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_flipper.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 9,
+   "delivery": "Quicker leg break",
+   "what_it_does": "Flatter and faster",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_leg_break.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 92,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 10,
+   "delivery": "Flighted leg break",
+   "what_it_does": "Tossed up, dips and turns",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_leg_break.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 76,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 8,
+   "section_name": "RIGHT-ARM LEG SPIN (wrist spin)",
+   "no": 11,
+   "delivery": "Side-spinner",
+   "what_it_does": "Pure side-spin, drifts and turns",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_leg_break.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 85,
+   "swing": null,
+   "seam_off_pitch": null,
+   "drift_m": 0.12,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 1,
+   "delivery": "Stock chinaman",
+   "what_it_does": "Turns into the batter",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_leg_break.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 83,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 2,
+   "delivery": "Flighted chinaman",
+   "what_it_does": "Tossed up, more dip and turn",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_leg_break.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 75,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 3,
+   "delivery": "Googly (left-arm)",
+   "what_it_does": "Turns the other way, away from the batter",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_googly.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "googly",
+   "release_speed_kmh": 83,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "off stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.036,
+    "up": 2.006
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 4,
+   "delivery": "Top spinner",
+   "what_it_does": "Over-spin, extra bounce, goes straight",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_top_spinner.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "top_spinner",
+   "release_speed_kmh": 83,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 1.15,
+   "spin": {
+    "axis": "top-spin (forward)",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.189,
+    "forward_of_crease": 0.004,
+    "up": 1.998
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 5,
+   "delivery": "Flipper",
+   "what_it_does": "Back-spin, skids low",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_flipper.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 6,
+   "delivery": "Slider",
+   "what_it_does": "Skids on with no turn",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_flipper.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 7,
+   "delivery": "Quicker ball",
+   "what_it_does": "Flatter and faster",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_leg_break.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "leg_break",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2400,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.188,
+    "forward_of_crease": -0.018,
+    "up": 2.002
+   }
+  },
+  {
+   "section": 9,
+   "section_name": "LEFT-ARM UNORTHODOX (wrist spin / \"chinaman\")",
+   "no": 8,
+   "delivery": "Zooter",
+   "what_it_does": "Skids on from the front of the hand",
+   "bowler": "la_chinaman",
+   "clip": "la_chinaman_over_flipper.fbx",
+   "around_the_wicket_clip": "la_chinaman_around_leg_break.fbx",
+   "release_variant": "flipper",
+   "release_speed_kmh": 90,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "back-spin",
+    "rpm": 2400,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": -0.195,
+    "forward_of_crease": 0.114,
+    "up": 1.966
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 1,
+   "delivery": "Carrom ball",
+   "what_it_does": "Flicked off the middle finger",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_carrom.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "carrom",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 2,
+   "delivery": "Knuckle spin ball",
+   "what_it_does": "Gripped on bent fingers, deceptive spin",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_carrom.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "carrom",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "dip": "floats, then dips late",
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": 0.019,
+    "up": 1.996
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 3,
+   "delivery": "Leg-spin from an off-spin action",
+   "what_it_does": "Disguised wrong-way turn",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_doosra.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "doosra",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "away",
+    "turn_deg": -4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle and leg",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.21,
+    "forward_of_crease": -0.003,
+    "up": 2.0
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 4,
+   "delivery": "Off-spin from a leg-spin action",
+   "what_it_does": "Disguised wrong-way turn",
+   "bowler": "ra_leg_spin",
+   "clip": "ra_leg_spin_over_googly.fbx",
+   "around_the_wicket_clip": "ra_leg_spin_around_leg_break.fbx",
+   "release_variant": "googly",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle and leg",
+   "release_frame": 100,
+   "release_point_m": {
+    "left": 0.188,
+    "forward_of_crease": -0.036,
+    "up": 2.006
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 5,
+   "delivery": "Back-spin skidder",
+   "what_it_does": "Stays low and fast",
+   "bowler": "ra_off_spin",
+   "clip": "ra_off_spin_over_arm_ball.fbx",
+   "around_the_wicket_clip": "ra_off_spin_around_off_break.fbx",
+   "release_variant": "arm_ball",
+   "release_speed_kmh": 95,
+   "swing": null,
+   "seam_off_pitch": null,
+   "bounce_factor": 0.8,
+   "spin": {
+    "axis": "seam-up / back-spin",
+    "rpm": 2000,
+    "turn": "straight on",
+    "turn_deg": 0
+   },
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": 0.212,
+    "forward_of_crease": 0.063,
+    "up": 1.983
+   }
+  },
+  {
+   "section": 10,
+   "section_name": "MYSTERY SPIN (any arm)",
+   "no": 6,
+   "delivery": "Side-arm variation",
+   "what_it_does": "Changes release angle",
+   "bowler": "mystery_side_arm",
+   "clip": "mystery_side_arm_over.fbx",
+   "around_the_wicket_clip": null,
+   "release_variant": "side_arm",
+   "release_speed_kmh": 88,
+   "swing": null,
+   "seam_off_pitch": null,
+   "spin": {
+    "axis": "side-spin",
+    "rpm": 2000,
+    "turn": "in",
+    "turn_deg": 4
+   },
+   "bounce_factor": 1.0,
+   "default_length": "good length",
+   "default_line": "middle stump",
+   "release_frame": 99,
+   "release_point_m": {
+    "left": -0.178,
+    "forward_of_crease": 0.005,
+    "up": 1.789
+   }
+  }
+ ],
+ "lengths_pitching_m_from_batters_stumps": {
+  "pace": {
+   "bouncer": [
+    10.0,
+    12.5
+   ],
+   "short": [
+    8.0,
+    10.0
+   ],
+   "back of length": [
+    6.5,
+    8.0
+   ],
+   "good length": [
+    5.0,
+    6.5
+   ],
+   "full": [
+    3.0,
+    5.0
+   ],
+   "half volley": [
+    2.0,
+    3.0
+   ],
+   "yorker": [
+    0.3,
+    1.5
+   ],
+   "full toss": "does not pitch; reaches the batter between knee and waist",
+   "beamer": "does not pitch; above waist height (illegal)"
+  },
+  "spin": {
+   "short": [
+    6.0,
+    8.0
+   ],
+   "good length": [
+    3.5,
+    5.0
+   ],
+   "full": [
+    2.0,
+    3.5
+   ],
+   "half volley": [
+    1.5,
+    2.0
+   ],
+   "yorker": [
+    0.3,
+    1.2
+   ],
+   "full toss": "does not pitch",
+   "beamer": "does not pitch; above waist (illegal)"
+  }
+ },
+ "lines_m_from_middle_stump_positive_off_side": {
+  "wide outside off": [
+   0.6,
+   0.9
+  ],
+  "outside off (corridor of uncertainty)": [
+   0.2,
+   0.4
+  ],
+  "off stump": [
+   0.11,
+   0.11
+  ],
+  "middle stump": [
+   0.0,
+   0.0
+  ],
+  "leg stump": [
+   -0.11,
+   -0.11
+  ],
+  "down the leg side": [
+   -0.4,
+   -0.25
+  ]
+ },
+ "length_to_release_variant": {
+  "bouncer": "bouncer",
+  "short": "bouncer",
+  "yorker": "yorker",
+  "full toss": "yorker",
+  "beamer": "yorker"
+ }
+}

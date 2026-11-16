@@ -1,0 +1,205 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "coordinates": "same as the batting clips: x = toward the bowler's end along the pitch, striker's popping crease at 0, other popping crease at 17.68 m; the batter runs in a lane just off the pitch",
+  "bat": "right-handers: bat on mixamorig:RightHand (bat_attachment_reference_RIGHT_HANDED.fbx, same socket as the batting clips); left-handers: bat on mixamorig:LeftHand (bat_attachment_reference_LEFT_HANDED.fbx)",
+  "top_hand": "comes off the handle while running and pumps freely; both hands are on the bat in the stance",
+  "event_frame": "1-based frame where the bat toe crosses the popping crease (use it for run-out decisions)",
+  "left_handers": "lhb_ clips are exact mirrors across the pitch line, so the bowler is in the same place",
+  "chaining": "run_loop_with_bat for the middle of a run; run_turn_for_second starts and ends at loop speed; drag/dive start at loop speed"
+ },
+ "clips": [
+  {
+   "file": "lhb_cancel_run_nonstriker.fbx",
+   "frames": 110,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat grounded back behind the non-striker's crease",
+   "event_frame": 68,
+   "note": "non-striker backing up toward the striker's end is sent back: brakes, turns to the left, sprints back and slides the bat in",
+   "start_position_m": {
+    "toward_bowler": 17.98
+   },
+   "start_heading": "toward the striker's end",
+   "bat_toe_height_at_crossing_m": 0.039
+  },
+  {
+   "file": "lhb_cancel_run_striker.fbx",
+   "frames": 110,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat grounded back behind the striker's crease",
+   "event_frame": 73,
+   "note": "sets off from the stance, brakes hard with the top hand up ('No!'), turns to the left and scrambles back, sliding the bat in",
+   "bat_toe_height_at_crossing_m": 0.038
+  },
+  {
+   "file": "lhb_dive_into_crease.fbx",
+   "frames": 105,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat toe crosses the popping crease",
+   "event_frame": 38,
+   "note": "sprints in, launches into a full-length dive with the bat stretched out flat along the ground, slides over the line, gets up",
+   "start_position_m": {
+    "toward_bowler": 9.0
+   },
+   "end_position_m": {
+    "toward_bowler": 16.9
+   },
+   "bat_toe_height_at_crossing_m": 0.074
+  },
+  {
+   "file": "lhb_drag_bat_into_crease.fbx",
+   "frames": 75,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat toe crosses the popping crease",
+   "event_frame": 34,
+   "note": "at full speed, stretches the bat out ahead and drags the toe along the ground over the line, then pulls up",
+   "start_position_m": {
+    "toward_bowler": 10.0
+   },
+   "end_position_m": {
+    "toward_bowler": 18.9
+   },
+   "bat_toe_height_at_crossing_m": 0.037
+  },
+  {
+   "file": "lhb_run_loop_with_bat.fbx",
+   "frames": 33,
+   "batter": "left-handed",
+   "type": "locomotion loop",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 3.38,
+   "note": "sprinting between the wickets, bat carried in the bottom hand, top hand pumping"
+  },
+  {
+   "file": "lhb_run_single_crease_to_crease.fbx",
+   "frames": 135,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat grounded over the far popping crease",
+   "event_frame": 96,
+   "note": "from the batting stance: pivot, accelerate, sprint, slide the bat over the line at the bowler's end and pull up",
+   "end_position_m": {
+    "toward_bowler": 18.6
+   },
+   "bat_toe_height_at_crossing_m": 0.041
+  },
+  {
+   "file": "lhb_run_turn_for_second.fbx",
+   "frames": 81,
+   "batter": "left-handed",
+   "type": "running between wickets",
+   "event": "bat grounded over the line before turning",
+   "event_frame": 26,
+   "note": "arrives at speed, grounds the bat over the popping crease, plants and turns to the left, sprints back for the next run; start and end match run_loop_with_bat",
+   "start_position_m": {
+    "toward_bowler": 11.0
+   },
+   "end_position_m": {
+    "toward_bowler": 11.0
+   },
+   "end_heading": "back toward the striker's end",
+   "bat_toe_height_at_crossing_m": 0.105
+  },
+  {
+   "file": "rhb_cancel_run_nonstriker.fbx",
+   "frames": 110,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat grounded back behind the non-striker's crease",
+   "event_frame": 68,
+   "note": "non-striker backing up toward the striker's end is sent back: brakes, turns to the left, sprints back and slides the bat in",
+   "start_position_m": {
+    "toward_bowler": 17.98
+   },
+   "start_heading": "toward the striker's end",
+   "bat_toe_height_at_crossing_m": 0.039
+  },
+  {
+   "file": "rhb_cancel_run_striker.fbx",
+   "frames": 110,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat grounded back behind the striker's crease",
+   "event_frame": 73,
+   "note": "sets off from the stance, brakes hard with the top hand up ('No!'), turns to the left and scrambles back, sliding the bat in",
+   "bat_toe_height_at_crossing_m": 0.038
+  },
+  {
+   "file": "rhb_dive_into_crease.fbx",
+   "frames": 105,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat toe crosses the popping crease",
+   "event_frame": 38,
+   "note": "sprints in, launches into a full-length dive with the bat stretched out flat along the ground, slides over the line, gets up",
+   "start_position_m": {
+    "toward_bowler": 9.0
+   },
+   "end_position_m": {
+    "toward_bowler": 16.9
+   },
+   "bat_toe_height_at_crossing_m": 0.073
+  },
+  {
+   "file": "rhb_drag_bat_into_crease.fbx",
+   "frames": 75,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat toe crosses the popping crease",
+   "event_frame": 34,
+   "note": "at full speed, stretches the bat out ahead and drags the toe along the ground over the line, then pulls up",
+   "start_position_m": {
+    "toward_bowler": 10.0
+   },
+   "end_position_m": {
+    "toward_bowler": 18.9
+   },
+   "bat_toe_height_at_crossing_m": 0.037
+  },
+  {
+   "file": "rhb_run_loop_with_bat.fbx",
+   "frames": 33,
+   "batter": "right-handed",
+   "type": "locomotion loop",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 3.38,
+   "note": "sprinting between the wickets, bat carried in the bottom hand, top hand pumping"
+  },
+  {
+   "file": "rhb_run_single_crease_to_crease.fbx",
+   "frames": 135,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat grounded over the far popping crease",
+   "event_frame": 96,
+   "note": "from the batting stance: pivot, accelerate, sprint, slide the bat over the line at the bowler's end and pull up",
+   "end_position_m": {
+    "toward_bowler": 18.6
+   },
+   "bat_toe_height_at_crossing_m": 0.041
+  },
+  {
+   "file": "rhb_run_turn_for_second.fbx",
+   "frames": 81,
+   "batter": "right-handed",
+   "type": "running between wickets",
+   "event": "bat grounded over the line before turning",
+   "event_frame": 26,
+   "note": "arrives at speed, grounds the bat over the popping crease, plants and turns to the left, sprints back for the next run; start and end match run_loop_with_bat",
+   "start_position_m": {
+    "toward_bowler": 11.0
+   },
+   "end_position_m": {
+    "toward_bowler": 11.0
+   },
+   "end_heading": "back toward the striker's end",
+   "bat_toe_height_at_crossing_m": 0.105
+  }
+ ]
+}

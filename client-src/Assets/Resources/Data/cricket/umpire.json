@@ -1,0 +1,202 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "facing": "the umpire faces the rig's forward direction; turn him toward the scorers if you want signals shown to the scorebox",
+  "chaining": "every signal clip starts and ends in the same neutral stance, so signals can be played back to back (e.g. no ball -> free hit, leg bye -> four)",
+  "signal_shown_frame": "first frame the signal is fully made; signal_held_until_frame: last frame it is held",
+  "combinations": "Laws: no ball then bye/leg bye if the ball was not hit, then four if it reached the boundary; free hit after the no-ball signal; revoke last signal to cancel a mistaken signal",
+  "not_included": "third-umpire / TV referral and soft signals (not needed for now)"
+ },
+ "clips": [
+  {
+   "file": "umpire_out.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Index finger raised above the head",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_not_out.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "(no formal signal)",
+   "signal": "No signal under the Laws - hands stay clasped, small shake of the head",
+   "signal_shown_frame": 15,
+   "signal_held_until_frame": 61,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_four.fbx",
+   "frames": 110,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Arm waved side to side across the chest, finishing with the arm across the chest",
+   "signal_shown_frame": 17,
+   "signal_held_until_frame": 75,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_six.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Both arms raised above the head",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_wide.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Both arms extended horizontally",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_no_ball.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "One arm extended horizontally",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_free_hit.fbx",
+   "frames": 110,
+   "type": "umpire signal",
+   "law": "playing conditions",
+   "signal": "Raised hand circled above the head (signalled after the no-ball signal)",
+   "signal_shown_frame": 21,
+   "signal_held_until_frame": 75,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_bye.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Open palm raised above the head",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_leg_bye.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Hand touching a raised knee",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 67,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_dead_ball.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Crossing and re-crossing the wrists below the waist",
+   "signal_shown_frame": 17,
+   "signal_held_until_frame": 67,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_short_run.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Arm bent upward, fingertips touching the nearer shoulder",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_revoke_last_signal.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Each hand touching the opposite shoulder (arms crossed)",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_penalty_runs_batting_side.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Repeated tapping of one shoulder with the opposite hand",
+   "signal_shown_frame": 21,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_penalty_runs_fielding_side.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "One hand placed on the opposite shoulder",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_new_ball.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "New ball held above the head",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_last_hour.fbx",
+   "frames": 100,
+   "type": "umpire signal",
+   "law": "Law 2.13",
+   "signal": "Pointing to a raised wrist with the other hand",
+   "signal_shown_frame": 23,
+   "signal_held_until_frame": 71,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_powerplay.fbx",
+   "frames": 110,
+   "type": "umpire signal",
+   "law": "playing conditions",
+   "signal": "Extended arm rotated in a circular motion",
+   "signal_shown_frame": 19,
+   "signal_held_until_frame": 73,
+   "note": "starts and ends in the neutral stance"
+  },
+  {
+   "file": "umpire_idle_bowlers_end_loop.fbx",
+   "frames": 91,
+   "type": "umpire stance loop",
+   "loop": true,
+   "note": "standing behind the stumps between deliveries"
+  },
+  {
+   "file": "umpire_watch_delivery.fbx",
+   "frames": 100,
+   "type": "umpire stance",
+   "note": "settles into a slight crouch as the bowler runs in, follows the ball down the pitch, stands up again"
+  },
+  {
+   "file": "umpire_idle_square_leg_loop.fbx",
+   "frames": 91,
+   "type": "umpire stance loop",
+   "loop": true,
+   "note": "square-leg umpire, hands clasped behind the back, watching the striker's crease (place him side-on)"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "_doc": "The toss's voices (tools/gen_toss_voice.py). {team} = the franchise's name; a key with {team} is made once per franchise as <key>_<ID>. presenter = the toss presenter, captain = the winning captain at the mic.",
+ "en": {
+  "toss_welcome": [
+   [
+    "presenter",
+    "Welcome to the toss. Captains, good luck."
+   ],
+   [
+    "presenter",
+    "Here we are for the toss, a big night ahead."
+   ]
+  ],
+  "toss_won": [
+   [
+    "presenter",
+    "And {team} have won the toss!"
+   ]
+  ],
+  "toss_ask": [
+   [
+    "presenter",
+    "Congratulations. What will you do?"
+   ],
+   [
+    "presenter",
+    "Well done, captain. What's it going to be?"
+   ]
+  ],
+  "toss_bat": [
+   [
+    "captain",
+    "We'll bat first. Looks a good surface, we want to put runs on the board."
+   ],
+   [
+    "captain",
+    "We're going to bat first tonight."
+   ],
+   [
+    "captain",
+    "We'll have a bat. Get a total up and defend it."
+   ]
+  ],
+  "toss_bowl": [
+   [
+    "captain",
+    "We're going to bowl first. Bit of something for the bowlers early on."
+   ],
+   [
+    "captain",
+    "We'll bowl first and chase tonight."
+   ],
+   [
+    "captain",
+    "We'll have a bowl. Happy to chase under the lights."
+   ]
+  ],
+  "toss_call_heads": [
+   [
+    "presenter",
+    "Heads is the call."
+   ]
+  ],
+  "toss_call_tails": [
+   [
+    "presenter",
+    "Tails is the call."
+   ]
+  ],
+  "toss_landed_heads": [
+   [
+    "presenter",
+    "It's heads!"
+   ]
+  ],
+  "toss_landed_tails": [
+   [
+    "presenter",
+    "It's tails!"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,682 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones, mixamorig: names), skeleton only, 30 fps, frames start at 1",
+  "batters": "rhb_/lhb_ clips use the batting frame (origin between the feet, +X toward the bowler's end, RHB chest faces -Y in the stance); bat on RightHand (rhb) / LeftHand (lhb); lhb_ = exact mirror across the pitch line (running_bat.mirror_y)",
+  "others": "fielder_/captain_/presenter_ clips start at the origin facing the rig's forward direction (-Y); x = his left; ra_/la_ bowler clips use the bowling world (his popping crease at the origin, batter at -Y), la_ = mirror",
+  "loops": "*_loop clips start and end in the same pose; walk-out loops are in place (speed_m_s given)",
+  "props": "helmet / coin / microphone / ball: attach to the hand named in each clip's 'prop' note between the frames given",
+  "chaining": "settle_after_* start from the last frame of the matching running clip and end in frame 1 of 75_non_striker_idle_loop turned 180 deg; take_guard ends in the batting stance; fielder_walk_back_to_position ends in run_00_ready_stance_idle_loop's first pose; mark_run_up ends standing at the mark facing the batter",
+  "toss_layout": "flipper at the origin facing -Y; the other captain at x=+1.0 facing -Y; presenter at (0.5, -1.6) facing +Y (see captain_toss_flip's coin_* fields)",
+  "bat": "bat-holding clips (rhb_/lhb_) have a bat track under their full clip name in bat_tracks.json: place the bat from it and IK the hands onto the handle (topgrip 0 = top hand free). Bottom hand: RightHand for rhb_, LeftHand for lhb_.",
+  "stance": "take_guard, settle_after_*, warmup_* end exactly in the round-3 ready stance (batting_v2.READY = frame 1 of 00_stance_idle_loop / lhb_00_stance_idle_loop)",
+  "looks": "round 7: toss-party clips look at eye height (1.68 m) on the person they face; PreMatchLook's IK can steer them from there. New idles: captain_idle_relaxed_loop, captain_listen_nod_loop, presenter_listen_loop"
+ },
+ "clips": [
+  {
+   "file": "captain_handshake.fbx",
+   "frames": 100,
+   "loop": false,
+   "type": "toss",
+   "grip_frames": [
+    31,
+    55
+   ],
+   "hand_meet_point_m": {
+    "x": 0.0,
+    "y": -0.52,
+    "up": 1.0
+   },
+   "layout": "the other captain plays the same clip at (0, -1.0) facing +Y: both right hands meet at the midpoint",
+   "note": "steps in, shakes hands with three pumps, steps back"
+  },
+  {
+   "file": "captain_speak_into_mic.fbx",
+   "frames": 191,
+   "loop": false,
+   "type": "toss",
+   "speak_frames": [
+    34,
+    144
+   ],
+   "microphone_at_m": {
+    "x": 0.019999999552965164,
+    "y": -0.9200000166893005,
+    "up": 1.3600000143051147
+   },
+   "layout": "presenter_hold_mic_out_loop at (-0.30, -1.30) facing +Y puts the microphone where this clip leans to it",
+   "note": "the toss winner steps 0.45 m forward to the presenter's microphone, talks with small open-palm beats and nods (glances at the camera once), steps back"
+  },
+  {
+   "file": "captain_toss_call_watch.fbx",
+   "frames": 130,
+   "loop": false,
+   "type": "toss",
+   "call_frame": 41,
+   "coin_release_frame": 37,
+   "coin_land_frame": 77,
+   "coin_release_m": {
+    "x": -0.14,
+    "y": -0.33,
+    "up": 1.32
+   },
+   "coin_apex_up_m": 2.9,
+   "coin_land_m": {
+    "x": 0.15000000596046448,
+    "y": -0.699999988079071
+   },
+   "layout": "flipper at the origin facing -Y; the other captain at x=+1.0 facing -Y; presenter at (0.5, -1.6) facing +Y; coin positions in the flipper's frame (subtract 1.0 from x for the other captain's)",
+   "note": "the calling captain (1.0 m to the flipper's left): calls with a raised finger while the coin is up, follows it down, leans in to see it"
+  },
+  {
+   "file": "captain_toss_flip.fbx",
+   "frames": 130,
+   "loop": false,
+   "type": "toss",
+   "coin_release_frame": 37,
+   "coin_land_frame": 77,
+   "coin_release_m": {
+    "x": -0.14,
+    "y": -0.33,
+    "up": 1.32
+   },
+   "coin_apex_up_m": 2.9,
+   "coin_land_m": {
+    "x": 0.15000000596046448,
+    "y": -0.699999988079071
+   },
+   "layout": "flipper at the origin facing -Y; the other captain at x=+1.0 facing -Y; presenter at (0.5, -1.6) facing +Y; coin positions in the flipper's frame (subtract 1.0 from x for the other captain's)",
+   "prop": "coin on RightHand until coin_release_frame",
+   "note": "holds the coin on the thumb, cocks it, flicks it up; watches it rise and fall, a short glance at it on the ground, then eyes up (level) to the presenter"
+  },
+  {
+   "file": "captain_toss_watch.fbx",
+   "frames": 130,
+   "loop": false,
+   "type": "toss",
+   "coin_release_frame": 37,
+   "coin_land_frame": 77,
+   "coin_release_m": {
+    "x": -0.14,
+    "y": -0.33,
+    "up": 1.32
+   },
+   "coin_apex_up_m": 2.9,
+   "coin_land_m": {
+    "x": 0.15000000596046448,
+    "y": -0.699999988079071
+   },
+   "layout": "flipper at the origin facing -Y; the other captain at x=+1.0 facing -Y; presenter at (0.5, -1.6) facing +Y; coin positions in the flipper's frame (subtract 1.0 from x for the other captain's)",
+   "note": "the other captain, hands clasped in front: watches the flip, follows the coin up and down, a short glance at it on the ground, then eyes up (level) to the presenter"
+  },
+  {
+   "file": "captain_toss_win_choose_bat.fbx",
+   "frames": 100,
+   "loop": false,
+   "type": "toss",
+   "gesture_frame": 51,
+   "note": "turns to the presenter and mimes a short drive with both hands: 'we will have a bat'"
+  },
+  {
+   "file": "captain_toss_win_choose_bowl.fbx",
+   "frames": 100,
+   "loop": false,
+   "type": "toss",
+   "gesture_frame": 47,
+   "note": "turns to the presenter, points out to the field with a sweep of the arm, rolls the bowling arm over once: 'we will bowl'"
+  },
+  {
+   "file": "captain_walk_to_centre.fbx",
+   "frames": 190,
+   "loop": false,
+   "type": "toss",
+   "end_position_m": {
+    "x": 0.0,
+    "y": -7.1
+   },
+   "note": "walks out 7 m to the centre and stops, facing the way he walked (-Y); place his start 7 m short of the toss spot"
+  },
+  {
+   "file": "fielder_walk_back_to_position.fbx",
+   "frames": 228,
+   "loop": false,
+   "type": "walk to position",
+   "end_position_m": {
+    "x": 0.0,
+    "y": 6.15
+   },
+   "end_facing": "-Y (the batter)",
+   "ends_in": "the first pose of run_00_ready_stance_idle_loop (READY)",
+   "note": "turns round, walks ~6 m back to his position, turns to face the batter and crouches into the ready stance"
+  },
+  {
+   "file": "fielder_walk_out_clapping_loop.fbx",
+   "frames": 69,
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "clap_frames": [
+    1,
+    12,
+    24,
+    35,
+    46,
+    58
+   ],
+   "note": "walking out clapping (6 claps per loop, hands meeting in front of the chest)"
+  },
+  {
+   "file": "fielder_walk_out_loop.fbx",
+   "frames": 69,
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "note": "the fielding side walking out together: relaxed walk, arms swinging, a glance to the team-mate either side"
+  },
+  {
+   "file": "fielder_warmup_arm_circles.fbx",
+   "frames": 159,
+   "loop": false,
+   "type": "warm-up",
+   "note": "big straight-arm circles, two forward and two back, then two cross-body shoulder swings"
+  },
+  {
+   "file": "fielder_warmup_hamstring_stretch.fbx",
+   "frames": 171,
+   "loop": false,
+   "type": "warm-up",
+   "note": "heel forward with the toe up, hinges at the hips with a flat back, hands slide down to the shin; right then left"
+  },
+  {
+   "file": "fielder_warmup_high_knees.fbx",
+   "frames": 93,
+   "loop": false,
+   "type": "warm-up",
+   "note": "high knees on the spot, thighs to horizontal at about 3.3 steps/s, arms driving; back to standing"
+  },
+  {
+   "file": "fielder_warmup_jog_and_jump.fbx",
+   "frames": 105,
+   "loop": false,
+   "type": "warm-up",
+   "jump_frames": {
+    "take_off": 54,
+    "apex": 62,
+    "landing": 70
+   },
+   "end_position_m": {
+    "x": 0.0,
+    "y": -3.35
+   },
+   "note": "jogs about 3 m, gathers, springs into a tuck jump (hips +0.45 m), lands soft and stands"
+  },
+  {
+   "file": "fielder_warmup_quad_stretch.fbx",
+   "frames": 161,
+   "loop": false,
+   "type": "warm-up",
+   "note": "stands on one leg, pulls the heel to the backside with the same hand, free arm out for balance; right then left"
+  },
+  {
+   "file": "fielder_warmup_side_lunges.fbx",
+   "frames": 195,
+   "loop": false,
+   "type": "warm-up",
+   "note": "wide stance, sinks into a side lunge to the right, back through the centre, to the left; twice"
+  },
+  {
+   "file": "fielder_warmup_sprint_and_stop.fbx",
+   "frames": 100,
+   "loop": false,
+   "type": "warm-up",
+   "end_position_m": {
+    "x": 0.0,
+    "y": -13.25
+   },
+   "note": "a 10 m burst from standing, decelerates over three steps, stops and stands"
+  },
+  {
+   "file": "la_intro_polish_ball_loop.fbx",
+   "frames": 126,
+   "loop": true,
+   "arm": "left-arm",
+   "type": "bowler intro",
+   "prop": "ball on the bowling hand (in the other hand around frame 85)",
+   "note": "shines the ball on the front of his thigh, checks the shine, looks down at the batter, flips it into the other hand and back"
+  },
+  {
+   "file": "la_mark_run_up.fbx",
+   "frames": 237,
+   "loop": false,
+   "arm": "left-arm",
+   "type": "bowler intro",
+   "scrape_frames": [
+    185,
+    199
+   ],
+   "mark_position_m": {
+    "behind_crease": 7.56,
+    "left": 0.0
+   },
+   "note": "from his crease turns round and paces out 8 long strides looking at his feet, scrapes the mark twice with his boot, turns to face the batter"
+  },
+  {
+   "file": "presenter_hold_mic_out_loop.fbx",
+   "frames": 120,
+   "loop": true,
+   "type": "presenter",
+   "prop": "microphone on RightHand",
+   "note": "holds the microphone out toward the captain in front of him to his right and listens, small nods"
+  },
+  {
+   "file": "presenter_talk_loop.fbx",
+   "frames": 180,
+   "loop": true,
+   "type": "presenter",
+   "prop": "microphone on RightHand",
+   "note": "talks into the hand-held microphone to camera (-Y), open-palm beats with the free hand, turns to each captain behind him"
+  },
+  {
+   "file": "ra_intro_polish_ball_loop.fbx",
+   "frames": 126,
+   "loop": true,
+   "arm": "right-arm",
+   "type": "bowler intro",
+   "prop": "ball on the bowling hand (in the other hand around frame 85)",
+   "note": "shines the ball on the front of his thigh, checks the shine, looks down at the batter, flips it into the other hand and back"
+  },
+  {
+   "file": "ra_mark_run_up.fbx",
+   "frames": 237,
+   "loop": false,
+   "arm": "right-arm",
+   "type": "bowler intro",
+   "scrape_frames": [
+    185,
+    199
+   ],
+   "mark_position_m": {
+    "behind_crease": 7.56,
+    "left": 0.0
+   },
+   "note": "from his crease turns round and paces out 8 long strides looking at his feet, scrapes the mark twice with his boot, turns to face the batter"
+  },
+  {
+   "file": "lhb_intro_idle_loop.fbx",
+   "frames": 180,
+   "batter": "left-handed",
+   "loop": true,
+   "type": "intro idle",
+   "faces": "-Y (the camera side; chest square)",
+   "note": "player-card close-up: tugs the bottom glove's strap with the top hand, two loose pendulum swings of the bat, looks up at the crowd, back to the start pose"
+  },
+  {
+   "file": "lhb_put_helmet_on.fbx",
+   "frames": 120,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "ceremony",
+   "helmet_on_frame": 41,
+   "prop": "helmet on the top hand (LeftHand rhb / RightHand lhb) until helmet_on_frame, then on the Head bone",
+   "note": "bat tucked under the right forearm; lifts the helmet with the top hand, pulls it down over the head, fastens the chin strap, sets the peak, a little shake of the head to settle it; ends in the walk-out stand"
+  },
+  {
+   "file": "lhb_settle_after_dive.fbx",
+   "frames": 92,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of dive_into_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 17.1,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, dusts the dive off his shirt and thigh, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "lhb_settle_after_drag.fbx",
+   "frames": 70,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of drag_bat_into_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 18.6,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "lhb_settle_after_run_single.fbx",
+   "frames": 70,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of run_single_crease_to_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 18.35,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "lhb_take_guard.fbx",
+   "frames": 180,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "ceremony",
+   "guard_marked_frame": 65,
+   "mark_point_m": {
+    "toward_bowler": -0.04,
+    "toward_off_side": 0.3400000035762787,
+    "up": 0.0
+   },
+   "ends_in": "the round-3 ready stance (batting_v2.READY, frame 1 of 00_stance_idle_loop) on frames 165-180: cut to the stance idle",
+   "note": "bat upright on the crease, eyes on the umpire for his guard, nudges it once, two scratches of the mark (hinged at the hips, no crouch), stands tall with the bat in the bottom hand and looks round the field (cover and point, the slips, the leg side, the bowler), lifts into the ready stance"
+  },
+  {
+   "file": "lhb_walk_out_bat_carried_loop.fbx",
+   "frames": 69,
+   "batter": "left-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "note": "walking out to bat, bat carried in the bottom hand with the blade forward and down"
+  },
+  {
+   "file": "lhb_walk_out_bat_tucked_loop.fbx",
+   "frames": 69,
+   "batter": "left-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "note": "walking out to bat, bat tucked along the right side under the forearm, free arm swinging, eyes ahead"
+  },
+  {
+   "file": "lhb_walk_out_helmet_in_hand_loop.fbx",
+   "frames": 69,
+   "batter": "left-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "prop": "helmet on the top hand (LeftHand rhb / RightHand lhb)",
+   "note": "walking out with the bat tucked and the helmet hanging from the top hand by the grille"
+  },
+  {
+   "file": "lhb_warmup_bat_stretch.fbx",
+   "frames": 176,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "warm-up",
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "stands up, lays the bat across the back of his shoulders (bottom hand on the handle, top hand on the toe), twists left and right, bends to each side, back into the stance"
+  },
+  {
+   "file": "lhb_warmup_jump_and_tap.fbx",
+   "frames": 116,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "warm-up",
+   "jump_frames": {
+    "take_off": 51,
+    "apex": 57,
+    "landing": 63
+   },
+   "tap_frames": [
+    90,
+    98
+   ],
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "three bounces on the toes, a jump, lands soft, settles into the stance and taps the bat in the crease twice"
+  },
+  {
+   "file": "lhb_warmup_shadow_shots.fbx",
+   "frames": 318,
+   "batter": "left-handed",
+   "loop": false,
+   "type": "warm-up",
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "shadow-bats at the crease without a ball: forward defence, cover drive, pull to mid-wicket (the round-3 batting shots 01/05/42, 15% slower), from and back to the ready stance"
+  },
+  {
+   "file": "rhb_intro_idle_loop.fbx",
+   "frames": 180,
+   "batter": "right-handed",
+   "loop": true,
+   "type": "intro idle",
+   "faces": "-Y (the camera side; chest square)",
+   "note": "player-card close-up: tugs the bottom glove's strap with the top hand, two loose pendulum swings of the bat, looks up at the crowd, back to the start pose"
+  },
+  {
+   "file": "rhb_put_helmet_on.fbx",
+   "frames": 120,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "ceremony",
+   "helmet_on_frame": 41,
+   "prop": "helmet on the top hand (LeftHand rhb / RightHand lhb) until helmet_on_frame, then on the Head bone",
+   "note": "bat tucked under the right forearm; lifts the helmet with the top hand, pulls it down over the head, fastens the chin strap, sets the peak, a little shake of the head to settle it; ends in the walk-out stand"
+  },
+  {
+   "file": "rhb_settle_after_dive.fbx",
+   "frames": 92,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of dive_into_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 17.1,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, dusts the dive off his shirt and thigh, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "rhb_settle_after_drag.fbx",
+   "frames": 70,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of drag_bat_into_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 18.6,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "rhb_settle_after_run_single.fbx",
+   "frames": 70,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "settle after running",
+   "start_pose": "the last frame of run_single_crease_to_crease (rhb_/lhb_ to match)",
+   "ends_in": "the round-3 ready stance (batting_v2.READY) turned 180 deg about the end position: its bowler direction points back down the pitch",
+   "end_position_m": {
+    "toward_bowler": 18.35,
+    "toward_off_side": 0.95
+   },
+   "end_heading_deg": 180.0,
+   "note": "catches his breath, turns round to his left with the bat in the bottom hand and lifts into the ready stance facing back down the pitch"
+  },
+  {
+   "file": "rhb_take_guard.fbx",
+   "frames": 180,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "ceremony",
+   "guard_marked_frame": 65,
+   "mark_point_m": {
+    "toward_bowler": -0.04,
+    "toward_off_side": 0.3400000035762787,
+    "up": 0.0
+   },
+   "ends_in": "the round-3 ready stance (batting_v2.READY, frame 1 of 00_stance_idle_loop) on frames 165-180: cut to the stance idle",
+   "note": "bat upright on the crease, eyes on the umpire for his guard, nudges it once, two scratches of the mark (hinged at the hips, no crouch), stands tall with the bat in the bottom hand and looks round the field (cover and point, the slips, the leg side, the bowler), lifts into the ready stance"
+  },
+  {
+   "file": "rhb_walk_out_bat_carried_loop.fbx",
+   "frames": 69,
+   "batter": "right-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "note": "walking out to bat, bat carried in the bottom hand with the blade forward and down"
+  },
+  {
+   "file": "rhb_walk_out_bat_tucked_loop.fbx",
+   "frames": 69,
+   "batter": "right-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "note": "walking out to bat, bat tucked along the right side under the forearm, free arm swinging, eyes ahead"
+  },
+  {
+   "file": "rhb_walk_out_helmet_in_hand_loop.fbx",
+   "frames": 69,
+   "batter": "right-handed",
+   "loop": true,
+   "type": "walk-out",
+   "in_place": true,
+   "speed_m_s": 1.31,
+   "faces": "+X (toward the bowler's end, like run_loop_with_bat)",
+   "prop": "helmet on the top hand (LeftHand rhb / RightHand lhb)",
+   "note": "walking out with the bat tucked and the helmet hanging from the top hand by the grille"
+  },
+  {
+   "file": "rhb_warmup_bat_stretch.fbx",
+   "frames": 176,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "warm-up",
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "stands up, lays the bat across the back of his shoulders (bottom hand on the handle, top hand on the toe), twists left and right, bends to each side, back into the stance"
+  },
+  {
+   "file": "rhb_warmup_jump_and_tap.fbx",
+   "frames": 116,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "warm-up",
+   "jump_frames": {
+    "take_off": 51,
+    "apex": 57,
+    "landing": 63
+   },
+   "tap_frames": [
+    90,
+    98
+   ],
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "three bounces on the toes, a jump, lands soft, settles into the stance and taps the bat in the crease twice"
+  },
+  {
+   "file": "rhb_warmup_shadow_shots.fbx",
+   "frames": 318,
+   "batter": "right-handed",
+   "loop": false,
+   "type": "warm-up",
+   "ends_in": "the round-3 ready stance (batting_v2.READY)",
+   "note": "shadow-bats at the crease without a ball: forward defence, cover drive, pull to mid-wicket (the round-3 batting shots 01/05/42, 15% slower), from and back to the ready stance"
+  },
+  {
+   "file": "handshake_line_walk_loop.fbx",
+   "frames": 81,
+   "loop": true,
+   "type": "match end",
+   "in_place": true,
+   "speed_m_s": 0.99,
+   "note": "walking slowly along the handshake line: right hand out at waist height shaking each passer's hand (one shake a step), eyes on the passers to his right front, a left-hand pat on a back mid-loop",
+   "travel_m": {
+    "forward": 0.0,
+    "left": 0.0
+   }
+  },
+  {
+   "file": "handshake_single.fbx",
+   "frames": 100,
+   "loop": false,
+   "type": "match end",
+   "grip_frames": [
+    31,
+    57
+   ],
+   "pat_frames": [
+    43,
+    51
+   ],
+   "hand_meet_point_m": {
+    "forward": 0.52,
+    "left": 0.02,
+    "up": 1.0
+   },
+   "layout": "the other player plays the same clip at (0, -1.0) facing +Y: right hands meet at the midpoint",
+   "note": "steps in, shakes hands with three pumps, the left hand pats the other player's arm, steps back",
+   "travel_m": {
+    "forward": 0.0,
+    "left": 0.0
+   }
+  },
+  {
+   "file": "captain_idle_relaxed_loop.fbx",
+   "frames": 120,
+   "loop": true,
+   "type": "toss idle",
+   "note": "relaxed standing idle for the toss party: weight on the left leg, left hand on the hip, right arm loose, chest up, head level; one weight shift toward centre and back, a glance either side"
+  },
+  {
+   "file": "captain_listen_nod_loop.fbx",
+   "frames": 120,
+   "loop": true,
+   "type": "toss idle",
+   "look_at_m": {
+    "x": 0.5,
+    "y": -1.600000023841858,
+    "up": 1.6799999475479126
+   },
+   "nod_frames": [
+    32,
+    88
+   ],
+   "note": "listening to the presenter (front-left, at eye height): hands clasped in front, chest up, two small nods, a slight weight shift"
+  },
+  {
+   "file": "presenter_listen_loop.fbx",
+   "frames": 120,
+   "loop": true,
+   "type": "presenter",
+   "prop": "microphone on RightHand, held at the chest",
+   "look_at_m": {
+    "x": -0.4000000059604645,
+    "y": -1.5,
+    "up": 1.6799999475479126
+   },
+   "nod_frames": [
+    28,
+    79
+   ],
+   "note": "the presenter listening to a captain in front of him: microphone at his chest, eyes level on the captain, nodding along"
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "batters": "rhb_ = right-handed (bat on RightHand), lhb_ = left-handed (bat on LeftHand, exact mirror across the pitch line)",
+  "coordinates": "same as the batting clips: positions relative to the batter at the crease: toward_bowler / toward_off_side (the batter's own off side) / up",
+  "event_frame": "1-based frame of the ball event (beaten, edge, pad/body/helmet/glove hit, stumps broken); ball_hits_body_at_m = where the ball strikes the body at that frame",
+  "top_hand": "in hit/dismissal clips the top hand leaves the handle on purpose (clutching ribs, helmet, shaking the glove, walking off); the bottom hand never leaves the bat",
+  "walking_off": "dismissal clips end walking toward the pavilion (behind square on the leg side) - chain into walk_off_dejected_loop and turn the character toward your pavilion",
+  "chaining": "non-dismissal reactions start from the batting stance and return to it"
+ },
+ "clips": [
+  {
+   "file": "lhb_beaten_forward_defence.fbx",
+   "frames": 101,
+   "batter": "left-handed",
+   "event": "ball beats the outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.62,
+    "toward_off_side": 0.49,
+    "up": 0.25
+   },
+   "note": "forward defence, beaten outside off; holds the shape, looks back, looks at the pitch, resets"
+  },
+  {
+   "file": "lhb_bowled_reaction_walk_off.fbx",
+   "frames": 142,
+   "batter": "left-handed",
+   "event": "bowled (stumps broken)",
+   "event_frame": 34,
+   "ball_passes_bat_frame": 31,
+   "note": "drives, misses, the stumps are hit behind him; looks round at them, top hand to the helmet, turns and starts the walk off (chain into walk_off_dejected_loop)",
+   "end_position_m": {
+    "toward_bowler": -0.72,
+    "toward_off_side": -1.03
+   }
+  },
+  {
+   "file": "lhb_caught_reaction_walk_off.fbx",
+   "frames": 164,
+   "batter": "left-handed",
+   "event": "lofted shot",
+   "event_frame": 31,
+   "catch_taken_frame": 87,
+   "note": "lofts it, watches it hang in the air, sees it caught in the deep: head drops, starts the walk off"
+  },
+  {
+   "file": "lhb_hit_on_body_ribs.fbx",
+   "frames": 135,
+   "batter": "left-handed",
+   "event": "short ball hits the ribs",
+   "event_frame": 31,
+   "note": "shapes to pull, the ball is on him too quickly and hits the ribs; flinches, top hand clutches the side, doubles over, recovers",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.121,
+    "toward_off_side": -0.022,
+    "up": 1.074
+   }
+  },
+  {
+   "file": "lhb_hit_on_glove.fbx",
+   "frames": 135,
+   "batter": "left-handed",
+   "event": "ball hits the top hand",
+   "event_frame": 31,
+   "note": "short ball jags into the top glove; the hand comes off the bat and shakes, walks away flexing it, comes back to the crease",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.217,
+    "toward_off_side": 0.208,
+    "up": 1.318
+   }
+  },
+  {
+   "file": "lhb_hit_on_helmet.fbx",
+   "frames": 171,
+   "batter": "left-handed",
+   "event": "bouncer hits the helmet",
+   "event_frame": 31,
+   "note": "late on the hook, struck on the helmet: head snaps back, staggers, crouches holding the helmet (pause for a concussion check), stands and resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.278,
+    "toward_off_side": -0.154,
+    "up": 1.457
+   }
+  },
+  {
+   "file": "lhb_hit_on_pad_back_foot.fbx",
+   "frames": 117,
+   "batter": "left-handed",
+   "event": "ball hits the back pad",
+   "event_frame": 31,
+   "note": "back and across, misses, struck on the back pad in front of the stumps; looks at the umpire, resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.4,
+    "toward_off_side": 0.13,
+    "up": 0.343
+   }
+  },
+  {
+   "file": "lhb_hit_on_pad_front_foot.fbx",
+   "frames": 117,
+   "batter": "left-handed",
+   "event": "ball hits the front pad",
+   "event_frame": 31,
+   "note": "forward press, bat a fraction late, ball strikes the front pad; jolt, then looks at the umpire (LBW shout moment), resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.673,
+    "toward_off_side": 0.096,
+    "up": 0.3
+   }
+  },
+  {
+   "file": "lhb_hit_wicket_walk_off.fbx",
+   "frames": 124,
+   "batter": "left-handed",
+   "event": "back foot breaks the stumps",
+   "event_frame": 39,
+   "note": "goes deep in the crease to pull, the back foot treads on the stumps; looks down at them in disbelief, hand on the helmet, walks off"
+  },
+  {
+   "file": "lhb_inside_edge_onto_pad.fbx",
+   "frames": 99,
+   "batter": "left-handed",
+   "event": "inside edge",
+   "event_frame": 31,
+   "pad_hit_frame": 33,
+   "note": "forward defence, inside edge deflects onto the front pad; small jolt, looks down for the ball",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.689,
+    "toward_off_side": 0.111,
+    "up": 0.283
+   }
+  },
+  {
+   "file": "lhb_lbw_given_walk_off.fbx",
+   "frames": 162,
+   "batter": "left-handed",
+   "event": "ball hits the front pad",
+   "event_frame": 31,
+   "umpire_gives_out_frame": 75,
+   "note": "struck on the pad, looks at the umpire, the finger goes up: shakes his head and walks off",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.673,
+    "toward_off_side": 0.096,
+    "up": 0.3
+   }
+  },
+  {
+   "file": "lhb_outside_edge_reaction.fbx",
+   "frames": 105,
+   "batter": "left-handed",
+   "event": "outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.62,
+    "toward_off_side": 0.44,
+    "up": 0.22
+   },
+   "ball_goes": "behind square on the off side (keeper / slips)",
+   "note": "drives, gets a thick outside edge, whips the head round to follow it toward the slips (use with a catch or a dropped catch)"
+  },
+  {
+   "file": "lhb_play_and_miss_drive.fbx",
+   "frames": 115,
+   "batter": "left-handed",
+   "event": "ball beats the outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.58,
+    "toward_off_side": 0.68,
+    "up": 0.22
+   },
+   "note": "goes for the cover drive, ball beats the outside edge; freezes, turns to look at the keeper, shakes head, resets"
+  },
+  {
+   "file": "lhb_run_out_reaction_walk_off.fbx",
+   "frames": 120,
+   "batter": "left-handed",
+   "event": "run out",
+   "event_frame": 1,
+   "note": "just short of the crease after a run: hand on the helmet, looks back at the broken stumps and up at the screen, walks off"
+  },
+  {
+   "file": "lhb_turn_and_start_walk_off.fbx",
+   "frames": 66,
+   "batter": "left-handed",
+   "event": "dismissed",
+   "event_frame": 1,
+   "note": "from the stance: drops the bat into the bottom hand, turns toward the pavilion, first steps (chain into walk_off_dejected_loop)",
+   "end_position_m": {
+    "toward_bowler": -0.98,
+    "toward_off_side": -1.01
+   }
+  },
+  {
+   "file": "lhb_walk_off_angry.fbx",
+   "frames": 111,
+   "batter": "left-handed",
+   "event": "dismissed",
+   "event_frame": 1,
+   "note": "angry: swipes the bat through the air, hand to the helmet, then a brisk walk off (root motion ~3.4 m)",
+   "end_position_m": {
+    "toward_bowler": -2.35,
+    "toward_off_side": -2.42
+   }
+  },
+  {
+   "file": "lhb_walk_off_dejected_loop.fbx",
+   "frames": 73,
+   "batter": "left-handed",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.54,
+   "heading": "behind square on the leg side (turn him toward your pavilion)",
+   "note": "slow walk off, head down, bat hanging from the bottom hand"
+  },
+  {
+   "file": "rhb_beaten_forward_defence.fbx",
+   "frames": 101,
+   "batter": "right-handed",
+   "event": "ball beats the outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.62,
+    "toward_off_side": 0.49,
+    "up": 0.25
+   },
+   "note": "forward defence, beaten outside off; holds the shape, looks back, looks at the pitch, resets"
+  },
+  {
+   "file": "rhb_bowled_reaction_walk_off.fbx",
+   "frames": 142,
+   "batter": "right-handed",
+   "event": "bowled (stumps broken)",
+   "event_frame": 34,
+   "ball_passes_bat_frame": 31,
+   "note": "drives, misses, the stumps are hit behind him; looks round at them, top hand to the helmet, turns and starts the walk off (chain into walk_off_dejected_loop)",
+   "end_position_m": {
+    "toward_bowler": -0.72,
+    "toward_off_side": -1.03
+   }
+  },
+  {
+   "file": "rhb_caught_reaction_walk_off.fbx",
+   "frames": 164,
+   "batter": "right-handed",
+   "event": "lofted shot",
+   "event_frame": 31,
+   "catch_taken_frame": 87,
+   "note": "lofts it, watches it hang in the air, sees it caught in the deep: head drops, starts the walk off"
+  },
+  {
+   "file": "rhb_hit_on_body_ribs.fbx",
+   "frames": 135,
+   "batter": "right-handed",
+   "event": "short ball hits the ribs",
+   "event_frame": 31,
+   "note": "shapes to pull, the ball is on him too quickly and hits the ribs; flinches, top hand clutches the side, doubles over, recovers",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.121,
+    "toward_off_side": -0.022,
+    "up": 1.074
+   }
+  },
+  {
+   "file": "rhb_hit_on_glove.fbx",
+   "frames": 135,
+   "batter": "right-handed",
+   "event": "ball hits the top hand",
+   "event_frame": 31,
+   "note": "short ball jags into the top glove; the hand comes off the bat and shakes, walks away flexing it, comes back to the crease",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.217,
+    "toward_off_side": 0.208,
+    "up": 1.318
+   }
+  },
+  {
+   "file": "rhb_hit_on_helmet.fbx",
+   "frames": 171,
+   "batter": "right-handed",
+   "event": "bouncer hits the helmet",
+   "event_frame": 31,
+   "note": "late on the hook, struck on the helmet: head snaps back, staggers, crouches holding the helmet (pause for a concussion check), stands and resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.278,
+    "toward_off_side": -0.147,
+    "up": 1.457
+   }
+  },
+  {
+   "file": "rhb_hit_on_pad_back_foot.fbx",
+   "frames": 117,
+   "batter": "right-handed",
+   "event": "ball hits the back pad",
+   "event_frame": 31,
+   "note": "back and across, misses, struck on the back pad in front of the stumps; looks at the umpire, resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": -0.4,
+    "toward_off_side": 0.13,
+    "up": 0.343
+   }
+  },
+  {
+   "file": "rhb_hit_on_pad_front_foot.fbx",
+   "frames": 117,
+   "batter": "right-handed",
+   "event": "ball hits the front pad",
+   "event_frame": 31,
+   "note": "forward press, bat a fraction late, ball strikes the front pad; jolt, then looks at the umpire (LBW shout moment), resets",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.673,
+    "toward_off_side": 0.096,
+    "up": 0.3
+   }
+  },
+  {
+   "file": "rhb_hit_wicket_walk_off.fbx",
+   "frames": 124,
+   "batter": "right-handed",
+   "event": "back foot breaks the stumps",
+   "event_frame": 39,
+   "note": "goes deep in the crease to pull, the back foot treads on the stumps; looks down at them in disbelief, hand on the helmet, walks off"
+  },
+  {
+   "file": "rhb_inside_edge_onto_pad.fbx",
+   "frames": 99,
+   "batter": "right-handed",
+   "event": "inside edge",
+   "event_frame": 31,
+   "pad_hit_frame": 33,
+   "note": "forward defence, inside edge deflects onto the front pad; small jolt, looks down for the ball",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.689,
+    "toward_off_side": 0.112,
+    "up": 0.283
+   }
+  },
+  {
+   "file": "rhb_lbw_given_walk_off.fbx",
+   "frames": 162,
+   "batter": "right-handed",
+   "event": "ball hits the front pad",
+   "event_frame": 31,
+   "umpire_gives_out_frame": 75,
+   "note": "struck on the pad, looks at the umpire, the finger goes up: shakes his head and walks off",
+   "ball_hits_body_at_m": {
+    "toward_bowler": 0.673,
+    "toward_off_side": 0.096,
+    "up": 0.3
+   }
+  },
+  {
+   "file": "rhb_outside_edge_reaction.fbx",
+   "frames": 105,
+   "batter": "right-handed",
+   "event": "outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.62,
+    "toward_off_side": 0.44,
+    "up": 0.22
+   },
+   "ball_goes": "behind square on the off side (keeper / slips)",
+   "note": "drives, gets a thick outside edge, whips the head round to follow it toward the slips (use with a catch or a dropped catch)"
+  },
+  {
+   "file": "rhb_play_and_miss_drive.fbx",
+   "frames": 115,
+   "batter": "right-handed",
+   "event": "ball beats the outside edge",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "toward_bowler": 0.58,
+    "toward_off_side": 0.68,
+    "up": 0.22
+   },
+   "note": "goes for the cover drive, ball beats the outside edge; freezes, turns to look at the keeper, shakes head, resets"
+  },
+  {
+   "file": "rhb_run_out_reaction_walk_off.fbx",
+   "frames": 120,
+   "batter": "right-handed",
+   "event": "run out",
+   "event_frame": 1,
+   "note": "just short of the crease after a run: hand on the helmet, looks back at the broken stumps and up at the screen, walks off"
+  },
+  {
+   "file": "rhb_turn_and_start_walk_off.fbx",
+   "frames": 66,
+   "batter": "right-handed",
+   "event": "dismissed",
+   "event_frame": 1,
+   "note": "from the stance: drops the bat into the bottom hand, turns toward the pavilion, first steps (chain into walk_off_dejected_loop)",
+   "end_position_m": {
+    "toward_bowler": -0.98,
+    "toward_off_side": -1.01
+   }
+  },
+  {
+   "file": "rhb_walk_off_angry.fbx",
+   "frames": 111,
+   "batter": "right-handed",
+   "event": "dismissed",
+   "event_frame": 1,
+   "note": "angry: swipes the bat through the air, hand to the helmet, then a brisk walk off (root motion ~3.4 m)",
+   "end_position_m": {
+    "toward_bowler": -2.35,
+    "toward_off_side": -2.42
+   }
+  },
+  {
+   "file": "rhb_walk_off_dejected_loop.fbx",
+   "frames": 73,
+   "batter": "right-handed",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.54,
+   "heading": "behind square on the leg side (turn him toward your pavilion)",
+   "note": "slow walk off, head down, bat hanging from the bottom hand"
+  }
+ ]
+}

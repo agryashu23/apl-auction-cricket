@@ -1,0 +1,4938 @@
+{
+    "dataVersion":  7,
+    "lines":  [
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome",
+                      "text":  "Ladies and gentlemen, welcome to the A P L auction!",
+                      "file":  "arjun/welcome.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_marquee",
+                      "text":  "Let\u0027s begin with the marquee players.",
+                      "file":  "arjun/set_marquee.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_batters",
+                      "text":  "Next up, the batters.",
+                      "file":  "arjun/set_batters.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_bowlers",
+                      "text":  "Now, the bowlers.",
+                      "file":  "arjun/set_bowlers.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_allRounders",
+                      "text":  "Up next, the all-rounders.",
+                      "file":  "arjun/set_allRounders.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_wicketKeepers",
+                      "text":  "Now, the wicketkeepers.",
+                      "file":  "arjun/set_wicketKeepers.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_uncapped",
+                      "text":  "And now, the uncapped players.",
+                      "file":  "arjun/set_uncapped.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "set_accelerated",
+                      "text":  "We now move to the accelerated round.",
+                      "file":  "arjun/set_accelerated.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "role_BAT",
+                      "text":  "a batter",
+                      "file":  "arjun/role_BAT.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "role_BOWL",
+                      "text":  "a bowler",
+                      "file":  "arjun/role_BOWL.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "role_AR",
+                      "text":  "an all-rounder",
+                      "file":  "arjun/role_AR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "role_WK",
+                      "text":  "a wicketkeeper",
+                      "file":  "arjun/role_WK.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_Afghanistan",
+                      "text":  "from Afghanistan",
+                      "file":  "arjun/from_Afghanistan.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_Australia",
+                      "text":  "from Australia",
+                      "file":  "arjun/from_Australia.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_Bangladesh",
+                      "text":  "from Bangladesh",
+                      "file":  "arjun/from_Bangladesh.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_England",
+                      "text":  "from England",
+                      "file":  "arjun/from_England.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_India",
+                      "text":  "from India",
+                      "file":  "arjun/from_India.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_New_Zealand",
+                      "text":  "from New Zealand",
+                      "file":  "arjun/from_New_Zealand.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_South_Africa",
+                      "text":  "from South Africa",
+                      "file":  "arjun/from_South_Africa.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_Sri_Lanka",
+                      "text":  "from Sri Lanka",
+                      "file":  "arjun/from_Sri_Lanka.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_West_Indies",
+                      "text":  "from West Indies",
+                      "file":  "arjun/from_West_Indies.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "from_Zimbabwe",
+                      "text":  "from Zimbabwe",
+                      "file":  "arjun/from_Zimbabwe.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "base_price",
+                      "text":  "Base price,",
+                      "file":  "arjun/base_price.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "open",
+                      "text":  "Do I hear a bid?",
+                      "file":  "arjun/open.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_more",
+                      "text":  "Do I hear more?",
+                      "file":  "arjun/any_more.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "with_team",
+                      "text":  "The bid is with the",
+                      "file":  "arjun/with_team.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_1",
+                      "text":  "Anyone else?",
+                      "file":  "arjun/any_1.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_2",
+                      "text":  "Any more bids, ladies and gentlemen?",
+                      "file":  "arjun/any_2.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_3",
+                      "text":  "Do I hear more?",
+                      "file":  "arjun/any_3.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_4",
+                      "text":  "Anyone else looking to bid?",
+                      "file":  "arjun/any_4.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_5",
+                      "text":  "Come on, he\u0027s worth more than that!",
+                      "file":  "arjun/any_5.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "any_6",
+                      "text":  "Any advance on that?",
+                      "file":  "arjun/any_6.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "going_once",
+                      "text":  "Going once!",
+                      "file":  "arjun/going_once.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "going_twice",
+                      "text":  "Going twice!",
+                      "file":  "arjun/going_twice.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "last_call",
+                      "text":  "Last call!",
+                      "file":  "arjun/last_call.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "sold",
+                      "text":  "Sold!",
+                      "file":  "arjun/sold.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "sold_to",
+                      "text":  "Sold to the",
+                      "file":  "arjun/sold_to.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "for",
+                      "text":  "for",
+                      "file":  "arjun/for.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "unsold",
+                      "text":  "No bids. Unsold.",
+                      "file":  "arjun/unsold.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "no_more_bids",
+                      "text":  "I don\u0027t see any more bids. Selling to the",
+                      "file":  "arjun/no_more_bids.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_welcome",
+                      "text":  "Welcome to the ground! The target is set, and the chase is on.",
+                      "file":  "arjun/match_welcome.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_four",
+                      "text":  "Four! Beautifully timed.",
+                      "file":  "arjun/match_four.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_six",
+                      "text":  "That\u0027s huge! Six!",
+                      "file":  "arjun/match_six.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_out",
+                      "text":  "Gone! That\u0027s out!",
+                      "file":  "arjun/match_out.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_bowled",
+                      "text":  "Bowled him! The stumps are shattered!",
+                      "file":  "arjun/match_bowled.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_caught",
+                      "text":  "In the air... and taken! Caught!",
+                      "file":  "arjun/match_caught.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_won",
+                      "text":  "They have done it! What a chase!",
+                      "file":  "arjun/match_won.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "match_lost",
+                      "text":  "And that\u0027s the end of the chase. They fall short.",
+                      "file":  "arjun/match_lost.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_used",
+                      "text":  "And the right to match is used!",
+                      "file":  "arjun/rtm_used.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "auction_over",
+                      "text":  "And that concludes the auction. Thank you, everyone!",
+                      "file":  "arjun/auction_over.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_MBH",
+                      "text":  "Mumbai Heroes",
+                      "file":  "arjun/team_MBH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_CHC",
+                      "text":  "Chennai Cyclones",
+                      "file":  "arjun/team_CHC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_BLR",
+                      "text":  "Bengaluru Royals",
+                      "file":  "arjun/team_BLR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_KOC",
+                      "text":  "Kolkata Comets",
+                      "file":  "arjun/team_KOC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_DLD",
+                      "text":  "Delhi Defenders",
+                      "file":  "arjun/team_DLD.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_PJP",
+                      "text":  "Punjab Pioneers",
+                      "file":  "arjun/team_PJP.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_RJR",
+                      "text":  "Rajasthan Rangers",
+                      "file":  "arjun/team_RJR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_HYH",
+                      "text":  "Hyderabad Hawks",
+                      "file":  "arjun/team_HYH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_GJG",
+                      "text":  "Gujarat Gladiators",
+                      "file":  "arjun/team_GJG.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "team_LKL",
+                      "text":  "Lucknow Lancers",
+                      "file":  "arjun/team_LKL.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_30",
+                      "text":  "thirty lakh",
+                      "file":  "arjun/amount_30.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_40",
+                      "text":  "forty lakh",
+                      "file":  "arjun/amount_40.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_50",
+                      "text":  "fifty lakh",
+                      "file":  "arjun/amount_50.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_60",
+                      "text":  "sixty lakh",
+                      "file":  "arjun/amount_60.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_70",
+                      "text":  "seventy lakh",
+                      "file":  "arjun/amount_70.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_75",
+                      "text":  "seventy five lakh",
+                      "file":  "arjun/amount_75.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_80",
+                      "text":  "eighty lakh",
+                      "file":  "arjun/amount_80.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_85",
+                      "text":  "eighty five lakh",
+                      "file":  "arjun/amount_85.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_90",
+                      "text":  "ninety lakh",
+                      "file":  "arjun/amount_90.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_95",
+                      "text":  "ninety five lakh",
+                      "file":  "arjun/amount_95.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_100",
+                      "text":  "one crore",
+                      "file":  "arjun/amount_100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_105",
+                      "text":  "one crore five lakh",
+                      "file":  "arjun/amount_105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_120",
+                      "text":  "one crore twenty lakh",
+                      "file":  "arjun/amount_120.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_125",
+                      "text":  "one crore twenty five lakh",
+                      "file":  "arjun/amount_125.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_140",
+                      "text":  "one crore forty lakh",
+                      "file":  "arjun/amount_140.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_145",
+                      "text":  "one crore forty five lakh",
+                      "file":  "arjun/amount_145.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_150",
+                      "text":  "one crore fifty lakh",
+                      "file":  "arjun/amount_150.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_160",
+                      "text":  "one crore sixty lakh",
+                      "file":  "arjun/amount_160.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_165",
+                      "text":  "one crore sixty five lakh",
+                      "file":  "arjun/amount_165.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_170",
+                      "text":  "one crore seventy lakh",
+                      "file":  "arjun/amount_170.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_180",
+                      "text":  "one crore eighty lakh",
+                      "file":  "arjun/amount_180.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_185",
+                      "text":  "one crore eighty five lakh",
+                      "file":  "arjun/amount_185.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_190",
+                      "text":  "one crore ninety lakh",
+                      "file":  "arjun/amount_190.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_200",
+                      "text":  "two crore",
+                      "file":  "arjun/amount_200.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_205",
+                      "text":  "two crore five lakh",
+                      "file":  "arjun/amount_205.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_210",
+                      "text":  "two crore ten lakh",
+                      "file":  "arjun/amount_210.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_250",
+                      "text":  "two crore fifty lakh",
+                      "file":  "arjun/amount_250.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_255",
+                      "text":  "two crore fifty five lakh",
+                      "file":  "arjun/amount_255.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_260",
+                      "text":  "two crore sixty lakh",
+                      "file":  "arjun/amount_260.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_300",
+                      "text":  "three crore",
+                      "file":  "arjun/amount_300.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_305",
+                      "text":  "three crore five lakh",
+                      "file":  "arjun/amount_305.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_310",
+                      "text":  "three crore ten lakh",
+                      "file":  "arjun/amount_310.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_350",
+                      "text":  "three crore fifty lakh",
+                      "file":  "arjun/amount_350.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_355",
+                      "text":  "three crore fifty five lakh",
+                      "file":  "arjun/amount_355.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_360",
+                      "text":  "three crore sixty lakh",
+                      "file":  "arjun/amount_360.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_400",
+                      "text":  "four crore",
+                      "file":  "arjun/amount_400.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_405",
+                      "text":  "four crore five lakh",
+                      "file":  "arjun/amount_405.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_410",
+                      "text":  "four crore ten lakh",
+                      "file":  "arjun/amount_410.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_450",
+                      "text":  "four crore fifty lakh",
+                      "file":  "arjun/amount_450.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_455",
+                      "text":  "four crore fifty five lakh",
+                      "file":  "arjun/amount_455.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_460",
+                      "text":  "four crore sixty lakh",
+                      "file":  "arjun/amount_460.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_500",
+                      "text":  "five crore",
+                      "file":  "arjun/amount_500.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_505",
+                      "text":  "five crore five lakh",
+                      "file":  "arjun/amount_505.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_510",
+                      "text":  "five crore ten lakh",
+                      "file":  "arjun/amount_510.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_550",
+                      "text":  "five crore fifty lakh",
+                      "file":  "arjun/amount_550.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_555",
+                      "text":  "five crore fifty five lakh",
+                      "file":  "arjun/amount_555.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_560",
+                      "text":  "five crore sixty lakh",
+                      "file":  "arjun/amount_560.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_600",
+                      "text":  "six crore",
+                      "file":  "arjun/amount_600.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_605",
+                      "text":  "six crore five lakh",
+                      "file":  "arjun/amount_605.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_610",
+                      "text":  "six crore ten lakh",
+                      "file":  "arjun/amount_610.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_650",
+                      "text":  "six crore fifty lakh",
+                      "file":  "arjun/amount_650.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_655",
+                      "text":  "six crore fifty five lakh",
+                      "file":  "arjun/amount_655.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_660",
+                      "text":  "six crore sixty lakh",
+                      "file":  "arjun/amount_660.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_700",
+                      "text":  "seven crore",
+                      "file":  "arjun/amount_700.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_705",
+                      "text":  "seven crore five lakh",
+                      "file":  "arjun/amount_705.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_710",
+                      "text":  "seven crore ten lakh",
+                      "file":  "arjun/amount_710.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_750",
+                      "text":  "seven crore fifty lakh",
+                      "file":  "arjun/amount_750.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_755",
+                      "text":  "seven crore fifty five lakh",
+                      "file":  "arjun/amount_755.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_760",
+                      "text":  "seven crore sixty lakh",
+                      "file":  "arjun/amount_760.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_800",
+                      "text":  "eight crore",
+                      "file":  "arjun/amount_800.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_805",
+                      "text":  "eight crore five lakh",
+                      "file":  "arjun/amount_805.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_810",
+                      "text":  "eight crore ten lakh",
+                      "file":  "arjun/amount_810.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_850",
+                      "text":  "eight crore fifty lakh",
+                      "file":  "arjun/amount_850.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_855",
+                      "text":  "eight crore fifty five lakh",
+                      "file":  "arjun/amount_855.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_860",
+                      "text":  "eight crore sixty lakh",
+                      "file":  "arjun/amount_860.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_900",
+                      "text":  "nine crore",
+                      "file":  "arjun/amount_900.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_905",
+                      "text":  "nine crore five lakh",
+                      "file":  "arjun/amount_905.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_910",
+                      "text":  "nine crore ten lakh",
+                      "file":  "arjun/amount_910.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_950",
+                      "text":  "nine crore fifty lakh",
+                      "file":  "arjun/amount_950.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_955",
+                      "text":  "nine crore fifty five lakh",
+                      "file":  "arjun/amount_955.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_960",
+                      "text":  "nine crore sixty lakh",
+                      "file":  "arjun/amount_960.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1000",
+                      "text":  "ten crore",
+                      "file":  "arjun/amount_1000.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1005",
+                      "text":  "ten crore five lakh",
+                      "file":  "arjun/amount_1005.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1010",
+                      "text":  "ten crore ten lakh",
+                      "file":  "arjun/amount_1010.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1050",
+                      "text":  "ten crore fifty lakh",
+                      "file":  "arjun/amount_1050.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1055",
+                      "text":  "ten crore fifty five lakh",
+                      "file":  "arjun/amount_1055.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1060",
+                      "text":  "ten crore sixty lakh",
+                      "file":  "arjun/amount_1060.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1100",
+                      "text":  "eleven crore",
+                      "file":  "arjun/amount_1100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1105",
+                      "text":  "eleven crore five lakh",
+                      "file":  "arjun/amount_1105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1110",
+                      "text":  "eleven crore ten lakh",
+                      "file":  "arjun/amount_1110.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1150",
+                      "text":  "eleven crore fifty lakh",
+                      "file":  "arjun/amount_1150.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1155",
+                      "text":  "eleven crore fifty five lakh",
+                      "file":  "arjun/amount_1155.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1160",
+                      "text":  "eleven crore sixty lakh",
+                      "file":  "arjun/amount_1160.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1200",
+                      "text":  "twelve crore",
+                      "file":  "arjun/amount_1200.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1205",
+                      "text":  "twelve crore five lakh",
+                      "file":  "arjun/amount_1205.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1210",
+                      "text":  "twelve crore ten lakh",
+                      "file":  "arjun/amount_1210.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1250",
+                      "text":  "twelve crore fifty lakh",
+                      "file":  "arjun/amount_1250.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1255",
+                      "text":  "twelve crore fifty five lakh",
+                      "file":  "arjun/amount_1255.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1260",
+                      "text":  "twelve crore sixty lakh",
+                      "file":  "arjun/amount_1260.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1300",
+                      "text":  "thirteen crore",
+                      "file":  "arjun/amount_1300.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1305",
+                      "text":  "thirteen crore five lakh",
+                      "file":  "arjun/amount_1305.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1310",
+                      "text":  "thirteen crore ten lakh",
+                      "file":  "arjun/amount_1310.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1350",
+                      "text":  "thirteen crore fifty lakh",
+                      "file":  "arjun/amount_1350.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1355",
+                      "text":  "thirteen crore fifty five lakh",
+                      "file":  "arjun/amount_1355.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1360",
+                      "text":  "thirteen crore sixty lakh",
+                      "file":  "arjun/amount_1360.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1400",
+                      "text":  "fourteen crore",
+                      "file":  "arjun/amount_1400.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1405",
+                      "text":  "fourteen crore five lakh",
+                      "file":  "arjun/amount_1405.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1410",
+                      "text":  "fourteen crore ten lakh",
+                      "file":  "arjun/amount_1410.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1450",
+                      "text":  "fourteen crore fifty lakh",
+                      "file":  "arjun/amount_1450.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1455",
+                      "text":  "fourteen crore fifty five lakh",
+                      "file":  "arjun/amount_1455.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1460",
+                      "text":  "fourteen crore sixty lakh",
+                      "file":  "arjun/amount_1460.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1500",
+                      "text":  "fifteen crore",
+                      "file":  "arjun/amount_1500.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1505",
+                      "text":  "fifteen crore five lakh",
+                      "file":  "arjun/amount_1505.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1510",
+                      "text":  "fifteen crore ten lakh",
+                      "file":  "arjun/amount_1510.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1550",
+                      "text":  "fifteen crore fifty lakh",
+                      "file":  "arjun/amount_1550.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1555",
+                      "text":  "fifteen crore fifty five lakh",
+                      "file":  "arjun/amount_1555.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1560",
+                      "text":  "fifteen crore sixty lakh",
+                      "file":  "arjun/amount_1560.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1600",
+                      "text":  "sixteen crore",
+                      "file":  "arjun/amount_1600.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1605",
+                      "text":  "sixteen crore five lakh",
+                      "file":  "arjun/amount_1605.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1610",
+                      "text":  "sixteen crore ten lakh",
+                      "file":  "arjun/amount_1610.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1650",
+                      "text":  "sixteen crore fifty lakh",
+                      "file":  "arjun/amount_1650.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1655",
+                      "text":  "sixteen crore fifty five lakh",
+                      "file":  "arjun/amount_1655.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1660",
+                      "text":  "sixteen crore sixty lakh",
+                      "file":  "arjun/amount_1660.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1700",
+                      "text":  "seventeen crore",
+                      "file":  "arjun/amount_1700.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1705",
+                      "text":  "seventeen crore five lakh",
+                      "file":  "arjun/amount_1705.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1710",
+                      "text":  "seventeen crore ten lakh",
+                      "file":  "arjun/amount_1710.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1750",
+                      "text":  "seventeen crore fifty lakh",
+                      "file":  "arjun/amount_1750.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1755",
+                      "text":  "seventeen crore fifty five lakh",
+                      "file":  "arjun/amount_1755.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1760",
+                      "text":  "seventeen crore sixty lakh",
+                      "file":  "arjun/amount_1760.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1800",
+                      "text":  "eighteen crore",
+                      "file":  "arjun/amount_1800.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1805",
+                      "text":  "eighteen crore five lakh",
+                      "file":  "arjun/amount_1805.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1810",
+                      "text":  "eighteen crore ten lakh",
+                      "file":  "arjun/amount_1810.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1850",
+                      "text":  "eighteen crore fifty lakh",
+                      "file":  "arjun/amount_1850.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1855",
+                      "text":  "eighteen crore fifty five lakh",
+                      "file":  "arjun/amount_1855.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1860",
+                      "text":  "eighteen crore sixty lakh",
+                      "file":  "arjun/amount_1860.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1900",
+                      "text":  "nineteen crore",
+                      "file":  "arjun/amount_1900.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1905",
+                      "text":  "nineteen crore five lakh",
+                      "file":  "arjun/amount_1905.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1910",
+                      "text":  "nineteen crore ten lakh",
+                      "file":  "arjun/amount_1910.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1950",
+                      "text":  "nineteen crore fifty lakh",
+                      "file":  "arjun/amount_1950.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1955",
+                      "text":  "nineteen crore fifty five lakh",
+                      "file":  "arjun/amount_1955.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_1960",
+                      "text":  "nineteen crore sixty lakh",
+                      "file":  "arjun/amount_1960.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2000",
+                      "text":  "twenty crore",
+                      "file":  "arjun/amount_2000.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2005",
+                      "text":  "twenty crore five lakh",
+                      "file":  "arjun/amount_2005.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2010",
+                      "text":  "twenty crore ten lakh",
+                      "file":  "arjun/amount_2010.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2050",
+                      "text":  "twenty crore fifty lakh",
+                      "file":  "arjun/amount_2050.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2055",
+                      "text":  "twenty crore fifty five lakh",
+                      "file":  "arjun/amount_2055.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2060",
+                      "text":  "twenty crore sixty lakh",
+                      "file":  "arjun/amount_2060.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2100",
+                      "text":  "twenty one crore",
+                      "file":  "arjun/amount_2100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2105",
+                      "text":  "twenty one crore five lakh",
+                      "file":  "arjun/amount_2105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2110",
+                      "text":  "twenty one crore ten lakh",
+                      "file":  "arjun/amount_2110.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2150",
+                      "text":  "twenty one crore fifty lakh",
+                      "file":  "arjun/amount_2150.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2155",
+                      "text":  "twenty one crore fifty five lakh",
+                      "file":  "arjun/amount_2155.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2160",
+                      "text":  "twenty one crore sixty lakh",
+                      "file":  "arjun/amount_2160.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2200",
+                      "text":  "twenty two crore",
+                      "file":  "arjun/amount_2200.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2205",
+                      "text":  "twenty two crore five lakh",
+                      "file":  "arjun/amount_2205.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2210",
+                      "text":  "twenty two crore ten lakh",
+                      "file":  "arjun/amount_2210.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2250",
+                      "text":  "twenty two crore fifty lakh",
+                      "file":  "arjun/amount_2250.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2255",
+                      "text":  "twenty two crore fifty five lakh",
+                      "file":  "arjun/amount_2255.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2260",
+                      "text":  "twenty two crore sixty lakh",
+                      "file":  "arjun/amount_2260.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2300",
+                      "text":  "twenty three crore",
+                      "file":  "arjun/amount_2300.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2305",
+                      "text":  "twenty three crore five lakh",
+                      "file":  "arjun/amount_2305.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2310",
+                      "text":  "twenty three crore ten lakh",
+                      "file":  "arjun/amount_2310.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2350",
+                      "text":  "twenty three crore fifty lakh",
+                      "file":  "arjun/amount_2350.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2355",
+                      "text":  "twenty three crore fifty five lakh",
+                      "file":  "arjun/amount_2355.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2360",
+                      "text":  "twenty three crore sixty lakh",
+                      "file":  "arjun/amount_2360.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2400",
+                      "text":  "twenty four crore",
+                      "file":  "arjun/amount_2400.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2405",
+                      "text":  "twenty four crore five lakh",
+                      "file":  "arjun/amount_2405.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2410",
+                      "text":  "twenty four crore ten lakh",
+                      "file":  "arjun/amount_2410.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2450",
+                      "text":  "twenty four crore fifty lakh",
+                      "file":  "arjun/amount_2450.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2455",
+                      "text":  "twenty four crore fifty five lakh",
+                      "file":  "arjun/amount_2455.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2460",
+                      "text":  "twenty four crore sixty lakh",
+                      "file":  "arjun/amount_2460.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2500",
+                      "text":  "twenty five crore",
+                      "file":  "arjun/amount_2500.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2505",
+                      "text":  "twenty five crore five lakh",
+                      "file":  "arjun/amount_2505.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2510",
+                      "text":  "twenty five crore ten lakh",
+                      "file":  "arjun/amount_2510.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2550",
+                      "text":  "twenty five crore fifty lakh",
+                      "file":  "arjun/amount_2550.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2555",
+                      "text":  "twenty five crore fifty five lakh",
+                      "file":  "arjun/amount_2555.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2560",
+                      "text":  "twenty five crore sixty lakh",
+                      "file":  "arjun/amount_2560.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2600",
+                      "text":  "twenty six crore",
+                      "file":  "arjun/amount_2600.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2605",
+                      "text":  "twenty six crore five lakh",
+                      "file":  "arjun/amount_2605.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2610",
+                      "text":  "twenty six crore ten lakh",
+                      "file":  "arjun/amount_2610.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2650",
+                      "text":  "twenty six crore fifty lakh",
+                      "file":  "arjun/amount_2650.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2655",
+                      "text":  "twenty six crore fifty five lakh",
+                      "file":  "arjun/amount_2655.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2660",
+                      "text":  "twenty six crore sixty lakh",
+                      "file":  "arjun/amount_2660.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2700",
+                      "text":  "twenty seven crore",
+                      "file":  "arjun/amount_2700.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2705",
+                      "text":  "twenty seven crore five lakh",
+                      "file":  "arjun/amount_2705.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2710",
+                      "text":  "twenty seven crore ten lakh",
+                      "file":  "arjun/amount_2710.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2750",
+                      "text":  "twenty seven crore fifty lakh",
+                      "file":  "arjun/amount_2750.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2755",
+                      "text":  "twenty seven crore fifty five lakh",
+                      "file":  "arjun/amount_2755.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2760",
+                      "text":  "twenty seven crore sixty lakh",
+                      "file":  "arjun/amount_2760.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2800",
+                      "text":  "twenty eight crore",
+                      "file":  "arjun/amount_2800.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2805",
+                      "text":  "twenty eight crore five lakh",
+                      "file":  "arjun/amount_2805.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2810",
+                      "text":  "twenty eight crore ten lakh",
+                      "file":  "arjun/amount_2810.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2850",
+                      "text":  "twenty eight crore fifty lakh",
+                      "file":  "arjun/amount_2850.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2855",
+                      "text":  "twenty eight crore fifty five lakh",
+                      "file":  "arjun/amount_2855.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2860",
+                      "text":  "twenty eight crore sixty lakh",
+                      "file":  "arjun/amount_2860.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2900",
+                      "text":  "twenty nine crore",
+                      "file":  "arjun/amount_2900.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2905",
+                      "text":  "twenty nine crore five lakh",
+                      "file":  "arjun/amount_2905.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2910",
+                      "text":  "twenty nine crore ten lakh",
+                      "file":  "arjun/amount_2910.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2950",
+                      "text":  "twenty nine crore fifty lakh",
+                      "file":  "arjun/amount_2950.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2955",
+                      "text":  "twenty nine crore fifty five lakh",
+                      "file":  "arjun/amount_2955.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_2960",
+                      "text":  "twenty nine crore sixty lakh",
+                      "file":  "arjun/amount_2960.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3000",
+                      "text":  "thirty crore",
+                      "file":  "arjun/amount_3000.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3005",
+                      "text":  "thirty crore five lakh",
+                      "file":  "arjun/amount_3005.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3010",
+                      "text":  "thirty crore ten lakh",
+                      "file":  "arjun/amount_3010.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3050",
+                      "text":  "thirty crore fifty lakh",
+                      "file":  "arjun/amount_3050.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3055",
+                      "text":  "thirty crore fifty five lakh",
+                      "file":  "arjun/amount_3055.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3060",
+                      "text":  "thirty crore sixty lakh",
+                      "file":  "arjun/amount_3060.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3100",
+                      "text":  "thirty one crore",
+                      "file":  "arjun/amount_3100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3105",
+                      "text":  "thirty one crore five lakh",
+                      "file":  "arjun/amount_3105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3110",
+                      "text":  "thirty one crore ten lakh",
+                      "file":  "arjun/amount_3110.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3150",
+                      "text":  "thirty one crore fifty lakh",
+                      "file":  "arjun/amount_3150.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3155",
+                      "text":  "thirty one crore fifty five lakh",
+                      "file":  "arjun/amount_3155.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3160",
+                      "text":  "thirty one crore sixty lakh",
+                      "file":  "arjun/amount_3160.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3200",
+                      "text":  "thirty two crore",
+                      "file":  "arjun/amount_3200.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3205",
+                      "text":  "thirty two crore five lakh",
+                      "file":  "arjun/amount_3205.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3210",
+                      "text":  "thirty two crore ten lakh",
+                      "file":  "arjun/amount_3210.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3250",
+                      "text":  "thirty two crore fifty lakh",
+                      "file":  "arjun/amount_3250.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3255",
+                      "text":  "thirty two crore fifty five lakh",
+                      "file":  "arjun/amount_3255.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3260",
+                      "text":  "thirty two crore sixty lakh",
+                      "file":  "arjun/amount_3260.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3300",
+                      "text":  "thirty three crore",
+                      "file":  "arjun/amount_3300.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3305",
+                      "text":  "thirty three crore five lakh",
+                      "file":  "arjun/amount_3305.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3310",
+                      "text":  "thirty three crore ten lakh",
+                      "file":  "arjun/amount_3310.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3350",
+                      "text":  "thirty three crore fifty lakh",
+                      "file":  "arjun/amount_3350.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3355",
+                      "text":  "thirty three crore fifty five lakh",
+                      "file":  "arjun/amount_3355.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3360",
+                      "text":  "thirty three crore sixty lakh",
+                      "file":  "arjun/amount_3360.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3400",
+                      "text":  "thirty four crore",
+                      "file":  "arjun/amount_3400.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3405",
+                      "text":  "thirty four crore five lakh",
+                      "file":  "arjun/amount_3405.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3410",
+                      "text":  "thirty four crore ten lakh",
+                      "file":  "arjun/amount_3410.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3450",
+                      "text":  "thirty four crore fifty lakh",
+                      "file":  "arjun/amount_3450.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3455",
+                      "text":  "thirty four crore fifty five lakh",
+                      "file":  "arjun/amount_3455.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3460",
+                      "text":  "thirty four crore sixty lakh",
+                      "file":  "arjun/amount_3460.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "amount_3500",
+                      "text":  "thirty five crore",
+                      "file":  "arjun/amount_3500.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_1",
+                      "text":  "one crore",
+                      "file":  "arjun/crore_1.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_2",
+                      "text":  "two crore",
+                      "file":  "arjun/crore_2.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_3",
+                      "text":  "three crore",
+                      "file":  "arjun/crore_3.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_4",
+                      "text":  "four crore",
+                      "file":  "arjun/crore_4.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_5",
+                      "text":  "five crore",
+                      "file":  "arjun/crore_5.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_6",
+                      "text":  "six crore",
+                      "file":  "arjun/crore_6.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_7",
+                      "text":  "seven crore",
+                      "file":  "arjun/crore_7.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_8",
+                      "text":  "eight crore",
+                      "file":  "arjun/crore_8.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_9",
+                      "text":  "nine crore",
+                      "file":  "arjun/crore_9.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_10",
+                      "text":  "ten crore",
+                      "file":  "arjun/crore_10.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_11",
+                      "text":  "eleven crore",
+                      "file":  "arjun/crore_11.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_12",
+                      "text":  "twelve crore",
+                      "file":  "arjun/crore_12.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_13",
+                      "text":  "thirteen crore",
+                      "file":  "arjun/crore_13.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_14",
+                      "text":  "fourteen crore",
+                      "file":  "arjun/crore_14.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_15",
+                      "text":  "fifteen crore",
+                      "file":  "arjun/crore_15.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_16",
+                      "text":  "sixteen crore",
+                      "file":  "arjun/crore_16.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_17",
+                      "text":  "seventeen crore",
+                      "file":  "arjun/crore_17.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_18",
+                      "text":  "eighteen crore",
+                      "file":  "arjun/crore_18.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_19",
+                      "text":  "nineteen crore",
+                      "file":  "arjun/crore_19.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_20",
+                      "text":  "twenty crore",
+                      "file":  "arjun/crore_20.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_21",
+                      "text":  "twenty one crore",
+                      "file":  "arjun/crore_21.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_22",
+                      "text":  "twenty two crore",
+                      "file":  "arjun/crore_22.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_23",
+                      "text":  "twenty three crore",
+                      "file":  "arjun/crore_23.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_24",
+                      "text":  "twenty four crore",
+                      "file":  "arjun/crore_24.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_25",
+                      "text":  "twenty five crore",
+                      "file":  "arjun/crore_25.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_26",
+                      "text":  "twenty six crore",
+                      "file":  "arjun/crore_26.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_27",
+                      "text":  "twenty seven crore",
+                      "file":  "arjun/crore_27.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_28",
+                      "text":  "twenty eight crore",
+                      "file":  "arjun/crore_28.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_29",
+                      "text":  "twenty nine crore",
+                      "file":  "arjun/crore_29.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_30",
+                      "text":  "thirty crore",
+                      "file":  "arjun/crore_30.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_31",
+                      "text":  "thirty one crore",
+                      "file":  "arjun/crore_31.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_32",
+                      "text":  "thirty two crore",
+                      "file":  "arjun/crore_32.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_33",
+                      "text":  "thirty three crore",
+                      "file":  "arjun/crore_33.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_34",
+                      "text":  "thirty four crore",
+                      "file":  "arjun/crore_34.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_35",
+                      "text":  "thirty five crore",
+                      "file":  "arjun/crore_35.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_36",
+                      "text":  "thirty six crore",
+                      "file":  "arjun/crore_36.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_37",
+                      "text":  "thirty seven crore",
+                      "file":  "arjun/crore_37.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_38",
+                      "text":  "thirty eight crore",
+                      "file":  "arjun/crore_38.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_39",
+                      "text":  "thirty nine crore",
+                      "file":  "arjun/crore_39.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_40",
+                      "text":  "forty crore",
+                      "file":  "arjun/crore_40.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_41",
+                      "text":  "forty one crore",
+                      "file":  "arjun/crore_41.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_42",
+                      "text":  "forty two crore",
+                      "file":  "arjun/crore_42.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_43",
+                      "text":  "forty three crore",
+                      "file":  "arjun/crore_43.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_44",
+                      "text":  "forty four crore",
+                      "file":  "arjun/crore_44.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_45",
+                      "text":  "forty five crore",
+                      "file":  "arjun/crore_45.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_46",
+                      "text":  "forty six crore",
+                      "file":  "arjun/crore_46.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_47",
+                      "text":  "forty seven crore",
+                      "file":  "arjun/crore_47.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_48",
+                      "text":  "forty eight crore",
+                      "file":  "arjun/crore_48.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_49",
+                      "text":  "forty nine crore",
+                      "file":  "arjun/crore_49.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_50",
+                      "text":  "fifty crore",
+                      "file":  "arjun/crore_50.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_51",
+                      "text":  "fifty one crore",
+                      "file":  "arjun/crore_51.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_52",
+                      "text":  "fifty two crore",
+                      "file":  "arjun/crore_52.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_53",
+                      "text":  "fifty three crore",
+                      "file":  "arjun/crore_53.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_54",
+                      "text":  "fifty four crore",
+                      "file":  "arjun/crore_54.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_55",
+                      "text":  "fifty five crore",
+                      "file":  "arjun/crore_55.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_56",
+                      "text":  "fifty six crore",
+                      "file":  "arjun/crore_56.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_57",
+                      "text":  "fifty seven crore",
+                      "file":  "arjun/crore_57.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_58",
+                      "text":  "fifty eight crore",
+                      "file":  "arjun/crore_58.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_59",
+                      "text":  "fifty nine crore",
+                      "file":  "arjun/crore_59.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_60",
+                      "text":  "sixty crore",
+                      "file":  "arjun/crore_60.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_61",
+                      "text":  "sixty one crore",
+                      "file":  "arjun/crore_61.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_62",
+                      "text":  "sixty two crore",
+                      "file":  "arjun/crore_62.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_63",
+                      "text":  "sixty three crore",
+                      "file":  "arjun/crore_63.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_64",
+                      "text":  "sixty four crore",
+                      "file":  "arjun/crore_64.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_65",
+                      "text":  "sixty five crore",
+                      "file":  "arjun/crore_65.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_66",
+                      "text":  "sixty six crore",
+                      "file":  "arjun/crore_66.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_67",
+                      "text":  "sixty seven crore",
+                      "file":  "arjun/crore_67.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_68",
+                      "text":  "sixty eight crore",
+                      "file":  "arjun/crore_68.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_69",
+                      "text":  "sixty nine crore",
+                      "file":  "arjun/crore_69.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_70",
+                      "text":  "seventy crore",
+                      "file":  "arjun/crore_70.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_71",
+                      "text":  "seventy one crore",
+                      "file":  "arjun/crore_71.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_72",
+                      "text":  "seventy two crore",
+                      "file":  "arjun/crore_72.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_73",
+                      "text":  "seventy three crore",
+                      "file":  "arjun/crore_73.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_74",
+                      "text":  "seventy four crore",
+                      "file":  "arjun/crore_74.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_75",
+                      "text":  "seventy five crore",
+                      "file":  "arjun/crore_75.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_76",
+                      "text":  "seventy six crore",
+                      "file":  "arjun/crore_76.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_77",
+                      "text":  "seventy seven crore",
+                      "file":  "arjun/crore_77.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_78",
+                      "text":  "seventy eight crore",
+                      "file":  "arjun/crore_78.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_79",
+                      "text":  "seventy nine crore",
+                      "file":  "arjun/crore_79.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_80",
+                      "text":  "eighty crore",
+                      "file":  "arjun/crore_80.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_81",
+                      "text":  "eighty one crore",
+                      "file":  "arjun/crore_81.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_82",
+                      "text":  "eighty two crore",
+                      "file":  "arjun/crore_82.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_83",
+                      "text":  "eighty three crore",
+                      "file":  "arjun/crore_83.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_84",
+                      "text":  "eighty four crore",
+                      "file":  "arjun/crore_84.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_85",
+                      "text":  "eighty five crore",
+                      "file":  "arjun/crore_85.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_86",
+                      "text":  "eighty six crore",
+                      "file":  "arjun/crore_86.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_87",
+                      "text":  "eighty seven crore",
+                      "file":  "arjun/crore_87.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_88",
+                      "text":  "eighty eight crore",
+                      "file":  "arjun/crore_88.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_89",
+                      "text":  "eighty nine crore",
+                      "file":  "arjun/crore_89.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_90",
+                      "text":  "ninety crore",
+                      "file":  "arjun/crore_90.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_91",
+                      "text":  "ninety one crore",
+                      "file":  "arjun/crore_91.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_92",
+                      "text":  "ninety two crore",
+                      "file":  "arjun/crore_92.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_93",
+                      "text":  "ninety three crore",
+                      "file":  "arjun/crore_93.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_94",
+                      "text":  "ninety four crore",
+                      "file":  "arjun/crore_94.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_95",
+                      "text":  "ninety five crore",
+                      "file":  "arjun/crore_95.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_96",
+                      "text":  "ninety six crore",
+                      "file":  "arjun/crore_96.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_97",
+                      "text":  "ninety seven crore",
+                      "file":  "arjun/crore_97.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_98",
+                      "text":  "ninety eight crore",
+                      "file":  "arjun/crore_98.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_99",
+                      "text":  "ninety nine crore",
+                      "file":  "arjun/crore_99.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_100",
+                      "text":  "one hundred crore",
+                      "file":  "arjun/crore_100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_101",
+                      "text":  "one hundred and one crore",
+                      "file":  "arjun/crore_101.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_102",
+                      "text":  "one hundred and two crore",
+                      "file":  "arjun/crore_102.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_103",
+                      "text":  "one hundred and three crore",
+                      "file":  "arjun/crore_103.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_104",
+                      "text":  "one hundred and four crore",
+                      "file":  "arjun/crore_104.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_105",
+                      "text":  "one hundred and five crore",
+                      "file":  "arjun/crore_105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_106",
+                      "text":  "one hundred and six crore",
+                      "file":  "arjun/crore_106.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_107",
+                      "text":  "one hundred and seven crore",
+                      "file":  "arjun/crore_107.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_108",
+                      "text":  "one hundred and eight crore",
+                      "file":  "arjun/crore_108.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_109",
+                      "text":  "one hundred and nine crore",
+                      "file":  "arjun/crore_109.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_110",
+                      "text":  "one hundred and ten crore",
+                      "file":  "arjun/crore_110.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_111",
+                      "text":  "one hundred and eleven crore",
+                      "file":  "arjun/crore_111.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_112",
+                      "text":  "one hundred and twelve crore",
+                      "file":  "arjun/crore_112.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_113",
+                      "text":  "one hundred and thirteen crore",
+                      "file":  "arjun/crore_113.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_114",
+                      "text":  "one hundred and fourteen crore",
+                      "file":  "arjun/crore_114.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_115",
+                      "text":  "one hundred and fifteen crore",
+                      "file":  "arjun/crore_115.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_116",
+                      "text":  "one hundred and sixteen crore",
+                      "file":  "arjun/crore_116.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_117",
+                      "text":  "one hundred and seventeen crore",
+                      "file":  "arjun/crore_117.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_118",
+                      "text":  "one hundred and eighteen crore",
+                      "file":  "arjun/crore_118.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_119",
+                      "text":  "one hundred and nineteen crore",
+                      "file":  "arjun/crore_119.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "crore_120",
+                      "text":  "one hundred and twenty crore",
+                      "file":  "arjun/crore_120.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_5",
+                      "text":  "five lakh",
+                      "file":  "arjun/lakh_5.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_10",
+                      "text":  "ten lakh",
+                      "file":  "arjun/lakh_10.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_15",
+                      "text":  "fifteen lakh",
+                      "file":  "arjun/lakh_15.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_20",
+                      "text":  "twenty lakh",
+                      "file":  "arjun/lakh_20.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_25",
+                      "text":  "twenty five lakh",
+                      "file":  "arjun/lakh_25.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_30",
+                      "text":  "thirty lakh",
+                      "file":  "arjun/lakh_30.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_35",
+                      "text":  "thirty five lakh",
+                      "file":  "arjun/lakh_35.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_40",
+                      "text":  "forty lakh",
+                      "file":  "arjun/lakh_40.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_45",
+                      "text":  "forty five lakh",
+                      "file":  "arjun/lakh_45.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_50",
+                      "text":  "fifty lakh",
+                      "file":  "arjun/lakh_50.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_55",
+                      "text":  "fifty five lakh",
+                      "file":  "arjun/lakh_55.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_60",
+                      "text":  "sixty lakh",
+                      "file":  "arjun/lakh_60.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_65",
+                      "text":  "sixty five lakh",
+                      "file":  "arjun/lakh_65.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_70",
+                      "text":  "seventy lakh",
+                      "file":  "arjun/lakh_70.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_75",
+                      "text":  "seventy five lakh",
+                      "file":  "arjun/lakh_75.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_80",
+                      "text":  "eighty lakh",
+                      "file":  "arjun/lakh_80.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_85",
+                      "text":  "eighty five lakh",
+                      "file":  "arjun/lakh_85.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_90",
+                      "text":  "ninety lakh",
+                      "file":  "arjun/lakh_90.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "lakh_95",
+                      "text":  "ninety five lakh",
+                      "file":  "arjun/lakh_95.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r001",
+                      "text":  "MS Dhhonee",
+                      "file":  "arjun/name_r001.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r002",
+                      "text":  "Anshool Kaamboj",
+                      "file":  "arjun/name_r002.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r003",
+                      "text":  "Jaimey Ovarton",
+                      "file":  "arjun/name_r003.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r004",
+                      "text":  "Saanju Sammsun",
+                      "file":  "arjun/name_r004.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r005",
+                      "text":  "Gurjapnit Singhe",
+                      "file":  "arjun/name_r005.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r006",
+                      "text":  "Ramakrishnaa Ghosshe",
+                      "file":  "arjun/name_r006.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r007",
+                      "text":  "Rutooraj Gaikwaad",
+                      "file":  "arjun/name_r007.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r008",
+                      "text":  "Mukkesh Chowdhury",
+                      "file":  "arjun/name_r008.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r009",
+                      "text":  "Shivvam Doobay",
+                      "file":  "arjun/name_r009.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r010",
+                      "text":  "Aayush Mhaatrey",
+                      "file":  "arjun/name_r010.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r011",
+                      "text":  "Naythan Elleys",
+                      "file":  "arjun/name_r011.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r012",
+                      "text":  "Shreeyas Ghopaal",
+                      "file":  "arjun/name_r012.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r013",
+                      "text":  "Deywald Brevviss",
+                      "file":  "arjun/name_r013.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r014",
+                      "text":  "Nuur Ahhmad",
+                      "file":  "arjun/name_r014.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r015",
+                      "text":  "Akeel Hosseyn",
+                      "file":  "arjun/name_r015.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r016",
+                      "text":  "Urvill Paatell",
+                      "file":  "arjun/name_r016.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r017",
+                      "text":  "Khaleal Ahmmad",
+                      "file":  "arjun/name_r017.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r018",
+                      "text":  "Prashaant Vheeru",
+                      "file":  "arjun/name_r018.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r019",
+                      "text":  "Kaartik Shaarmah",
+                      "file":  "arjun/name_r019.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r020",
+                      "text":  "Matty Hennrey",
+                      "file":  "arjun/name_r020.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r021",
+                      "text":  "Ammaan Khaan",
+                      "file":  "arjun/name_r021.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r022",
+                      "text":  "Matthieu Shorrt",
+                      "file":  "arjun/name_r022.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r023",
+                      "text":  "Raahul Chaahaar",
+                      "file":  "arjun/name_r023.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r024",
+                      "text":  "Sarfarraaz Khaan",
+                      "file":  "arjun/name_r024.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r025",
+                      "text":  "Zaak Fowlkis",
+                      "file":  "arjun/name_r025.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r026",
+                      "text":  "Abeeshek Poreil",
+                      "file":  "arjun/name_r026.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r027",
+                      "text":  "Dushmanntha Chammerra",
+                      "file":  "arjun/name_r027.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r028",
+                      "text":  "Ajaay Maandhal",
+                      "file":  "arjun/name_r028.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r029",
+                      "text":  "Ashootosh Shaarma",
+                      "file":  "arjun/name_r029.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r030",
+                      "text":  "Kulldeep Yaadhav",
+                      "file":  "arjun/name_r030.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r031",
+                      "text":  "Akshar Pattell",
+                      "file":  "arjun/name_r031.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r032",
+                      "text":  "Karoon Nayyar",
+                      "file":  "arjun/name_r032.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r033",
+                      "text":  "Mitchel Starrk",
+                      "file":  "arjun/name_r033.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r034",
+                      "text":  "Maadhav Tiwaary",
+                      "file":  "arjun/name_r034.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r035",
+                      "text":  "KL Raahool",
+                      "file":  "arjun/name_r035.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r036",
+                      "text":  "Mukeysh Kummaar",
+                      "file":  "arjun/name_r036.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r037",
+                      "text":  "Vipraaj Neegam",
+                      "file":  "arjun/name_r037.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r038",
+                      "text":  "Nittish Raanah",
+                      "file":  "arjun/name_r038.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r039",
+                      "text":  "T. Nattaraajen",
+                      "file":  "arjun/name_r039.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r040",
+                      "text":  "Saameer Rizvee",
+                      "file":  "arjun/name_r040.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r041",
+                      "text":  "Tripuraana Veejay",
+                      "file":  "arjun/name_r041.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r042",
+                      "text":  "Trysstan Stubbz",
+                      "file":  "arjun/name_r042.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r043",
+                      "text":  "Auqeeb Nabbi",
+                      "file":  "arjun/name_r043.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r044",
+                      "text":  "Daveed Millur",
+                      "file":  "arjun/name_r044.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r045",
+                      "text":  "Kaile Jameesun",
+                      "file":  "arjun/name_r045.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r046",
+                      "text":  "Benn Dukket",
+                      "file":  "arjun/name_r046.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r047",
+                      "text":  "Pathoom Nissankha",
+                      "file":  "arjun/name_r047.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r048",
+                      "text":  "Saaheel Paraakh",
+                      "file":  "arjun/name_r048.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r049",
+                      "text":  "Prithvee Shaaw",
+                      "file":  "arjun/name_r049.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r050",
+                      "text":  "Lunghi Ngiddie",
+                      "file":  "arjun/name_r050.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r051",
+                      "text":  "Anooj Raawat",
+                      "file":  "arjun/name_r051.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r052",
+                      "text":  "Gurnuur Braar",
+                      "file":  "arjun/name_r052.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r053",
+                      "text":  "Glen Fillips",
+                      "file":  "arjun/name_r053.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r054",
+                      "text":  "Joss Bhutlar",
+                      "file":  "arjun/name_r054.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r055",
+                      "text":  "Eeshant Sharrma",
+                      "file":  "arjun/name_r055.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r056",
+                      "text":  "Jayaant Yaadhav",
+                      "file":  "arjun/name_r056.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r057",
+                      "text":  "Kumaar Kushaggrah",
+                      "file":  "arjun/name_r057.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r058",
+                      "text":  "Kageeso Rabaada",
+                      "file":  "arjun/name_r058.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r059",
+                      "text":  "Maanav Sutthaar",
+                      "file":  "arjun/name_r059.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r060",
+                      "text":  "Saai Sudhaarshan",
+                      "file":  "arjun/name_r060.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r061",
+                      "text":  "Muhammed Seeraj",
+                      "file":  "arjun/name_r061.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r062",
+                      "text":  "Nishaant Sindhoo",
+                      "file":  "arjun/name_r062.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r063",
+                      "text":  "Shubham Ghill",
+                      "file":  "arjun/name_r063.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r064",
+                      "text":  "Arrshaad Khaan",
+                      "file":  "arjun/name_r064.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r065",
+                      "text":  "Rahhul Tewaatiya",
+                      "file":  "arjun/name_r065.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r066",
+                      "text":  "Thom Baantonn",
+                      "file":  "arjun/name_r066.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r067",
+                      "text":  "Prasiddh Krisshnaa",
+                      "file":  "arjun/name_r067.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r068",
+                      "text":  "Shahrookh Khaan",
+                      "file":  "arjun/name_r068.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r069",
+                      "text":  "Saai Keeshore",
+                      "file":  "arjun/name_r069.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r070",
+                      "text":  "Washingtun Sundhaar",
+                      "file":  "arjun/name_r070.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r071",
+                      "text":  "Rasheedh Khann",
+                      "file":  "arjun/name_r071.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r072",
+                      "text":  "Jaysun Holdder",
+                      "file":  "arjun/name_r072.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r073",
+                      "text":  "Ashokk Shaarmah",
+                      "file":  "arjun/name_r073.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r074",
+                      "text":  "Pritvi Raaj Yaara",
+                      "file":  "arjun/name_r074.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r075",
+                      "text":  "Luuk Whood",
+                      "file":  "arjun/name_r075.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r076",
+                      "text":  "Ajinkyaa Rahaanay",
+                      "file":  "arjun/name_r076.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r077",
+                      "text":  "Harsheet Raana",
+                      "file":  "arjun/name_r077.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r078",
+                      "text":  "Anukool Rhoy",
+                      "file":  "arjun/name_r078.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r079",
+                      "text":  "Angkreesh Raghuvanshy",
+                      "file":  "arjun/name_r079.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r080",
+                      "text":  "Umraan Maaleek",
+                      "file":  "arjun/name_r080.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r081",
+                      "text":  "Raamanndeep Singgh",
+                      "file":  "arjun/name_r081.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r082",
+                      "text":  "Maneesh Panday",
+                      "file":  "arjun/name_r082.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r083",
+                      "text":  "Vaibhaav Arrorah",
+                      "file":  "arjun/name_r083.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r084",
+                      "text":  "Suneel Nareine",
+                      "file":  "arjun/name_r084.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r085",
+                      "text":  "Rinkoo Singhe",
+                      "file":  "arjun/name_r085.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r086",
+                      "text":  "Vaarun Chakrawarrthy",
+                      "file":  "arjun/name_r086.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r087",
+                      "text":  "Kammeron Greene",
+                      "file":  "arjun/name_r087.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r088",
+                      "text":  "Rovmaan Powwel",
+                      "file":  "arjun/name_r088.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r089",
+                      "text":  "Matheeshaa Pathiraanah",
+                      "file":  "arjun/name_r089.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r090",
+                      "text":  "Saarthak Raanjjan",
+                      "file":  "arjun/name_r090.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r091",
+                      "text":  "Phinn Allenn",
+                      "file":  "arjun/name_r091.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r092",
+                      "text":  "Kartick Tyaagee",
+                      "file":  "arjun/name_r092.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r093",
+                      "text":  "Dakshh Kammraa",
+                      "file":  "arjun/name_r093.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r094",
+                      "text":  "Tejasvee Sinngh",
+                      "file":  "arjun/name_r094.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r095",
+                      "text":  "Prashanth Solankee",
+                      "file":  "arjun/name_r095.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r096",
+                      "text":  "Raachin Ravvindrah",
+                      "file":  "arjun/name_r096.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r097",
+                      "text":  "Rahool Tripaathi",
+                      "file":  "arjun/name_r097.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r098",
+                      "text":  "Mustaafizur Rehmaan",
+                      "file":  "arjun/name_r098.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r099",
+                      "text":  "Timm Siefert",
+                      "file":  "arjun/name_r099.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r100",
+                      "text":  "Aakaash Dheep",
+                      "file":  "arjun/name_r100.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r101",
+                      "text":  "Abdool Samaad",
+                      "file":  "arjun/name_r101.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r102",
+                      "text":  "Akassh Seengh",
+                      "file":  "arjun/name_r102.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r103",
+                      "text":  "Aydenn Markraam",
+                      "file":  "arjun/name_r103.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r104",
+                      "text":  "Himmaath Sinngh",
+                      "file":  "arjun/name_r104.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r105",
+                      "text":  "Arjoon Tendulkarr",
+                      "file":  "arjun/name_r105.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r106",
+                      "text":  "Arsheen Kulkarnee",
+                      "file":  "arjun/name_r106.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r107",
+                      "text":  "Matthiew Breetskey",
+                      "file":  "arjun/name_r107.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r108",
+                      "text":  "Aaveysh Khaan",
+                      "file":  "arjun/name_r108.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r109",
+                      "text":  "Ayussh Badonee",
+                      "file":  "arjun/name_r109.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r110",
+                      "text":  "Nikkolas Poorann",
+                      "file":  "arjun/name_r110.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r111",
+                      "text":  "Digvessh Raathie",
+                      "file":  "arjun/name_r111.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r112",
+                      "text":  "Mitchael Marrsh",
+                      "file":  "arjun/name_r112.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r113",
+                      "text":  "Reeshabh Panth",
+                      "file":  "arjun/name_r113.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r114",
+                      "text":  "Maanimaaran Siddhaarth",
+                      "file":  "arjun/name_r114.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r115",
+                      "text":  "Shaahbaaz Ahhmed",
+                      "file":  "arjun/name_r115.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r116",
+                      "text":  "Mukool Chaudharry",
+                      "file":  "arjun/name_r116.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r117",
+                      "text":  "Mayaank Yaadhav",
+                      "file":  "arjun/name_r117.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r118",
+                      "text":  "Waanindu Hasaarangah",
+                      "file":  "arjun/name_r118.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r119",
+                      "text":  "Akshaat Raghoowanshi",
+                      "file":  "arjun/name_r119.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r120",
+                      "text":  "Mohamed Shammy",
+                      "file":  "arjun/name_r120.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r121",
+                      "text":  "Joshh Inglees",
+                      "file":  "arjun/name_r121.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r122",
+                      "text":  "Mohseen Khaan",
+                      "file":  "arjun/name_r122.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r123",
+                      "text":  "Prynce Yaadaav",
+                      "file":  "arjun/name_r123.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r124",
+                      "text":  "Anrikh Noortjie",
+                      "file":  "arjun/name_r124.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r125",
+                      "text":  "Naaman Tiwaaree",
+                      "file":  "arjun/name_r125.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r126",
+                      "text":  "Robbin Meenz",
+                      "file":  "arjun/name_r126.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r127",
+                      "text":  "Allah Ghaazanphar",
+                      "file":  "arjun/name_r127.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r128",
+                      "text":  "Korbinn Bossch",
+                      "file":  "arjun/name_r128.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r129",
+                      "text":  "Rogit Shaermah",
+                      "file":  "arjun/name_r129.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r130",
+                      "text":  "Ashwaani Kummaar",
+                      "file":  "arjun/name_r130.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r131",
+                      "text":  "Haardik Panddyah",
+                      "file":  "arjun/name_r131.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r132",
+                      "text":  "Rayan Rikkeltun",
+                      "file":  "arjun/name_r132.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r133",
+                      "text":  "Deepaak Chaahaar",
+                      "file":  "arjun/name_r133.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r134",
+                      "text":  "Mitchall Saantnerr",
+                      "file":  "arjun/name_r134.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r135",
+                      "text":  "Sherfaane Rhutherforde",
+                      "file":  "arjun/name_r135.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r136",
+                      "text":  "Jaspreet Bhumrah",
+                      "file":  "arjun/name_r136.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r137",
+                      "text":  "Namaan Dhheer",
+                      "file":  "arjun/name_r137.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r138",
+                      "text":  "Suryakumaar Yaadhav",
+                      "file":  "arjun/name_r138.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r139",
+                      "text":  "Maiyank Markhandey",
+                      "file":  "arjun/name_r139.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r140",
+                      "text":  "Raaj Angadd Baawa",
+                      "file":  "arjun/name_r140.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r141",
+                      "text":  "Tillak Vaarmah",
+                      "file":  "arjun/name_r141.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r142",
+                      "text":  "Raghoo Shaarma",
+                      "file":  "arjun/name_r142.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r143",
+                      "text":  "Whill Jaxx",
+                      "file":  "arjun/name_r143.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r144",
+                      "text":  "Kwinton de Kokk",
+                      "file":  "arjun/name_r144.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r145",
+                      "text":  "Shaardul Thaakkur",
+                      "file":  "arjun/name_r145.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r146",
+                      "text":  "Atharvaa Aankolekkar",
+                      "file":  "arjun/name_r146.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r147",
+                      "text":  "Daanish Maalewaar",
+                      "file":  "arjun/name_r147.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r148",
+                      "text":  "Trennt Bowltt",
+                      "file":  "arjun/name_r148.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r149",
+                      "text":  "Mayunk Rawwath",
+                      "file":  "arjun/name_r149.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r150",
+                      "text":  "Muhammad Izzhaar",
+                      "file":  "arjun/name_r150.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r151",
+                      "text":  "Harnour Seengh Pannoo",
+                      "file":  "arjun/name_r151.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r152",
+                      "text":  "Aarshdheep Singhe",
+                      "file":  "arjun/name_r152.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r153",
+                      "text":  "Azmattullah Oomarzaai",
+                      "file":  "arjun/name_r153.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r154",
+                      "text":  "Nehaal Waadheraa",
+                      "file":  "arjun/name_r154.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r155",
+                      "text":  "Lokkie Ferrgusson",
+                      "file":  "arjun/name_r155.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r156",
+                      "text":  "Harpreeth Bhraar",
+                      "file":  "arjun/name_r156.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r157",
+                      "text":  "Prabhseemraan Singhe",
+                      "file":  "arjun/name_r157.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r158",
+                      "text":  "Vyshaak Vijaykummaar",
+                      "file":  "arjun/name_r158.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r159",
+                      "text":  "Markko Jaansen",
+                      "file":  "arjun/name_r159.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r160",
+                      "text":  "Priyaansh Aaryah",
+                      "file":  "arjun/name_r160.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r161",
+                      "text":  "Xaviour Bartlet",
+                      "file":  "arjun/name_r161.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r162",
+                      "text":  "Markuss Stoyniss",
+                      "file":  "arjun/name_r162.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r163",
+                      "text":  "Pyllah Avinaash",
+                      "file":  "arjun/name_r163.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r164",
+                      "text":  "Yassh Thakoor",
+                      "file":  "arjun/name_r164.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r165",
+                      "text":  "Mittchel Oweyn",
+                      "file":  "arjun/name_r165.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r166",
+                      "text":  "Shashaankh Singhe",
+                      "file":  "arjun/name_r166.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r167",
+                      "text":  "Yuzvendraa Chahhaal",
+                      "file":  "arjun/name_r167.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r168",
+                      "text":  "Mushir Khaann",
+                      "file":  "arjun/name_r168.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r169",
+                      "text":  "Shreyaas Aiyyer",
+                      "file":  "arjun/name_r169.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r170",
+                      "text":  "Benn Dwaarshuys",
+                      "file":  "arjun/name_r170.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r171",
+                      "text":  "Suryaansh Shedjey",
+                      "file":  "arjun/name_r171.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r172",
+                      "text":  "Vishnoo Vinodh",
+                      "file":  "arjun/name_r172.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r173",
+                      "text":  "Kooper Connollie",
+                      "file":  "arjun/name_r173.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r174",
+                      "text":  "Praveen Dubbey",
+                      "file":  "arjun/name_r174.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r175",
+                      "text":  "Vishaal Nishaadh",
+                      "file":  "arjun/name_r175.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r176",
+                      "text":  "Dhruuv Jurrell",
+                      "file":  "arjun/name_r176.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r177",
+                      "text":  "Jophra Aarcher",
+                      "file":  "arjun/name_r177.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r178",
+                      "text":  "Donnovan Ferrairra",
+                      "file":  "arjun/name_r178.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r179",
+                      "text":  "Lhuaan-drey Prettorius",
+                      "file":  "arjun/name_r179.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r180",
+                      "text":  "Kweena Maaphakka",
+                      "file":  "arjun/name_r180.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r181",
+                      "text":  "Raveendra Jadejja",
+                      "file":  "arjun/name_r181.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r182",
+                      "text":  "Shimronn Hettmeyer",
+                      "file":  "arjun/name_r182.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r183",
+                      "text":  "Nandrey Burrgar",
+                      "file":  "arjun/name_r183.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r184",
+                      "text":  "Reeyan Paraag",
+                      "file":  "arjun/name_r184.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r185",
+                      "text":  "Shubbham Doobey",
+                      "file":  "arjun/name_r185.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r186",
+                      "text":  "Sanndeep Shaarmaa",
+                      "file":  "arjun/name_r186.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r187",
+                      "text":  "Saam Kurraan",
+                      "file":  "arjun/name_r187.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r188",
+                      "text":  "Vaibbhav Suryavanshee",
+                      "file":  "arjun/name_r188.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r189",
+                      "text":  "Tusshar Deshpaandey",
+                      "file":  "arjun/name_r189.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r190",
+                      "text":  "Yashasvee Jaiswaal",
+                      "file":  "arjun/name_r190.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r191",
+                      "text":  "Yudhveer Singhe Charrak",
+                      "file":  "arjun/name_r191.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r192",
+                      "text":  "Raavee Sinngh",
+                      "file":  "arjun/name_r192.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r193",
+                      "text":  "Ravvi Bishnoye",
+                      "file":  "arjun/name_r193.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r194",
+                      "text":  "Amaan Rhaao",
+                      "file":  "arjun/name_r194.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r195",
+                      "text":  "Sushaant Misshraa",
+                      "file":  "arjun/name_r195.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r196",
+                      "text":  "Yashh Raaj Punjaa",
+                      "file":  "arjun/name_r196.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r197",
+                      "text":  "Vigneysh Puthoor",
+                      "file":  "arjun/name_r197.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r198",
+                      "text":  "Breejesh Sharmma",
+                      "file":  "arjun/name_r198.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r199",
+                      "text":  "Addam Millney",
+                      "file":  "arjun/name_r199.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r200",
+                      "text":  "Kulldheep Senn",
+                      "file":  "arjun/name_r200.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r201",
+                      "text":  "Dhevdutt Paddikal",
+                      "file":  "arjun/name_r201.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r202",
+                      "text":  "Abhinandann Seengh",
+                      "file":  "arjun/name_r202.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r203",
+                      "text":  "Jaykob Bethel",
+                      "file":  "arjun/name_r203.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r204",
+                      "text":  "Jeetesh Shaarmah",
+                      "file":  "arjun/name_r204.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r205",
+                      "text":  "Bhuvneshwaar Kummaar",
+                      "file":  "arjun/name_r205.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r206",
+                      "text":  "Kruunal Paandyaa",
+                      "file":  "arjun/name_r206.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r207",
+                      "text":  "Philly Saalt",
+                      "file":  "arjun/name_r207.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r208",
+                      "text":  "Jossh Hazzlewud",
+                      "file":  "arjun/name_r208.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r209",
+                      "text":  "Romaario Shepphird",
+                      "file":  "arjun/name_r209.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r210",
+                      "text":  "Rajaat Paatiddar",
+                      "file":  "arjun/name_r210.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r211",
+                      "text":  "Nuwaan Thusharraa",
+                      "file":  "arjun/name_r211.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r212",
+                      "text":  "Swapneel Sinngh",
+                      "file":  "arjun/name_r212.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r213",
+                      "text":  "Timm Daveed",
+                      "file":  "arjun/name_r213.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r214",
+                      "text":  "Rasiq Daar",
+                      "file":  "arjun/name_r214.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r215",
+                      "text":  "Venkatessh Aiyyer",
+                      "file":  "arjun/name_r215.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r216",
+                      "text":  "Viraat Kohhly",
+                      "file":  "arjun/name_r216.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r217",
+                      "text":  "Suyaash Shaarmah",
+                      "file":  "arjun/name_r217.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r218",
+                      "text":  "Satveek Deswaal",
+                      "file":  "arjun/name_r218.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r219",
+                      "text":  "Jordaan Koxx",
+                      "file":  "arjun/name_r219.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r220",
+                      "text":  "Yashh Dhayaal",
+                      "file":  "arjun/name_r220.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r221",
+                      "text":  "Mangessh Yaadaav",
+                      "file":  "arjun/name_r221.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r222",
+                      "text":  "Veehaan Malhotraa",
+                      "file":  "arjun/name_r222.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r223",
+                      "text":  "Jakob Duffie",
+                      "file":  "arjun/name_r223.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r224",
+                      "text":  "Kaneeshk Chowhan",
+                      "file":  "arjun/name_r224.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r225",
+                      "text":  "Vikkey Ostwaal",
+                      "file":  "arjun/name_r225.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r226",
+                      "text":  "Aneeket Vermah",
+                      "file":  "arjun/name_r226.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r227",
+                      "text":  "Braydon Kaarse",
+                      "file":  "arjun/name_r227.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r228",
+                      "text":  "Abhisheck Sharmmah",
+                      "file":  "arjun/name_r228.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r229",
+                      "text":  "Heinreich Klaassan",
+                      "file":  "arjun/name_r229.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r230",
+                      "text":  "Eshaan Maalingah",
+                      "file":  "arjun/name_r230.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r231",
+                      "text":  "Harrsh Dhubay",
+                      "file":  "arjun/name_r231.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r232",
+                      "text":  "Eeshan Kishaan",
+                      "file":  "arjun/name_r232.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r233",
+                      "text":  "Harshaal Paatell",
+                      "file":  "arjun/name_r233.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r234",
+                      "text":  "Kaamindu Mhendiss",
+                      "file":  "arjun/name_r234.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r235",
+                      "text":  "Smaaran Raavichandrann",
+                      "file":  "arjun/name_r235.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r236",
+                      "text":  "Jaidev Unaadkatt",
+                      "file":  "arjun/name_r236.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r237",
+                      "text":  "Nitesh Kumarr Reddie",
+                      "file":  "arjun/name_r237.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r238",
+                      "text":  "Traavis Hedde",
+                      "file":  "arjun/name_r238.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r239",
+                      "text":  "Patt Kummings",
+                      "file":  "arjun/name_r239.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r240",
+                      "text":  "Sheevang Kummar",
+                      "file":  "arjun/name_r240.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r241",
+                      "text":  "Saleel Arorah",
+                      "file":  "arjun/name_r241.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r242",
+                      "text":  "Zishan Ansaari",
+                      "file":  "arjun/name_r242.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r243",
+                      "text":  "Kraynes Fulettra",
+                      "file":  "arjun/name_r243.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r244",
+                      "text":  "Saaqib Hussein",
+                      "file":  "arjun/name_r244.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r245",
+                      "text":  "Lyam Livingstun",
+                      "file":  "arjun/name_r245.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r246",
+                      "text":  "Omkaar Tarmaley",
+                      "file":  "arjun/name_r246.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r247",
+                      "text":  "Shivaam Maavee",
+                      "file":  "arjun/name_r247.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r248",
+                      "text":  "Ameet Kumaar",
+                      "file":  "arjun/name_r248.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r249",
+                      "text":  "Jaack Edwordz",
+                      "file":  "arjun/name_r249.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r250",
+                      "text":  "Prafull Hinjey",
+                      "file":  "arjun/name_r250.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r251",
+                      "text":  "Jaake Phraser-McGurrk",
+                      "file":  "arjun/name_r251.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r252",
+                      "text":  "Devvon Konwey",
+                      "file":  "arjun/name_r252.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r253",
+                      "text":  "Guss Attkinsun",
+                      "file":  "arjun/name_r253.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r254",
+                      "text":  "Jaymee Smyth",
+                      "file":  "arjun/name_r254.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r255",
+                      "text":  "Dheepak Hudda",
+                      "file":  "arjun/name_r255.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r256",
+                      "text":  "Wiyaan Mulldar",
+                      "file":  "arjun/name_r256.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r257",
+                      "text":  "Rehmaanullah Gurbaaz",
+                      "file":  "arjun/name_r257.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r258",
+                      "text":  "Jonnie Bairstoe",
+                      "file":  "arjun/name_r258.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r259",
+                      "text":  "K.S. Bhaaraath",
+                      "file":  "arjun/name_r259.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r260",
+                      "text":  "Jerrald Coetzie",
+                      "file":  "arjun/name_r260.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r261",
+                      "text":  "Spenser Jhonsson",
+                      "file":  "arjun/name_r261.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r262",
+                      "text":  "Fazzalhaaq Farooqui",
+                      "file":  "arjun/name_r262.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r263",
+                      "text":  "Maaheesh Teekshaana",
+                      "file":  "arjun/name_r263.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r264",
+                      "text":  "Mujib Ur Rahmaan",
+                      "file":  "arjun/name_r264.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r265",
+                      "text":  "Aarrya Dessaai",
+                      "file":  "arjun/name_r265.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r266",
+                      "text":  "Yaash Dhool",
+                      "file":  "arjun/name_r266.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r267",
+                      "text":  "Abhinaav Maanohaar",
+                      "file":  "arjun/name_r267.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r268",
+                      "text":  "Anmolprit Singgh",
+                      "file":  "arjun/name_r268.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r269",
+                      "text":  "Athaarva Taaidey",
+                      "file":  "arjun/name_r269.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r270",
+                      "text":  "Abhinnav Tejjraana",
+                      "file":  "arjun/name_r270.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r271",
+                      "text":  "Maheepal Lommror",
+                      "file":  "arjun/name_r271.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r272",
+                      "text":  "Rajvarrdhaan Hangargeykar",
+                      "file":  "arjun/name_r272.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r273",
+                      "text":  "Veejay Shaankar",
+                      "file":  "arjun/name_r273.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r274",
+                      "text":  "Edenn Appel Thom",
+                      "file":  "arjun/name_r274.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r275",
+                      "text":  "Tanoosh Kotyan",
+                      "file":  "arjun/name_r275.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r276",
+                      "text":  "Kamlessh Nagarkotee",
+                      "file":  "arjun/name_r276.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r277",
+                      "text":  "Ruchitt Aheer",
+                      "file":  "arjun/name_r277.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r278",
+                      "text":  "Sanveer Singhe",
+                      "file":  "arjun/name_r278.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r279",
+                      "text":  "Vaansh Bedee",
+                      "file":  "arjun/name_r279.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r280",
+                      "text":  "Tushaar Raheijah",
+                      "file":  "arjun/name_r280.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r281",
+                      "text":  "Raaj Limbaany",
+                      "file":  "arjun/name_r281.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r282",
+                      "text":  "Simarjit Sinngh",
+                      "file":  "arjun/name_r282.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r283",
+                      "text":  "Aakaash Madhwaal",
+                      "file":  "arjun/name_r283.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r284",
+                      "text":  "Waheedullah Zadraan",
+                      "file":  "arjun/name_r284.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r285",
+                      "text":  "Sheevam Shuklaa",
+                      "file":  "arjun/name_r285.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r286",
+                      "text":  "Kaarn Sharrmaa",
+                      "file":  "arjun/name_r286.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r287",
+                      "text":  "Kartikeyaa Seengh",
+                      "file":  "arjun/name_r287.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r288",
+                      "text":  "Sedeequllah Attal",
+                      "file":  "arjun/name_r288.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r289",
+                      "text":  "Shaun Abbot",
+                      "file":  "arjun/name_r289.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r290",
+                      "text":  "Mikhael Brayswell",
+                      "file":  "arjun/name_r290.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r291",
+                      "text":  "Darrel Mitchall",
+                      "file":  "arjun/name_r291.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r292",
+                      "text":  "Dasoon Shanakka",
+                      "file":  "arjun/name_r292.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r293",
+                      "text":  "Chetaan Sakkaria",
+                      "file":  "arjun/name_r293.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r294",
+                      "text":  "Waqaar Salaamkheel",
+                      "file":  "arjun/name_r294.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r295",
+                      "text":  "Salmaan Nizzaar",
+                      "file":  "arjun/name_r295.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r296",
+                      "text":  "KM Aaseef",
+                      "file":  "arjun/name_r296.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r297",
+                      "text":  "Murugaan Ashween",
+                      "file":  "arjun/name_r297.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r298",
+                      "text":  "Tejaas Barokkah",
+                      "file":  "arjun/name_r298.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r299",
+                      "text":  "KC Kaariyappa",
+                      "file":  "arjun/name_r299.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r300",
+                      "text":  "Moheet Raathee",
+                      "file":  "arjun/name_r300.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r301",
+                      "text":  "Danniel Laurrence",
+                      "file":  "arjun/name_r301.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r302",
+                      "text":  "Taskeen Ahmedh",
+                      "file":  "arjun/name_r302.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r303",
+                      "text":  "Ritchard Gleasun",
+                      "file":  "arjun/name_r303.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r304",
+                      "text":  "Alzaarri Joseff",
+                      "file":  "arjun/name_r304.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r305",
+                      "text":  "Rylee Meredeth",
+                      "file":  "arjun/name_r305.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r306",
+                      "text":  "Jhaye Ritchardsun",
+                      "file":  "arjun/name_r306.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r307",
+                      "text":  "M. Dhiraaj Kummar",
+                      "file":  "arjun/name_r307.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r308",
+                      "text":  "Tanaay Thyagaraajan",
+                      "file":  "arjun/name_r308.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r309",
+                      "text":  "Konnor Esterhuisan",
+                      "file":  "arjun/name_r309.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r310",
+                      "text":  "Irfaan Oomair",
+                      "file":  "arjun/name_r310.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r311",
+                      "text":  "Chintaal Ghandhy",
+                      "file":  "arjun/name_r311.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r312",
+                      "text":  "Nathaan Smythe",
+                      "file":  "arjun/name_r312.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r313",
+                      "text":  "Danyel Laateghan",
+                      "file":  "arjun/name_r313.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r314",
+                      "text":  "Karaan Lhaal",
+                      "file":  "arjun/name_r314.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r315",
+                      "text":  "Uttkaarsh Syngh",
+                      "file":  "arjun/name_r315.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r316",
+                      "text":  "Aiyush Vaarthak",
+                      "file":  "arjun/name_r316.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r317",
+                      "text":  "Jikkoo Bryght",
+                      "file":  "arjun/name_r317.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r318",
+                      "text":  "Izaaz Savariyah",
+                      "file":  "arjun/name_r318.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r319",
+                      "text":  "Maani Shankar Murra Singhh",
+                      "file":  "arjun/name_r319.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r320",
+                      "text":  "Maanan Vohraah",
+                      "file":  "arjun/name_r320.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r321",
+                      "text":  "Mayankh Daaggar",
+                      "file":  "arjun/name_r321.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r322",
+                      "text":  "Monnie Grewaal",
+                      "file":  "arjun/name_r322.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r323",
+                      "text":  "Macneal Norronhaa",
+                      "file":  "arjun/name_r323.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r324",
+                      "text":  "Siddharrth Yaadhav",
+                      "file":  "arjun/name_r324.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r325",
+                      "text":  "Reetik Taada",
+                      "file":  "arjun/name_r325.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r326",
+                      "text":  "Chaama Mileend",
+                      "file":  "arjun/name_r326.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r327",
+                      "text":  "Swasthik Chikkaara",
+                      "file":  "arjun/name_r327.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r328",
+                      "text":  "Wiliam Southerlund",
+                      "file":  "arjun/name_r328.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r329",
+                      "text":  "RS Aambreesh",
+                      "file":  "arjun/name_r329.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r330",
+                      "text":  "Blessin Muzzaraabani",
+                      "file":  "arjun/name_r330.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r331",
+                      "text":  "Krissh Bhaggatt",
+                      "file":  "arjun/name_r331.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r332",
+                      "text":  "Navdip Saainee",
+                      "file":  "arjun/name_r332.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r333",
+                      "text":  "Daivid Paaine",
+                      "file":  "arjun/name_r333.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r334",
+                      "text":  "Sourabh Dubbay",
+                      "file":  "arjun/name_r334.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r335",
+                      "text":  "Rehaan Ahmmad",
+                      "file":  "arjun/name_r335.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r336",
+                      "text":  "Kulwaant Khejrolyaa",
+                      "file":  "arjun/name_r336.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r337",
+                      "text":  "Jorge Lindey",
+                      "file":  "arjun/name_r337.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r338",
+                      "text":  "Dilshaan Maddushankaa",
+                      "file":  "arjun/name_r338.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r339",
+                      "text":  "Kuldipp Yaadaav",
+                      "file":  "arjun/name_r339.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r340",
+                      "text":  "Keshaav Mahaaraaj",
+                      "file":  "arjun/name_r340.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r341",
+                      "text":  "Dyen Forrestar",
+                      "file":  "arjun/name_r341.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r342",
+                      "text":  "Emmanjoth Chahaal",
+                      "file":  "arjun/name_r342.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "name_r343",
+                      "text":  "Luvneeth Sissodiya",
+                      "file":  "arjun/name_r343.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "ceremony_owners",
+                      "text":  "Good evening, ladies and gentlemen! Team owners, coaches, analysts, and all our franchise families... a very warm welcome to the Auction Premier League!",
+                      "file":  "arjun/ceremony_owners.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "ceremony_intro",
+                      "text":  "Before the hammer comes down, let\u0027s welcome our ten franchises!",
+                      "file":  "arjun/ceremony_intro.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "ceremony_finally",
+                      "text":  "And finally...",
+                      "file":  "arjun/ceremony_finally.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "ceremony_end",
+                      "text":  "What a line-up! One more big round of applause for all ten franchises!",
+                      "file":  "arjun/ceremony_end.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_intro",
+                      "text":  "Before we begin, a quick look at today\u0027s rules.",
+                      "file":  "arjun/rules_intro.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_purse_standard",
+                      "text":  "Every franchise has a fixed purse of one hundred and twenty crore rupees. Once it\u0027s spent, it\u0027s gone.",
+                      "file":  "arjun/rules_purse_standard.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_squad_standard",
+                      "text":  "Each squad needs at least eighteen players, and can have up to twenty five, with no more than eight overseas players.",
+                      "file":  "arjun/rules_squad_standard.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_purse_mega",
+                      "text":  "Every franchise has a fixed purse of one hundred and twenty crore rupees. Once it\u0027s spent, it\u0027s gone.",
+                      "file":  "arjun/rules_purse_mega.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_squad_mega",
+                      "text":  "Each squad needs at least eighteen players, and can have up to twenty five, with no more than eight overseas players.",
+                      "file":  "arjun/rules_squad_mega.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_fill",
+                      "text":  "Finish short of the minimum, and the empty slots are filled with base price players.",
+                      "file":  "arjun/rules_fill.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_retention",
+                      "text":  "Retained players have already been paid for, from your purse.",
+                      "file":  "arjun/rules_retention.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_rtm",
+                      "text":  "Each franchise has one Right to Match card, to take back a player from last season, at the final bid.",
+                      "file":  "arjun/rules_rtm.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_bidding",
+                      "text":  "When the bidding stops, it\u0027s going once... going twice... and sold!",
+                      "file":  "arjun/rules_bidding.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rules_go",
+                      "text":  "Good luck to all ten franchises. Let the auction begin!",
+                      "file":  "arjun/rules_go.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_MBH",
+                      "text":  "From Mumbai... please welcome... the Mumbai Heroes!",
+                      "file":  "arjun/welcome_team_MBH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_CHC",
+                      "text":  "From Chennai... please welcome... the Chennai Cyclones!",
+                      "file":  "arjun/welcome_team_CHC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_BLR",
+                      "text":  "From Bengaluru... please welcome... the Bengaluru Royals!",
+                      "file":  "arjun/welcome_team_BLR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_KOC",
+                      "text":  "From Kolkata... please welcome... the Kolkata Comets!",
+                      "file":  "arjun/welcome_team_KOC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_DLD",
+                      "text":  "From Delhi... please welcome... the Delhi Defenders!",
+                      "file":  "arjun/welcome_team_DLD.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_PJP",
+                      "text":  "From Mohali... please welcome... the Punjab Pioneers!",
+                      "file":  "arjun/welcome_team_PJP.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_RJR",
+                      "text":  "From Jaipur... please welcome... the Rajasthan Rangers!",
+                      "file":  "arjun/welcome_team_RJR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_HYH",
+                      "text":  "From Hyderabad... please welcome... the Hyderabad Hawks!",
+                      "file":  "arjun/welcome_team_HYH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_GJG",
+                      "text":  "From Ahmedabad... please welcome... the Gujarat Gladiators!",
+                      "file":  "arjun/welcome_team_GJG.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "welcome_team_LKL",
+                      "text":  "From Lucknow... please welcome... the Lucknow Lancers!",
+                      "file":  "arjun/welcome_team_LKL.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_MBH",
+                      "text":  "Mumbai Heroes, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_MBH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_CHC",
+                      "text":  "Chennai Cyclones, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_CHC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_BLR",
+                      "text":  "Bengaluru Royals, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_BLR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_KOC",
+                      "text":  "Kolkata Comets, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_KOC.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_DLD",
+                      "text":  "Delhi Defenders, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_DLD.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_PJP",
+                      "text":  "Punjab Pioneers, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_PJP.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_RJR",
+                      "text":  "Rajasthan Rangers, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_RJR.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_HYH",
+                      "text":  "Hyderabad Hawks, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_HYH.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_GJG",
+                      "text":  "Gujarat Gladiators, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_GJG.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_ask_LKL",
+                      "text":  "Lucknow Lancers, you hold a Right to Match card. Would you like to use it for this player?",
+                      "file":  "arjun/rtm_ask_LKL.mp3"
+                  },
+                  {
+                      "voice":  "arjun",
+                      "key":  "rtm_declined",
+                      "text":  "No Right to Match.",
+                      "file":  "arjun/rtm_declined.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "next_player",
+                      "text":  "Here is the next player.",
+                      "file":  "kajal/next_player.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "next_player_2",
+                      "text":  "Next player, please.",
+                      "file":  "kajal/next_player_2.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "first_player",
+                      "text":  "Here\u0027s our first player.",
+                      "file":  "kajal/first_player.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_MBH",
+                      "text":  "The Mumbai Heroes hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_MBH.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_MBH",
+                      "text":  "The Mumbai Heroes use their Right to Match!",
+                      "file":  "kajal/rtm_used_MBH.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_CHC",
+                      "text":  "The Chennai Cyclones hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_CHC.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_CHC",
+                      "text":  "The Chennai Cyclones use their Right to Match!",
+                      "file":  "kajal/rtm_used_CHC.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_BLR",
+                      "text":  "The Bengaluru Royals hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_BLR.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_BLR",
+                      "text":  "The Bengaluru Royals use their Right to Match!",
+                      "file":  "kajal/rtm_used_BLR.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_KOC",
+                      "text":  "The Kolkata Comets hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_KOC.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_KOC",
+                      "text":  "The Kolkata Comets use their Right to Match!",
+                      "file":  "kajal/rtm_used_KOC.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_DLD",
+                      "text":  "The Delhi Defenders hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_DLD.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_DLD",
+                      "text":  "The Delhi Defenders use their Right to Match!",
+                      "file":  "kajal/rtm_used_DLD.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_PJP",
+                      "text":  "The Punjab Pioneers hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_PJP.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_PJP",
+                      "text":  "The Punjab Pioneers use their Right to Match!",
+                      "file":  "kajal/rtm_used_PJP.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_RJR",
+                      "text":  "The Rajasthan Rangers hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_RJR.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_RJR",
+                      "text":  "The Rajasthan Rangers use their Right to Match!",
+                      "file":  "kajal/rtm_used_RJR.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_HYH",
+                      "text":  "The Hyderabad Hawks hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_HYH.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_HYH",
+                      "text":  "The Hyderabad Hawks use their Right to Match!",
+                      "file":  "kajal/rtm_used_HYH.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_GJG",
+                      "text":  "The Gujarat Gladiators hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_GJG.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_GJG",
+                      "text":  "The Gujarat Gladiators use their Right to Match!",
+                      "file":  "kajal/rtm_used_GJG.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_card_LKL",
+                      "text":  "The Lucknow Lancers hold a Right to Match card.",
+                      "file":  "kajal/rtm_card_LKL.mp3"
+                  },
+                  {
+                      "voice":  "kajal",
+                      "key":  "rtm_used_LKL",
+                      "text":  "The Lucknow Lancers use their Right to Match!",
+                      "file":  "kajal/rtm_used_LKL.mp3"
+                  }
+              ],
+    "generatedAt":  "2026-11-13T13:43:23.6654642Z"
+}

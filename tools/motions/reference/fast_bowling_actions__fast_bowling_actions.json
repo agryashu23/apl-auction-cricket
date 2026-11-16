@@ -1,0 +1,150 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "clip": "4.0 s: standing at the mark (0.2 s) -> 2.1 s accelerating run-up (jog, run, sprint; ~15 m) -> bound -> back-foot contact -> front-foot contact -> release at 2.93 s -> follow-through and deceleration",
+  "world": "the bowler runs toward the rig's forward direction (-y); his popping crease at y=0, his stumps at y=+1.22, the batter's stumps at y=-18.9; start_position_m gives the mark",
+  "arms": "ra_ = right-arm over the wicket, la_ = left-arm over the wicket (mirror)",
+  "ball": "attach the ball to the bowling hand (RightHand / LeftHand) until release_frame and launch it from release_point_m",
+  "variations": "these are stock deliveries; the bowling_motions set's release variants (bouncer, yorker, cutters, slower balls...) and its delivery map still apply - use the release physics from that map with these actions"
+ },
+ "clips": [
+  {
+   "file": "ra_fast_side_on_over.fbx",
+   "arm": "right-arm",
+   "action": "side_on",
+   "description": "Classical side-on: back foot lands parallel to the crease, hips and shoulders side-on, front arm reaching high at the batter, bowling arm close to vertical",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 15.06,
+   "start_position_m": {
+    "behind_crease": 15.01,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 140,
+   "release_point_m": {
+    "left": 0.237,
+    "forward_of_crease": 0.296,
+    "up": 1.878
+   }
+  },
+  {
+   "file": "ra_fast_front_on_over.fbx",
+   "arm": "right-arm",
+   "action": "front_on",
+   "description": "Front-on (chest-on): back foot points down the pitch, chest faces the batter at back-foot contact, shorter stride, arm a little wider of vertical",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 14.84,
+   "start_position_m": {
+    "behind_crease": 14.79,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 136,
+   "release_point_m": {
+    "left": 0.099,
+    "forward_of_crease": 0.303,
+    "up": 1.862
+   }
+  },
+  {
+   "file": "ra_fast_slinger_over.fbx",
+   "arm": "right-arm",
+   "action": "slinger",
+   "description": "Slinger: mixed action with big shoulder counter-rotation, front arm swung out wide, low round-arm whip, release about 25 cm lower",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 14.98,
+   "start_position_m": {
+    "behind_crease": 14.93,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 142,
+   "release_point_m": {
+    "left": -0.194,
+    "forward_of_crease": 0.396,
+    "up": 1.575
+   }
+  },
+  {
+   "file": "la_fast_side_on_over.fbx",
+   "arm": "left-arm",
+   "action": "side_on",
+   "description": "Classical side-on: back foot lands parallel to the crease, hips and shoulders side-on, front arm reaching high at the batter, bowling arm close to vertical",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 15.06,
+   "start_position_m": {
+    "behind_crease": 15.01,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 140,
+   "release_point_m": {
+    "left": -0.237,
+    "forward_of_crease": 0.296,
+    "up": 1.879
+   }
+  },
+  {
+   "file": "la_fast_front_on_over.fbx",
+   "arm": "left-arm",
+   "action": "front_on",
+   "description": "Front-on (chest-on): back foot points down the pitch, chest faces the batter at back-foot contact, shorter stride, arm a little wider of vertical",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 14.84,
+   "start_position_m": {
+    "behind_crease": 14.79,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 136,
+   "release_point_m": {
+    "left": -0.099,
+    "forward_of_crease": 0.303,
+    "up": 1.862
+   }
+  },
+  {
+   "file": "la_fast_slinger_over.fbx",
+   "arm": "left-arm",
+   "action": "slinger",
+   "description": "Slinger: mixed action with big shoulder counter-rotation, front arm swung out wide, low round-arm whip, release about 25 cm lower",
+   "frames": 120,
+   "seconds": 4.0,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 14.98,
+   "start_position_m": {
+    "behind_crease": 14.93,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 142,
+   "release_point_m": {
+    "left": 0.193,
+    "forward_of_crease": 0.396,
+    "up": 1.575
+   }
+  }
+ ]
+}

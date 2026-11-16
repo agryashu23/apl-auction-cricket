@@ -1,0 +1,47 @@
+# Build output and generated folders
+build/
+client/
+**/bin/
+**/obj/
+**/Library/
+**/Temp/
+**/Logs/
+**/UserSettings/
+*.apk
+*.aab
+
+# Large art / motion / audio sources (backed up separately, too big for GitHub)
+client-assets/
+
+# Legacy Flutter app + Dart server were removed from the repo; ignore any local leftovers
+/app/
+/server/
+.dart_tool/
+.packages
+.flutter-plugins*
+
+# Secrets and local machine files
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+.env
+.env.*
+**/aplrooms.env
+*.local.json
+# Default room-server host for client builds (per machine; see RoomConfig.cs)
+client-src/Assets/Resources/room_server.txt
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc

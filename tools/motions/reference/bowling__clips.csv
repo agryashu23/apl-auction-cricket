@@ -1,0 +1,73 @@
+File,Action,Arm,Side,Release variant,Seconds,Back-foot contact frame,Front-foot contact frame,Release frame,Run-up (m),Release height (m),Technique
+la_chinaman_around_leg_break.fbx,leg_spin,left,around the wicket,leg_break,5.03,87,95,100,8.63,2.002,"wrist cocked inward, ring finger rips the ball"
+la_chinaman_over_flipper.fbx,leg_spin,left,over the wicket,flipper,5.03,87,95,100,8.63,1.966,"squeezed out from under the hand, palm up, hand toward the target"
+la_chinaman_over_googly.fbx,leg_spin,left,over the wicket,googly,5.03,87,95,100,8.63,2.006,"wrist dropped, back of the hand faces the batter"
+la_chinaman_over_leg_break.fbx,leg_spin,left,over the wicket,leg_break,5.03,87,95,100,8.63,2.002,"wrist cocked inward, ring finger rips the ball"
+la_chinaman_over_top_spinner.fbx,leg_spin,left,over the wicket,top_spinner,5.03,87,95,100,8.63,1.998,"side of the hand toward the batter, seam rolls forward"
+la_fast_around_stock.fbx,express_fast,left,around the wicket,stock,6.73,131,137,141,25.6,1.928,
+la_fast_medium_around_stock.fbx,fast_medium,left,around the wicket,stock,6.27,117,123,127,19.3,1.919,
+la_fast_medium_over_stock.fbx,fast_medium,left,over the wicket,stock,6.27,117,123,127,19.3,1.919,
+la_fast_over_back_of_hand.fbx,express_fast,left,over the wicket,back_of_hand,6.73,131,137,141,25.6,1.938,"hand flipped, back of the hand faces the batter"
+la_fast_over_bouncer.fbx,express_fast,left,over the wicket,bouncer,6.73,131,137,141,25.6,1.873,"released ~5% of height lower, hit-the-deck"
+la_fast_over_inswinger.fbx,express_fast,left,over the wicket,inswinger,6.73,131,137,141,25.6,1.928,seam and wrist angled toward fine leg
+la_fast_over_knuckle.fbx,express_fast,left,over the wicket,knuckle,6.73,131,137,141,25.6,1.928,ball pushed out on bent knuckles
+la_fast_over_leg_cutter.fbx,express_fast,left,over the wicket,leg_cutter,6.73,131,137,141,25.6,1.933,"fingers cut across the ball the other way, wrist rolls toward off"
+la_fast_over_off_cutter.fbx,express_fast,left,over the wicket,off_cutter,6.73,131,137,141,25.6,1.933,"fingers drag down the right side of the ball, wrist rolls toward leg"
+la_fast_over_outswinger.fbx,express_fast,left,over the wicket,outswinger,6.73,131,137,141,25.6,1.928,seam and wrist angled toward the slips
+la_fast_over_stock.fbx,express_fast,left,over the wicket,stock,6.73,131,137,141,25.6,1.928,
+la_fast_over_yorker.fbx,express_fast,left,over the wicket,yorker,6.73,131,137,141,25.6,1.963,"higher release, wrist cocked back longer"
+la_orthodox_around_off_break.fbx,off_spin,left,around the wicket,off_break,5.0,86,94,99,8.03,1.996,"palm toward the batter, fingers rip clockwise"
+la_orthodox_over_arm_ball.fbx,off_spin,left,over the wicket,arm_ball,5.0,86,94,99,8.03,1.983,"hand behind the ball, goes on with the arm"
+la_orthodox_over_carrom.fbx,off_spin,left,over the wicket,carrom,5.0,86,94,99,8.03,1.996,flicked out between thumb and bent middle finger
+la_orthodox_over_doosra.fbx,off_spin,left,over the wicket,doosra,5.0,86,94,99,8.03,2.0,"wrist cocked, back of the hand faces the batter"
+la_orthodox_over_off_break.fbx,off_spin,left,over the wicket,off_break,5.0,86,94,99,8.03,1.996,"palm toward the batter, fingers rip clockwise"
+mystery_side_arm_over.fbx,side_arm,right,over the wicket,off_break,5.0,86,94,99,8.03,1.789,"palm toward the batter, fingers rip clockwise"
+ra_express_fast_around_stock.fbx,express_fast,right,around the wicket,stock,6.73,131,137,141,25.6,1.928,
+ra_express_fast_over_back_of_hand.fbx,express_fast,right,over the wicket,back_of_hand,6.73,131,137,141,25.6,1.938,"hand flipped, back of the hand faces the batter"
+ra_express_fast_over_bouncer.fbx,express_fast,right,over the wicket,bouncer,6.73,131,137,141,25.6,1.873,"released ~5% of height lower, hit-the-deck"
+ra_express_fast_over_inswinger.fbx,express_fast,right,over the wicket,inswinger,6.73,131,137,141,25.6,1.928,seam and wrist angled toward fine leg
+ra_express_fast_over_knuckle.fbx,express_fast,right,over the wicket,knuckle,6.73,131,137,141,25.6,1.928,ball pushed out on bent knuckles
+ra_express_fast_over_leg_cutter.fbx,express_fast,right,over the wicket,leg_cutter,6.73,131,137,141,25.6,1.933,"fingers cut across the ball the other way, wrist rolls toward off"
+ra_express_fast_over_off_cutter.fbx,express_fast,right,over the wicket,off_cutter,6.73,131,137,141,25.6,1.933,"fingers drag down the right side of the ball, wrist rolls toward leg"
+ra_express_fast_over_outswinger.fbx,express_fast,right,over the wicket,outswinger,6.73,131,137,141,25.6,1.928,seam and wrist angled toward the slips
+ra_express_fast_over_stock.fbx,express_fast,right,over the wicket,stock,6.73,131,137,141,25.6,1.928,
+ra_express_fast_over_yorker.fbx,express_fast,right,over the wicket,yorker,6.73,131,137,141,25.6,1.963,"higher release, wrist cocked back longer"
+ra_fast_medium_around_stock.fbx,fast_medium,right,around the wicket,stock,6.27,117,123,127,19.3,1.919,
+ra_fast_medium_over_back_of_hand.fbx,fast_medium,right,over the wicket,back_of_hand,6.27,117,123,127,19.3,1.929,"hand flipped, back of the hand faces the batter"
+ra_fast_medium_over_bouncer.fbx,fast_medium,right,over the wicket,bouncer,6.27,117,123,127,19.3,1.865,"released ~5% of height lower, hit-the-deck"
+ra_fast_medium_over_inswinger.fbx,fast_medium,right,over the wicket,inswinger,6.27,117,123,127,19.3,1.919,seam and wrist angled toward fine leg
+ra_fast_medium_over_knuckle.fbx,fast_medium,right,over the wicket,knuckle,6.27,117,123,127,19.3,1.919,ball pushed out on bent knuckles
+ra_fast_medium_over_leg_cutter.fbx,fast_medium,right,over the wicket,leg_cutter,6.27,117,123,127,19.3,1.924,"fingers cut across the ball the other way, wrist rolls toward off"
+ra_fast_medium_over_off_cutter.fbx,fast_medium,right,over the wicket,off_cutter,6.27,117,123,127,19.3,1.924,"fingers drag down the right side of the ball, wrist rolls toward leg"
+ra_fast_medium_over_outswinger.fbx,fast_medium,right,over the wicket,outswinger,6.27,117,123,127,19.3,1.919,seam and wrist angled toward the slips
+ra_fast_medium_over_stock.fbx,fast_medium,right,over the wicket,stock,6.27,117,123,127,19.3,1.919,
+ra_fast_medium_over_yorker.fbx,fast_medium,right,over the wicket,yorker,6.27,117,123,127,19.3,1.954,"higher release, wrist cocked back longer"
+ra_leg_spin_around_leg_break.fbx,leg_spin,right,around the wicket,leg_break,5.03,87,95,100,8.63,2.002,"wrist cocked inward, ring finger rips the ball"
+ra_leg_spin_over_flipper.fbx,leg_spin,right,over the wicket,flipper,5.03,87,95,100,8.63,1.966,"squeezed out from under the hand, palm up, hand toward the target"
+ra_leg_spin_over_googly.fbx,leg_spin,right,over the wicket,googly,5.03,87,95,100,8.63,2.006,"wrist dropped, back of the hand faces the batter"
+ra_leg_spin_over_leg_break.fbx,leg_spin,right,over the wicket,leg_break,5.03,87,95,100,8.63,2.002,"wrist cocked inward, ring finger rips the ball"
+ra_leg_spin_over_top_spinner.fbx,leg_spin,right,over the wicket,top_spinner,5.03,87,95,100,8.63,1.998,"side of the hand toward the batter, seam rolls forward"
+ra_medium_around_stock.fbx,medium,right,around the wicket,stock,5.8,103,109,113,14.0,1.92,
+ra_medium_over_back_of_hand.fbx,medium,right,over the wicket,back_of_hand,5.8,103,109,113,14.0,1.93,"hand flipped, back of the hand faces the batter"
+ra_medium_over_bouncer.fbx,medium,right,over the wicket,bouncer,5.8,103,109,113,14.0,1.866,"released ~5% of height lower, hit-the-deck"
+ra_medium_over_inswinger.fbx,medium,right,over the wicket,inswinger,5.8,103,109,113,14.0,1.92,seam and wrist angled toward fine leg
+ra_medium_over_knuckle.fbx,medium,right,over the wicket,knuckle,5.8,103,109,113,14.0,1.92,ball pushed out on bent knuckles
+ra_medium_over_leg_cutter.fbx,medium,right,over the wicket,leg_cutter,5.8,103,109,113,14.0,1.925,"fingers cut across the ball the other way, wrist rolls toward off"
+ra_medium_over_off_cutter.fbx,medium,right,over the wicket,off_cutter,5.8,103,109,113,14.0,1.925,"fingers drag down the right side of the ball, wrist rolls toward leg"
+ra_medium_over_outswinger.fbx,medium,right,over the wicket,outswinger,5.8,103,109,113,14.0,1.92,seam and wrist angled toward the slips
+ra_medium_over_stock.fbx,medium,right,over the wicket,stock,5.8,103,109,113,14.0,1.92,
+ra_medium_over_yorker.fbx,medium,right,over the wicket,yorker,5.8,103,109,113,14.0,1.955,"higher release, wrist cocked back longer"
+ra_off_spin_around_off_break.fbx,off_spin,right,around the wicket,off_break,5.0,86,94,99,8.03,1.996,"palm toward the batter, fingers rip clockwise"
+ra_off_spin_over_arm_ball.fbx,off_spin,right,over the wicket,arm_ball,5.0,86,94,99,8.03,1.983,"hand behind the ball, goes on with the arm"
+ra_off_spin_over_carrom.fbx,off_spin,right,over the wicket,carrom,5.0,86,94,99,8.03,1.996,flicked out between thumb and bent middle finger
+ra_off_spin_over_doosra.fbx,off_spin,right,over the wicket,doosra,5.0,86,94,99,8.03,2.0,"wrist cocked, back of the hand faces the batter"
+ra_off_spin_over_off_break.fbx,off_spin,right,over the wicket,off_break,5.0,86,94,99,8.03,1.996,"palm toward the batter, fingers rip clockwise"
+ra_slinger_around_stock.fbx,slinger,right,around the wicket,stock,6.33,119,125,129,21.4,1.67,
+ra_slinger_over_back_of_hand.fbx,slinger,right,over the wicket,back_of_hand,6.33,119,125,129,21.4,1.676,"hand flipped, back of the hand faces the batter"
+ra_slinger_over_bouncer.fbx,slinger,right,over the wicket,bouncer,6.33,119,125,129,21.4,1.636,"released ~5% of height lower, hit-the-deck"
+ra_slinger_over_inswinger.fbx,slinger,right,over the wicket,inswinger,6.33,119,125,129,21.4,1.67,seam and wrist angled toward fine leg
+ra_slinger_over_stock.fbx,slinger,right,over the wicket,stock,6.33,119,125,129,21.4,1.67,
+ra_slinger_over_yorker.fbx,slinger,right,over the wicket,yorker,6.33,119,125,129,21.4,1.691,"higher release, wrist cocked back longer"
+ra_slow_medium_around_stock.fbx,slow_medium,right,around the wicket,stock,5.33,89,95,99,9.6,1.931,
+ra_slow_medium_over_back_of_hand.fbx,slow_medium,right,over the wicket,back_of_hand,5.33,89,95,99,9.6,1.941,"hand flipped, back of the hand faces the batter"
+ra_slow_medium_over_stock.fbx,slow_medium,right,over the wicket,stock,5.33,89,95,99,9.6,1.931,

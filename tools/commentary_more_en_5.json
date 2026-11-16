@@ -1,0 +1,50 @@
+{
+ "about": "Round 12 (audio-modes): calls matched to how hard and how cleanly the ball was hit (six_huge / six_edge / four_cracking / four_placed / four_edge, picked by exit speed and timing in MatchDirector.CommentaryCalls.SixLine/FourLine), and two-voice exchanges: x?_<topic>_N (Arjun asks) is answered by xa_<topic>_N (Kiara) with the same N. English only. python -I tools/gen_commentary_r8.py --file commentary_more_en_5.json",
+ "six_huge": [
+  ["lead", "That is massive! Out of the ground!"], ["lead", "Monstrous hit! That's gone a mile!"],
+  ["lead", "Huge! Right out of the middle, and into the night sky!"], ["lead", "What a strike! That's one of the biggest sixes of the season!"],
+  ["lead", "He's absolutely creamed that! Way back into the top tier!"], ["lead", "Gone! Gone! That's not coming back!"],
+  ["lead", "{bat} has launched that into orbit!"], ["lead", "Pure power! Clean as you like, and it's sailed over the roof!"]
+ ],
+ "six_edge": [
+  ["lead", "Off the top edge, and it carries all the way for six!"], ["lead", "He didn't time that at all, but it's six!"],
+  ["lead", "Miscued, and it still clears the rope! Lucky!"]
+ ],
+ "four_cracking": [
+  ["lead", "Cracking shot! That raced away!"], ["lead", "Smashed! The fielder didn't even move!"],
+  ["lead", "What a stroke! Like a tracer bullet to the fence!"], ["lead", "Hammered through the off side for four!"],
+  ["lead", "That's pierced the field with real venom!"], ["lead", "{bat} has absolutely belted that one!"],
+  ["lead", "Bang! Four runs, and the bowler can only watch!"], ["lead", "Thunderous drive! Four!"]
+ ],
+ "four_placed": [
+  ["lead", "Placed! Not hard, just perfectly into the gap."], ["lead", "Lovely touch. Guided away for four."],
+  ["lead", "Just a caress, and it trickles over the rope."], ["lead", "Delicate! Threaded between two fielders."],
+  ["lead", "That's all timing. Four more."]
+ ],
+ "four_edge": [
+  ["lead", "Edged, and it flies past the slips for four!"], ["lead", "Thick edge, and it runs away to third man!"],
+  ["lead", "Not off the middle, but it'll count. Four!"], ["lead", "Outside edge, and away to the boundary!"]
+ ],
+ "xq_six": [
+  ["lead", "Kiara, where did that one land?"], ["lead", "Have you seen many bigger than that, Kiara?"],
+  ["lead", "Kiara, is the ball still in the ground?"]
+ ],
+ "xa_six": [
+  ["colour", "Somewhere in the top tier, I think! What a hit."], ["colour", "Not this season, no! That was enormous."],
+  ["colour", "I'm not sure it is! They'll need a new one."]
+ ],
+ "xq_wicket": [
+  ["lead", "Kiara, what went wrong there?"], ["lead", "Big wicket, Kiara. Is that the turning point?"],
+  ["lead", "Was that a good ball, or a poor shot, Kiara?"]
+ ],
+ "xa_wicket": [
+  ["colour", "He went too hard, too early. The bowler set him up."], ["colour", "It could be. The new batter has a lot to do now."],
+  ["colour", "A bit of both, but the bowler earned it."]
+ ],
+ "xq_chase": [
+  ["lead", "Kiara, who's ahead in this chase?"], ["lead", "Can they still get there, Kiara?"]
+ ],
+ "xa_chase": [
+  ["colour", "It's balanced on a knife edge. One big over decides it."], ["colour", "They can, but they need a boundary soon."]
+ ]
+}

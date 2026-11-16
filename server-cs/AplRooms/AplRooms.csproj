@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- APL friend-room server (protocol v2, docs/ROOMS_PROTOCOL.md). Runs the same C# engine
+       as the Unity client (packages/AuctionCore.Net), so rooms and solo share one rule set.
+       Local only, port 8787 (see Program.cs for the command and flags). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Apl.Rooms</RootNamespace>
+    <AssemblyName>AplRooms</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\packages\AuctionCore.Net\src\AuctionCore\AuctionCore.csproj" />
+  </ItemGroup>
+</Project>

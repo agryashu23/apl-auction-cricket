@@ -1,0 +1,79 @@
+{
+ "about": "Round 8 (audio-modes): new events (hundred, hit wicket, caught behind, last ball, hat-trick ball, two in two, last-over boundary/wicket) and top-ups for the thin ones. English only. Generate with tools/gen_commentary_r8.py.",
+ "hundred": [
+  ["lead", "A hundred! What an innings from {bat}!"], ["colour", "Three figures. Raise the bat, take the applause."],
+  ["lead", "That's the century! The whole ground is on its feet."], ["colour", "A hundred, and he's made it look easy."],
+  ["lead", "Hundred up for {bat}! A knock to remember."]
+ ],
+ "hit_wicket": [
+  ["lead", "Oh no, he's trodden on his stumps! Hit wicket!"], ["colour", "Went too deep in the crease and knocked the bails off."],
+  ["lead", "Hit wicket! You don't see that very often."]
+ ],
+ "caught_behind": [
+  ["lead", "Edged, and taken behind!"], ["colour", "A thin nick, and the keeper makes no mistake."],
+  ["lead", "Caught behind! {bowl} finds the edge."], ["colour", "Feather of an edge, straight into the gloves."],
+  ["lead", "Nicked off! That's the outside edge, and he's gone."]
+ ],
+ "last_ball": [
+  ["lead", "Last ball. Everything comes down to this."], ["colour", "One ball left. Can he finish it?"],
+  ["lead", "Here it is, the final delivery of the match."], ["colour", "The bowler at the top of his mark. Last ball."]
+ ],
+ "hat_trick_ball": [
+  ["lead", "He's on a hat-trick! The fielders crowd in."], ["colour", "Two in two. Can he make it three?"],
+  ["lead", "Hat-trick ball coming up. The crowd is roaring."]
+ ],
+ "two_in_two": [
+  ["lead", "Two in two! The game has turned."], ["colour", "Back to back wickets. Momentum has swung."],
+  ["lead", "Another one! Two wickets in two balls."]
+ ],
+ "last_over_boundary": [
+  ["lead", "A boundary in the final over! That changes the equation."], ["colour", "Exactly what they needed in the last over."],
+  ["lead", "Huge hit at the death!"], ["colour", "The pressure shifts straight back to the bowler."]
+ ],
+ "last_over_wicket": [
+  ["lead", "A wicket in the final over! Massive moment."], ["colour", "That could be the match right there."],
+  ["lead", "Gone in the last over! The bowler is pumped."]
+ ],
+ "start": [
+  ["lead", "Welcome to the APL. What a night for cricket."], ["colour", "A packed house, a good pitch, and two strong sides."],
+  ["lead", "The players are ready. Let's get started."], ["colour", "Floodlights on, crowd in. Here we go."]
+ ],
+ "stumped": [
+  ["lead", "Stumped! He was miles out."], ["colour", "Dragged wide, the batter misses, and the keeper does the rest."],
+  ["lead", "Too far down the pitch, and stumped!"]
+ ],
+ "run_out": [
+  ["lead", "Run out! Never a run there."], ["colour", "He's been sent back, and he's short."],
+  ["lead", "Brilliant fielding, and that's a run out!"]
+ ],
+ "no_ball": [
+  ["lead", "Overstepped! That's a no-ball."], ["colour", "The front foot is over the line. Free hit next."]
+ ],
+ "free_hit": [
+  ["lead", "Free hit. He can swing without fear."], ["colour", "Nothing to lose here. Free hit."]
+ ],
+ "maiden": [
+  ["lead", "A maiden over! Superb control."], ["colour", "Six balls, no runs. The pressure is building."]
+ ],
+ "big_over": [
+  ["lead", "What an over that was for the batting side!"], ["colour", "Expensive over. The bowler will want to forget that."],
+  ["lead", "Runs flowing in that over. The chase is on."]
+ ],
+ "milestone_near": [
+  ["lead", "He's closing in on a fifty."], ["colour", "Just a few more for the half-century."]
+ ],
+ "edge": [
+  ["lead", "Off the edge, and they get runs for it."], ["colour", "Not where he meant it, but it all counts."],
+  ["lead", "Thick edge, races away."]
+ ],
+ "dropped": [
+  ["lead", "Dropped! That could be costly."], ["colour", "A sitter, and it's gone down."],
+  ["lead", "Put down! A life for the batter."]
+ ],
+ "won": [
+  ["lead", "They've done it! What a finish!"], ["colour", "A brilliant win, and fully deserved."]
+ ],
+ "lost": [
+  ["lead", "So close, but not quite there."], ["colour", "They fought hard, but it wasn't to be."]
+ ]
+}

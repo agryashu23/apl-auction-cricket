@@ -1,0 +1,469 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "clip": "5.4 s: standing at the mark (0.27 s) -> 2.0 s accelerating run-up (v = 7.2 m/s (1 - e^(-t/0.75 s)), 6 steps, ~10 m) -> bound off the left foot (0.33-0.37 s flight) -> back-foot contact -> front-foot contact -> release at 2.93 s (frame 89) -> follow-through, 4 deceleration steps veering off the pitch, ends standing (field_clips STAND) facing the batter",
+  "world": "the bowler runs toward the rig's forward direction (-y); his popping crease at y=0, his stumps at y=+1.22, the batter's stumps at y=-18.9; start_position_m gives the mark",
+  "arms": "ra_ = right-arm over the wicket, la_ = left-arm over the wicket (mirror)",
+  "ball": "attach the ball to the bowling hand (RightHand / LeftHand) until release_frame and launch it from release_point_m",
+  "variations": "these are stock deliveries; the bowling_motions set's release variants (bouncer, yorker, cutters, slower balls...) and its delivery map still apply - use the release physics from that map with these actions",
+  "biomechanics": "per clip, measured on the exported skeleton: knee angles are included angles (180 = straight); yaw 0 = chest square to the batter, -90 = side-on; separation = shoulders - pelvis; trunk angles of hips->neck from vertical (forward = toward the batter, lateral + = away from the bowling arm)"
+ },
+ "clips": [
+  {
+   "file": "ra_fast_side_on_over.fbx",
+   "arm": "right-arm",
+   "action": "side_on",
+   "description": "Classical side-on: back foot lands parallel to the crease, hips and shoulders side-on, front arm reaching high at the batter, bowling arm close to vertical",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 80,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 69,
+   "run_up_m": 13.31,
+   "start_position_m": {
+    "behind_crease": 13.27,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 140,
+   "release_point_m": {
+    "left": 0.199,
+    "forward_of_crease": -0.257,
+    "up": 1.975
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.6,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 114.6,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 6.8,
+     "take_off": 7.2,
+     "back_foot_contact": 5.5
+    },
+    "bound": {
+     "flight_s": 0.37,
+     "hip_rise_m": 0.08,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  },
+  {
+   "file": "ra_fast_front_on_over.fbx",
+   "arm": "right-arm",
+   "action": "front_on",
+   "description": "Front-on (chest-on): back foot points down the pitch, chest faces the batter at back-foot contact, shorter stride, arm a little wider of vertical",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 13.11,
+   "start_position_m": {
+    "behind_crease": 13.07,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 136,
+   "release_point_m": {
+    "left": 0.26,
+    "forward_of_crease": -0.258,
+    "up": 1.974
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.7,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 115.3,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 7.4,
+     "take_off": 7.8,
+     "back_foot_contact": 5.2
+    },
+    "bound": {
+     "flight_s": 0.33,
+     "hip_rise_m": 0.05,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  },
+  {
+   "file": "ra_fast_slinger_over.fbx",
+   "arm": "right-arm",
+   "action": "slinger",
+   "description": "Slinger: mixed action with big shoulder counter-rotation, front arm swung out wide, low round-arm whip, release about 25 cm lower",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 80,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 70,
+   "run_up_m": 13.42,
+   "start_position_m": {
+    "behind_crease": 13.38,
+    "left": 0.3
+   },
+   "release_speed_kmh_typical": 142,
+   "release_point_m": {
+    "left": 0.209,
+    "forward_of_crease": -0.247,
+    "up": 1.947
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.6,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 115.3,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 7.2,
+     "take_off": 7.7,
+     "back_foot_contact": 5.5
+    },
+    "bound": {
+     "flight_s": 0.33,
+     "hip_rise_m": 0.05,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  },
+  {
+   "file": "la_fast_side_on_over.fbx",
+   "arm": "left-arm",
+   "action": "side_on",
+   "description": "Classical side-on: back foot lands parallel to the crease, hips and shoulders side-on, front arm reaching high at the batter, bowling arm close to vertical",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 80,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 69,
+   "run_up_m": 13.31,
+   "start_position_m": {
+    "behind_crease": 13.27,
+    "left": -0.3
+   },
+   "release_speed_kmh_typical": 140,
+   "release_point_m": {
+    "left": -0.199,
+    "forward_of_crease": -0.257,
+    "up": 1.975
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.6,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 114.6,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 6.8,
+     "take_off": 7.2,
+     "back_foot_contact": 5.5
+    },
+    "bound": {
+     "flight_s": 0.37,
+     "hip_rise_m": 0.08,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  },
+  {
+   "file": "la_fast_front_on_over.fbx",
+   "arm": "left-arm",
+   "action": "front_on",
+   "description": "Front-on (chest-on): back foot points down the pitch, chest faces the batter at back-foot contact, shorter stride, arm a little wider of vertical",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 81,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 71,
+   "run_up_m": 13.11,
+   "start_position_m": {
+    "behind_crease": 13.07,
+    "left": -0.3
+   },
+   "release_speed_kmh_typical": 136,
+   "release_point_m": {
+    "left": -0.26,
+    "forward_of_crease": -0.258,
+    "up": 1.974
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.7,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 115.3,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 7.4,
+     "take_off": 7.8,
+     "back_foot_contact": 5.2
+    },
+    "bound": {
+     "flight_s": 0.33,
+     "hip_rise_m": 0.05,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  },
+  {
+   "file": "la_fast_slinger_over.fbx",
+   "arm": "left-arm",
+   "action": "slinger",
+   "description": "Slinger: mixed action with big shoulder counter-rotation, front arm swung out wide, low round-arm whip, release about 25 cm lower",
+   "frames": 161,
+   "seconds": 5.37,
+   "release_frame": 89,
+   "back_foot_contact_frame": 80,
+   "front_foot_contact_frame": 86,
+   "take_off_frame": 70,
+   "run_up_m": 13.42,
+   "start_position_m": {
+    "behind_crease": 13.38,
+    "left": -0.3
+   },
+   "release_speed_kmh_typical": 142,
+   "release_point_m": {
+    "left": -0.209,
+    "forward_of_crease": -0.247,
+    "up": 1.947
+   },
+   "biomechanics": {
+    "back_foot_contact": {
+     "front_knee_deg": 165.2,
+     "back_knee_deg": 127.8,
+     "pelvis_yaw_deg": -51.2,
+     "shoulder_yaw_deg": -51.9,
+     "hip_shoulder_separation_deg": -0.6,
+     "trunk_forward_deg": 8.4,
+     "trunk_lateral_deg": -3.7,
+     "bowling_arm_past_vertical_deg": 175.0,
+     "bowling_arm_out_from_vertical_deg": 178.9,
+     "front_arm_elevation_deg": 142.7,
+     "hip_height_m": 0.95
+    },
+    "front_foot_contact": {
+     "front_knee_deg": 139.5,
+     "back_knee_deg": 115.3,
+     "pelvis_yaw_deg": -31.9,
+     "shoulder_yaw_deg": -54.4,
+     "hip_shoulder_separation_deg": -22.5,
+     "trunk_forward_deg": 14.2,
+     "trunk_lateral_deg": 25.1,
+     "bowling_arm_past_vertical_deg": -85.8,
+     "bowling_arm_out_from_vertical_deg": 83.8,
+     "front_arm_elevation_deg": 97.9,
+     "hip_height_m": 0.92
+    },
+    "release": {
+     "front_knee_deg": 122.8,
+     "back_knee_deg": 104.7,
+     "pelvis_yaw_deg": -5.9,
+     "shoulder_yaw_deg": -19.3,
+     "hip_shoulder_separation_deg": -13.4,
+     "trunk_forward_deg": 25.5,
+     "trunk_lateral_deg": 32.7,
+     "bowling_arm_past_vertical_deg": 4.5,
+     "bowling_arm_out_from_vertical_deg": 19.8,
+     "front_arm_elevation_deg": 85.1,
+     "hip_height_m": 0.92
+    },
+    "follow_through_trunk_forward_deg": 54.6,
+    "approach_speed_m_s": {
+     "peak": 7.2,
+     "take_off": 7.7,
+     "back_foot_contact": 5.5
+    },
+    "bound": {
+     "flight_s": 0.33,
+     "hip_rise_m": 0.05,
+     "foot_clearance_m": 0.6
+    }
+   },
+   "source": "rokoko mocap: 04_bowl_left_arm_fast"
+  }
+ ]
+}

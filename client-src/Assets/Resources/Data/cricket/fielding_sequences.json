@@ -1,0 +1,449 @@
+{
+  "conventions": {
+    "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+    "field_frame": "each clip starts at the origin facing the rig's forward direction; positions in metres: x = fielder's left (+) / right (-), y = forward is NEGATIVE y (toward the batter), so throw_target y=-30 is 30 m straight ahead",
+    "ball": "attach the ball to mixamorig:RightHand from the pickup/catch/collect frame until the release/flick frame; then launch it from the hand toward throw_target at throw_speed (or with flick_velocity)",
+    "two_fielder_sequences": "30a+30b and 31a+31b are separate clips for each fielder, built in one shared field frame: play them at the same time with both characters placed at their start positions (sync notes in each clip)",
+    "root_motion": "all travel is in the hips; end positions follow from the motion",
+    "events": "all *_frame values are 1-based"
+  },
+  "clips": [
+    {
+      "file": "seq_20_chase_back_pickup_turn_throw.fbx",
+      "frames": 124,
+      "pickup_frame": 70,
+      "release_frame": 94,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": -0.001,
+        "y": -1.0
+      },
+      "note": "sprints back after the ball, decelerates, plants and picks it up low with the right hand, turns to his left through 180 deg as he rises and crow-hop throws back to the keeper/bowler"
+    },
+    {
+      "file": "seq_21_chase_left_pickup_throw.fbx",
+      "frames": 98,
+      "pickup_frame": 44,
+      "release_frame": 68,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": -0.203,
+        "y": -0.979
+      },
+      "note": "runs to the left, decelerates into a low right-hand pick-up beside the planted left foot, rises straight into the crow hop and throws"
+    },
+    {
+      "file": "seq_22_chase_right_pickup_throw.fbx",
+      "frames": 98,
+      "pickup_frame": 44,
+      "release_frame": 68,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.202,
+        "y": -0.979
+      },
+      "note": "runs to the right, decelerates into a low right-hand pick-up beside the planted left foot, rises straight into the crow hop and throws"
+    },
+    {
+      "file": "seq_23_run_in_pickup_throw_on_the_run.fbx",
+      "frames": 80,
+      "pickup_frame": 23,
+      "release_frame": 34,
+      "throw_type": "on the run, three-quarter arm",
+      "throw_target_m": {
+        "x": -14.0,
+        "y": -9.0
+      },
+      "throw_speed_m_s": 24,
+      "throw_direction": {
+        "x": -0.956,
+        "y": -0.294
+      },
+      "note": "attacks the ball, one-hand pick-up, throws on the run toward the stumps at the side without stopping, then slows"
+    },
+    {
+      "file": "seq_24_run_in_pickup_underarm_at_stumps.fbx",
+      "frames": 70,
+      "pickup_frame": 21,
+      "release_frame": 29,
+      "throw_type": "underarm flick",
+      "throw_target_m": {
+        "x": -2.5,
+        "y": -9.0
+      },
+      "throw_speed_m_s": 12,
+      "throw_direction": {
+        "x": -0.377,
+        "y": -0.926
+      },
+      "note": "runs in from close, one-hand pick-up and an underarm flick at the stumps in one movement"
+    },
+    {
+      "file": "seq_25_dive_stop_left_get_up_throw.fbx",
+      "frames": 152,
+      "stop_frame": 31,
+      "release_frame": 121,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": -0.048,
+        "y": -0.999
+      },
+      "note": "full-length dive to the left, stops the ball, gets up and crow-hop throws"
+    },
+    {
+      "file": "seq_26_dive_stop_right_get_up_throw.fbx",
+      "frames": 152,
+      "stop_frame": 31,
+      "release_frame": 121,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.048,
+        "y": -0.999
+      },
+      "note": "full-length dive to the right, stops the ball, gets up and crow-hop throws"
+    },
+    {
+      "file": "seq_27_dive_stop_throw_from_knees.fbx",
+      "frames": 111,
+      "stop_frame": 31,
+      "release_frame": 74,
+      "throw_type": "from the knees",
+      "throw_target_m": {
+        "x": -6.0,
+        "y": -12.0
+      },
+      "throw_speed_m_s": 20,
+      "throw_direction": {
+        "x": -0.525,
+        "y": -0.851
+      },
+      "note": "dives, stops the ball, comes up onto both knees and throws without standing up"
+    },
+    {
+      "file": "seq_28_slide_stop_get_up_throw.fbx",
+      "frames": 166,
+      "stop_frame": 54,
+      "release_frame": 135,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": 25.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "note": "chases toward the boundary, slides, collects, gets up turning back to the field and throws back toward the start"
+    },
+    {
+      "file": "seq_29_boundary_chase_slide_flick_back.fbx",
+      "frames": 110,
+      "collect_frame": 54,
+      "flick_release_frame": 57,
+      "flick_point_m": {
+        "x": -0.30000001192092896,
+        "y": -6.619999885559082,
+        "z": 0.5
+      },
+      "flick_velocity_m_s": {
+        "x": 0.6000000238418579,
+        "y": 7.5,
+        "z": 3.200000047683716
+      },
+      "boundary_rope_y_m": -7.6,
+      "note": "chases to the rope, slides, scoops the ball and flicks it back inside before his body crosses the rope, ends outside facing the field"
+    },
+    {
+      "file": "seq_30a_flick_back_fielder1.fbx",
+      "frames": 110,
+      "role": "fielder 1",
+      "flick_release_frame": 57,
+      "flick_point_m": {
+        "x": -0.30000001192092896,
+        "y": -6.619999885559082,
+        "z": 0.5
+      },
+      "flick_velocity_m_s": {
+        "x": 0.6000000238418579,
+        "y": 7.5,
+        "z": 3.200000047683716
+      },
+      "note": "same action as seq_29, flicking the ball back to the teammate"
+    },
+    {
+      "file": "seq_30b_teammate_pickup_throw_fielder2.fbx",
+      "frames": 165,
+      "role": "fielder 2",
+      "pickup_frame": 88,
+      "ball_lands_frame": 80,
+      "ball_lands_at_m": {
+        "x": 0.17,
+        "y": -0.75
+      },
+      "release_frame": 134,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": 30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": -0.002,
+        "y": 1.0
+      },
+      "sync": "play at the same time as seq_30a with both characters in the same field frame (fielder 2 starts 6 m to the side)",
+      "note": "runs in behind fielder 1, picks up the flicked-back ball and throws to the keeper"
+    },
+    {
+      "file": "seq_31a_relay_deep_fielder.fbx",
+      "frames": 106,
+      "role": "deep fielder",
+      "pickup_frame": 33,
+      "release_frame": 75,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -25.0
+      },
+      "throw_speed_m_s": 28.0,
+      "throw_direction": {
+        "x": 0.0,
+        "y": -1.0
+      },
+      "note": "collects in the deep and throws flat to the middle fielder"
+    },
+    {
+      "file": "seq_31b_relay_middle_fielder.fbx",
+      "frames": 175,
+      "role": "middle fielder",
+      "catch_frame": 98,
+      "catch_point_m": {
+        "x": 0.0,
+        "y": -24.549999237060547,
+        "z": 1.2999999523162842
+      },
+      "release_frame": 144,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -55.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.0,
+        "y": -1.0
+      },
+      "sync": "start both clips together; the middle fielder stands 25 m from the deep fielder, facing him",
+      "note": "takes the relay at chest height, turns toward the keeper and throws on"
+    },
+    {
+      "file": "seq_32_long_barrier_get_up_throw.fbx",
+      "frames": 130,
+      "stop_frame": 33,
+      "release_frame": 99,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.0,
+        "y": -1.0
+      },
+      "note": "long barrier, collects, stands and crow-hop throws"
+    },
+    {
+      "file": "seq_33_pickup_spin_throw.fbx",
+      "frames": 75,
+      "pickup_frame": 23,
+      "release_frame": 43,
+      "throw_type": "spin throw",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": 25.0
+      },
+      "throw_speed_m_s": 26,
+      "throw_direction": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "note": "running in with the stumps behind him, picks up, spins round on the left foot (about 180 deg) and releases out of the spin"
+    },
+    {
+      "file": "seq_34_pickup_backhand_flick_at_stumps.fbx",
+      "frames": 65,
+      "pickup_frame": 21,
+      "release_frame": 32,
+      "throw_type": "backhand flick",
+      "throw_target_m": {
+        "x": 0.6,
+        "y": 6.0
+      },
+      "throw_speed_m_s": 9,
+      "throw_direction": {
+        "x": 0.137,
+        "y": 0.991
+      },
+      "note": "picks up facing away from the stumps and flicks the ball backwards at them with the back of the hand, without turning"
+    },
+    {
+      "file": "seq_35_dropped_catch_pickup_quick_throw.fbx",
+      "frames": 90,
+      "catch_attempt_frame": 31,
+      "ball_spills_frame": 34,
+      "pickup_frame": 43,
+      "release_frame": 56,
+      "throw_type": "snap throw",
+      "throw_target_m": {
+        "x": -12.0,
+        "y": -8.0
+      },
+      "throw_speed_m_s": 24,
+      "throw_direction": {
+        "x": -0.84,
+        "y": -0.542
+      },
+      "note": "goes for the catch, the ball pops out, he picks it up straight away and snap-throws for the run-out (no crow hop)"
+    },
+    {
+      "file": "seq_36_back_running_catch_turn_throw.fbx",
+      "frames": 174,
+      "catch_frame": 61,
+      "release_frame": 143,
+      "throw_type": "overarm",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "throw_speed_m_s": 30,
+      "throw_direction": {
+        "x": 0.0,
+        "y": -1.0
+      },
+      "note": "runs back, takes the catch over the shoulder, pulls up, turns and throws the ball back in"
+    },
+    {
+      "file": "seq_37_diving_catch_roll_celebrate_return.fbx",
+      "frames": 170,
+      "catch_frame": 31,
+      "release_frame": 140,
+      "throw_type": "gentle lob to the keeper",
+      "throw_target_m": {
+        "x": 0.0,
+        "y": -22.0
+      },
+      "throw_speed_m_s": 14,
+      "throw_direction": {
+        "x": -0.061,
+        "y": -0.998
+      },
+      "note": "dives left, takes the catch, rolls onto his back holding the ball up, sits up, stands, raises the ball to celebrate, then lobs it to the keeper"
+    },
+    {
+      "file": "seq_38a_relay_flick_fielder1.fbx",
+      "frames": 110,
+      "loop": false,
+      "role": "fielder 1",
+      "type": "catch",
+      "event": "catch",
+      "rope_m_behind_start": 0.9,
+      "note": "leaps at the rope and takes it at 2.4 m, lands inside, flicks it in to fielder 2 (seq_38b) before stepping over the rope",
+      "catch_frame": 31,
+      "hand_point_m": {
+        "forward": -0.45,
+        "left": 0.0,
+        "up": 2.46
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": -1.29,
+        "left": 0.0
+      },
+      "flick_release_frame": 45,
+      "flick_release_point_m": {
+        "x": 0.33,
+        "y": 0.31,
+        "z": 1.12
+      },
+      "flick_velocity_m_s": {
+        "x": 1.67,
+        "y": -5.36,
+        "z": 5.09
+      },
+      "gravity": 9.81,
+      "flight_s": 1.0,
+      "teammate_catch_point_m": {
+        "x": 2.0,
+        "y": -5.050000190734863,
+        "z": 1.2999999523162842
+      },
+      "teammate_catch_frame": 75,
+      "shared_frame": "x = fielder 1's left, y negative = into the field (toward the batter); fielder 1 starts at the origin facing -Y",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": -0.45,
+        "left": 0.0,
+        "up": 2.46
+      }
+    },
+    {
+      "file": "seq_38b_relay_catch_fielder2.fbx",
+      "frames": 110,
+      "loop": false,
+      "role": "fielder 2",
+      "type": "catch",
+      "event": "catch",
+      "start_position_m": {
+        "x": 2.0,
+        "y": -11.0
+      },
+      "start_heading": "+Y (toward the rope)",
+      "sync": "play at the same time as seq_38a in the same field frame; fielder 2 starts at start_position_m facing the rope",
+      "note": "runs in from 6 m, takes fielder 1's flick at chest height, raises the ball",
+      "catch_frame": 75,
+      "hand_point_m": {
+        "forward": 5.08,
+        "left": 2.0,
+        "up": 1.32
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": -5.59,
+        "left": -0.0
+      },
+      "event_frame": 75,
+      "ball_at_event_m": {
+        "forward": 5.08,
+        "left": 2.0,
+        "up": 1.32
+      }
+    }
+  ]
+}

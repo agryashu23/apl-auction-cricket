@@ -1,0 +1,26 @@
+[Unit]
+Description=APL room server (C#, protocol v2)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/aplrooms
+# Flags come from env (APL_ROOMS_*); /etc/aplrooms.env holds the timing overrides (empty = production).
+Environment=APL_ROOMS_HOST=127.0.0.1
+Environment=APL_ROOMS_PORT=8787
+Environment=APL_ROOMS_DATA=/opt/aplrooms/data/apl_dataset.json
+Environment=DOTNET_gcServer=0
+EnvironmentFile=-/etc/aplrooms.env
+ExecStart=/opt/aplrooms/AplRooms
+Restart=always
+RestartSec=2
+DynamicUser=yes
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+MemoryMax=700M
+
+[Install]
+WantedBy=multi-user.target

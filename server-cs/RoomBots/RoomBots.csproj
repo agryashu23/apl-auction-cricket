@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Headless end-to-end harness for the room server: N fake human clients drive
+       scenarios and print PASS/FAIL. By default it hosts its own server in-process
+       (fast test timings, port 8790); use the url flag to target a running server. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Apl.RoomBots</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="..\AplRooms\AplRooms.csproj" />
+  </ItemGroup>
+</Project>

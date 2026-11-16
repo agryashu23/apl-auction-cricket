@@ -1,0 +1,324 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones, mixamorig: names), skeleton only, same rest pose as the milestone pack",
+  "timing": "30 fps, frames start at 1, every frame keyed, one clip per file",
+  "hands": "batter clips: rhb_ (bat on mixamorig:RightHand) and lhb_ (mirrored, bat on mixamorig:LeftHand); fielder/bowler clips: one version; ball on mixamorig:RightHand (throw_hand)",
+  "feet": "planted ranges are measured from the solved skeleton (ToeBase joint within 1.2 cm of the ground), 1-based inclusive frames. A planted foot is pinned: max drift is reported per clip and is <= 1.0 cm everywhere; the largest values come from the touchdown frame as the foot settles. Turns pivot on the ball of the planted foot (heel lifts, ball stays put). The body moves only by stepping.",
+  "turn_deg": "signed, + = left (counter-clockwise seen from above)",
+  "travel_m": "root (Hips) displacement from the first to the last frame, in the character's starting frame: forward = the way it faces on frame 1, left = its left",
+  "loop_speeds": "starts/stops match the delivered loops exactly: run_01_walk_in_loop 1.27 m/s, run_02_jog_loop 3.27 m/s, run_03_sprint_loop 6.94 m/s, bowler walk_back_loop 0.62 m/s",
+  "start_end": "fielders: ready stance (identical to run_00_ready_stance_idle_loop frame 1) unless the clip says otherwise; batters: as stated per clip; bowlers: standing"
+ },
+ "clips": [
+  {
+   "file": "fielder_start_walk.fbx",
+   "frames": 105,
+   "seconds": 3.5,
+   "starts": "ready stance",
+   "ends": "walk stride (matches run_01_walk_in_loop, 1.27 m/s)",
+   "speed_at_end_mps": 1.27,
+   "accel_s": 1.0,
+   "travel_m": {
+    "forward": -3.51,
+    "left": 0.0
+   },
+   "left_foot_planted": [
+    [
+     1,
+     28
+    ],
+    [
+     37,
+     48
+    ],
+    [
+     71,
+     90
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     13
+    ],
+    [
+     22,
+     39
+    ],
+    [
+     54,
+     73
+    ],
+    [
+     88,
+     105
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.88,
+   "right_foot_max_drift_cm": 0.91
+  },
+  {
+   "file": "fielder_start_jog.fbx",
+   "frames": 84,
+   "seconds": 2.8,
+   "starts": "ready stance",
+   "ends": "jog stride (matches run_02_jog_loop, 3.27 m/s)",
+   "speed_at_end_mps": 3.27,
+   "accel_s": 1.1,
+   "travel_m": {
+    "forward": -6.59,
+    "left": 0.01
+   },
+   "left_foot_planted": [
+    [
+     1,
+     16
+    ],
+    [
+     29,
+     37
+    ],
+    [
+     52,
+     59
+    ],
+    [
+     74,
+     81
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     9
+    ],
+    [
+     18,
+     27
+    ],
+    [
+     40,
+     45
+    ],
+    [
+     63,
+     70
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.38,
+   "right_foot_max_drift_cm": 0.49
+  },
+  {
+   "file": "fielder_start_sprint.fbx",
+   "frames": 87,
+   "seconds": 2.9,
+   "starts": "ready stance",
+   "ends": "sprint stride (matches run_03_sprint_loop, 6.94 m/s)",
+   "speed_at_end_mps": 6.94,
+   "accel_s": 1.6,
+   "travel_m": {
+    "forward": -12.95,
+    "left": -0.01
+   },
+   "left_foot_planted": [
+    [
+     1,
+     12
+    ],
+    [
+     23,
+     28
+    ],
+    [
+     39,
+     43
+    ],
+    [
+     55,
+     57
+    ],
+    [
+     72,
+     75
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     9
+    ],
+    [
+     15,
+     20
+    ],
+    [
+     31,
+     36
+    ],
+    [
+     48,
+     51
+    ],
+    [
+     64,
+     67
+    ],
+    [
+     80,
+     83
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.94,
+   "right_foot_max_drift_cm": 0.35
+  },
+  {
+   "file": "fielder_stop_from_walk.fbx",
+   "frames": 87,
+   "seconds": 2.9,
+   "starts": "walk stride (matches run_01_walk_in_loop, 1.27 m/s)",
+   "ends": "ready stance",
+   "speed_at_start_mps": 1.27,
+   "braking_m": 0.55,
+   "travel_m": {
+    "forward": -2.0,
+    "left": -0.02
+   },
+   "left_foot_planted": [
+    [
+     1,
+     20
+    ],
+    [
+     35,
+     56
+    ],
+    [
+     61,
+     63
+    ],
+    [
+     73,
+     87
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     3
+    ],
+    [
+     18,
+     37
+    ],
+    [
+     48,
+     87
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.88,
+   "right_foot_max_drift_cm": 0.88
+  },
+  {
+   "file": "fielder_stop_from_jog.fbx",
+   "frames": 87,
+   "seconds": 2.9,
+   "starts": "jog stride (matches run_02_jog_loop, 3.27 m/s)",
+   "ends": "ready stance",
+   "speed_at_start_mps": 3.27,
+   "braking_m": 1.99,
+   "travel_m": {
+    "forward": -4.32,
+    "left": 0.16
+   },
+   "left_foot_planted": [
+    [
+     2,
+     9
+    ],
+    [
+     24,
+     32
+    ],
+    [
+     41,
+     50
+    ],
+    [
+     73,
+     87
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     13,
+     20
+    ],
+    [
+     32,
+     42
+    ],
+    [
+     60,
+     87
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.72,
+   "right_foot_max_drift_cm": 0.67
+  },
+  {
+   "file": "fielder_stop_from_sprint.fbx",
+   "frames": 95,
+   "seconds": 3.17,
+   "starts": "sprint stride (matches run_03_sprint_loop, 6.94 m/s)",
+   "ends": "ready stance",
+   "speed_at_start_mps": 6.94,
+   "braking_m": 4.94,
+   "travel_m": {
+    "forward": -8.58,
+    "left": 0.28
+   },
+   "left_foot_planted": [
+    [
+     2,
+     5
+    ],
+    [
+     18,
+     21
+    ],
+    [
+     32,
+     36
+    ],
+    [
+     53,
+     71
+    ],
+    [
+     81,
+     95
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     10,
+     13
+    ],
+    [
+     25,
+     29
+    ],
+    [
+     39,
+     44
+    ],
+    [
+     68,
+     95
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.39,
+   "right_foot_max_drift_cm": 0.66
+  }
+ ]
+}

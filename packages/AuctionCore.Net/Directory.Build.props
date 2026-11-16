@@ -1,0 +1,9 @@
+<Project>
+  <!-- Keep bin/ and obj/ out of the source folders: Unity imports
+       src/AuctionCore directly as a package, and would otherwise pick up the
+       compiled Apl.Core.dll as a duplicate. -->
+  <PropertyGroup>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\..\build\dotnet\$(MSBuildProjectName)\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\..\build\dotnet\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

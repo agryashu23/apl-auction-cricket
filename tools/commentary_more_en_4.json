@@ -1,0 +1,49 @@
+{
+ "about": "Round 9 (audio-modes): the second voice's replies (banter) and stats lines, said by Kiara after Arjun's call. English only. python -I tools/gen_commentary_r8.py --file commentary_more_en_4.json",
+ "banter_four": [
+  ["colour", "Placed it beautifully. Didn't even need to hit it hard."], ["colour", "That's timing for you. Pure timing."],
+  ["colour", "The fielder had no chance there."], ["colour", "Found the gap like it was on a string."],
+  ["colour", "Lovely wrists on that one."], ["colour", "You can't bowl there to him. Not today."]
+ ],
+ "banter_six": [
+  ["colour", "That's gone into the second tier!"], ["colour", "Somebody in the crowd has a souvenir."],
+  ["colour", "Clean strike. He's middled that one."], ["colour", "What a sound off the bat!"],
+  ["colour", "That's the shot of the day so far."], ["colour", "Huge. Absolutely huge."]
+ ],
+ "banter_wicket": [
+  ["colour", "Big moment in the game, that."], ["colour", "The bowler has been building to that."],
+  ["colour", "He'll be disappointed with that shot."], ["colour", "That's what pressure does."],
+  ["colour", "Brilliant from the fielding side."], ["colour", "And just like that, the momentum swings."]
+ ],
+ "banter_dot": [
+  ["colour", "Good, tight bowling."], ["colour", "Nothing doing there."],
+  ["colour", "The bowler is right on the money."], ["colour", "Dot ball. The pressure builds."]
+ ],
+ "stat_two_fours_over": [
+  ["colour", "That's two fours in the over."], ["colour", "Second boundary of the over."]
+ ],
+ "stat_three_fours_over": [
+  ["colour", "Three fours in the over now!"], ["colour", "That's his third four this over!"]
+ ],
+ "stat_two_sixes_over": [
+  ["colour", "Two sixes in the over!"], ["colour", "Second maximum of the over."]
+ ],
+ "stat_back_to_back": [
+  ["colour", "Back-to-back boundaries!"], ["colour", "Two in a row now."], ["colour", "Consecutive boundaries. He's on a roll."]
+ ],
+ "stat_second_six": [
+  ["colour", "That's his second six of the innings."], ["colour", "{bat} has two sixes now."]
+ ],
+ "stat_third_six": [
+  ["colour", "His third six of the innings!"], ["colour", "{bat} has three sixes now."]
+ ],
+ "stat_many_sixes": [
+  ["colour", "Another six. He's lost count, and so have we."], ["colour", "Yet another six. What hitting!"]
+ ],
+ "stat_bowler_two": [
+  ["colour", "That's his second wicket of the day."], ["colour", "{bowl} has two now."]
+ ],
+ "stat_bowler_three": [
+  ["colour", "Three wickets for him now!"], ["colour", "{bowl} has three! What a spell."]
+ ]
+}

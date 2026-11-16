@@ -1,0 +1,929 @@
+{
+  "conventions": {
+    "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones, mixamorig: names), skeleton only, 30 fps, frames start at 1",
+    "facing": "on frame 1 the fielder faces the rig's forward direction (toward the batter / incoming ball); left/right are the fielder's own",
+    "event_frame": "1-based frame of the catch / ball collected / release; ball_at_event_m is where the ball is at that frame, relative to the start position on the ground (forward / left / up)",
+    "ball": "attach the ball to mixamorig:RightHand from the event frame (catches end with both hands holding it at the chest); for throws, keep it on RightHand until the release frame",
+    "root_motion": "locomotion loops are in place (move the character in code at speed_m_s); every other clip carries its travel in the hips (end_position_m)",
+    "chaining": "catches and stops end standing with the ball at the chest - the same pose throw_18_overarm_throw starts from; runs/stops end in the ready position",
+    "gait": "all running/walking is generated per frame: planted feet do not slide, swing feet follow a speed-dependent arc, hips ride tall (0.97-1.03 m) and bounce like a real runner; the ready stance is an athletic stance with soft knees"
+  },
+  "clips": [
+    {
+      "file": "catch_01_cup_catch.fbx",
+      "frames": 90,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.48,
+        "left": 0.0,
+        "up": 0.62
+      },
+      "note": "low catch, palms up, fingers down; ends standing with the ball at the chest"
+    },
+    {
+      "file": "catch_02_reverse_cup_catch.fbx",
+      "frames": 90,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.4,
+        "left": 0.0,
+        "up": 1.7
+      },
+      "note": "high catch at head height, palms out, fingers up, thumbs together"
+    },
+    {
+      "file": "catch_03_one_hand_left.fbx",
+      "frames": 90,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.3,
+        "left": 0.98,
+        "up": 1.15
+      },
+      "note": "left hand only, ball wide at chest height"
+    },
+    {
+      "file": "catch_04_one_hand_right.fbx",
+      "frames": 90,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.3,
+        "left": -0.98,
+        "up": 1.15
+      },
+      "note": "right hand only, ball wide at chest height"
+    },
+    {
+      "file": "catch_05_diving_left.fbx",
+      "frames": 120,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.22,
+        "left": 1.92,
+        "up": 0.72
+      },
+      "note": "ends standing with the ball 1.4 m to the left",
+      "end_position_m": {
+        "forward": 0.0,
+        "left": 1.4
+      }
+    },
+    {
+      "file": "catch_06_diving_right.fbx",
+      "frames": 120,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.22,
+        "left": -1.92,
+        "up": 0.72
+      },
+      "note": "ends standing with the ball 1.4 m to the right",
+      "end_position_m": {
+        "forward": 0.0,
+        "left": -1.4
+      }
+    },
+    {
+      "file": "catch_07_diving_forward.fbx",
+      "frames": 120,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 37,
+      "ball_at_event_m": {
+        "forward": 3.3,
+        "left": 0.0,
+        "up": 0.14
+      },
+      "note": "two running steps, dives forward under a dropping ball",
+      "end_position_m": {
+        "forward": 2.75,
+        "left": 0
+      }
+    },
+    {
+      "file": "catch_08_front_running_catch.fbx",
+      "frames": 110,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 45,
+      "note": "sprints in, takes the ball low in front while running, slows to a stop",
+      "end_position_m": {
+        "forward": 9.5,
+        "left": 0
+      }
+    },
+    {
+      "file": "catch_09_back_running_catch.fbx",
+      "frames": 110,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 61,
+      "note": "turns and sprints back (away from the batter), watches the ball over the left shoulder, takes it in front of the face; ends facing away from the batter",
+      "end_position_m": {
+        "forward": -9.8,
+        "left": 0
+      },
+      "end_heading_deg": 180
+    },
+    {
+      "file": "catch_10_jumping_catch.fbx",
+      "frames": 90,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.15,
+        "left": 0.0,
+        "up": 2.62
+      },
+      "note": "two-footed leap, reverse-cup catch above the head, lands and absorbs"
+    },
+    {
+      "file": "catch_11_boundary_relay_catch.fbx",
+      "frames": 150,
+      "type": "catch",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": -0.41999998688697815,
+        "left": 0.0,
+        "up": 2.440000057220459
+      },
+      "toss": {
+        "release_frame": 49,
+        "release_point_m": {
+          "forward": -0.48,
+          "left": 0.06,
+          "up": 1.98
+        },
+        "release_velocity_m_s": {
+          "forward": 0.265,
+          "left": -0.035,
+          "up": 8.254
+        },
+        "gravity": 9.81
+      },
+      "recatch_frame": 101,
+      "recatch_point_m": {
+        "forward": -0.02,
+        "left": 0.0,
+        "up": 1.55
+      },
+      "rope_m_behind_start": 0.9,
+      "note": "leaps and catches near the rope, momentum carries back; tosses the ball up before crossing, steps over the rope and back in, re-catches"
+    },
+    {
+      "file": "field_12_long_barrier.fbx",
+      "frames": 100,
+      "type": "ground fielding",
+      "event": "ball collected",
+      "event_frame": 33,
+      "ball_at_event_m": {
+        "forward": 0.48,
+        "left": 0.02,
+        "up": 0.06
+      },
+      "note": "turns slightly side-on, right knee down beside the left heel, body behind the hands"
+    },
+    {
+      "file": "field_13_two_hand_pickup.fbx",
+      "frames": 90,
+      "type": "ground fielding",
+      "event": "ball collected",
+      "event_frame": 33,
+      "ball_at_event_m": {
+        "forward": 2.62,
+        "left": -0.02,
+        "up": 0.06
+      },
+      "note": "runs in, two decelerating steps, plants the left foot beside the ball, bends low with a flat back, takes it in both hands (fingers down, palms to the ball) and scoops it to the chest; upright with the ball at the chest by frame 55",
+      "end_position_m": {
+        "forward": 2.2,
+        "left": 0
+      }
+    },
+    {
+      "file": "field_14_one_hand_pickup.fbx",
+      "frames": 75,
+      "type": "ground fielding",
+      "event": "ball collected",
+      "event_frame": 29,
+      "ball_at_event_m": {
+        "forward": 3.9,
+        "left": -0.2,
+        "up": 0.05
+      },
+      "note": "collects with the right hand beside the right foot while running at jog pace, then slows; clip starts already running",
+      "end_position_m": {
+        "forward": 7.0,
+        "left": 0
+      }
+    },
+    {
+      "file": "field_15_dive_stop_left.fbx",
+      "frames": 120,
+      "type": "ground fielding",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.18,
+        "left": 1.8,
+        "up": 0.06
+      },
+      "note": "ends standing with the ball 1.4 m to the left",
+      "end_position_m": {
+        "forward": 0.0,
+        "left": 1.4
+      }
+    },
+    {
+      "file": "field_16_dive_stop_right.fbx",
+      "frames": 120,
+      "type": "ground fielding",
+      "event": "catch",
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.18,
+        "left": -1.8,
+        "up": 0.06
+      },
+      "note": "ends standing with the ball 1.4 m to the right",
+      "end_position_m": {
+        "forward": 0.0,
+        "left": -1.4
+      }
+    },
+    {
+      "file": "field_17_slide_stop.fbx",
+      "frames": 120,
+      "type": "ground fielding",
+      "event": "ball collected",
+      "event_frame": 54,
+      "ball_at_event_m": {
+        "forward": 7.02,
+        "left": -0.26,
+        "up": 0.08
+      },
+      "note": "sprints after the ball, slides on the left hip with the right leg out, stops it with the right hand, gets up and turns back to face the field",
+      "end_position_m": {
+        "forward": 6.85,
+        "left": 0
+      },
+      "end_heading_deg": 180
+    },
+    {
+      "file": "throw_18_overarm_throw.fbx",
+      "frames": 75,
+      "type": "throw",
+      "event": "release",
+      "event_frame": 31,
+      "throw_direction": "forward (-Y in Blender = the rig's facing direction at frame 1)",
+      "note": "crow hop, side-on, arm cocked high, whips over the top; attach the ball to RightHand until the release frame",
+      "end_position_m": {
+        "forward": 1.58,
+        "left": 0.04
+      }
+    },
+    {
+      "file": "throw_19_underarm_throw.fbx",
+      "frames": 50,
+      "type": "throw",
+      "event": "release",
+      "event_frame": 19,
+      "note": "from a crouch after a pick-up: short backswing, step, underarm flick at the stumps; attach the ball to RightHand until release"
+    },
+    {
+      "file": "run_00_ready_stance_idle_loop.fbx",
+      "frames": 61,
+      "type": "locomotion loop",
+      "loop": true,
+      "note": "crouched ready position, weight on the balls of the feet"
+    },
+    {
+      "file": "run_01_walk_in_loop.fbx",
+      "frames": 69,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 1.27,
+      "stride_m": 1.44,
+      "note": "walking in with the bowler"
+    },
+    {
+      "file": "run_02_jog_loop.fbx",
+      "frames": 45,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 3.27,
+      "stride_m": 2.4,
+      "note": ""
+    },
+    {
+      "file": "run_03_sprint_loop.fbx",
+      "frames": 33,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 6.94,
+      "stride_m": 3.7,
+      "note": ""
+    },
+    {
+      "file": "run_04_backpedal_loop.fbx",
+      "frames": 49,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 2.0,
+      "stride_m": 1.6,
+      "note": ""
+    },
+    {
+      "file": "run_05_side_shuffle_left_loop.fbx",
+      "frames": 41,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 1.65,
+      "stride_m": 1.1,
+      "note": ""
+    },
+    {
+      "file": "run_06_side_shuffle_right_loop.fbx",
+      "frames": 41,
+      "type": "locomotion loop",
+      "loop": true,
+      "in_place": true,
+      "speed_m_s": 1.65,
+      "stride_m": 1.1,
+      "note": ""
+    },
+    {
+      "file": "run_07_start_sprint.fbx",
+      "frames": 47,
+      "type": "locomotion",
+      "note": "from ready position to full sprint (root motion forward ~6.5 m); blend into run_03_sprint_loop at the end"
+    },
+    {
+      "file": "run_08_sprint_stop.fbx",
+      "frames": 50,
+      "type": "locomotion",
+      "note": "from sprint to a stop in the ready position (root motion ~3.8 m)"
+    },
+    {
+      "file": "run_09_turn_and_sprint_back.fbx",
+      "frames": 47,
+      "type": "locomotion",
+      "note": "drop-step turn and sprint back toward the boundary behind (root motion ~5.5 m, ends facing away)",
+      "end_heading_deg": 180
+    },
+    {
+      "file": "catch_12_running_side_turn.fbx",
+      "frames": 105,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "running across, chest turned in",
+      "note": "runs across to his left at ~6 m/s, turns his chest in to the ball and takes it two-handed at waist/chest height, brakes over two steps, ends facing the batter with the ball at the chest",
+      "catch_frame": 55,
+      "hand_point_m": {
+        "forward": 0.45,
+        "left": 6.45,
+        "up": 1.02
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 0.03,
+        "left": 6.95
+      },
+      "event_frame": 55,
+      "ball_at_event_m": {
+        "forward": 0.45,
+        "left": 6.45,
+        "up": 1.02
+      }
+    },
+    {
+      "file": "catch_13_sprint_dive_forward_long.fbx",
+      "frames": 120,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "sprinting forward dive",
+      "dive_launch_frame": 43,
+      "slide_end_frame": 66,
+      "note": "sprints in, launches into a full-length forward dive, takes it two-handed ~0.15 m off the turf, slides on his chest, comes up and holds the ball aloft",
+      "catch_frame": 52,
+      "hand_point_m": {
+        "forward": 9.77,
+        "left": 0.0,
+        "up": 0.12
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 10.18,
+        "left": 0.0
+      },
+      "event_frame": 52,
+      "ball_at_event_m": {
+        "forward": 9.77,
+        "left": 0.0,
+        "up": 0.12
+      }
+    },
+    {
+      "file": "catch_14_dive_side_left.fbx",
+      "frames": 120,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "full-stretch sideways dive, one hand",
+      "note": "two quick strides to his left, a full-stretch dive, takes it one-handed (left hand) at full stretch, lands on his side, gets up",
+      "catching_hand": "left",
+      "catch_frame": 40,
+      "hand_point_m": {
+        "forward": 0.17,
+        "left": 2.62,
+        "up": 0.49
+      },
+      "travel_m": {
+        "forward": 0.03,
+        "left": 1.9
+      },
+      "event_frame": 40,
+      "ball_at_event_m": {
+        "forward": 0.17,
+        "left": 2.62,
+        "up": 0.49
+      }
+    },
+    {
+      "file": "catch_14_dive_side_right.fbx",
+      "frames": 120,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "full-stretch sideways dive, one hand",
+      "note": "two quick strides to his right, a full-stretch dive, takes it one-handed (right hand) at full stretch, lands on his side, gets up",
+      "catching_hand": "right",
+      "catch_frame": 40,
+      "hand_point_m": {
+        "forward": 0.17,
+        "left": -2.62,
+        "up": 0.49
+      },
+      "travel_m": {
+        "forward": 0.03,
+        "left": -1.9
+      },
+      "event_frame": 40,
+      "ball_at_event_m": {
+        "forward": 0.17,
+        "left": -2.62,
+        "up": 0.49
+      }
+    },
+    {
+      "file": "catch_15_skier_judged_cup.fbx",
+      "frames": 150,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "skier, cupped, fingers down, palms up at waist height",
+      "ball_falls_from_m": {
+        "forward": 1.6,
+        "left": 0.2,
+        "up": 12.78,
+        "frame": 71
+      },
+      "note": "waits under a skier with his eyes on it, three small adjusting steps, hands into position, takes it cupped, fingers down, palms up at waist height, gives with it and holds it up",
+      "catch_frame": 120,
+      "hand_point_m": {
+        "forward": 0.62,
+        "left": 0.2,
+        "up": 0.97
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 0.38,
+        "left": 0.2
+      },
+      "event_frame": 120,
+      "ball_at_event_m": {
+        "forward": 0.62,
+        "left": 0.2,
+        "up": 0.97
+      }
+    },
+    {
+      "file": "catch_15_skier_judged_reverse_cup.fbx",
+      "frames": 150,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "skier, fingers up, thumbs together, above the eyes",
+      "ball_falls_from_m": {
+        "forward": 1.6,
+        "left": 0.2,
+        "up": 13.76,
+        "frame": 71
+      },
+      "note": "waits under a skier with his eyes on it, three small adjusting steps, hands into position, takes it fingers up, thumbs together, above the eyes, gives with it and holds it up",
+      "catch_frame": 120,
+      "hand_point_m": {
+        "forward": 0.59,
+        "left": 0.2,
+        "up": 2.02
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 0.38,
+        "left": 0.2
+      },
+      "event_frame": 120,
+      "ball_at_event_m": {
+        "forward": 0.59,
+        "left": 0.2,
+        "up": 2.02
+      }
+    },
+    {
+      "file": "catch_16_drop_pop_out.fbx",
+      "frames": 100,
+      "loop": false,
+      "type": "catch",
+      "event": "dropped catch",
+      "style": "drop: pops out, juggle, miss",
+      "ball_hits_hands_frame": 31,
+      "ball_hits_hands_m": {
+        "forward": 0.4000000059604645,
+        "left": 0.0,
+        "up": 1.100000023841858
+      },
+      "pop_velocity_m_s": {
+        "forward": 0.5,
+        "left": 0.0,
+        "up": 2.5
+      },
+      "juggle_frame": 37,
+      "juggle_point_m": {
+        "forward": 0.5,
+        "left": 0.0,
+        "up": 1.404
+      },
+      "after_juggle_velocity_m_s": {
+        "forward": 0.45,
+        "left": 0.19,
+        "up": -3.96
+      },
+      "gravity": 9.81,
+      "ball_lands_frame": 45,
+      "ball_lands_m": {
+        "forward": 0.6200000047683716,
+        "left": 0.05000000074505806
+      },
+      "note": "takes a chest-high ball, it pops up off his hands, he juggles at it, knocks it down and misses, it lands by his feet; hands on his head",
+      "catch_frame": 31,
+      "hand_point_m": {
+        "forward": 0.37,
+        "left": 0.0,
+        "up": 1.12
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 0.08,
+        "left": 0.0
+      },
+      "event_frame": 31,
+      "ball_at_event_m": {
+        "forward": 0.37,
+        "left": 0.0,
+        "up": 1.12
+      }
+    },
+    {
+      "file": "slip_catch_chest.fbx",
+      "frames": 90,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "slip, chest high",
+      "note": "from the slip crouch, the ball arrives fast at chest height: hands up with fingers up, takes it and pulls it in, stands and holds it up",
+      "catch_frame": 12,
+      "hand_point_m": {
+        "forward": 0.37,
+        "left": 0.0,
+        "up": 1.02
+      },
+      "hands_apart_at_catch_m": 0.1,
+      "travel_m": {
+        "forward": 0.04,
+        "left": 0.0
+      },
+      "event_frame": 12,
+      "ball_at_event_m": {
+        "forward": 0.37,
+        "left": 0.0,
+        "up": 1.02
+      }
+    },
+    {
+      "file": "slip_dive_left.fbx",
+      "frames": 90,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "slip, diving",
+      "note": "from the slip crouch, a flat dive to his left, two hands at full stretch ~1.8 m out and 0.4 m up, lands, gets up and holds it up",
+      "catch_frame": 12,
+      "hand_point_m": {
+        "forward": 0.17,
+        "left": 1.82,
+        "up": 0.39
+      },
+      "hands_apart_at_catch_m": 0.12,
+      "travel_m": {
+        "forward": 0.03,
+        "left": 1.42
+      },
+      "event_frame": 12,
+      "ball_at_event_m": {
+        "forward": 0.17,
+        "left": 1.82,
+        "up": 0.39
+      }
+    },
+    {
+      "file": "slip_dive_right.fbx",
+      "frames": 90,
+      "loop": false,
+      "type": "catch",
+      "event": "catch",
+      "style": "slip, diving",
+      "note": "from the slip crouch, a flat dive to his right, two hands at full stretch ~1.8 m out and 0.4 m up, lands, gets up and holds it up",
+      "catch_frame": 12,
+      "hand_point_m": {
+        "forward": 0.17,
+        "left": -1.82,
+        "up": 0.39
+      },
+      "hands_apart_at_catch_m": 0.12,
+      "travel_m": {
+        "forward": 0.03,
+        "left": -1.41
+      },
+      "event_frame": 12,
+      "ball_at_event_m": {
+        "forward": 0.17,
+        "left": -1.82,
+        "up": 0.39
+      }
+    },
+    {
+      "file": "throw_crow_hop_overarm.fbx",
+      "type": "throw",
+      "event": "release",
+      "frames": 66,
+      "gather_end_frame": 1,
+      "transfer_frame": 14,
+      "plant_frame": 30,
+      "release_frame": 33,
+      "throw_hand": "right",
+      "throw_type": "overarm, crow hop",
+      "range_m": "30-70",
+      "throw_speed_m_s": 30,
+      "left_foot_planted": [
+        [
+          1,
+          13
+        ],
+        [
+          30,
+          66
+        ]
+      ],
+      "right_foot_planted": [
+        [
+          1,
+          9
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          25,
+          33
+        ],
+        [
+          44,
+          66
+        ]
+      ],
+      "note": "owner ITEM 4: ball in hand at the chest, crow hop, full overarm; the deep (30-70 m). Measured: the hand's travel at release is 15 deg right of the frame-1 facing (runtime samples it: FieldPlay.ThrowDir); travel 2.0 m toward the target.",
+      "source": "mocap delivery 2026-11-13 (throws), verified in Blender"
+    },
+    {
+      "file": "throw_sidearm_snap.fbx",
+      "type": "throw",
+      "event": "release",
+      "frames": 53,
+      "gather_end_frame": 5,
+      "transfer_frame": 10,
+      "plant_frame": 19,
+      "release_frame": 22,
+      "throw_hand": "right",
+      "throw_type": "side-arm snap",
+      "range_m": "10-25",
+      "throw_speed_m_s": 22,
+      "left_foot_planted": [
+        [
+          1,
+          12
+        ],
+        [
+          19,
+          53
+        ]
+      ],
+      "right_foot_planted": [
+        [
+          1,
+          7
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          32,
+          53
+        ]
+      ],
+      "note": "owner ITEM 4: from a crouch over the ball, half-rise, side-arm snap; the ring (10-25 m). Measured: hand travel 14 deg right of the frame-1 facing at release, 1.1 m high.",
+      "source": "mocap delivery 2026-11-13 (throws), verified in Blender"
+    },
+    {
+      "file": "throw_turn_and_throw_180.fbx",
+      "type": "throw",
+      "event": "release",
+      "frames": 61,
+      "gather_end_frame": 10,
+      "transfer_frame": 15,
+      "plant_frame": 25,
+      "release_frame": 28,
+      "throw_hand": "right",
+      "throw_type": "overarm, turn and throw",
+      "throw_speed_m_s": 26,
+      "pivot_foot": "right",
+      "turn_deg": 180,
+      "turn_start_frame": 11,
+      "turn_end_frame": 25,
+      "left_foot_planted": [
+        [
+          1,
+          11
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "right_foot_planted": [
+        [
+          1,
+          31
+        ],
+        [
+          41,
+          61
+        ]
+      ],
+      "note": "owner ITEM 4: takes it facing AWAY from the target, pivots on the right foot and throws. Measured: the throw goes ~160 deg from the frame-1 facing (behind him), not -Y as the delivery's sidecar says (runtime samples it).",
+      "source": "mocap delivery 2026-11-13 (throws), verified in Blender"
+    },
+    {
+      "file": "bowler_receive_break_stumps.fbx",
+      "type": "run-out receive",
+      "event": "catch",
+      "frames": 108,
+      "catch_frame": 65,
+      "break_frame": 74,
+      "throw_hand": "right (ball held in the right hand from catch_frame)",
+      "ball_at_catch_m": {
+        "x": -0.13,
+        "y": -0.311,
+        "z": 1.335
+      },
+      "bails_m": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.71
+      },
+      "run_m": 3.36,
+      "left_foot_planted": [
+        [
+          1,
+          9
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          59,
+          108
+        ]
+      ],
+      "right_foot_planted": [
+        [
+          1,
+          13
+        ],
+        [
+          25,
+          28
+        ],
+        [
+          48,
+          108
+        ]
+      ],
+      "event_frame": 65,
+      "note": "owner ITEM 4: stumps at the clip origin; runs 3.3 m in, waits over the stumps (from f49, hips 0.65 m short of them, the throw from beyond), takes it at the chest (catch_frame), breaks the bails with the ball in the right hand (break_frame, 0.30 s on = RunPlan.Gather). event_frame = catch_frame.",
+      "source": "mocap delivery 2026-11-13 (throws), verified in Blender"
+    },
+    {
+      "file": "fielder_receive_break_stumps.fbx",
+      "type": "run-out receive",
+      "event": "catch",
+      "frames": 108,
+      "catch_frame": 65,
+      "break_frame": 74,
+      "throw_hand": "right (ball held in the right hand from catch_frame)",
+      "ball_at_catch_m": {
+        "x": -0.335,
+        "y": 0.13,
+        "z": 1.303
+      },
+      "bails_m": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.71
+      },
+      "run_m": 3.36,
+      "left_foot_planted": [
+        [
+          1,
+          9
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          59,
+          108
+        ]
+      ],
+      "right_foot_planted": [
+        [
+          1,
+          13
+        ],
+        [
+          25,
+          28
+        ],
+        [
+          48,
+          108
+        ]
+      ],
+      "event_frame": 65,
+      "note": "owner ITEM 4: as bowler_receive_break_stumps for an infielder (starts in the ready stance, 90 deg round). event_frame = catch_frame.",
+      "source": "mocap delivery 2026-11-13 (throws), verified in Blender"
+    }
+  ]
+}

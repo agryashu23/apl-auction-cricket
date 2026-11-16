@@ -1,0 +1,314 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "facing": "the keeper faces the rig's forward direction (toward the bowler); left/right are the keeper's own - for a right-handed batter the keeper's LEFT is the off side",
+  "positions": "ball_at_event_m / bails_m are relative to the keeper's feet at frame 1: forward (toward the bowler), left, up",
+  "standing_up": "in the standing-up and run-out clips the stumps are 0.62 m in front of the keeper and 0.28 m to his right (bails 0.71 m high)",
+  "ball": "attach the ball to the gloves (RightHand) from event_frame; for the fumble it spills at ball_spills_frame",
+  "left_handed_batters": "for a left-hander the off side swaps: use the _legside clips for balls outside the left-hander's off stump and vice versa",
+  "chaining": "takes start from the matching stance loop and end standing with the ball at the chest; wk_return_ball_to_bowler starts from that pose"
+ },
+ "clips": [
+  {
+   "file": "wk_stance_back_loop.fbx",
+   "frames": 81,
+   "type": "stance loop",
+   "loop": true,
+   "note": "squat stance standing back to pace, gloves together low"
+  },
+  {
+   "file": "wk_stance_up_loop.fbx",
+   "frames": 81,
+   "type": "stance loop",
+   "loop": true,
+   "stumps_m": {
+    "forward": 0.6200000047683716,
+    "left": -0.2800000011920929
+   },
+   "note": "squat stance standing up to the stumps for spin"
+  },
+  {
+   "file": "wk_take_back_waist.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.55,
+    "left": 0.0,
+    "up": 0.85
+   },
+   "note": "ball arriving at waist height, gloves fingers-down"
+  },
+  {
+   "file": "wk_take_back_chest.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.5,
+    "left": 0.0,
+    "up": 1.25
+   },
+   "note": "chest height, fingers up, thumbs together"
+  },
+  {
+   "file": "wk_take_back_head_high.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.4,
+    "left": 0.0,
+    "up": 1.95
+   },
+   "note": "bouncer carrying through high, stretches up onto the toes"
+  },
+  {
+   "file": "wk_take_back_low.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.62,
+    "left": 0.0,
+    "up": 0.22
+   },
+   "note": "low / dipping ball taken just off the ground"
+  },
+  {
+   "file": "wk_take_back_offside.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.5,
+    "left": 0.95,
+    "up": 0.95
+   },
+   "note": "shuffles across to the off side (keeper's left) to take a wide ball"
+  },
+  {
+   "file": "wk_take_back_legside.fbx",
+   "frames": 81,
+   "type": "take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.5,
+    "left": -0.95,
+    "up": 0.95
+   },
+   "note": "shuffles across to the leg side (keeper's right) to take a ball down leg"
+  },
+  {
+   "file": "wk_dive_catch_back_left.fbx",
+   "frames": 120,
+   "type": "diving catch",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.25,
+    "left": 1.95,
+    "up": 0.65
+   },
+   "note": "dives full length to the off side (left) from the stance; ends standing with the ball 1.4 m across"
+  },
+  {
+   "file": "wk_dive_catch_back_right.fbx",
+   "frames": 120,
+   "type": "diving catch",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.25,
+    "left": -1.95,
+    "up": 0.65
+   },
+   "note": "dives full length to the leg side (right) from the stance; ends standing with the ball 1.4 m across"
+  },
+  {
+   "file": "wk_fumble_turn_chase_byes.fbx",
+   "frames": 91,
+   "type": "missed take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.55,
+    "left": 0.15,
+    "up": 0.7
+   },
+   "ball_spills_frame": 35,
+   "note": "ball bursts out of the gloves and runs away behind; keeper turns and chases (root motion ~6 m back)"
+  },
+  {
+   "file": "wk_take_up_offside.fbx",
+   "frames": 75,
+   "type": "take (standing up)",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.5,
+    "left": 0.42,
+    "up": 0.45
+   },
+   "stumps_m": {
+    "forward": 0.6200000047683716,
+    "left": -0.2800000011920929,
+    "bail_height": 0.71
+   },
+   "note": "standing up: rises with the ball and takes it on the off side"
+  },
+  {
+   "file": "wk_take_up_legside.fbx",
+   "frames": 75,
+   "type": "take (standing up)",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.45,
+    "left": -0.82,
+    "up": 0.45
+   },
+   "stumps_m": {
+    "forward": 0.6200000047683716,
+    "left": -0.2800000011920929,
+    "bail_height": 0.71
+   },
+   "note": "standing up: rises with the ball and takes it on the leg side"
+  },
+  {
+   "file": "wk_stumping_offside.fbx",
+   "frames": 95,
+   "type": "take (standing up)",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.5,
+    "left": 0.42,
+    "up": 0.45
+   },
+   "stumps_m": {
+    "forward": 0.6200000047683716,
+    "left": -0.2800000011920929,
+    "bail_height": 0.71
+   },
+   "bails_broken_frame": 38,
+   "bails_m": {
+    "forward": 0.54,
+    "left": -0.28,
+    "up": 0.69
+   },
+   "note": "takes the ball on the off side and whips the gloves onto the bails, then appeals"
+  },
+  {
+   "file": "wk_stumping_legside.fbx",
+   "frames": 95,
+   "type": "take (standing up)",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.45,
+    "left": -0.82,
+    "up": 0.45
+   },
+   "stumps_m": {
+    "forward": 0.6200000047683716,
+    "left": -0.2800000011920929,
+    "bail_height": 0.71
+   },
+   "bails_broken_frame": 38,
+   "bails_m": {
+    "forward": 0.54,
+    "left": -0.28,
+    "up": 0.69
+   },
+   "note": "takes the ball on the leg side and whips the gloves onto the bails, then appeals"
+  },
+  {
+   "file": "wk_runout_take_throw_from_front.fbx",
+   "frames": 75,
+   "type": "run-out take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.82,
+    "left": -0.28,
+    "up": 0.95
+   },
+   "bails_broken_frame": 35,
+   "throw_comes_from_heading_deg": 0,
+   "bails_m": {
+    "forward": 0.62,
+    "left": -0.28,
+    "up": 0.69
+   },
+   "note": "takes a throw coming straight in from in front of the wicket and breaks the stumps"
+  },
+  {
+   "file": "wk_runout_take_throw_from_offside.fbx",
+   "frames": 75,
+   "type": "run-out take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.695,
+    "left": -0.063,
+    "up": 0.95
+   },
+   "bails_broken_frame": 35,
+   "throw_comes_from_heading_deg": 60,
+   "bails_m": {
+    "forward": 0.62,
+    "left": -0.28,
+    "up": 0.69
+   },
+   "note": "takes a throw coming in from the off side (keeper's left) and breaks the stumps"
+  },
+  {
+   "file": "wk_runout_take_throw_from_legside.fbx",
+   "frames": 75,
+   "type": "run-out take",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.695,
+    "left": -0.497,
+    "up": 0.95
+   },
+   "bails_broken_frame": 35,
+   "throw_comes_from_heading_deg": -60,
+   "bails_m": {
+    "forward": 0.62,
+    "left": -0.28,
+    "up": 0.69
+   },
+   "note": "takes a throw coming in from the leg side (keeper's right) and breaks the stumps"
+  },
+  {
+   "file": "wk_runout_dive_at_stumps.fbx",
+   "frames": 85,
+   "type": "run-out",
+   "bails_broken_frame": 21,
+   "bails_m": {
+    "forward": 0.62,
+    "left": -0.23,
+    "up": 0.67
+   },
+   "note": "already holding the ball 1.8 m from the stumps: dives and breaks the stumps with the ball in the gloves, gets up"
+  },
+  {
+   "file": "wk_take_and_appeal.fbx",
+   "frames": 101,
+   "type": "take + appeal",
+   "event_frame": 31,
+   "ball_at_event_m": {
+    "forward": 0.52,
+    "left": 0.05,
+    "up": 0.8
+   },
+   "appeal_frame": 47,
+   "note": "takes the ball, springs up with both gloves raised ('Howzat!'), holds the appeal"
+  },
+  {
+   "file": "wk_return_ball_to_bowler.fbx",
+   "frames": 50,
+   "type": "throw",
+   "release_frame": 20,
+   "throw_target_m": {
+    "forward": 18,
+    "left": 0
+   },
+   "throw_speed_m_s": 14,
+   "note": "short flat flick back to the bowler after a take"
+  }
+ ]
+}

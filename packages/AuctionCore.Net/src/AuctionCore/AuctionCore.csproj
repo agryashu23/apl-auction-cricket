@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- APL game logic for the Unity client. A line-for-line port of
+       packages/auction_core (Dart); tests/ checks it against golden files the
+       Dart code exports, so solo AI, ratings, seasons and room replays match. -->
+  <PropertyGroup>
+    <!-- netstandard2.1 + C# 9: what Unity 6 compiles. -->
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Apl.Core</RootNamespace>
+    <AssemblyName>Apl.Core</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Unity ships the same library as com.unity.nuget.newtonsoft-json. -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

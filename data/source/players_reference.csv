@@ -1,0 +1,344 @@
+ref,real_name,game_name,country,role,bowl,hand,bat,bowlskill,keep,capped,base,real_price,real_team,status,tags,notes,star,marquee,arm,style
+r001,MS Dhoni,MS Dhhonee,India,WK,none,R,72,5,92,N,,400,CSK,R,finisher,uncapped-rule retention,95,,,
+r002,Anshul Kamboj,Anshool Kaamboj,India,BOWL,pace,R,40,76,0,Y,,340,CSK,R,,,0,,R,medium
+r003,Jamie Overton,Jaimey Ovarton,England,AR,pace,R,70,76,0,Y,,150,CSK,W,,"withdrawn from IPL 2026, replaced by Dian Forrester: pool",0,,R,fast
+r004,Sanju Samson,Saanju Sammsun,India,WK,none,R,86,5,80,Y,,1800,CSK,R,opener,traded RR->CSK,76,,,
+r005,Gurjapneet Singh,Gurjapnit Singhe,India,BOWL,pace,R,25,72,0,N,,220,CSK,R,,left-arm,0,,L,fast-medium
+r006,Ramakrishna Ghosh,Ramakrishnaa Ghosshe,India,AR,pace,R,55,62,0,N,,30,CSK,W,,"withdrawn from IPL 2026, replaced by Macneil Noronha: pool",0,,R,fast-medium
+r007,Ruturaj Gaikwad,Rutooraj Gaikwaad,India,BAT,none,R,85,10,0,Y,,1800,CSK,R,opener,,70,,,
+r008,Mukesh Choudhary,Mukkesh Chowdhury,India,BOWL,pace,L,25,70,0,N,,30,CSK,R,powerplay,,0,,L,medium
+r009,Shivam Dube,Shivvam Doobay,India,AR,pace,L,82,52,0,Y,,1200,CSK,R,finisher,,55,,R,medium
+r010,Ayush Mhatre,Aayush Mhaatrey,India,BAT,spin,R,80,40,0,N,,30,CSK,W,opener,"withdrawn from IPL 2026, replaced by Akash Madhwal: pool",0,,R,finger
+r011,Nathan Ellis,Naythan Elleys,Australia,BOWL,pace,R,35,80,0,Y,,200,CSK,W,death,"withdrawn from IPL 2026, replaced by Spencer Johnson: pool",0,,R,fast-medium
+r012,Shreyas Gopal,Shreeyas Ghopaal,India,BOWL,spin,R,45,72,0,N,,30,CSK,R,,,0,,R,wrist
+r013,Dewald Brevis,Deywald Brevviss,South Africa,BAT,spin,R,82,35,0,Y,,220,CSK,R,finisher,,0,,R,wrist
+r014,Noor Ahmad,Nuur Ahhmad,Afghanistan,BOWL,spin,R,20,87,0,Y,,1000,CSK,R,,left-arm wrist spin,0,,L,wrist
+r015,Akeal Hosein,Akeel Hosseyn,West Indies,BOWL,spin,L,50,79,0,Y,200,200,CSK,B,powerplay,,0,,L,finger
+r016,Urvil Patel,Urvill Paatell,India,WK,none,R,74,5,74,N,,30,CSK,R,opener,,0,,,
+r017,Khaleel Ahmed,Khaleal Ahmmad,India,BOWL,pace,R,15,80,0,Y,,480,CSK,W,powerplay,"left-arm; withdrawn from IPL 2026, replaced by Kuldip Yadav: pool",0,,L,fast-medium
+r018,Prashant Veer,Prashaant Vheeru,India,AR,spin,L,66,68,0,N,30,1420,CSK,B,,,0,,L,finger
+r019,Kartik Sharma,Kaartik Shaarmah,India,WK,none,R,70,5,72,N,30,1420,CSK,B,,,0,,,
+r020,Matt Henry,Matty Hennrey,New Zealand,BOWL,pace,R,35,81,0,Y,200,200,CSK,B,powerplay,,0,,R,fast-medium
+r021,Aman Khan,Ammaan Khaan,India,AR,pace,R,60,52,0,N,30,40,CSK,B,,,0,,R,medium
+r022,Matthew Short,Matthieu Shorrt,Australia,AR,spin,R,76,58,0,Y,150,150,CSK,B,opener,,0,,R,finger
+r023,Rahul Chahar,Raahul Chaahaar,India,BOWL,spin,R,35,78,0,Y,100,520,CSK,B,,,0,,R,wrist
+r024,Sarfaraz Khan,Sarfarraaz Khaan,India,BAT,none,R,74,10,0,Y,75,75,CSK,B,,,0,,,
+r025,Zak Foulkes,Zaak Fowlkis,New Zealand,AR,pace,R,55,72,0,Y,75,75,CSK,B,,,0,,R,medium
+r026,Abishek Porel,Abeeshek Poreil,India,WK,none,L,76,5,80,N,,400,DC,R,opener,,0,,,
+r027,Dushmantha Chameera,Dushmanntha Chammerra,Sri Lanka,BOWL,pace,R,30,77,0,Y,,75,DC,R,,,0,,R,fast
+r028,Ajay Mandal,Ajaay Maandhal,India,AR,spin,L,50,62,0,N,,30,DC,R,,,0,,L,finger
+r029,Ashutosh Sharma,Ashootosh Shaarma,India,BAT,none,R,76,10,0,N,,380,DC,R,finisher,,0,,,
+r030,Kuldeep Yadav,Kulldeep Yaadhav,India,BOWL,spin,L,30,88,0,Y,,1325,DC,R,,left-arm wrist spin,60,,L,wrist
+r031,Axar Patel,Akshar Pattell,India,AR,spin,L,76,85,0,Y,,1650,DC,R,,,65,,L,finger
+r032,Karun Nair,Karoon Nayyar,India,BAT,spin,R,76,30,0,Y,,50,DC,R,,,0,,R,finger
+r033,Mitchell Starc,Mitchel Starrk,Australia,BOWL,pace,L,40,87,0,Y,,1175,DC,R,powerplay|death,,70,,L,fast
+r034,Madhav Tiwari,Maadhav Tiwaary,India,AR,pace,R,50,60,0,N,,40,DC,R,,,0,,R,fast-medium
+r035,KL Rahul,KL Raahool,India,WK,none,R,86,5,78,Y,,1400,DC,R,opener,,80,,,
+r036,Mukesh Kumar,Mukeysh Kummaar,India,BOWL,pace,R,20,77,0,Y,,800,DC,R,powerplay,,0,,R,medium
+r037,Vipraj Nigam,Vipraaj Neegam,India,AR,spin,R,55,72,0,N,,30,DC,R,,,0,,R,wrist
+r038,Nitish Rana,Nittish Raanah,India,BAT,spin,L,76,45,0,Y,,420,DC,R,,traded RR->DC,0,,R,finger
+r039,T. Natarajan,T. Nattaraajen,India,BOWL,pace,L,15,80,0,Y,,1075,DC,R,death,,0,,L,medium
+r040,Sameer Rizvi,Saameer Rizvee,India,BAT,spin,R,72,30,0,N,,95,DC,R,finisher,,0,,R,finger
+r041,Tripurana Vijay,Tripuraana Veejay,India,AR,spin,R,45,60,0,N,,30,DC,R,,,0,,R,finger
+r042,Tristan Stubbs,Trysstan Stubbz,South Africa,BAT,spin,R,82,40,0,Y,,1000,DC,R,finisher,,0,,R,finger
+r043,Auqib Nabi,Auqeeb Nabbi,India,AR,pace,R,50,74,0,N,30,840,DC,B,,,0,,R,medium
+r044,David Miller,Daveed Millur,South Africa,BAT,none,L,82,10,0,Y,200,200,DC,B,finisher,,55,,,
+r045,Kyle Jamieson,Kaile Jameesun,New Zealand,BOWL,pace,R,50,78,0,Y,200,200,DC,B,powerplay,,0,,R,fast-medium
+r046,Ben Duckett,Benn Dukket,England,WK,none,L,80,5,65,Y,200,200,DC,W,opener,"withdrawn from IPL 2026, replaced by Rehan Ahmed: pool",0,,,
+r047,Pathum Nissanka,Pathoom Nissankha,Sri Lanka,BAT,none,R,82,10,0,Y,75,400,DC,B,opener,,0,,,
+r048,Sahil Parakh,Saaheel Paraakh,India,BAT,none,L,62,20,0,N,30,30,DC,B,,,0,,,
+r049,Prithvi Shaw,Prithvee Shaaw,India,BAT,none,R,74,10,0,Y,75,75,DC,B,opener,,40,,,
+r050,Lungi Ngidi,Lunghi Ngiddie,South Africa,BOWL,pace,R,20,79,0,Y,200,200,DC,B,death,missing from Wisden squad list; Wikipedia auction table,0,,R,fast-medium
+r051,Anuj Rawat,Anooj Raawat,India,WK,none,L,66,5,76,N,,30,GT,R,,,0,,,
+r052,Gurnoor Brar,Gurnuur Braar,India,BOWL,pace,L,30,68,0,N,,130,GT,R,,,0,,R,fast
+r053,Glenn Phillips,Glen Fillips,New Zealand,AR,spin,R,78,60,0,Y,,200,GT,R,finisher,,0,,R,finger
+r054,Jos Buttler,Joss Bhutlar,England,WK,none,R,89,5,82,Y,,1575,GT,R,opener,,70,,,
+r055,Ishant Sharma,Eeshant Sharrma,India,BOWL,pace,R,15,74,0,Y,,75,GT,R,powerplay,,0,,R,fast-medium
+r056,Jayant Yadav,Jayaant Yaadhav,India,AR,spin,R,45,70,0,Y,,75,GT,R,,,0,,R,finger
+r057,Kumar Kushagra,Kumaar Kushaggrah,India,WK,none,R,62,5,75,N,,65,GT,R,,,0,,,
+r058,Kagiso Rabada,Kageeso Rabaada,South Africa,BOWL,pace,L,35,86,0,Y,,1075,GT,R,death,,55,,R,fast
+r059,Manav Suthar,Maanav Sutthaar,India,BOWL,spin,L,30,70,0,N,,30,GT,R,,,0,,L,finger
+r060,Sai Sudharsan,Saai Sudhaarshan,India,BAT,none,L,88,10,0,Y,,850,GT,R,opener,,55,,,
+r061,Mohammed Siraj,Muhammed Seeraj,India,BOWL,pace,R,15,84,0,Y,,1225,GT,R,powerplay,,60,,R,fast
+r062,Nishant Sindhu,Nishaant Sindhoo,India,AR,spin,L,58,60,0,N,,30,GT,R,,,0,,L,finger
+r063,Shubman Gill,Shubham Ghill,India,BAT,none,R,89,10,0,Y,,1650,GT,R,opener,,85,,,
+r064,Arshad Khan,Arrshaad Khaan,India,AR,pace,L,55,72,0,N,,130,GT,R,,,0,,L,medium
+r065,Rahul Tewatia,Rahhul Tewaatiya,India,AR,spin,L,74,58,0,N,,400,GT,R,finisher,,0,,R,wrist
+r066,Tom Banton,Thom Baantonn,England,WK,none,R,74,5,74,Y,200,200,GT,W,opener,"withdrawn from IPL 2026, replaced by Connor Esterhuizen: pool",0,,,
+r067,Prasidh Krishna,Prasiddh Krisshnaa,India,BOWL,pace,R,15,86,0,Y,,950,GT,R,death,,0,,R,fast-medium
+r068,Shahrukh Khan,Shahrookh Khaan,India,BAT,spin,R,74,35,0,N,,400,GT,R,finisher,,0,,R,finger
+r069,Sai Kishore,Saai Keeshore,India,BOWL,spin,L,40,80,0,Y,,200,GT,R,,,0,,L,finger
+r070,Washington Sundar,Washingtun Sundhaar,India,AR,spin,L,68,80,0,Y,,320,GT,R,,,0,,R,finger
+r071,Rashid Khan,Rasheedh Khann,Afghanistan,BOWL,spin,R,62,92,0,Y,,1800,GT,R,,,80,,R,wrist
+r072,Jason Holder,Jaysun Holdder,West Indies,AR,pace,R,64,80,0,Y,200,700,GT,B,death,,0,,R,fast-medium
+r073,Ashok Sharma,Ashokk Shaarmah,India,BOWL,pace,R,25,66,0,N,30,90,GT,B,,,0,,R,fast
+r074,Prithvi Raj Yarra,Pritvi Raaj Yaara,India,BOWL,pace,L,20,64,0,N,30,30,GT,W,,"withdrawn from IPL 2026, replaced by Kulwant Khejroliya: pool",0,,L,medium
+r075,Luke Wood,Luuk Whood,England,BOWL,pace,L,30,74,0,Y,75,75,GT,B,powerplay,,0,,L,fast-medium
+r076,Ajinkya Rahane,Ajinkyaa Rahaanay,India,BAT,none,R,79,10,0,Y,,150,KKR,R,opener,,0,,,
+r077,Harshit Rana,Harsheet Raana,India,BOWL,pace,R,40,80,0,Y,,400,KKR,W,death,"withdrawn from IPL 2026, replaced by Navdeep Saini: pool",0,,R,fast
+r078,Anukul Roy,Anukool Rhoy,India,AR,spin,L,55,64,0,N,,40,KKR,R,,,0,,L,finger
+r079,Angkrish Raghuvanshi,Angkreesh Raghuvanshy,India,BAT,none,R,76,10,0,N,,300,KKR,R,,,0,,,
+r080,Umran Malik,Umraan Maaleek,India,BOWL,pace,R,15,70,0,Y,,75,KKR,R,,,0,,R,fast
+r081,Ramandeep Singh,Raamanndeep Singgh,India,AR,pace,R,70,55,0,Y,,400,KKR,R,finisher,,0,,R,medium
+r082,Manish Pandey,Maneesh Panday,India,BAT,none,R,70,10,0,Y,,75,KKR,R,,,0,,,
+r083,Vaibhav Arora,Vaibhaav Arrorah,India,BOWL,pace,R,25,76,0,N,,180,KKR,R,powerplay,,0,,R,fast-medium
+r084,Sunil Narine,Suneel Nareine,West Indies,AR,spin,L,74,88,0,Y,,1200,KKR,R,opener,,65,,R,finger
+r085,Rinku Singh,Rinkoo Singhe,India,BAT,none,L,81,10,0,Y,,1300,KKR,R,finisher,,70,,,
+r086,Varun Chakravarthy,Vaarun Chakrawarrthy,India,BOWL,spin,R,15,89,0,Y,,1200,KKR,R,,mystery spinner,60,,R,wrist
+r087,Cameron Green,Kammeron Greene,Australia,AR,pace,R,84,72,0,Y,200,2520,KKR,B,,record overseas buy,68,,R,fast-medium
+r088,Rovman Powell,Rovmaan Powwel,West Indies,BAT,pace,R,76,40,0,Y,,150,KKR,R,finisher,,0,,R,fast-medium
+r089,Matheesha Pathirana,Matheeshaa Pathiraanah,Sri Lanka,BOWL,pace,R,15,85,0,Y,200,1800,KKR,W,death,"withdrawn from IPL 2026, replaced by Luvnith Sisodia: pool",60,,R,fast
+r090,Sarthak Ranjan,Saarthak Raanjjan,India,AR,spin,R,60,48,0,N,30,30,KKR,B,,,0,,R,wrist
+r091,Finn Allen,Phinn Allenn,New Zealand,WK,none,R,79,5,65,Y,200,200,KKR,B,opener,,0,,,
+r092,Kartik Tyagi,Kartick Tyaagee,India,BOWL,pace,R,25,70,0,N,30,30,KKR,B,,,0,,R,fast
+r093,Daksh Kamra,Dakshh Kammraa,India,AR,spin,R,52,58,0,N,30,30,KKR,B,,,0,,,
+r094,Tejasvi Singh,Tejasvee Sinngh,India,WK,none,R,64,5,72,N,30,300,KKR,B,,,0,,,
+r095,Prashant Solanki,Prashanth Solankee,India,BOWL,spin,R,30,66,0,N,30,30,KKR,B,,,0,,R,wrist
+r096,Rachin Ravindra,Raachin Ravvindrah,New Zealand,AR,spin,L,82,62,0,Y,200,200,KKR,B,opener,,0,,L,finger
+r097,Rahul Tripathi,Rahool Tripaathi,India,BAT,none,R,72,10,0,Y,75,75,KKR,B,,,0,,,
+r098,Mustafizur Rahman,Mustaafizur Rehmaan,Bangladesh,BOWL,pace,L,15,82,0,Y,200,920,KKR,X,death,KKR released him on 3 Jan 2026 at the BCCI's instruction (not an injury); replaced by Blessing Muzarabani,0,,L,fast-medium
+r099,Tim Seifert,Timm Siefert,New Zealand,WK,none,R,77,5,76,Y,150,150,KKR,B,opener,,0,,,
+r100,Akash Deep,Aakaash Dheep,India,BOWL,pace,R,30,76,0,Y,100,100,KKR,W,powerplay,"withdrawn from IPL 2026, replaced by Saurabh Dubey: pool",0,,R,fast-medium
+r101,Abdul Samad,Abdool Samaad,India,BAT,spin,R,74,35,0,N,,420,LSG,R,finisher,,0,,R,wrist
+r102,Akash Singh,Akassh Seengh,India,BOWL,pace,R,20,68,0,N,,30,LSG,R,,,0,,L,fast-medium
+r103,Aiden Markram,Aydenn Markraam,South Africa,BAT,spin,R,83,55,0,Y,,200,LSG,R,opener,,45,,R,finger
+r104,Himmat Singh,Himmaath Sinngh,India,BAT,none,R,62,10,0,N,,30,LSG,R,,,0,,,
+r105,Arjun Tendulkar,Arjoon Tendulkarr,India,AR,pace,L,45,66,0,N,,30,LSG,R,,traded MI->LSG,0,,L,fast-medium
+r106,Arshin Kulkarni,Arsheen Kulkarnee,India,AR,pace,R,60,55,0,N,,30,LSG,R,,,0,,R,medium
+r107,Matthew Breetzke,Matthiew Breetskey,South Africa,BAT,none,R,78,10,0,Y,,75,LSG,R,,,0,,,
+r108,Avesh Khan,Aaveysh Khaan,India,BOWL,pace,R,20,78,0,Y,,975,LSG,R,death,,0,,R,fast-medium
+r109,Ayush Badoni,Ayussh Badonee,India,BAT,spin,R,76,35,0,N,,400,LSG,R,,,0,,R,finger
+r110,Nicholas Pooran,Nikkolas Poorann,West Indies,WK,none,L,89,5,76,Y,,2100,LSG,R,finisher,,70,,,
+r111,Digvesh Rathi,Digvessh Raathie,India,BOWL,spin,R,20,79,0,N,,30,LSG,R,,,0,,R,wrist
+r112,Mitchell Marsh,Mitchael Marrsh,Australia,BAT,pace,R,85,50,0,Y,,340,LSG,R,opener,,50,,R,medium
+r113,Rishabh Pant,Reeshabh Panth,India,WK,none,L,85,5,85,Y,,2700,LSG,R,,,90,,,
+r114,Manimaran Siddharth,Maanimaaran Siddhaarth,India,BOWL,spin,R,20,66,0,N,,75,LSG,R,,,0,,L,finger
+r115,Shahbaz Ahmed,Shaahbaaz Ahhmed,India,AR,spin,L,66,70,0,Y,,240,LSG,R,,,0,,L,finger
+r116,Mukul Choudhary,Mukool Chaudharry,India,WK,none,R,62,5,72,N,30,260,LSG,B,,,0,,,
+r117,Mayank Yadav,Mayaank Yaadhav,India,BOWL,pace,R,15,80,0,Y,,1100,LSG,R,,,0,,R,fast
+r118,Wanindu Hasaranga,Waanindu Hasaarangah,Sri Lanka,AR,spin,R,60,85,0,Y,200,200,LSG,W,,"withdrawn from IPL 2026, replaced by George Linde: pool",0,,R,wrist
+r119,Akshat Raghuwanshi,Akshaat Raghoowanshi,India,BAT,none,R,64,10,0,N,30,220,LSG,B,,,0,,,
+r120,Mohammed Shami,Mohamed Shammy,India,BOWL,pace,R,25,82,0,Y,,1000,LSG,R,powerplay,traded SRH->LSG,60,,R,fast
+r121,Josh Inglis,Joshh Inglees,Australia,WK,none,R,82,5,80,Y,200,860,LSG,B,,,0,,,
+r122,Mohsin Khan,Mohseen Khaan,India,BOWL,pace,L,20,76,0,N,,400,LSG,R,,,0,,L,fast-medium
+r123,Prince Yadav,Prynce Yaadaav,India,BOWL,pace,R,20,68,0,N,,30,LSG,R,,,0,,R,fast
+r124,Anrich Nortje,Anrikh Noortjie,South Africa,BOWL,pace,R,20,80,0,Y,200,200,LSG,B,death,,0,,R,fast
+r125,Naman Tiwari,Naaman Tiwaaree,India,BOWL,pace,L,20,64,0,N,30,100,LSG,B,,,0,,,
+r126,Robin Minz,Robbin Meenz,India,WK,none,L,62,5,74,N,,65,MI,R,,,0,,,
+r127,Allah Ghazanfar,Allah Ghaazanphar,Afghanistan,BOWL,spin,R,25,80,0,Y,,480,MI,R,,,0,,R,finger
+r128,Corbin Bosch,Korbinn Bossch,South Africa,AR,pace,R,64,74,0,Y,,75,MI,R,,,0,,R,fast-medium
+r129,Rohit Sharma,Rogit Shaermah,India,BAT,none,R,86,10,0,Y,,1630,MI,R,opener,,95,Y,,
+r130,Ashwani Kumar,Ashwaani Kummaar,India,BOWL,pace,L,20,72,0,N,,30,MI,R,,,0,,L,fast-medium
+r131,Hardik Pandya,Haardik Panddyah,India,AR,pace,R,82,80,0,Y,,1635,MI,R,finisher,,88,,R,fast-medium
+r132,Ryan Rickelton,Rayan Rikkeltun,South Africa,WK,none,L,82,5,80,Y,,100,MI,R,opener,Wisden listed as India; is South African,0,,,
+r133,Deepak Chahar,Deepaak Chaahaar,India,BOWL,pace,R,45,79,0,Y,,925,MI,R,powerplay,,0,,R,medium
+r134,Mitchell Santner,Mitchall Saantnerr,New Zealand,AR,spin,L,62,82,0,Y,,200,MI,W,,"withdrawn from IPL 2026, replaced by Keshav Maharaj: pool",0,,L,finger
+r135,Sherfane Rutherford,Sherfaane Rhutherforde,West Indies,BAT,pace,L,78,40,0,Y,,260,MI,R,finisher,traded GT->MI,0,,R,fast-medium
+r136,Jasprit Bumrah,Jaspreet Bhumrah,India,BOWL,pace,R,20,96,0,Y,,1800,MI,R,death|powerplay,,90,,R,fast
+r137,Naman Dhir,Namaan Dhheer,India,AR,spin,R,70,50,0,N,,525,MI,R,finisher,,0,,R,finger
+r138,Suryakumar Yadav,Suryakumaar Yaadhav,India,BAT,none,R,91,10,0,Y,,1635,MI,R,,,85,,,
+r139,Mayank Markande,Maiyank Markhandey,India,BOWL,spin,R,30,70,0,Y,,30,MI,R,,traded KKR->MI,0,,R,wrist
+r140,Raj Angad Bawa,Raaj Angadd Baawa,India,AR,pace,L,56,62,0,N,,30,MI,W,,"withdrawn from IPL 2026, replaced by Ruchit Ahir: pool",0,,R,fast-medium
+r141,Tilak Varma,Tillak Vaarmah,India,BAT,spin,L,85,40,0,Y,,800,MI,R,,,65,,R,finger
+r142,Raghu Sharma,Raghoo Shaarma,India,BOWL,spin,R,20,64,0,N,,30,MI,R,,,0,,R,wrist
+r143,Will Jacks,Whill Jaxx,England,AR,spin,R,82,62,0,Y,,525,MI,R,opener,,0,,R,finger
+r144,Quinton de Kock,Kwinton de Kokk,South Africa,WK,none,L,83,5,85,Y,100,100,MI,W,opener,"withdrawn from IPL 2026, replaced by Mahipal Lomror: pool",50,,,
+r145,Shardul Thakur,Shaardul Thaakkur,India,AR,pace,R,58,74,0,Y,,200,MI,R,,traded LSG->MI,0,,R,medium
+r146,Atharva Ankolekar,Atharvaa Aankolekkar,India,AR,spin,L,50,62,0,N,30,30,MI,W,,"withdrawn from IPL 2026, replaced by Krish Bhagat: pool",0,,L,finger
+r147,Danish Malewar,Daanish Maalewaar,India,BAT,none,R,62,10,0,N,30,30,MI,B,,,0,,,
+r148,Trent Boult,Trennt Bowltt,New Zealand,BOWL,pace,R,30,87,0,Y,,1250,MI,R,powerplay,,55,,L,fast-medium
+r149,Mayank Rawat,Mayunk Rawwath,India,AR,spin,R,52,58,0,N,30,30,MI,B,,,0,,,
+r150,Mohammad Izhar,Muhammad Izzhaar,India,BOWL,pace,R,20,60,0,N,30,30,MI,B,,,0,,,
+r151,Harnoor Singh Pannu,Harnour Seengh Pannoo,India,BAT,none,L,64,10,0,N,,30,PBKS,R,,,0,,,
+r152,Arshdeep Singh,Aarshdheep Singhe,India,BOWL,pace,L,20,88,0,Y,,1800,PBKS,R,death|powerplay,,70,,L,fast-medium
+r153,Azmatullah Omarzai,Azmattullah Oomarzaai,Afghanistan,AR,pace,R,68,78,0,Y,,240,PBKS,R,,,0,,R,fast-medium
+r154,Nehal Wadhera,Nehaal Waadheraa,India,BAT,spin,L,77,30,0,N,,420,PBKS,R,,,0,,R,wrist
+r155,Lockie Ferguson,Lokkie Ferrgusson,New Zealand,BOWL,pace,R,25,81,0,Y,,200,PBKS,R,death,,0,,R,fast
+r156,Harpreet Brar,Harpreeth Bhraar,India,AR,spin,L,52,74,0,N,,150,PBKS,R,,,0,,L,finger
+r157,Prabhsimran Singh,Prabhseemraan Singhe,India,WK,none,R,83,5,74,N,,400,PBKS,R,opener,,0,,,
+r158,Vyshak Vijaykumar,Vyshaak Vijaykummaar,India,BOWL,pace,R,20,72,0,N,,180,PBKS,R,,,0,,R,medium
+r159,Marco Jansen,Markko Jaansen,South Africa,AR,pace,R,66,84,0,Y,,700,PBKS,R,powerplay,,0,,L,fast
+r160,Priyansh Arya,Priyaansh Aaryah,India,BAT,none,L,82,10,0,N,,380,PBKS,R,opener,,0,,,
+r161,Xavier Bartlett,Xaviour Bartlet,Australia,BOWL,pace,R,35,77,0,Y,,80,PBKS,R,powerplay,,0,,R,fast-medium
+r162,Marcus Stoinis,Markuss Stoyniss,Australia,AR,pace,R,80,68,0,Y,,1100,PBKS,R,finisher,,50,,R,medium
+r163,Pyla Avinash,Pyllah Avinaash,India,BAT,none,R,60,10,0,N,,30,PBKS,R,,,0,,,
+r164,Yash Thakur,Yassh Thakoor,India,BOWL,pace,R,20,72,0,N,,160,PBKS,R,,,0,,R,fast-medium
+r165,Mitchell Owen,Mittchel Oweyn,Australia,AR,pace,R,76,55,0,Y,,300,PBKS,R,opener,,0,,R,medium
+r166,Shashank Singh,Shashaankh Singhe,India,BAT,spin,R,80,30,0,N,,550,PBKS,R,finisher,,0,,R,finger
+r167,Yuzvendra Chahal,Yuzvendraa Chahhaal,India,BOWL,spin,R,15,86,0,Y,,1800,PBKS,R,,,65,,R,wrist
+r168,Musheer Khan,Mushir Khaann,India,AR,spin,R,58,55,0,N,,30,PBKS,R,,,0,,L,finger
+r169,Shreyas Iyer,Shreyaas Aiyyer,India,BAT,none,R,88,10,0,Y,,2675,PBKS,R,,,82,,,
+r170,Ben Dwarshuis,Benn Dwaarshuys,Australia,AR,pace,L,58,77,0,Y,100,440,PBKS,B,,,0,,L,fast-medium
+r171,Suryansh Shedge,Suryaansh Shedjey,India,AR,pace,R,60,50,0,N,,30,PBKS,R,,,0,,R,medium
+r172,Vishnu Vinod,Vishnoo Vinodh,India,WK,none,R,64,5,76,N,,95,PBKS,R,,,0,,,
+r173,Cooper Connolly,Kooper Connollie,Australia,AR,spin,L,74,66,0,Y,200,300,PBKS,B,,,0,,L,finger
+r174,Pravin Dubey,Praveen Dubbey,India,BOWL,spin,R,30,64,0,N,30,30,PBKS,B,,,0,,R,wrist
+r175,Vishal Nishad,Vishaal Nishaadh,India,AR,spin,R,45,62,0,N,30,30,PBKS,B,,,0,,,
+r176,Dhruv Jurel,Dhruuv Jurrell,India,WK,none,R,80,5,84,Y,,1400,RR,R,finisher,,45,,,
+r177,Jofra Archer,Jophra Aarcher,England,BOWL,pace,R,40,85,0,Y,,1250,RR,R,powerplay|death,,55,,R,fast
+r178,Donovan Ferreira,Donnovan Ferrairra,South Africa,BAT,spin,R,74,40,0,Y,,100,RR,R,finisher,traded DC->RR,0,,R,finger
+r179,Lhuan-dre Pretorius,Lhuaan-drey Prettorius,South Africa,WK,none,L,72,5,74,Y,,30,RR,R,opener,,0,,,
+r180,Kwena Maphaka,Kweena Maaphakka,South Africa,BOWL,pace,L,15,74,0,Y,,150,RR,R,,,0,,L,fast
+r181,Ravindra Jadeja,Raveendra Jadejja,India,AR,spin,L,75,84,0,Y,,1400,RR,R,,traded CSK->RR,75,,L,finger
+r182,Shimron Hetmyer,Shimronn Hettmeyer,West Indies,BAT,none,L,80,10,0,Y,,1100,RR,R,finisher,,0,,,
+r183,Nandre Burger,Nandrey Burrgar,South Africa,BOWL,pace,L,20,77,0,Y,,350,RR,R,powerplay,,0,,L,fast-medium
+r184,Riyan Parag,Reeyan Paraag,India,AR,spin,R,81,62,0,Y,,1400,RR,R,,,50,,R,finger
+r185,Shubham Dubey,Shubbham Doobey,India,BAT,none,L,70,10,0,N,,80,RR,R,finisher,,0,,,
+r186,Sandeep Sharma,Sanndeep Shaarmaa,India,BOWL,pace,R,20,78,0,Y,,400,RR,R,death,,0,,R,fast-medium
+r187,Sam Curran,Saam Kurraan,England,AR,pace,L,74,76,0,Y,,240,RR,W,,"traded CSK->RR; withdrawn from IPL 2026, replaced by Dasun Shanaka: pool",0,,L,fast-medium
+r188,Vaibhav Suryavanshi,Vaibbhav Suryavanshee,India,BAT,none,L,84,10,0,N,,110,RR,R,opener,,75,,,
+r189,Tushar Deshpande,Tusshar Deshpaandey,India,BOWL,pace,L,25,74,0,Y,,650,RR,R,,,0,,R,medium
+r190,Yashasvi Jaiswal,Yashasvee Jaiswaal,India,BAT,spin,L,89,30,0,Y,,1800,RR,R,opener,,80,,R,wrist
+r191,Yudhvir Singh Charak,Yudhveer Singhe Charrak,India,AR,pace,R,45,70,0,N,,35,RR,R,,,0,,R,fast-medium
+r192,Ravi Singh,Raavee Sinngh,India,WK,none,R,60,5,72,N,30,95,RR,W,,"withdrawn from IPL 2026, replaced by Emanjot Chahal: pool",0,,,
+r193,Ravi Bishnoi,Ravvi Bishnoye,India,BOWL,spin,R,25,80,0,Y,200,720,RR,B,,,0,,R,wrist
+r194,Aman Rao,Amaan Rhaao,India,BAT,none,R,60,10,0,N,30,30,RR,B,,,0,,,
+r195,Sushant Mishra,Sushaant Misshraa,India,BOWL,pace,L,20,66,0,N,30,90,RR,B,,,0,,L,fast-medium
+r196,Yash Raj Punja,Yashh Raaj Punjaa,India,BOWL,spin,R,20,62,0,N,30,30,RR,B,,,0,,R,wrist
+r197,Vignesh Puthur,Vigneysh Puthoor,India,BOWL,spin,L,20,68,0,N,30,30,RR,B,,sources disagree MI/RR; using Wisden squad,0,,L,wrist
+r198,Brijesh Sharma,Breejesh Sharmma,India,BOWL,pace,R,20,62,0,N,30,30,RR,B,,,0,,R,medium
+r199,Adam Milne,Addam Millney,New Zealand,BOWL,pace,R,30,77,0,Y,200,240,RR,B,,,0,,R,fast
+r200,Kuldeep Sen,Kulldheep Senn,India,BOWL,pace,R,20,72,0,Y,75,75,RR,B,,,0,,R,fast
+r201,Devdutt Padikkal,Dhevdutt Paddikal,India,BAT,none,L,80,10,0,Y,,200,RCB,R,,,0,,,
+r202,Abhinandan Singh,Abhinandann Seengh,India,BOWL,pace,R,20,64,0,N,,30,RCB,R,,,0,,,
+r203,Jacob Bethell,Jaykob Bethel,England,AR,spin,L,78,60,0,Y,,260,RCB,R,opener,,0,,L,finger
+r204,Jitesh Sharma,Jeetesh Shaarmah,India,WK,none,R,77,5,82,Y,,1100,RCB,R,finisher,,0,,,
+r205,Bhuvneshwar Kumar,Bhuvneshwaar Kummaar,India,BOWL,pace,R,40,85,0,Y,,1075,RCB,R,powerplay,,55,,R,medium
+r206,Krunal Pandya,Kruunal Paandyaa,India,AR,spin,L,70,78,0,Y,,575,RCB,R,,,0,,L,finger
+r207,Phil Salt,Philly Saalt,England,WK,none,R,87,5,74,Y,,1150,RCB,R,opener,,55,,,
+r208,Josh Hazlewood,Jossh Hazzlewud,Australia,BOWL,pace,L,15,88,0,Y,,1250,RCB,R,powerplay,,50,,R,fast-medium
+r209,Romario Shepherd,Romaario Shepphird,West Indies,AR,pace,R,72,72,0,Y,,150,RCB,R,finisher,,0,,R,fast-medium
+r210,Rajat Patidar,Rajaat Paatiddar,India,BAT,none,R,82,10,0,Y,,1100,RCB,R,,,50,,,
+r211,Nuwan Thushara,Nuwaan Thusharraa,Sri Lanka,BOWL,pace,R,15,77,0,Y,,160,RCB,W,death,"withdrawn from IPL 2026, replaced by Richard Gleeson: pool",0,,R,fast-medium
+r212,Swapnil Singh,Swapneel Sinngh,India,AR,spin,R,48,66,0,N,,50,RCB,R,,,0,,L,finger
+r213,Tim David,Timm Daveed,Australia,BAT,spin,R,82,30,0,Y,,300,RCB,R,finisher,,50,,R,finger
+r214,Rasikh Dar,Rasiq Daar,India,BOWL,pace,R,25,72,0,N,,600,RCB,R,,,0,,R,fast-medium
+r215,Venkatesh Iyer,Venkatessh Aiyyer,India,AR,pace,L,79,45,0,Y,200,700,RCB,B,,,45,,R,medium
+r216,Virat Kohli,Viraat Kohhly,India,BAT,none,R,91,10,0,Y,,2100,RCB,R,opener,,100,,,
+r217,Suyash Sharma,Suyaash Shaarmah,India,BOWL,spin,R,15,77,0,N,,260,RCB,R,,,0,,R,wrist
+r218,Satvik Deswal,Satveek Deswaal,India,AR,spin,R,50,56,0,N,30,30,RCB,B,,,0,,,
+r219,Jordan Cox,Jordaan Koxx,England,WK,none,R,72,5,72,Y,75,75,RCB,B,,,0,,,
+r220,Yash Dayal,Yashh Dhayaal,India,BOWL,pace,R,20,78,0,N,,500,RCB,R,death,,0,,L,fast-medium
+r221,Mangesh Yadav,Mangessh Yaadaav,India,AR,pace,L,55,70,0,N,30,520,RCB,B,,,0,,L,fast-medium
+r222,Vihaan Malhotra,Veehaan Malhotraa,India,AR,spin,L,60,50,0,N,30,30,RCB,B,,,0,,R,finger
+r223,Jacob Duffy,Jakob Duffie,New Zealand,BOWL,pace,R,25,79,0,Y,200,200,RCB,B,powerplay,,0,,R,fast-medium
+r224,Kanishk Chouhan,Kaneeshk Chowhan,India,AR,spin,R,50,60,0,N,30,30,RCB,B,,,0,,R,finger
+r225,Vicky Ostwal,Vikkey Ostwaal,India,AR,spin,L,48,62,0,N,30,30,RCB,B,,,0,,,
+r226,Aniket Verma,Aneeket Vermah,India,BAT,none,R,72,10,0,N,,30,SRH,R,finisher,,0,,,
+r227,Brydon Carse,Braydon Kaarse,England,AR,pace,R,60,78,0,Y,,100,SRH,W,,"withdrawn from IPL 2026, replaced by Dilshan Madushanka: pool",0,,R,fast
+r228,Abhishek Sharma,Abhisheck Sharmmah,India,BAT,spin,L,90,58,0,Y,,1400,SRH,R,opener,,75,,L,finger
+r229,Heinrich Klaasen,Heinreich Klaassan,South Africa,WK,none,R,90,5,80,Y,,2300,SRH,R,finisher,,70,,,
+r230,Eshan Malinga,Eshaan Maalingah,Sri Lanka,BOWL,pace,L,15,76,0,N,,120,SRH,R,death,,0,,R,fast-medium
+r231,Harsh Dubey,Harrsh Dhubay,India,AR,spin,L,52,66,0,N,,30,SRH,R,,,0,,L,finger
+r232,Ishan Kishan,Eeshan Kishaan,India,WK,none,L,83,5,78,Y,,1125,SRH,R,opener,,60,,,
+r233,Harshal Patel,Harshaal Paatell,India,BOWL,pace,R,40,82,0,Y,,800,SRH,R,death,,0,,R,fast-medium
+r234,Kamindu Mendis,Kaamindu Mhendiss,Sri Lanka,AR,spin,L,76,66,0,Y,,75,SRH,R,,,0,,L,finger
+r235,Smaran Ravichandran,Smaaran Raavichandrann,India,BAT,none,L,64,10,0,N,,30,SRH,R,,,0,,,
+r236,Jaydev Unadkat,Jaidev Unaadkatt,India,BOWL,pace,R,25,74,0,Y,,100,SRH,R,,left-arm,0,,L,medium
+r237,Nitish Kumar Reddy,Nitesh Kumarr Reddie,India,AR,pace,R,76,68,0,Y,,600,SRH,R,,,0,,R,fast-medium
+r238,Travis Head,Traavis Hedde,Australia,BAT,spin,L,89,40,0,Y,,1400,SRH,R,opener,,75,,R,finger
+r239,Pat Cummins,Patt Kummings,Australia,BOWL,pace,R,55,84,0,Y,,1800,SRH,R,death,,75,,R,fast
+r240,Shivang Kumar,Sheevang Kummar,India,AR,spin,R,50,58,0,N,30,30,SRH,B,,,0,,,
+r241,Salil Arora,Saleel Arorah,India,WK,none,R,64,5,72,N,30,150,SRH,B,,,0,,,
+r242,Zeeshan Ansari,Zishan Ansaari,India,BOWL,spin,R,20,68,0,N,,40,SRH,R,,,0,,R,wrist
+r243,Krains Fuletra,Kraynes Fulettra,India,AR,spin,R,48,58,0,N,30,30,SRH,B,,,0,,,
+r244,Sakib Hussain,Saaqib Hussein,India,BOWL,pace,R,20,64,0,N,30,30,SRH,B,,,0,,R,fast-medium
+r245,Liam Livingstone,Lyam Livingstun,England,AR,spin,R,82,62,0,Y,200,1300,SRH,B,finisher,,50,,R,finger
+r246,Onkar Tarmale,Omkaar Tarmaley,India,BOWL,pace,R,20,60,0,N,30,30,SRH,B,,,0,,,
+r247,Shivam Mavi,Shivaam Maavee,India,BOWL,pace,R,30,72,0,Y,75,75,SRH,W,,"withdrawn from IPL 2026, replaced by RS Ambrish: pool",0,,R,fast-medium
+r248,Amit Kumar,Ameet Kumaar,India,BOWL,spin,R,20,60,0,N,30,30,SRH,B,,verify role,0,,,
+r249,Jack Edwards,Jaack Edwordz,Australia,AR,pace,R,66,70,0,N,50,300,SRH,W,,"withdrawn from IPL 2026, replaced by David Payne: pool",0,,R,medium
+r250,Praful Hinge,Prafull Hinjey,India,BOWL,pace,R,20,62,0,N,30,30,SRH,B,,,0,,R,fast-medium
+r251,Jake Fraser-McGurk,Jaake Phraser-McGurrk,Australia,BAT,none,R,78,10,0,Y,200,,,U,opener,,0,,,
+r252,Devon Conway,Devvon Konwey,New Zealand,BAT,none,L,82,10,0,Y,200,,,U,opener,,0,,,
+r253,Gus Atkinson,Guss Attkinsun,England,BOWL,pace,R,40,78,0,Y,200,,,U,,,0,,R,fast-medium
+r254,Jamie Smith,Jaymee Smyth,England,WK,none,R,80,5,80,Y,200,,,U,,,0,,,
+r255,Deepak Hooda,Dheepak Hudda,India,AR,spin,R,68,50,0,Y,75,,,U,,,0,,R,finger
+r256,Wiaan Mulder,Wiyaan Mulldar,South Africa,AR,pace,R,70,70,0,Y,100,,,U,,,0,,R,medium
+r257,Rahmanullah Gurbaz,Rehmaanullah Gurbaaz,Afghanistan,WK,none,R,79,5,74,Y,150,,,U,opener,,0,,,
+r258,Jonny Bairstow,Jonnie Bairstoe,England,WK,none,R,80,5,72,Y,100,,,U,opener,,0,,,
+r259,K.S. Bharat,K.S. Bhaaraath,India,WK,none,R,62,5,85,Y,75,,,U,,,0,,,
+r260,Gerald Coetzee,Jerrald Coetzie,South Africa,BOWL,pace,R,35,76,0,Y,200,200,SRH,P,death,IPL 2026 replacement for David Payne (ankle injury),0,,R,fast
+r261,Spencer Johnson,Spenser Jhonsson,Australia,BOWL,pace,L,20,75,0,Y,150,150,CSK,P,,IPL 2026 replacement for Nathan Ellis (hamstring),0,,L,fast
+r262,Fazalhaq Farooqi,Fazzalhaaq Farooqui,Afghanistan,BOWL,pace,R,15,77,0,Y,100,,,U,powerplay,,0,,L,fast
+r263,Maheesh Theekshana,Maaheesh Teekshaana,Sri Lanka,BOWL,spin,R,30,80,0,Y,200,,,U,,,0,,R,finger
+r264,Mujeeb Ur Rahman,Mujib Ur Rahmaan,Afghanistan,BOWL,spin,R,25,77,0,Y,200,,,U,powerplay,,0,,R,finger
+r265,Aarya Desai,Aarrya Dessaai,India,BAT,none,L,60,10,0,N,30,,,U,opener,,0,,,
+r266,Yash Dhull,Yaash Dhool,India,BAT,none,R,62,10,0,N,30,,,U,,,0,,,
+r267,Abhinav Manohar,Abhinaav Maanohaar,India,BAT,none,R,64,10,0,N,30,,,U,finisher,,0,,,
+r268,Anmolpreet Singh,Anmolprit Singgh,India,BAT,none,R,64,10,0,N,30,,,U,,,0,,,
+r269,Atharva Taide,Athaarva Taaidey,India,BAT,spin,L,64,35,0,N,30,,,U,opener,,0,,L,finger
+r270,Abhinav Tejrana,Abhinnav Tejjraana,India,BAT,none,R,56,10,0,N,30,,,U,,,0,,,
+r271,Mahipal Lomror,Maheepal Lommror,India,BAT,spin,L,66,40,0,N,50,50,MI,P,,IPL 2026 replacement for Quinton de Kock (wrist),0,,L,finger
+r272,Rajvardhan Hangargekar,Rajvarrdhaan Hangargeykar,India,AR,pace,R,52,62,0,N,40,,,U,,,0,,R,fast
+r273,Vijay Shankar,Veejay Shaankar,India,AR,pace,R,64,55,0,Y,30,,,U,,capped but listed uncapped in source,0,,R,medium
+r274,Eden Apple Tom,Edenn Appel Thom,India,BOWL,pace,R,20,56,0,N,30,,,U,,,0,,,
+r275,Tanush Kotian,Tanoosh Kotyan,India,AR,spin,R,50,64,0,N,30,,,U,,,0,,R,finger
+r276,Kamlesh Nagarkoti,Kamlessh Nagarkotee,India,BOWL,pace,R,30,60,0,N,30,,,U,,,0,,R,fast
+r277,Ruchit Ahir,Ruchitt Aheer,India,AR,pace,R,50,52,0,N,30,30,MI,P,,verify role; IPL 2026 replacement for Raj Angad Bawa (ligament tear),0,,R,fast-medium
+r278,Sanvir Singh,Sanveer Singhe,India,AR,pace,R,55,55,0,N,30,,,U,,,0,,R,medium
+r279,Vansh Bedi,Vaansh Bedee,India,WK,none,R,56,5,70,N,30,,,U,,verify role,0,,,
+r280,Tushar Raheja,Tushaar Raheijah,India,WK,none,L,58,5,72,N,30,,,U,opener,,0,,,
+r281,Raj Limbani,Raaj Limbaany,India,BOWL,pace,R,20,60,0,N,30,,,U,,,0,,,
+r282,Simarjeet Singh,Simarjit Sinngh,India,BOWL,pace,R,20,64,0,N,30,,,U,,,0,,R,fast-medium
+r283,Akash Madhwal,Aakaash Madhwaal,India,BOWL,pace,R,20,68,0,N,30,30,CSK,P,death,IPL 2026 replacement for Ayush Mhatre (hamstring),0,,R,fast-medium
+r284,Wahidullah Zadran,Waheedullah Zadraan,Afghanistan,BOWL,spin,R,20,58,0,N,30,,,U,,verify role,0,,,
+r285,Shivam Shukla,Sheevam Shuklaa,India,BOWL,spin,R,20,58,0,N,30,,,U,,,0,,,
+r286,Karn Sharma,Kaarn Sharrmaa,India,BOWL,spin,L,35,66,0,N,50,,,U,,,0,,R,wrist
+r287,Kartikeya Singh,Kartikeyaa Seengh,India,BOWL,spin,R,20,60,0,N,30,,,U,,,0,,L,finger
+r288,Sediqullah Atal,Sedeequllah Attal,Afghanistan,BAT,none,L,70,10,0,Y,75,,,U,opener,,0,,,
+r289,Sean Abbott,Shaun Abbot,Australia,BOWL,pace,R,45,74,0,Y,200,,,U,death,,0,,R,fast-medium
+r290,Michael Bracewell,Mikhael Brayswell,New Zealand,AR,spin,L,66,74,0,Y,200,,,U,,,0,,R,finger
+r291,Daryl Mitchell,Darrel Mitchall,New Zealand,BAT,pace,R,80,50,0,Y,200,,,U,,,0,,R,medium
+r292,Dasun Shanaka,Dasoon Shanakka,Sri Lanka,AR,pace,R,64,60,0,Y,75,200,RR,P,finisher,IPL 2026 replacement for Sam Curran (groin),0,,R,medium
+r293,Chetan Sakariya,Chetaan Sakkaria,India,BOWL,pace,L,20,70,0,Y,75,,,U,,,0,,L,fast-medium
+r294,Waqar Salamkheil,Waqaar Salaamkheel,Afghanistan,BOWL,spin,R,15,72,0,Y,100,,,U,,,0,,L,wrist
+r295,Salman Nizar,Salmaan Nizzaar,India,BAT,none,L,60,10,0,N,30,,,U,,,0,,,
+r296,KM Asif,KM Aaseef,India,BOWL,pace,R,20,62,0,N,40,,,U,,,0,,R,medium
+r297,Murugan Ashwin,Murugaan Ashween,India,BOWL,spin,R,25,62,0,N,30,,,U,,,0,,R,wrist
+r298,Tejas Baroka,Tejaas Barokkah,India,BOWL,spin,R,20,54,0,N,30,,,U,,verify role,0,,R,wrist
+r299,KC Cariappa,KC Kaariyappa,India,BOWL,spin,R,20,60,0,N,30,,,U,,,0,,R,wrist
+r300,Mohit Rathee,Moheet Raathee,India,BOWL,spin,R,20,56,0,N,30,,,U,,,0,,R,wrist
+r301,Daniel Lawrence,Danniel Laurrence,England,BAT,spin,R,72,40,0,Y,200,,,U,,,0,,R,finger
+r302,Taskin Ahmed,Taskeen Ahmedh,Bangladesh,BOWL,pace,L,25,76,0,Y,75,,,U,,,0,,R,fast
+r303,Richard Gleeson,Ritchard Gleasun,England,BOWL,pace,R,20,72,0,Y,75,160,RCB,P,,IPL 2026 replacement for Nuwan Thushara (NOC denied),0,,R,fast-medium
+r304,Alzarri Joseph,Alzaarri Joseff,West Indies,BOWL,pace,R,35,77,0,Y,200,,,U,,,0,,R,fast
+r305,Riley Meredith,Rylee Meredeth,Australia,BOWL,pace,R,20,72,0,Y,150,,,U,,,0,,R,fast
+r306,Jhye Richardson,Jhaye Ritchardsun,Australia,BOWL,pace,R,25,74,0,Y,150,,,U,,,0,,R,fast
+r307,M. Dheeraj Kumar,M. Dhiraaj Kummar,India,BOWL,spin,R,20,54,0,N,30,,,U,,verify role,0,,,
+r308,Tanay Thyagarajann,Tanaay Thyagaraajan,India,BOWL,spin,L,25,56,0,N,30,,,U,,,0,,,
+r309,Connor Esterhuizen,Konnor Esterhuisan,South Africa,WK,none,R,60,5,72,N,30,75,GT,P,,IPL 2026 replacement for Tom Banton (finger),0,,,
+r310,Irfan Umair,Irfaan Oomair,India,BAT,none,R,56,10,0,N,30,,,U,,verify role,0,,,
+r311,Chintal Gandhi,Chintaal Ghandhy,India,AR,spin,R,48,54,0,N,30,,,U,,verify role,0,,,
+r312,Nathan Smith,Nathaan Smythe,New Zealand,AR,pace,R,55,70,0,Y,75,,,U,,,0,,R,fast-medium
+r313,Daniel Lategan,Danyel Laateghan,South Africa,BAT,none,L,60,10,0,N,30,,,U,,,0,,,
+r314,Karan Lal,Karaan Lhaal,India,AR,spin,R,52,52,0,N,30,,,U,,,0,,R,finger
+r315,Utkarsh Singh,Uttkaarsh Syngh,India,AR,spin,R,52,52,0,N,30,,,U,,,0,,,
+r316,Ayush Vartak,Aiyush Vaarthak,India,BAT,none,R,54,10,0,N,30,,,U,,verify role,0,,,
+r317,Jikku Bright,Jikkoo Bryght,India,BAT,none,R,54,10,0,N,30,,,U,,verify role,0,,,
+r318,Izaz Sawariya,Izaaz Savariyah,India,BOWL,spin,R,20,54,0,N,30,,,U,,verify role,0,,,
+r319,Mani Sankar Mura Singh,Maani Shankar Murra Singhh,India,AR,pace,R,52,52,0,N,30,,,U,,verify role,0,,,
+r320,Manan Vohra,Maanan Vohraah,India,BAT,none,R,60,10,0,N,30,,,U,opener,,0,,,
+r321,Mayank Dagar,Mayankh Daaggar,India,AR,spin,R,50,62,0,N,30,,,U,,,0,,L,finger
+r322,Money Grewal,Monnie Grewaal,India,BOWL,pace,R,20,56,0,N,30,,,U,,,0,,,
+r323,Macneil Noronha,Macneal Norronhaa,India,BAT,none,R,54,10,0,N,30,30,CSK,P,,verify role; IPL 2026 replacement for Ramakrishna Ghosh (foot fracture),0,,,
+r324,Siddharth Yadav,Siddharrth Yaadhav,India,BAT,none,L,54,10,0,N,30,,,U,,verify role,0,,,
+r325,Ritik Tada,Reetik Taada,India,WK,none,R,54,5,68,N,30,,,U,,verify role,0,,,
+r326,Chama Milind,Chaama Mileend,India,BOWL,pace,L,20,60,0,N,30,,,U,,,0,,L,medium
+r327,Swastik Chikara,Swasthik Chikkaara,India,BAT,none,R,56,10,0,N,30,,,U,opener,,0,,,
+r328,William Sutherland,Wiliam Southerlund,Australia,AR,pace,R,60,66,0,Y,100,,,U,,,0,,R,fast-medium
+r329,RS Ambrish,RS Aambreesh,India,AR,pace,L,50,52,0,N,30,45,SRH,P,,verify role; IPL 2026 replacement for Shivam Mavi (groin),0,,R,fast-medium
+r330,Blessing Muzarabani,Blessin Muzzaraabani,Zimbabwe,BOWL,pace,R,15,76,0,Y,75,75,KKR,P,,"replaced Mustafizur Rahman (released, BCCI request); right-arm fast-medium; ratings provisional (hand)",0,,R,fast-medium
+r331,Krish Bhagat,Krissh Bhaggatt,India,BOWL,pace,R,30,60,0,N,30,30,MI,P,,"replaced Atharva Ankolekar (knee); right-arm medium, Punjab; batting hand not published; ratings provisional (hand)",0,,R,medium
+r332,Navdeep Saini,Navdip Saainee,India,BOWL,pace,R,20,72,0,Y,75,75,KKR,P,,replaced Harshit Rana (knee); right-arm fast; ratings provisional (hand),0,,R,fast
+r333,David Payne,Daivid Paaine,England,BOWL,pace,R,20,72,0,Y,150,150,SRH,W,,"replaced Jack Edwards (foot), then withdrew (ankle) for Gerald Coetzee; left-arm fast-medium; ratings provisional (hand); withdrawn from IPL 2026, replaced by Gerald Coetzee: pool",0,,L,fast-medium
+r334,Saurabh Dubey,Sourabh Dubbay,India,BOWL,pace,R,15,64,0,N,30,30,KKR,P,,"replaced Akash Deep (back); left-arm fast, Vidarbha; batting hand not published; ratings provisional (hand)",0,,L,fast
+r335,Rehan Ahmed,Rehaan Ahmmad,England,AR,spin,R,58,70,0,Y,75,75,DC,P,,replaced Ben Duckett (personal reasons); leg-spin all-rounder; ratings provisional (hand),0,,R,wrist
+r336,Kulwant Khejroliya,Kulwaant Khejrolyaa,India,BOWL,pace,L,15,66,0,N,30,30,GT,P,,replaced Prithvi Raj Yarra (injury); left-arm medium-fast; ratings provisional (hand),0,,L,fast-medium
+r337,George Linde,Jorge Lindey,South Africa,AR,spin,L,62,72,0,Y,100,100,LSG,P,,replaced Wanindu Hasaranga (NOC denied); slow left-arm orthodox; ratings provisional (hand),0,,L,finger
+r338,Dilshan Madushanka,Dilshaan Maddushankaa,Sri Lanka,BOWL,pace,R,15,74,0,Y,75,75,SRH,P,,replaced Brydon Carse (injury); left-arm fast-medium; ratings provisional (hand),0,,L,fast-medium
+r339,Kuldip Yadav,Kuldipp Yaadaav,India,BOWL,pace,L,15,66,0,N,30,30,CSK,P,,replaced Khaleel Ahmed (quadriceps); left-arm fast-medium; ratings provisional (hand),0,,L,fast-medium
+r340,Keshav Maharaj,Keshaav Mahaaraaj,South Africa,BOWL,spin,R,35,78,0,Y,75,75,MI,P,,replaced Mitchell Santner (shoulder); slow left-arm orthodox; ratings provisional (hand),0,,L,finger
+r341,Dian Forrester,Dyen Forrestar,South Africa,AR,pace,L,64,62,0,Y,75,75,CSK,P,,replaced Jamie Overton (thigh); right-arm fast; T20I debut Mar 2026; ratings provisional (hand),0,,R,fast
+r342,Emanjot Chahal,Emmanjoth Chahaal,India,AR,spin,R,52,58,0,N,30,30,RR,P,,"replaced Ravi Singh (hamstring); left-arm spin all-rounder, Punjab; batting hand not published; ratings provisional (hand)",0,,L,finger
+r343,Luvnith Sisodia,Luvneeth Sissodiya,India,WK,none,L,58,5,68,N,30,30,KKR,P,,"replaced Matheesha Pathirana (hamstring); wicket-keeper batter, Karnataka; ratings provisional (hand)",0,,,

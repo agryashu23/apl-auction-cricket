@@ -1,0 +1,344 @@
+ref,wiki_title,batting,bowling,hand,arm,style,source
+r001,MS Dhoni,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/MS_Dhoni
+r002,Anshul Kamboj,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Anshul_Kamboj
+r003,Jamie Overton,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Jamie_Overton
+r004,Sanju Samson,Right-handed,Right-arm off-spin,R,R,,https://en.wikipedia.org/wiki/Sanju_Samson
+r005,Gurjapneet Singh,Right-handed,Left-arm fast-medium,R,L,fast-medium,https://en.wikipedia.org/wiki/Gurjapneet_Singh
+r006,Ramakrishna Ghosh,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Ramakrishna_Ghosh
+r007,Ruturaj Gaikwad,Right-handed,Right arm off break,R,R,finger,https://en.wikipedia.org/wiki/Ruturaj_Gaikwad
+r008,Mukesh Choudhary,Left-handed,Left arm medium,L,L,medium,https://en.wikipedia.org/wiki/Mukesh_Choudhary
+r009,Shivam Dube,Left-handed,Right-arm medium,L,R,medium,https://en.wikipedia.org/wiki/Shivam_Dube
+r010,Ayush Mhatre,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Ayush_Mhatre
+r011,Nathan Ellis,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Nathan_Ellis
+r012,Shreyas Gopal,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Shreyas_Gopal
+r013,Dewald Brevis,Right-handed,Right-arm leg-break,R,R,wrist,https://en.wikipedia.org/wiki/Dewald_Brevis
+r014,Noor Ahmad,Right-handed,Left-arm unorthodox spin,R,L,wrist,https://en.wikipedia.org/wiki/Noor_Ahmad
+r015,Akeal Hosein,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Akeal_Hosein
+r016,Urvil Patel,Right handed,,R,,,https://en.wikipedia.org/wiki/Urvil_Patel
+r017,Khaleel Ahmed,Right-handed,Left-arm fast medium,R,L,fast-medium,https://en.wikipedia.org/wiki/Khaleel_Ahmed
+r018,Prashant Veer,Left-handed,Left-arm orthodox spin,L,L,finger,https://en.wikipedia.org/wiki/Prashant_Veer
+r019,Kartik Sharma,Right-handed,,R,,,https://en.wikipedia.org/wiki/Kartik_Sharma
+r020,Matt Henry (cricketer),Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Matt_Henry_%28cricketer%29
+r021,Aman Khan,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Aman_Khan
+r022,Matthew Short,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Matthew_Short
+r023,Rahul Chahar,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Rahul_Chahar
+r024,Sarfaraz Khan (cricketer),Right-handed,Legbreak,R,R,wrist,https://en.wikipedia.org/wiki/Sarfaraz_Khan_%28cricketer%29
+r025,Zak Foulkes,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Zak_Foulkes
+r026,Abhishek Porel,Left-handed,,L,,,https://en.wikipedia.org/wiki/Abhishek_Porel
+r027,Dushmantha Chameera,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Dushmantha_Chameera
+r028,Ajay Mandal,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Ajay_Mandal
+r029,Ashutosh Sharma (cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Ashutosh_Sharma_%28cricketer%29
+r030,Kuldeep Yadav,Left-handed,Left-arm wrist spin,L,L,wrist,https://en.wikipedia.org/wiki/Kuldeep_Yadav
+r031,Axar Patel,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Axar_Patel
+r032,Karun Nair,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Karun_Nair
+r033,Mitchell Starc,Left-handed,Left-arm fast,L,L,fast,https://en.wikipedia.org/wiki/Mitchell_Starc
+r034,,,,,,,
+r035,KL Rahul,Right-handed,,R,,,https://en.wikipedia.org/wiki/KL_Rahul
+r036,Mukesh Kumar (cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Mukesh_Kumar_%28cricketer%29
+r037,Vipraj Nigam,Right-handed,Right-arm Leg Break,R,R,wrist,https://en.wikipedia.org/wiki/Vipraj_Nigam
+r038,Nitish Rana,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Nitish_Rana
+r039,T. Natarajan,Left-handed,Left-arm medium,L,L,medium,https://en.wikipedia.org/wiki/T._Natarajan
+r040,Sameer Rizvi,Right-handed,Right arm off break,R,R,finger,https://en.wikipedia.org/wiki/Sameer_Rizvi
+r041,,,,,,,
+r042,Tristan Stubbs,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Tristan_Stubbs
+r043,Auqib Nabi,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Auqib_Nabi
+r044,David Miller (South African cricketer),Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/David_Miller_%28South_African_cricketer%29
+r045,Kyle Jamieson,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Kyle_Jamieson
+r046,Ben Duckett,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Ben_Duckett
+r047,Pathum Nissanka,Right-handed,,R,,,https://en.wikipedia.org/wiki/Pathum_Nissanka
+r048,,,,,,,
+r049,Prithvi Shaw,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Prithvi_Shaw
+r050,Lungi Ngidi,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Lungi_Ngidi
+r051,Anuj Rawat,Left-handed,,L,,,https://en.wikipedia.org/wiki/Anuj_Rawat
+r052,Gurnoor Brar,Left-Handed,Right-Arm fast,L,R,fast,https://en.wikipedia.org/wiki/Gurnoor_Brar
+r053,Glenn Phillips (cricketer),Right-handed,Right arm off-break,R,R,finger,https://en.wikipedia.org/wiki/Glenn_Phillips_%28cricketer%29
+r054,Jos Buttler,Right-handed,none,R,,,https://en.wikipedia.org/wiki/Jos_Buttler
+r055,Ishant Sharma,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Ishant_Sharma
+r056,Jayant Yadav,Right-handed,Right-arm off-break,R,R,finger,https://en.wikipedia.org/wiki/Jayant_Yadav
+r057,Kumar Kushagra,Right-handed,,R,,,https://en.wikipedia.org/wiki/Kumar_Kushagra
+r058,Kagiso Rabada,Left-handed,Right-arm fast,L,R,fast,https://en.wikipedia.org/wiki/Kagiso_Rabada
+r059,Manav Suthar,Left-handed,Slow left-arm orthodox spin,L,L,finger,https://en.wikipedia.org/wiki/Manav_Suthar
+r060,Sai Sudharsan,Left-handed,Right-arm leg break,L,R,wrist,https://en.wikipedia.org/wiki/Sai_Sudharsan
+r061,Mohammed Siraj,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Mohammed_Siraj
+r062,Nishant Sindhu,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Nishant_Sindhu
+r063,Shubman Gill,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Shubman_Gill
+r064,Arshad Khan (Indian cricketer),Left-handed,Left-arm medium,L,L,medium,https://en.wikipedia.org/wiki/Arshad_Khan_%28Indian_cricketer%29
+r065,Rahul Tewatia,Left-handed,Right-arm leg break,L,R,wrist,https://en.wikipedia.org/wiki/Rahul_Tewatia
+r066,Tom Banton,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Tom_Banton
+r067,Prasidh Krishna,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Prasidh_Krishna
+r068,Shahrukh Khan (cricketer),Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Shahrukh_Khan_%28cricketer%29
+r069,Sai Kishore,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Sai_Kishore
+r070,Washington Sundar,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Washington_Sundar
+r071,Rashid Khan,Right-handed,Leg break googly,R,R,wrist,https://en.wikipedia.org/wiki/Rashid_Khan
+r072,Jason Holder,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Jason_Holder
+r073,,,,,,,
+r074,Prithvi Raj (cricketer),Left-handed,Left-arm medium,L,L,medium,https://en.wikipedia.org/wiki/Prithvi_Raj_%28cricketer%29
+r075,Luke Wood (cricketer),Left-handed,Left-arm fast-medium,L,L,fast-medium,https://en.wikipedia.org/wiki/Luke_Wood_%28cricketer%29
+r076,Ajinkya Rahane,Right-handed,Right-arm off spin,R,R,finger,https://en.wikipedia.org/wiki/Ajinkya_Rahane
+r077,Harshit Rana,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Harshit_Rana
+r078,Anukul Roy,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Anukul_Roy
+r079,Angkrish Raghuvanshi,Right-handed,Slow left-arm orthodox,R,L,finger,https://en.wikipedia.org/wiki/Angkrish_Raghuvanshi
+r080,Umran Malik,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Umran_Malik
+r081,Ramandeep Singh (cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Ramandeep_Singh_%28cricketer%29
+r082,Manish Pandey,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Manish_Pandey
+r083,Vaibhav Arora,Right-handed,Right arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Vaibhav_Arora
+r084,Sunil Narine,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Sunil_Narine
+r085,Rinku Singh (cricketer),Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Rinku_Singh_%28cricketer%29
+r086,Varun Chakravarthy,Right-handed,Right-arm leg break googly,R,R,wrist,https://en.wikipedia.org/wiki/Varun_Chakravarthy
+r087,Cameron Green,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Cameron_Green
+r088,Rovman Powell,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Rovman_Powell
+r089,Matheesha Pathirana,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Matheesha_Pathirana
+r090,Sarthak Ranjan,Right-handed,Legbreak,R,R,wrist,https://en.wikipedia.org/wiki/Sarthak_Ranjan
+r091,Finn Allen,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Finn_Allen
+r092,Kartik Tyagi,Right-handed,Right arm fast,R,R,fast,https://en.wikipedia.org/wiki/Kartik_Tyagi
+r093,,,,,,,
+r094,Tejasvi Singh,Right-handed,,R,,,https://en.wikipedia.org/wiki/Tejasvi_Singh
+r095,Prashant Solanki,Right-handed,Right-arm Legbreak,R,R,wrist,https://en.wikipedia.org/wiki/Prashant_Solanki
+r096,Rachin Ravindra,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Rachin_Ravindra
+r097,Rahul Tripathi,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Rahul_Tripathi
+r098,Mustafizur Rahman,Left-handed,Left-arm fast-medium,L,L,fast-medium,https://en.wikipedia.org/wiki/Mustafizur_Rahman
+r099,Tim Seifert,Right-handed,,R,,,https://en.wikipedia.org/wiki/Tim_Seifert
+r100,Akash Deep,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Akash_Deep
+r101,Abdul Samad (Indian cricketer),Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Abdul_Samad_%28Indian_cricketer%29
+r102,"Akash Singh (cricketer, born 2002)",Right-handed,Left-arm medium-fast,R,L,fast-medium,https://en.wikipedia.org/wiki/Akash_Singh_%28cricketer%2C_born_2002%29
+r103,Aiden Markram,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Aiden_Markram
+r104,Himmat Singh (cricketer),Right-handed,Right arm off break,R,R,finger,https://en.wikipedia.org/wiki/Himmat_Singh_%28cricketer%29
+r105,Arjun Tendulkar,Left-handed,Left-arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Arjun_Tendulkar
+r106,,,,,,,
+r107,Matthew Breetzke,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Matthew_Breetzke
+r108,Avesh Khan,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Avesh_Khan
+r109,Ayush Badoni,Right-handed,Right arm off break,R,R,finger,https://en.wikipedia.org/wiki/Ayush_Badoni
+r110,Nicholas Pooran,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Nicholas_Pooran
+r111,Digvesh Rathi,Right-handed,Right-arm legbreak,R,R,wrist,https://en.wikipedia.org/wiki/Digvesh_Rathi
+r112,Mitchell Marsh,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Mitchell_Marsh
+r113,Rishabh Pant,Left-handed,Right-arm medium,L,R,medium,https://en.wikipedia.org/wiki/Rishabh_Pant
+r114,Manimaran Siddharth,Right-handed,Slow left arm orthodox,R,L,finger,https://en.wikipedia.org/wiki/Manimaran_Siddharth
+r115,Shahbaz Ahmed (cricketer),Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Shahbaz_Ahmed_%28cricketer%29
+r116,Mukul Choudhary,Right-handed,,R,,,https://en.wikipedia.org/wiki/Mukul_Choudhary
+r117,Mayank Yadav,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Mayank_Yadav
+r118,Wanindu Hasaranga,Right-handed,Right-arm Leg break,R,R,wrist,https://en.wikipedia.org/wiki/Wanindu_Hasaranga
+r119,Akshat Raghuwanshi,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Akshat_Raghuwanshi
+r120,Mohammed Shami,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Mohammed_Shami
+r121,Josh Inglis,Right-handed,,R,,,https://en.wikipedia.org/wiki/Josh_Inglis
+r122,Mohsin Khan (Indian cricketer),Left-handed,Left arm medium fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Mohsin_Khan_%28Indian_cricketer%29
+r123,Prince Yadav,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Prince_Yadav
+r124,Anrich Nortje,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Anrich_Nortje
+r125,,,,,,,
+r126,Robin Minz,Left-handed,Slow left arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Robin_Minz
+r127,Allah Ghazanfar,Right-handed,Right arm off spin,R,R,finger,https://en.wikipedia.org/wiki/Allah_Ghazanfar
+r128,Corbin Bosch,Right-handed,Right-arm fast medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Corbin_Bosch
+r129,Rohit Sharma,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Rohit_Sharma
+r130,Ashwani Kumar (cricketer),Left-handed,Left arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Ashwani_Kumar_%28cricketer%29
+r131,Hardik Pandya,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Hardik_Pandya
+r132,Ryan Rickelton,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Ryan_Rickelton
+r133,Deepak Chahar,Right-handed,Right arm medium,R,R,medium,https://en.wikipedia.org/wiki/Deepak_Chahar
+r134,Mitchell Santner,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Mitchell_Santner
+r135,Sherfane Rutherford,Left-handed,Right-arm Fast medium,L,R,fast-medium,https://en.wikipedia.org/wiki/Sherfane_Rutherford
+r136,Jasprit Bumrah,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Jasprit_Bumrah
+r137,Naman Dhir,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Naman_Dhir
+r138,Suryakumar Yadav,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Suryakumar_Yadav
+r139,Mayank Markande,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Mayank_Markande
+r140,Raj Angad Bawa,Left-handed,Right-arm medium-fast,L,R,fast-medium,https://en.wikipedia.org/wiki/Raj_Angad_Bawa
+r141,Tilak Varma,Left-handed,right-arm off-break,L,R,finger,https://en.wikipedia.org/wiki/Tilak_Varma
+r142,Raghu Sharma (cricketer),Right-handed,Legbreak googly,R,R,wrist,https://en.wikipedia.org/wiki/Raghu_Sharma_%28cricketer%29
+r143,Will Jacks,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Will_Jacks
+r144,Quinton de Kock,Left-handed,,L,,,https://en.wikipedia.org/wiki/Quinton_de_Kock
+r145,Shardul Thakur,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Shardul_Thakur
+r146,Atharva Ankolekar,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Atharva_Ankolekar
+r147,Danish Malewar,,,,,,https://en.wikipedia.org/wiki/Danish_Malewar
+r148,Trent Boult,Right-handed,Left-arm fast-medium,R,L,fast-medium,https://en.wikipedia.org/wiki/Trent_Boult
+r149,,,,,,,
+r150,,,,,,,
+r151,,,,,,,
+r152,Arshdeep Singh,Left-handed,Left-arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Arshdeep_Singh
+r153,Azmatullah Omarzai,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Azmatullah_Omarzai
+r154,Nehal Wadhera,Left-handed,Right-arm Legbreak,L,R,wrist,https://en.wikipedia.org/wiki/Nehal_Wadhera
+r155,Lockie Ferguson,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Lockie_Ferguson
+r156,Harpreet Brar,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Harpreet_Brar
+r157,Prabhsimran Singh,Right-handed,,R,,,https://en.wikipedia.org/wiki/Prabhsimran_Singh
+r158,Vijaykumar Vyshak,Right-handed,Right arm medium,R,R,medium,https://en.wikipedia.org/wiki/Vijaykumar_Vyshak
+r159,Marco Jansen,Right-handed,Left-arm fast,R,L,fast,https://en.wikipedia.org/wiki/Marco_Jansen
+r160,Priyansh Arya,Left-handed,Right-arm offbreak,L,R,finger,https://en.wikipedia.org/wiki/Priyansh_Arya
+r161,Xavier Bartlett,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Xavier_Bartlett
+r162,Marcus Stoinis,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Marcus_Stoinis
+r163,,,,,,,
+r164,Yash Thakur,,Right-arm fast-medium,,R,fast-medium,https://en.wikipedia.org/wiki/Yash_Thakur
+r165,Mitchell Owen,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Mitchell_Owen
+r166,Shashank Singh,Right-handed,"Right-arm medium, Right-arm offbreak",R,R,finger,https://en.wikipedia.org/wiki/Shashank_Singh
+r167,Yuzvendra Chahal,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Yuzvendra_Chahal
+r168,Musheer Khan,Right-handed,Left-arm orthodox spin,R,L,finger,https://en.wikipedia.org/wiki/Musheer_Khan
+r169,Shreyas Iyer,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Shreyas_Iyer
+r170,Ben Dwarshuis,Left-handed,Left-arm fast-medium,L,L,fast-medium,https://en.wikipedia.org/wiki/Ben_Dwarshuis
+r171,Suryansh Shedge,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Suryansh_Shedge
+r172,Vishnu Vinod,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Vishnu_Vinod
+r173,Cooper Connolly,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Cooper_Connolly
+r174,Praveen Dubey,Right-handed,Leg break googly,R,R,wrist,https://en.wikipedia.org/wiki/Praveen_Dubey
+r175,,,,,,,
+r176,Dhruv Jurel,Right-handed,,R,,,https://en.wikipedia.org/wiki/Dhruv_Jurel
+r177,Jofra Archer,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Jofra_Archer
+r178,Donovan Ferreira,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Donovan_Ferreira
+r179,Lhuan-dre Pretorius,Left-handed,,L,,,https://en.wikipedia.org/wiki/Lhuan-dre_Pretorius
+r180,Kwena Maphaka,Left-handed,Left-arm Fast,L,L,fast,https://en.wikipedia.org/wiki/Kwena_Maphaka
+r181,Ravindra Jadeja,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Ravindra_Jadeja
+r182,Shimron Hetmyer,Left-handed,,L,,,https://en.wikipedia.org/wiki/Shimron_Hetmyer
+r183,Nandre Burger,Left-handed,Left-arm fast-medium,L,L,fast-medium,https://en.wikipedia.org/wiki/Nandre_Burger
+r184,Riyan Parag,Right-handed,"Right-arm off break, leg break",R,R,finger,https://en.wikipedia.org/wiki/Riyan_Parag
+r185,Shubham Dubey,Left-handed,Right-arm offbreak,L,R,finger,https://en.wikipedia.org/wiki/Shubham_Dubey
+r186,Sandeep Sharma,Right-handed,Right-arm fast medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Sandeep_Sharma
+r187,Sam Curran,Left-handed,Left-arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Sam_Curran
+r188,Vaibhav Sooryavanshi,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Vaibhav_Sooryavanshi
+r189,Tushar Deshpande,Left-handed,Right-arm medium,L,R,medium,https://en.wikipedia.org/wiki/Tushar_Deshpande
+r190,Yashasvi Jaiswal,Left-handed,Right-arm leg break,L,R,wrist,https://en.wikipedia.org/wiki/Yashasvi_Jaiswal
+r191,Yudhvir Singh (cricketer),Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Yudhvir_Singh_%28cricketer%29
+r192,Ravi Singh (cricketer),Right-handed,Right-arm off-spin,R,R,,https://en.wikipedia.org/wiki/Ravi_Singh_%28cricketer%29
+r193,Ravi Bishnoi,Right-handed,Right-arm legbreak,R,R,wrist,https://en.wikipedia.org/wiki/Ravi_Bishnoi
+r194,,,,,,,
+r195,Sushant Mishra,Left-handed,Left arm medium fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Sushant_Mishra
+r196,,,,,,,
+r197,Vignesh Puthur,,Left-arm wrist spin,,L,wrist,https://en.wikipedia.org/wiki/Vignesh_Puthur
+r198,,,,,,,
+r199,Adam Milne,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Adam_Milne
+r200,Kuldeep Sen,Right-handed,Right arm fast,R,R,fast,https://en.wikipedia.org/wiki/Kuldeep_Sen
+r201,Devdutt Padikkal,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Devdutt_Padikkal
+r202,,,,,,,
+r203,Jacob Bethell,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Jacob_Bethell
+r204,Jitesh Sharma,Right-handed,,R,,,https://en.wikipedia.org/wiki/Jitesh_Sharma
+r205,Bhuvneshwar Kumar,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Bhuvneshwar_Kumar
+r206,Krunal Pandya,Left-handed,Slow left arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Krunal_Pandya
+r207,Phil Salt,Right-handed,Right-arm off spin,R,R,finger,https://en.wikipedia.org/wiki/Phil_Salt
+r208,Josh Hazlewood,Left-handed,Right-arm fast-medium,L,R,fast-medium,https://en.wikipedia.org/wiki/Josh_Hazlewood
+r209,Romario Shepherd,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Romario_Shepherd
+r210,Rajat Patidar,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Rajat_Patidar
+r211,Nuwan Thushara,Right handed,Right arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Nuwan_Thushara
+r212,Swapnil Singh,Right-handed,Slow left-arm orthodox,R,L,finger,https://en.wikipedia.org/wiki/Swapnil_Singh
+r213,Tim David,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Tim_David
+r214,Rasikh Salam,Right-handed,Right-arm fast medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Rasikh_Salam
+r215,Venkatesh Iyer,Left-handed,Right-arm medium,L,R,medium,https://en.wikipedia.org/wiki/Venkatesh_Iyer
+r216,Virat Kohli,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Virat_Kohli
+r217,Suyash Sharma,Right-handed,Right-arm leg-break,R,R,wrist,https://en.wikipedia.org/wiki/Suyash_Sharma
+r218,,,,,,,
+r219,Jordan Cox (cricketer),Right-handed,Right-arm off-break,R,R,finger,https://en.wikipedia.org/wiki/Jordan_Cox_%28cricketer%29
+r220,Yash Dayal,Right-handed,Left arm fast-medium,R,L,fast-medium,https://en.wikipedia.org/wiki/Yash_Dayal
+r221,,,,,,,
+r222,Vihaan Malhotra,Left-handed,Right-arm Offbreak,L,R,finger,https://en.wikipedia.org/wiki/Vihaan_Malhotra
+r223,Jacob Duffy,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Jacob_Duffy
+r224,,,,,,,
+r225,,,,,,,
+r226,Aniket Verma,Right-handed,Right arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Aniket_Verma
+r227,Brydon Carse,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Brydon_Carse
+r228,Abhishek Sharma,Left-handed,Slow left-arm orthodox spin,L,L,finger,https://en.wikipedia.org/wiki/Abhishek_Sharma
+r229,Heinrich Klaasen,Right-handed,Right-arm off spin,R,R,finger,https://en.wikipedia.org/wiki/Heinrich_Klaasen
+r230,Eshan Malinga,Left-handed,Right-arm fast medium,L,R,fast-medium,https://en.wikipedia.org/wiki/Eshan_Malinga
+r231,Harsh Dubey,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Harsh_Dubey
+r232,Ishan Kishan,Left-handed,"Leg break, Off-break",L,R,wrist,https://en.wikipedia.org/wiki/Ishan_Kishan
+r233,Harshal Patel,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Harshal_Patel
+r234,Kamindu Mendis,Left-handed,"Slow left-arm orthodox, Right-arm off break",L,L,finger,https://en.wikipedia.org/wiki/Kamindu_Mendis
+r235,,,,,,,
+r236,Jaydev Unadkat,Right-handed,Left-arm medium,R,L,medium,https://en.wikipedia.org/wiki/Jaydev_Unadkat
+r237,Nitish Kumar Reddy,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Nitish_Kumar_Reddy
+r238,Travis Head,Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Travis_Head
+r239,Pat Cummins,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Pat_Cummins
+r240,,,,,,,
+r241,,,,,,,
+r242,Zeeshan Ansari,Right-handed,Legbreak googly,R,R,wrist,https://en.wikipedia.org/wiki/Zeeshan_Ansari
+r243,,,,,,,
+r244,Sakib Hussain,Right footed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Sakib_Hussain
+r245,Liam Livingstone,Right-handed,"Right-arm off break, leg break",R,R,finger,https://en.wikipedia.org/wiki/Liam_Livingstone
+r246,,,,,,,
+r247,Shivam Mavi,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Shivam_Mavi
+r248,,,,,,,
+r249,"Jack Edwards (cricketer, born 2000)",Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Jack_Edwards_%28cricketer%2C_born_2000%29
+r250,Praful Hinge,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Praful_Hinge
+r251,Jake Fraser-McGurk,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Jake_Fraser-McGurk
+r252,Devon Conway,Left-handed,Right-arm medium,L,R,medium,https://en.wikipedia.org/wiki/Devon_Conway
+r253,Gus Atkinson,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Gus_Atkinson
+r254,Jamie Smith (cricketer),Right-handed,,R,,,https://en.wikipedia.org/wiki/Jamie_Smith_%28cricketer%29
+r255,Deepak Hooda,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Deepak_Hooda
+r256,Wiaan Mulder (cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Wiaan_Mulder_%28cricketer%29
+r257,Rahmanullah Gurbaz,Right-handed,,R,,,https://en.wikipedia.org/wiki/Rahmanullah_Gurbaz
+r258,Jonny Bairstow,Right-handed,,R,,,https://en.wikipedia.org/wiki/Jonny_Bairstow
+r259,K.S. Bharat,Right-handed,,R,,,https://en.wikipedia.org/wiki/K.S._Bharat
+r260,Gerald Coetzee,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Gerald_Coetzee
+r261,Spencer Johnson (cricketer),Left-handed,Left-arm fast,L,L,fast,https://en.wikipedia.org/wiki/Spencer_Johnson_%28cricketer%29
+r262,Fazalhaq Farooqi,Right-handed,Left-arm fast,R,L,fast,https://en.wikipedia.org/wiki/Fazalhaq_Farooqi
+r263,Maheesh Theekshana,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Maheesh_Theekshana
+r264,Mujeeb Ur Rahman,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Mujeeb_Ur_Rahman
+r265,,,,,,,
+r266,Yash Dhull,Right-handed,Right arm off break,R,R,finger,https://en.wikipedia.org/wiki/Yash_Dhull
+r267,Abhinav Manohar,Right-handed,Leg break googly,R,R,wrist,https://en.wikipedia.org/wiki/Abhinav_Manohar
+r268,Anmolpreet Singh,Right-handed,Right-arm off-break,R,R,finger,https://en.wikipedia.org/wiki/Anmolpreet_Singh
+r269,Atharva Taide,Left-handed,Left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Atharva_Taide
+r270,,,,,,,
+r271,Mahipal Lomror,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/Mahipal_Lomror
+r272,Rajvardhan Hangargekar,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Rajvardhan_Hangargekar
+r273,Vijay Shankar (cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Vijay_Shankar_%28cricketer%29
+r274,,,,,,,
+r275,Tanush Kotian,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Tanush_Kotian
+r276,Kamlesh Nagarkoti,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Kamlesh_Nagarkoti
+r277,,,,,,,
+r278,Sanvir Singh,Right-handed,Right arm medium,R,R,medium,https://en.wikipedia.org/wiki/Sanvir_Singh
+r279,,,,,,,
+r280,,,,,,,
+r281,,,,,,,
+r282,Simarjeet Singh,Right handed,Right arm medium fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Simarjeet_Singh
+r283,Akash Madhwal,Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Akash_Madhwal
+r284,,,,,,,
+r285,,,,,,,
+r286,Karn Sharma,Left-handed,Right arm leg break googly,L,R,wrist,https://en.wikipedia.org/wiki/Karn_Sharma
+r287,Kumar Kartikeya,Right-handed,"Slow Left arm Orthodox, Left arm Wrist spin",R,L,finger,https://en.wikipedia.org/wiki/Kumar_Kartikeya
+r288,Sediqullah Atal,Left-handed,,L,,,https://en.wikipedia.org/wiki/Sediqullah_Atal
+r289,Sean Abbott,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Sean_Abbott
+r290,Michael Bracewell (cricketer),Left-handed,Right-arm off break,L,R,finger,https://en.wikipedia.org/wiki/Michael_Bracewell_%28cricketer%29
+r291,Daryl Mitchell (New Zealand cricketer),Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Daryl_Mitchell_%28New_Zealand_cricketer%29
+r292,Dasun Shanaka,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/Dasun_Shanaka
+r293,Chetan Sakariya,Left-handed,Left-arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Chetan_Sakariya
+r294,Waqar Salamkheil,Right-handed,Left-arm unorthodox spin,R,L,wrist,https://en.wikipedia.org/wiki/Waqar_Salamkheil
+r295,Salman Nizar,Left-handed,Right arm offbreak,L,R,finger,https://en.wikipedia.org/wiki/Salman_Nizar
+r296,KM Asif,Right-handed,Right-arm medium,R,R,medium,https://en.wikipedia.org/wiki/KM_Asif
+r297,Murugan Ashwin,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Murugan_Ashwin
+r298,Tejas Baroka,Right-handed,Leg break googly,R,R,wrist,https://en.wikipedia.org/wiki/Tejas_Baroka
+r299,KC Cariappa (cricketer),Right-handed,Leg break,R,R,wrist,https://en.wikipedia.org/wiki/KC_Cariappa_%28cricketer%29
+r300,Mohit Rathee,Right-handed,Right-arm leg-break,R,R,wrist,https://en.wikipedia.org/wiki/Mohit_Rathee
+r301,Daniel Lawrence,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Daniel_Lawrence
+r302,Taskin Ahmed,Left-handed,Right-arm fast,L,R,fast,https://en.wikipedia.org/wiki/Taskin_Ahmed
+r303,Richard Gleeson,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Richard_Gleeson
+r304,Alzarri Joseph,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Alzarri_Joseph
+r305,Riley Meredith,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Riley_Meredith
+r306,Jhye Richardson,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Jhye_Richardson
+r307,,,,,,,
+r308,,,,,,,
+r309,Connor Esterhuizen,Right-handed,,R,,,https://en.wikipedia.org/wiki/Connor_Esterhuizen
+r310,,,,,,,
+r311,,,,,,,
+r312,Nathan Smith (New Zealand cricketer),Right-handed,Right-arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Nathan_Smith_%28New_Zealand_cricketer%29
+r313,Daniel Lategan,Left-handed,Right-arm off-spin,L,R,,https://en.wikipedia.org/wiki/Daniel_Lategan
+r314,Karan Lal,Right-handed,Right-arm off break,R,R,finger,https://en.wikipedia.org/wiki/Karan_Lal
+r315,Utkarsh Singh,,,,,,https://en.wikipedia.org/wiki/Utkarsh_Singh
+r316,,,,,,,
+r317,,,,,,,
+r318,,,,,,,
+r319,,,,,,,
+r320,Manan Vohra,Right-handed,Right arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Manan_Vohra
+r321,Mayank Dagar,Right-handed,Slow left-arm orthodox,R,L,finger,https://en.wikipedia.org/wiki/Mayank_Dagar
+r322,,,,,,,
+r323,,,,,,,
+r324,,,,,,,
+r325,,,,,,,
+r326,Chama Milind,Left-handed,Left-arm medium,L,L,medium,https://en.wikipedia.org/wiki/Chama_Milind
+r327,,,,,,,
+r328,Will Sutherland,Right handed,Right arm medium-fast,R,R,fast-medium,https://en.wikipedia.org/wiki/Will_Sutherland
+r329,,,,,,,
+r330,Blessing Muzarabani,Right-handed,Right-arm fast-medium,R,R,fast-medium,https://en.wikipedia.org/wiki/Blessing_Muzarabani
+r331,,,,,,,
+r332,Navdeep Saini,Right-handed,Right-arm fast,R,R,fast,https://en.wikipedia.org/wiki/Navdeep_Saini
+r333,David Payne (cricketer),Right-handed,Left-arm fast-medium,R,L,fast-medium,https://en.wikipedia.org/wiki/David_Payne_%28cricketer%29
+r334,Saurabh Dubey (Maharashtra cricketer),,,,,,https://en.wikipedia.org/wiki/Saurabh_Dubey_%28Maharashtra_cricketer%29
+r335,Rehan Ahmed,Right-handed,Right-arm leg break,R,R,wrist,https://en.wikipedia.org/wiki/Rehan_Ahmed
+r336,Kulwant Khejroliya,Left-handed,Left-arm medium-fast,L,L,fast-medium,https://en.wikipedia.org/wiki/Kulwant_Khejroliya
+r337,George Linde,Left-handed,Slow left-arm orthodox,L,L,finger,https://en.wikipedia.org/wiki/George_Linde
+r338,Dilshan Madushanka,Right-handed,Left-arm fast-medium,R,L,fast-medium,https://en.wikipedia.org/wiki/Dilshan_Madushanka
+r339,Kuldip Yadav,Left-handed,Left-arm fast-medium,L,L,fast-medium,https://en.wikipedia.org/wiki/Kuldip_Yadav
+r340,Keshav Maharaj,Right-handed,Slow left-arm orthodox,R,L,finger,https://en.wikipedia.org/wiki/Keshav_Maharaj
+r341,Dian Forrester,Left-handed,Right-arm fast,L,R,fast,https://en.wikipedia.org/wiki/Dian_Forrester
+r342,,,,,,,
+r343,Luvnith Sisodia,Left-handed,Left-arm medium,L,L,medium,https://en.wikipedia.org/wiki/Luvnith_Sisodia

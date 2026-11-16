@@ -1,0 +1,326 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "world": "same as the bowling clips: the bowler runs toward the rig's forward direction (-y); his popping crease at y=0, his stumps at y=+1.22, the batter's stumps at y=-18.9; x = bowler's left",
+  "arms": "ra_ = right-arm bowler, la_ = left-arm bowler (mirror)",
+  "complete_clips": "caught-and-bowled, fielding-off-own-bowling and non-striker run-out clips contain the whole run-up and action (fast-medium or off-spin), so the ball events line up with release_frame",
+  "ball": "keep the ball on the bowling hand until release_frame; from catch_frame / pickup_frame it is back in the hand (left hand for the one-handed catch) until throw_release_frame",
+  "walking_back": "turn_and_walk_back_to_mark -> walk_back_loop (or the polishing loop) -> arrive_at_mark_turn_ready, which ends in the same pose every bowling clip starts from"
+ },
+ "clips": [
+  {
+   "file": "ra_turn_and_walk_back_to_mark.fbx",
+   "frames": 121,
+   "arm": "right-arm",
+   "note": "from the end of the follow-through: turns round and walks back toward the mark (root motion ~4.2 m), ball in hand; chain into walk_back_loop"
+  },
+  {
+   "file": "ra_walk_back_loop.fbx",
+   "frames": 69,
+   "arm": "right-arm",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.62,
+   "note": "walking back to the mark, ball in the right hand"
+  },
+  {
+   "file": "ra_walk_back_polishing_ball_loop.fbx",
+   "frames": 69,
+   "arm": "right-arm",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.62,
+   "note": "walking back, rubbing the ball on the right thigh"
+  },
+  {
+   "file": "ra_arrive_at_mark_turn_ready.fbx",
+   "frames": 90,
+   "arm": "right-arm",
+   "note": "walks the last steps back, stops at the mark, turns to face the batter and settles into the exact pose the bowling clips start from"
+  },
+  {
+   "file": "ra_caught_and_bowled_pace_chest_high.fbx",
+   "frames": 227,
+   "arm": "right-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 0.47,
+    "y": -1.55,
+    "z": 1.35
+   },
+   "action": "fast_medium",
+   "note": "takes a firm return catch at chest height in the follow-through, then both arms up; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_caught_and_bowled_pace_diving_forward.fbx",
+   "frames": 239,
+   "arm": "right-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 0.27,
+    "y": -3.35,
+    "z": 0.12
+   },
+   "action": "fast_medium",
+   "note": "the ball dies in front of him: dives forward full length and takes it just off the ground, gets up; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_caught_and_bowled_pace_one_hand_left.fbx",
+   "frames": 217,
+   "arm": "right-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 1.37,
+    "y": -1.45,
+    "z": 1.45
+   },
+   "action": "fast_medium",
+   "note": "a firm return drive to his left: snaps it up one-handed (left hand) at full stretch; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_caught_and_bowled_spin_chest_high.fbx",
+   "frames": 205,
+   "arm": "right-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 0.47,
+    "y": -1.55,
+    "z": 1.35
+   },
+   "action": "off_spin",
+   "note": "takes a firm return catch at chest height in the follow-through, then both arms up; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_caught_and_bowled_spin_diving_forward.fbx",
+   "frames": 217,
+   "arm": "right-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 0.27,
+    "y": -3.35,
+    "z": 0.12
+   },
+   "action": "off_spin",
+   "note": "the ball dies in front of him: dives forward full length and takes it just off the ground, gets up; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_caught_and_bowled_spin_one_hand_left.fbx",
+   "frames": 195,
+   "arm": "right-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 1.37,
+    "y": -1.45,
+    "z": 1.45
+   },
+   "action": "off_spin",
+   "note": "a firm return drive to his left: snaps it up one-handed (left hand) at full stretch; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_field_own_bowling_throw_at_striker_end.fbx",
+   "frames": 211,
+   "arm": "right-arm",
+   "release_frame": 127,
+   "pickup_frame": 161,
+   "throw_release_frame": 175,
+   "throw_target_m": {
+    "x": 0.0,
+    "y": -18.899999618530273
+   },
+   "throw_speed_m_s": 26,
+   "throw_type": "snap throw at the striker's stumps",
+   "note": "fields a firm push back down the pitch in the follow-through and throws straight at the striker's stumps; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_field_own_bowling_underarm_at_own_stumps.fbx",
+   "frames": 213,
+   "arm": "right-arm",
+   "release_frame": 127,
+   "pickup_frame": 161,
+   "throw_release_frame": 177,
+   "throw_target_m": {
+    "x": 0.0,
+    "y": 1.2200000286102295
+   },
+   "throw_speed_m_s": 11,
+   "throw_type": "turn and underarm flick at his own stumps",
+   "note": "fields in the follow-through, spins round and flicks the ball underarm at the stumps at his own end; complete clip from the top of the mark"
+  },
+  {
+   "file": "ra_non_striker_run_out.fbx",
+   "frames": 207,
+   "arm": "right-arm",
+   "back_foot_contact_frame": 117,
+   "bails_broken_frame": 132,
+   "bails_m": {
+    "x": 0.02,
+    "y": 1.2,
+    "z": 0.69
+   },
+   "note": "runs in, stops in his delivery stride without letting go, whips the bails off at his own end with the ball in hand (non-striker out of his ground), turns and appeals; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_turn_and_walk_back_to_mark.fbx",
+   "frames": 121,
+   "arm": "left-arm",
+   "note": "from the end of the follow-through: turns round and walks back toward the mark (root motion ~4.2 m), ball in hand; chain into walk_back_loop"
+  },
+  {
+   "file": "la_walk_back_loop.fbx",
+   "frames": 69,
+   "arm": "left-arm",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.62,
+   "note": "walking back to the mark, ball in the right hand"
+  },
+  {
+   "file": "la_walk_back_polishing_ball_loop.fbx",
+   "frames": 69,
+   "arm": "left-arm",
+   "loop": true,
+   "in_place": true,
+   "speed_m_s": 0.62,
+   "note": "walking back, rubbing the ball on the right thigh"
+  },
+  {
+   "file": "la_arrive_at_mark_turn_ready.fbx",
+   "frames": 90,
+   "arm": "left-arm",
+   "note": "walks the last steps back, stops at the mark, turns to face the batter and settles into the exact pose the bowling clips start from"
+  },
+  {
+   "file": "la_caught_and_bowled_pace_chest_high.fbx",
+   "frames": 227,
+   "arm": "left-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 0.47,
+    "y": -1.55,
+    "z": 1.35
+   },
+   "action": "fast_medium",
+   "note": "takes a firm return catch at chest height in the follow-through, then both arms up; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_caught_and_bowled_pace_diving_forward.fbx",
+   "frames": 239,
+   "arm": "left-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 0.27,
+    "y": -3.35,
+    "z": 0.12
+   },
+   "action": "fast_medium",
+   "note": "the ball dies in front of him: dives forward full length and takes it just off the ground, gets up; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_caught_and_bowled_pace_one_hand_left.fbx",
+   "frames": 217,
+   "arm": "left-arm",
+   "release_frame": 127,
+   "catch_frame": 167,
+   "ball_at_catch_m": {
+    "x": 1.37,
+    "y": -1.45,
+    "z": 1.45
+   },
+   "action": "fast_medium",
+   "note": "a firm return drive to his left: snaps it up one-handed (left hand) at full stretch; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_caught_and_bowled_spin_chest_high.fbx",
+   "frames": 205,
+   "arm": "left-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 0.47,
+    "y": -1.55,
+    "z": 1.35
+   },
+   "action": "off_spin",
+   "note": "takes a firm return catch at chest height in the follow-through, then both arms up; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_caught_and_bowled_spin_diving_forward.fbx",
+   "frames": 217,
+   "arm": "left-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 0.27,
+    "y": -3.35,
+    "z": 0.12
+   },
+   "action": "off_spin",
+   "note": "the ball dies in front of him: dives forward full length and takes it just off the ground, gets up; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_caught_and_bowled_spin_one_hand_left.fbx",
+   "frames": 195,
+   "arm": "left-arm",
+   "release_frame": 99,
+   "catch_frame": 145,
+   "ball_at_catch_m": {
+    "x": 1.37,
+    "y": -1.45,
+    "z": 1.45
+   },
+   "action": "off_spin",
+   "note": "a firm return drive to his left: snaps it up one-handed (left hand) at full stretch; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_field_own_bowling_throw_at_striker_end.fbx",
+   "frames": 211,
+   "arm": "left-arm",
+   "release_frame": 127,
+   "pickup_frame": 161,
+   "throw_release_frame": 175,
+   "throw_target_m": {
+    "x": 0.0,
+    "y": -18.899999618530273
+   },
+   "throw_speed_m_s": 26,
+   "throw_type": "snap throw at the striker's stumps",
+   "note": "fields a firm push back down the pitch in the follow-through and throws straight at the striker's stumps; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_field_own_bowling_underarm_at_own_stumps.fbx",
+   "frames": 213,
+   "arm": "left-arm",
+   "release_frame": 127,
+   "pickup_frame": 161,
+   "throw_release_frame": 177,
+   "throw_target_m": {
+    "x": 0.0,
+    "y": 1.2200000286102295
+   },
+   "throw_speed_m_s": 11,
+   "throw_type": "turn and underarm flick at his own stumps",
+   "note": "fields in the follow-through, spins round and flicks the ball underarm at the stumps at his own end; complete clip from the top of the mark"
+  },
+  {
+   "file": "la_non_striker_run_out.fbx",
+   "frames": 207,
+   "arm": "left-arm",
+   "back_foot_contact_frame": 117,
+   "bails_broken_frame": 132,
+   "bails_m": {
+    "x": 0.02,
+    "y": 1.2,
+    "z": 0.69
+   },
+   "note": "runs in, stops in his delivery stride without letting go, whips the bails off at his own end with the ball in hand (non-striker out of his ground), turns and appeals; complete clip from the top of the mark"
+  }
+ ]
+}

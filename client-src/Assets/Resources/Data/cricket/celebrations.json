@@ -1,0 +1,372 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones), skeleton only, 30 fps, frames start at 1",
+  "bowler_and_fielders": "start at the origin facing the rig's forward direction; bowler appeals turn round to face the umpire who is BEHIND the start direction (the bowler has just followed through past him)",
+  "batters": "rhb_/lhb_ clips start from the batting stance (same frame as the batting clips); bat on RightHand / LeftHand; top hand comes off the handle for the raises",
+  "helmet": "bat_hundred: attach your helmet prop to the TOP hand between helmet_off_frame and helmet_on_frame",
+  "pairs": "high fives / glove punch: the *_point_m is where the hands meet - place the partner so his hand reaches the same point on the same frame (mirrored clip or the same clip facing the other way)",
+  "huddle": "team_huddle_loop: place 6-8 copies on a 0.75 m-radius circle facing the centre, offset their start frames",
+  "milestone_celebrations": "owner delivery 2026-11-12 (milestone_*): bat_release_frame = the bat leaves the hand and falls; helmet_off/on_frame = helmet in the top hand between them; the somersault travels ~4.5 m"
+ },
+ "clips": [
+  {
+   "file": "bowler_appeal_lbw.fbx",
+   "frames": 100,
+   "loop": false,
+   "appeal_frame": 35,
+   "note": "follows through, spins round to the umpire and leaps with both arms up: 'Howzat!'",
+   "faces_at_end": "toward the umpire (behind the start direction)"
+  },
+  {
+   "file": "bowler_appeal_caught_behind.fbx",
+   "frames": 100,
+   "loop": false,
+   "appeal_frame": 31,
+   "note": "turns to the umpire, both arms up, then the index finger goes up while the other hand points back at the keeper",
+   "faces_at_end": "toward the umpire (behind the start direction)"
+  },
+  {
+   "file": "bowler_appeal_on_knees.fbx",
+   "frames": 100,
+   "loop": false,
+   "appeal_frame": 31,
+   "note": "turns to the umpire and drops onto both knees, arms raised: the full-blooded appeal",
+   "faces_at_end": "toward the umpire (behind the start direction)"
+  },
+  {
+   "file": "bowler_celebration_aeroplane.fbx",
+   "frames": 115,
+   "loop": false,
+   "note": "runs off with both arms out like wings, banking side to side (root motion ~10 m)"
+  },
+  {
+   "file": "bowler_celebration_fist_pump_roar.fbx",
+   "frames": 90,
+   "loop": false,
+   "note": "crouches, double fist pump, then leans back and roars at the sky"
+  },
+  {
+   "file": "bowler_celebration_knee_slide.fbx",
+   "frames": 110,
+   "loop": false,
+   "note": "sprints, drops onto both knees and slides ~1.3 m leaning back with arms wide, gets up"
+  },
+  {
+   "file": "bowler_celebration_point_to_sky.fbx",
+   "frames": 90,
+   "loop": false,
+   "note": "both index fingers pointed to the sky, looking up"
+  },
+  {
+   "file": "fielder_appeal_standing.fbx",
+   "frames": 80,
+   "loop": false,
+   "appeal_frame": 21,
+   "note": "springs up from the ready position, both arms up, appealing to the umpire in front"
+  },
+  {
+   "file": "slip_appeal_from_crouch.fbx",
+   "frames": 90,
+   "loop": false,
+   "appeal_frame": 25,
+   "note": "slip-cordon crouch -> jumps up with both arms raised; the first frames double as a slip stance"
+  },
+  {
+   "file": "slip_stance_loop.fbx",
+   "frames": 61,
+   "loop": true,
+   "note": "slip fielder's crouched ready stance"
+  },
+  {
+   "file": "close_fielder_appeal.fbx",
+   "frames": 90,
+   "loop": false,
+   "appeal_frame": 17,
+   "note": "short leg / silly point: from a low crouch, rises appealing to the umpire"
+  },
+  {
+   "file": "close_fielder_crouch_loop.fbx",
+   "frames": 61,
+   "loop": true,
+   "note": "short leg / silly point crouch"
+  },
+  {
+   "file": "appeal_turned_down_hands_on_head.fbx",
+   "frames": 90,
+   "loop": false,
+   "note": "arms up from the appeal, then hands on the head, crouches in disbelief, turns away"
+  },
+  {
+   "file": "fielder_run_to_bowler_high_five.fbx",
+   "frames": 100,
+   "loop": false,
+   "high_five_frame": 49,
+   "high_five_point_m": {
+    "forward": 6.72,
+    "left": 3.04,
+    "up": 1.84
+   },
+   "note": "runs ~7 m to the bowler, high-fives at full stretch, pats him on the shoulder (place the bowler 0.9 m in front at the end)"
+  },
+  {
+   "file": "high_five_standing.fbx",
+   "frames": 50,
+   "loop": false,
+   "high_five_frame": 19,
+   "high_five_point_m": {
+    "forward": 0.36,
+    "left": -0.1,
+    "up": 1.84
+   },
+   "note": "standing high five with the right hand; two players 0.85 m apart facing each other meet in the middle"
+  },
+  {
+   "file": "team_huddle_loop.fbx",
+   "frames": 81,
+   "loop": true,
+   "note": "arms round the neighbours' shoulders, bent in, bouncing. Place 6-8 copies on a 0.75 m-radius circle, each facing the centre; vary the start frame"
+  },
+  {
+   "file": "applause_loop.fbx",
+   "frames": 57,
+   "loop": true,
+   "note": "clapping at chest height"
+  },
+  {
+   "file": "catch_celebration_ball_in_the_air.fbx",
+   "frames": 100,
+   "loop": false,
+   "release_frame": 19,
+   "release_velocity_m_s": {
+    "forward": 0.3,
+    "left": 0,
+    "up": 9.0
+   },
+   "note": "after a catch: flings the ball high in the air, arms out wide, then both arms up; let the ball fall away"
+  },
+  {
+   "file": "lhb_bat_acknowledge_applause.fbx",
+   "frames": 105,
+   "batter": "left-handed",
+   "note": "raises the bat and the top hand to acknowledge the crowd, turning to each side of the ground"
+  },
+  {
+   "file": "lhb_bat_fifty_raise_bat.fbx",
+   "frames": 120,
+   "batter": "left-handed",
+   "raise_frame": 29,
+   "note": "takes the top hand off, raises the bat to the dressing room, waves it, turns to the rest of the ground"
+  },
+  {
+   "file": "lhb_bat_hundred_leap_helmet_off.fbx",
+   "frames": 180,
+   "batter": "left-handed",
+   "leap_frame": 23,
+   "helmet_off_frame": 56,
+   "helmet_on_frame": 154,
+   "note": "leaps with bat and arm raised, takes the helmet off with the top hand (attach the helmet to the top hand between helmet_off_frame and helmet_on_frame), shows bat and helmet to the dressing room and the crowd, hand to the badge"
+  },
+  {
+   "file": "lhb_bat_mid_pitch_glove_punch.fbx",
+   "frames": 100,
+   "batter": "left-handed",
+   "glove_punch_frame": 55,
+   "glove_punch_point_m": {
+    "toward_bowler": 2.52,
+    "toward_off_side": 0.85,
+    "up": 1.2
+   },
+   "note": "walks down the pitch, a few words and a glove punch with the partner (place the partner 0.95 m further down the pitch facing him)"
+  },
+  {
+   "file": "lhb_bat_winning_runs_celebration.fbx",
+   "frames": 150,
+   "batter": "left-handed",
+   "note": "hits the winning runs: sets off running, pulls up, bat and arm raised, leaps, swings the bat round, roars (root motion ~10 m)"
+  },
+  {
+   "file": "rhb_bat_acknowledge_applause.fbx",
+   "frames": 105,
+   "batter": "right-handed",
+   "note": "raises the bat and the top hand to acknowledge the crowd, turning to each side of the ground"
+  },
+  {
+   "file": "rhb_bat_fifty_raise_bat.fbx",
+   "frames": 120,
+   "batter": "right-handed",
+   "raise_frame": 29,
+   "note": "takes the top hand off, raises the bat to the dressing room, waves it, turns to the rest of the ground"
+  },
+  {
+   "file": "rhb_bat_hundred_leap_helmet_off.fbx",
+   "frames": 180,
+   "batter": "right-handed",
+   "leap_frame": 23,
+   "helmet_off_frame": 56,
+   "helmet_on_frame": 154,
+   "note": "leaps with bat and arm raised, takes the helmet off with the top hand (attach the helmet to the top hand between helmet_off_frame and helmet_on_frame), shows bat and helmet to the dressing room and the crowd, hand to the badge"
+  },
+  {
+   "file": "rhb_bat_mid_pitch_glove_punch.fbx",
+   "frames": 100,
+   "batter": "right-handed",
+   "glove_punch_frame": 55,
+   "glove_punch_point_m": {
+    "toward_bowler": 2.52,
+    "toward_off_side": 0.85,
+    "up": 1.2
+   },
+   "note": "walks down the pitch, a few words and a glove punch with the partner (place the partner 0.95 m further down the pitch facing him)"
+  },
+  {
+   "file": "rhb_bat_winning_runs_celebration.fbx",
+   "frames": 150,
+   "batter": "right-handed",
+   "note": "hits the winning runs: sets off running, pulls up, bat and arm raised, leaps, swings the bat round, roars (root motion ~10 m)"
+  },
+  {
+   "file": "lhb_century_bat_drop.fbx",
+   "frames": 120,
+   "batter": "left-handed",
+   "milestone": 100,
+   "bat_release_frame": 63,
+   "note": "holds the bat out at arm's length, toe down, chin up; opens the hand and lets it drop (detach on bat_release_frame), glances down, turns away"
+  },
+  {
+   "file": "lhb_century_leap_and_chin_swipe.fbx",
+   "frames": 150,
+   "batter": "left-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "swipe_frame": 79,
+   "note": "leap, then the back of the top hand under the chin, head tilted up, swiped slowly out along the jaw; raises the bat"
+  },
+  {
+   "file": "lhb_century_leap_and_kisses.fbx",
+   "frames": 140,
+   "batter": "left-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "kiss_frames": [
+    61,
+    75
+   ],
+   "note": "crouch, big leap with the bat and the top-hand fist punched to the sky, lands, blows kisses to the crowd, raises the bat"
+  },
+  {
+   "file": "lhb_century_meditation_pose.fbx",
+   "frames": 180,
+   "batter": "left-handed",
+   "milestone": 100,
+   "seated_hold_frames": [
+    47,
+    139
+   ],
+   "note": "sits down cross-legged on the pitch, bat across the lap in the bottom hand, top hand resting on the knee with thumb and finger together, eyes forward and still; gets back up"
+  },
+  {
+   "file": "lhb_century_roar_helmet_off_bow.fbx",
+   "frames": 210,
+   "batter": "left-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "helmet_off_frame": 84,
+   "helmet_on_frame": 186,
+   "note": "leaps and roars with fist punches, takes the helmet off with the top hand (attach the helmet to the top hand between helmet_off_frame and helmet_on_frame), bows deeply, shows bat and helmet to the crowd, helmet back on"
+  },
+  {
+   "file": "lhb_century_somersault.fbx",
+   "frames": 150,
+   "batter": "left-handed",
+   "milestone": 100,
+   "bat_release_frame": 21,
+   "take_off_frame": 53,
+   "landing_frame": 79,
+   "note": "tosses the bat aside (detach it from the hand on bat_release_frame and let it fall), three quick steps, two-footed take-off into a full tucked forward flip, lands and roars with both arms up (root motion ~4.5 m forward)"
+  },
+  {
+   "file": "lhb_fifty_signature_pose.fbx",
+   "frames": 140,
+   "batter": "left-handed",
+   "milestone": 50,
+   "pose_held_frames": [
+    45,
+    75
+   ],
+   "bat_raise_frame": 89,
+   "note": "plants the bat in front with both hands on the handle, chin up, holds the pose, then raises the bat to the dressing room"
+  },
+  {
+   "file": "rhb_century_bat_drop.fbx",
+   "frames": 120,
+   "batter": "right-handed",
+   "milestone": 100,
+   "bat_release_frame": 63,
+   "note": "holds the bat out at arm's length, toe down, chin up; opens the hand and lets it drop (detach on bat_release_frame), glances down, turns away"
+  },
+  {
+   "file": "rhb_century_leap_and_chin_swipe.fbx",
+   "frames": 150,
+   "batter": "right-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "swipe_frame": 79,
+   "note": "leap, then the back of the top hand under the chin, head tilted up, swiped slowly out along the jaw; raises the bat"
+  },
+  {
+   "file": "rhb_century_leap_and_kisses.fbx",
+   "frames": 140,
+   "batter": "right-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "kiss_frames": [
+    61,
+    75
+   ],
+   "note": "crouch, big leap with the bat and the top-hand fist punched to the sky, lands, blows kisses to the crowd, raises the bat"
+  },
+  {
+   "file": "rhb_century_meditation_pose.fbx",
+   "frames": 180,
+   "batter": "right-handed",
+   "milestone": 100,
+   "seated_hold_frames": [
+    47,
+    139
+   ],
+   "note": "sits down cross-legged on the pitch, bat across the lap in the bottom hand, top hand resting on the knee with thumb and finger together, eyes forward and still; gets back up"
+  },
+  {
+   "file": "rhb_century_roar_helmet_off_bow.fbx",
+   "frames": 210,
+   "batter": "right-handed",
+   "milestone": 100,
+   "leap_apex_frame": 33,
+   "helmet_off_frame": 84,
+   "helmet_on_frame": 186,
+   "note": "leaps and roars with fist punches, takes the helmet off with the top hand (attach the helmet to the top hand between helmet_off_frame and helmet_on_frame), bows deeply, shows bat and helmet to the crowd, helmet back on"
+  },
+  {
+   "file": "rhb_century_somersault.fbx",
+   "frames": 150,
+   "batter": "right-handed",
+   "milestone": 100,
+   "bat_release_frame": 21,
+   "take_off_frame": 53,
+   "landing_frame": 79,
+   "note": "tosses the bat aside (detach it from the hand on bat_release_frame and let it fall), three quick steps, two-footed take-off into a full tucked forward flip, lands and roars with both arms up (root motion ~4.5 m forward)"
+  },
+  {
+   "file": "rhb_fifty_signature_pose.fbx",
+   "frames": 140,
+   "batter": "right-handed",
+   "milestone": 50,
+   "pose_held_frames": [
+    45,
+    75
+   ],
+   "bat_raise_frame": 89,
+   "note": "plants the bat in front with both hands on the handle, chin up, holds the pose, then raises the bat to the dressing room"
+  }
+ ]
+}

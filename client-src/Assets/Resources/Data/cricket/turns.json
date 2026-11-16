@@ -1,0 +1,497 @@
+{
+ "conventions": {
+  "rig": "Mixamo skeleton from Sitting_Talking.fbx (65 bones, mixamorig: names), skeleton only, same rest pose as the milestone pack",
+  "timing": "30 fps, frames start at 1, every frame keyed, one clip per file",
+  "hands": "batter clips: rhb_ (bat on mixamorig:RightHand) and lhb_ (mirrored, bat on mixamorig:LeftHand); fielder/bowler clips: one version; ball on mixamorig:RightHand (throw_hand)",
+  "feet": "planted ranges are measured from the solved skeleton (ToeBase joint within 1.2 cm of the ground), 1-based inclusive frames. A planted foot is pinned: max drift is reported per clip and is <= 1.0 cm everywhere; the largest values come from the touchdown frame as the foot settles. Turns pivot on the ball of the planted foot (heel lifts, ball stays put). The body moves only by stepping.",
+  "turn_deg": "signed, + = left (counter-clockwise seen from above)",
+  "travel_m": "root (Hips) displacement from the first to the last frame, in the character's starting frame: forward = the way it faces on frame 1, left = its left",
+  "loop_speeds": "starts/stops match the delivered loops exactly: run_01_walk_in_loop 1.27 m/s, run_02_jog_loop 3.27 m/s, run_03_sprint_loop 6.94 m/s, bowler walk_back_loop 0.62 m/s",
+  "start_end": "fielders: ready stance (identical to run_00_ready_stance_idle_loop frame 1) unless the clip says otherwise; batters: as stated per clip; bowlers: standing"
+ },
+ "clips": [
+  {
+   "file": "fielder_turn_90_left.fbx",
+   "frames": 22,
+   "seconds": 0.73,
+   "pivot_foot": "left",
+   "turn_deg": 90,
+   "turn_start_frame": 6,
+   "turn_end_frame": 16,
+   "travel_m": {
+    "forward": -0.27,
+    "left": -0.13
+   },
+   "left_foot_planted": [
+    [
+     1,
+     22
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     22
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.02,
+   "right_foot_max_drift_cm": 0.0
+  },
+  {
+   "file": "fielder_turn_90_right.fbx",
+   "frames": 22,
+   "seconds": 0.73,
+   "pivot_foot": "right",
+   "turn_deg": -90,
+   "turn_start_frame": 6,
+   "turn_end_frame": 16,
+   "travel_m": {
+    "forward": -0.27,
+    "left": 0.13
+   },
+   "left_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     22
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     22
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.0,
+   "right_foot_max_drift_cm": 0.02
+  },
+  {
+   "file": "fielder_turn_180_left.fbx",
+   "frames": 33,
+   "seconds": 1.1,
+   "pivot_foot": "left",
+   "turn_deg": 180,
+   "turn_start_frame": 6,
+   "turn_end_frame": 28,
+   "travel_m": {
+    "forward": -0.14,
+    "left": -0.4
+   },
+   "left_foot_planted": [
+    [
+     1,
+     33
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     18
+    ],
+    [
+     28,
+     33
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.02,
+   "right_foot_max_drift_cm": 0.0
+  },
+  {
+   "file": "fielder_turn_180_right.fbx",
+   "frames": 33,
+   "seconds": 1.1,
+   "pivot_foot": "right",
+   "turn_deg": -180,
+   "turn_start_frame": 6,
+   "turn_end_frame": 28,
+   "travel_m": {
+    "forward": -0.14,
+    "left": 0.4
+   },
+   "left_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     18
+    ],
+    [
+     28,
+     33
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     33
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.0,
+   "right_foot_max_drift_cm": 0.02
+  },
+  {
+   "file": "fielder_turn_and_go_180.fbx",
+   "frames": 86,
+   "seconds": 2.87,
+   "pivot_foot": "left",
+   "turn_deg": 180,
+   "turn_start_frame": 6,
+   "turn_end_frame": 28,
+   "ends": "jog stride (matches run_02_jog_loop, 3.27 m/s)",
+   "speed_at_end_mps": 3.27,
+   "travel_m": {
+    "forward": 4.22,
+    "left": -0.38
+   },
+   "left_foot_planted": [
+    [
+     1,
+     30
+    ],
+    [
+     40,
+     49
+    ],
+    [
+     64,
+     69
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     18
+    ],
+    [
+     28,
+     37
+    ],
+    [
+     52,
+     60
+    ],
+    [
+     76,
+     83
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.49,
+   "right_foot_max_drift_cm": 0.38
+  },
+  {
+   "file": "fielder_walk_turn_90_left.fbx",
+   "frames": 120,
+   "seconds": 4.0,
+   "pivot_foot": "none (stepping turn, 3 steps)",
+   "turn_deg": 90,
+   "turn_start_frame": 39,
+   "turn_end_frame": 86,
+   "starts": "mid walk stride (run_01_walk_in_loop)",
+   "ends": "walk stride heading 90 deg left",
+   "speed_mps": 1.27,
+   "travel_m": {
+    "forward": -2.93,
+    "left": -2.69
+   },
+   "left_foot_planted": [
+    [
+     1,
+     20
+    ],
+    [
+     35,
+     55
+    ],
+    [
+     69,
+     86
+    ],
+    [
+     103,
+     120
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     3
+    ],
+    [
+     18,
+     38
+    ],
+    [
+     52,
+     67
+    ],
+    [
+     86,
+     98
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.9,
+   "right_foot_max_drift_cm": 0.88
+  },
+  {
+   "file": "fielder_walk_turn_90_right.fbx",
+   "frames": 120,
+   "seconds": 4.0,
+   "pivot_foot": "none (stepping turn, 3 steps)",
+   "turn_deg": -90,
+   "turn_start_frame": 39,
+   "turn_end_frame": 86,
+   "starts": "mid walk stride (run_01_walk_in_loop)",
+   "ends": "walk stride heading 90 deg right",
+   "speed_mps": 1.27,
+   "travel_m": {
+    "forward": -2.93,
+    "left": 2.69
+   },
+   "left_foot_planted": [
+    [
+     1,
+     3
+    ],
+    [
+     18,
+     38
+    ],
+    [
+     52,
+     67
+    ],
+    [
+     86,
+     98
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     20
+    ],
+    [
+     35,
+     55
+    ],
+    [
+     69,
+     86
+    ],
+    [
+     103,
+     120
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.88,
+   "right_foot_max_drift_cm": 0.9
+  },
+  {
+   "file": "rhb_turn_180_after_run.fbx",
+   "frames": 50,
+   "seconds": 1.67,
+   "pivot_foot": "left",
+   "turn_deg": 180,
+   "turn_start_frame": 15,
+   "turn_end_frame": 37,
+   "starts": "bat grounded over the bowler's-end crease, just arrived",
+   "ends": "standing, bat in the bottom hand, facing the striker's end",
+   "travel_m": {
+    "forward": 0.07,
+    "left": -0.27
+   },
+   "left_foot_planted": [
+    [
+     1,
+     50
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     15
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     37,
+     50
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.03,
+   "right_foot_max_drift_cm": 0.0
+  },
+  {
+   "file": "lhb_turn_180_after_run.fbx",
+   "frames": 50,
+   "seconds": 1.67,
+   "pivot_foot": "right",
+   "turn_deg": -180,
+   "turn_start_frame": 15,
+   "turn_end_frame": 37,
+   "starts": "bat grounded over the bowler's-end crease, just arrived",
+   "ends": "standing, bat in the bottom hand, facing the striker's end",
+   "travel_m": {
+    "forward": 0.08,
+    "left": 0.27
+   },
+   "left_foot_planted": [
+    [
+     1,
+     15
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     37,
+     50
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     50
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.0,
+   "right_foot_max_drift_cm": 0.03
+  },
+  {
+   "file": "rhb_turn_90_settle.fbx",
+   "frames": 45,
+   "seconds": 1.5,
+   "pivot_foot": "right",
+   "turn_deg": -90,
+   "turn_start_frame": 7,
+   "turn_end_frame": 17,
+   "starts": "standing with the bat in the bottom hand, side-on to the crease",
+   "ends": "batting stance (guard), same as the batting clips' first frame",
+   "travel_m": {
+    "forward": -0.14,
+    "left": 0.08
+   },
+   "left_foot_planted": [
+    [
+     1,
+     7
+    ],
+    [
+     17,
+     45
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     45
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.0,
+   "right_foot_max_drift_cm": 0.02
+  },
+  {
+   "file": "lhb_turn_90_settle.fbx",
+   "frames": 45,
+   "seconds": 1.5,
+   "pivot_foot": "left",
+   "turn_deg": 90,
+   "turn_start_frame": 7,
+   "turn_end_frame": 17,
+   "starts": "standing with the bat in the bottom hand, side-on to the crease",
+   "ends": "batting stance (guard), same as the batting clips' first frame",
+   "travel_m": {
+    "forward": -0.14,
+    "left": -0.08
+   },
+   "left_foot_planted": [
+    [
+     1,
+     45
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     7
+    ],
+    [
+     17,
+     45
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.02,
+   "right_foot_max_drift_cm": 0.0
+  },
+  {
+   "file": "bowler_walkback_turn_180.fbx",
+   "frames": 96,
+   "seconds": 3.2,
+   "pivot_foot": "left",
+   "turn_deg": 180,
+   "turn_start_frame": 6,
+   "turn_end_frame": 28,
+   "starts": "standing at the end of the follow-through",
+   "ends": "walk stride (matches walk_back_loop, 0.62 m/s)",
+   "speed_at_end_mps": 0.62,
+   "travel_m": {
+    "forward": 1.01,
+    "left": -0.34
+   },
+   "left_foot_planted": [
+    [
+     1,
+     32
+    ],
+    [
+     45,
+     66
+    ],
+    [
+     79,
+     96
+    ]
+   ],
+   "right_foot_planted": [
+    [
+     1,
+     6
+    ],
+    [
+     16,
+     18
+    ],
+    [
+     28,
+     49
+    ],
+    [
+     62,
+     83
+    ]
+   ],
+   "left_foot_max_drift_cm": 0.03,
+   "right_foot_max_drift_cm": 0.01
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "league": { "name": "Auction Premier League", "shortName": "APL" },
+  "franchises": [
+    { "id": "MBH", "sourceTeam": "MI", "name": "Mumbai Heroes", "shortName": "MBH", "city": "Mumbai", "primaryColor": "#1E5AA8", "secondaryColor": "#F2C14E" },
+    { "id": "CHC", "sourceTeam": "CSK", "name": "Chennai Cyclones", "shortName": "CHC", "city": "Chennai", "primaryColor": "#F5C518", "secondaryColor": "#1B3A6B" },
+    { "id": "BLR", "sourceTeam": "RCB", "name": "Bengaluru Royals", "shortName": "BLR", "city": "Bengaluru", "primaryColor": "#C8102E", "secondaryColor": "#111111" },
+    { "id": "KOC", "sourceTeam": "KKR", "name": "Kolkata Comets", "shortName": "KOC", "city": "Kolkata", "primaryColor": "#4B2A84", "secondaryColor": "#D4AF37" },
+    { "id": "DLD", "sourceTeam": "DC", "name": "Delhi Defenders", "shortName": "DLD", "city": "Delhi", "primaryColor": "#0B3D91", "secondaryColor": "#E4312B" },
+    { "id": "PJP", "sourceTeam": "PBKS", "name": "Punjab Pioneers", "shortName": "PJP", "city": "Mohali", "primaryColor": "#D71920", "secondaryColor": "#C0C0C0" },
+    { "id": "RJR", "sourceTeam": "RR", "name": "Rajasthan Rangers", "shortName": "RJR", "city": "Jaipur", "primaryColor": "#E6007E", "secondaryColor": "#0A2A66" },
+    { "id": "HYH", "sourceTeam": "SRH", "name": "Hyderabad Hawks", "shortName": "HYH", "city": "Hyderabad", "primaryColor": "#F26522", "secondaryColor": "#000000" },
+    { "id": "GJG", "sourceTeam": "GT", "name": "Gujarat Gladiators", "shortName": "GJG", "city": "Ahmedabad", "primaryColor": "#0F2A44", "secondaryColor": "#B8975A" },
+    { "id": "LKL", "sourceTeam": "LSG", "name": "Lucknow Lancers", "shortName": "LKL", "city": "Lucknow", "primaryColor": "#00A3E0", "secondaryColor": "#F7941D" }
+  ],
+  "rules": {
+    "increments": [ { "below": 50, "step": 10 }, { "below": 200, "step": 25 }, { "step": 50 } ],
+    "basePrices": [200, 150, 100, 75, 50, 40, 30],
+    "bidTimerSec": 10,
+    "acceleratedTimerSec": 6,
+    "maxOverseasInXI": 4,
+    "setOrder": ["marquee", "batters", "bowlers", "allRounders", "wicketKeepers", "uncapped"],
+    "formats": {
+      "standard": { "label": "Standard", "purse": 12000, "minSquad": 18, "maxSquad": 25, "maxOverseas": 8, "maxLots": 120,
+                    "retentionOnly": true, "retention": { "maxPlayers": 11, "atValue": true } },
+      "mega": { "label": "Mega", "purse": 12000, "minSquad": 18, "maxSquad": 25, "maxOverseas": 8 }
+    },
+    "rating": { "battingBase": 50, "bowlingBase": 55, "spread": 34 },
+    "retention": { "maxPlayers": 3, "slabs": [1800, 1400, 1100], "uncappedPrice": 400 },
+    "rtmCards": 1,
+    "maxPrice": 2800,
+    "roomMaxPrice": 3500
+  }
+}

@@ -1,0 +1,71 @@
+{
+ "bowled": [
+  ["lead", "Bowled him! Timber!"], ["lead", "Through the gate, and the stumps are shattered!"], ["colour", "Middle stump, gone!"],
+  ["lead", "{bowl} knocks him over!"], ["colour", "Missed it completely, and he's bowled."], ["lead", "Clean bowled! What a ball from {bowl}!"]
+ ],
+ "caught": [
+  ["lead", "Caught! Straight down the fielder's throat."], ["colour", "Safe hands. He's gone."], ["lead", "Taken! {bat} has to walk."],
+  ["lead", "In the air, and it's held!"], ["colour", "Didn't quite get hold of that one."], ["lead", "Great catch! What a grab!"]
+ ],
+ "lbw": [
+  ["lead", "Plumb! The finger goes up."], ["colour", "That looked dead in front."], ["lead", "Trapped in front! {bat} is lbw."],
+  ["colour", "Pad first, and the umpire's had no doubt."]
+ ],
+ "out": [
+  ["lead", "That's out!"], ["colour", "He's on his way."], ["lead", "Another one gone!"], ["lead", "{bat} departs."]
+ ],
+ "run_out": [
+  ["lead", "Run out! Brilliant throw!"], ["colour", "Short of his ground, that's out."], ["lead", "Direct hit! He's gone!"],
+  ["colour", "A terrible mix-up there."]
+ ],
+ "stumped": [
+  ["lead", "Stumped! Lightning work by the keeper."], ["colour", "Out of his crease, and the bails are off."], ["lead", "Beaten in the flight, and stumped!"]
+ ],
+ "new_batter": [
+  ["lead", "{bat} walks out to the middle."], ["colour", "A big job ahead for the new man."], ["lead", "In comes {bat}."],
+  ["colour", "Can the new batter steady things?"]
+ ],
+ "fifty": [
+  ["lead", "Fifty for {bat}! Raise the bat."], ["colour", "What an innings this has been."], ["lead", "Half-century! Brilliant knock from {bat}."]
+ ],
+ "milestone_near": [
+  ["lead", "{bat} is closing in on a fifty."], ["colour", "A milestone is just around the corner."], ["lead", "Just a few away from fifty now."]
+ ],
+ "partnership": [
+  ["lead", "This partnership is really building."], ["colour", "These two are making it look easy."], ["lead", "A very useful stand developing here."],
+  ["colour", "The bowlers need a breakthrough."]
+ ],
+ "pressure_building": [
+  ["lead", "The dots are piling up."], ["colour", "Pressure building now. They need to find a run."], ["lead", "Tight bowling. Nothing given away."],
+  ["colour", "{bowl} is really squeezing them."]
+ ],
+ "maiden": [
+  ["lead", "A maiden over! Superb from {bowl}."], ["colour", "Not a run off that over."], ["lead", "Maiden. Brilliant control."]
+ ],
+ "over": [
+  ["lead", "End of the over."], ["colour", "Good over that."], ["lead", "That's the over, they swap ends."], ["colour", "Time for a quick drink."]
+ ],
+ "pressure": [
+  ["lead", "The asking rate is climbing."], ["colour", "They'll have to take some risks now."], ["lead", "Boundaries needed, and quickly."]
+ ],
+ "close": [
+  ["lead", "This is going right down to the wire!"], ["colour", "Anyone's game now."], ["lead", "Nerves jangling in the stands."]
+ ],
+ "cruising": [
+  ["lead", "Comfortable chase this, so far."], ["colour", "Well ahead of the rate."], ["lead", "No panic in this run chase."]
+ ],
+ "last_over": [
+  ["lead", "Last over. Here we go."], ["colour", "Six balls to decide it."], ["lead", "It all comes down to this final over."]
+ ],
+ "won": [
+  ["lead", "And they've done it! What a win!"], ["colour", "Brilliantly played. Victory!"], ["lead", "That's the game! Celebrations all round!"]
+ ],
+ "lost": [
+  ["lead", "They fall short. A tough one to take."], ["colour", "Credit to the bowlers there."], ["lead", "Not their day. The defence holds."]
+ ],
+ "frag_need": [["lead", "They need"]],
+ "frag_off": [["lead", "off"]],
+ "frag_balls": [["lead", "balls."]],
+ "frag_ball": [["lead", "ball."]],
+ "frag_runs": [["lead", "runs"]]
+}

@@ -1,0 +1,16 @@
+<Project>
+  <!-- Compile-only check of client-src against an installed Unity, without opening the editor:
+         dotnet build tools\unity-check\UnityCheck.csproj [-p:UnityVersion=6000.3.27f2] -->
+  <PropertyGroup>
+    <UnityVersion Condition="'$(UnityVersion)' == ''">6000.3.27f2</UnityVersion>
+    <UnityData>C:\Program Files\Unity\Hub\Editor\$(UnityVersion)\Editor\Data</UnityData>
+    <Repo>$(MSBuildThisFileDirectory)..\..\</Repo>
+    <BaseOutputPath>$(Repo)build\unity-check\$(MSBuildProjectName)\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(Repo)build\unity-check\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,59 @@
+{
+ "about": "Extra English commentary (merged into commentary_lines.json's by gen_commentary.py). {bat} = the batter's name, {bowl} = the bowler's, only at the start or the end of a line.",
+ "defended": [
+  ["lead", "Solid in defence."], ["colour", "Nothing doing there, dead bat."], ["lead", "Watchful, and it's patted back."],
+  ["lead", "{bat} plays it with soft hands."], ["colour", "Good, tight defence."], ["lead", "Blocked, straight back to the bowler."]
+ ],
+ "beaten": [
+  ["lead", "Past the outside edge!"], ["colour", "Oh, that was close to the edge."], ["lead", "{bowl} beats him all ends up!"],
+  ["lead", "Lovely delivery, and he's beaten."], ["colour", "He had no idea about that one."], ["lead", "Jaffa! Beaten for pace."],
+  ["colour", "Shaved the edge, surely."]
+ ],
+ "left": [
+  ["lead", "Shouldered arms."], ["colour", "Good leave, judged the line well."], ["lead", "{bat} lets that one go."]
+ ],
+ "single": [
+  ["lead", "Pushed into the gap, they take one."], ["colour", "Easy single, rotating the strike nicely."], ["lead", "Nudged away for one."],
+  ["lead", "Quick single, well run!"], ["colour", "Just dropped and run. Smart cricket."], ["lead", "{bat} works it away for a single."]
+ ],
+ "two": [
+  ["lead", "They come back for the second."], ["colour", "Excellent running, that's two."], ["lead", "Placed in the gap, two runs."],
+  ["lead", "Hard running, and they make it back for two."], ["colour", "Pushing the fielder there, two more."]
+ ],
+ "three": [
+  ["lead", "They'll get three for that!"], ["colour", "Great running between the wickets, three."], ["lead", "Chased down just short of the rope, three runs."]
+ ],
+ "four": [
+  ["lead", "{bat} finds the fence!"], ["lead", "Pierced the field, four runs!"], ["colour", "Didn't need to hit that hard. Pure timing."],
+  ["lead", "Glorious! That's raced away."], ["lead", "Four more to {bat}!"], ["colour", "Picked the gap perfectly."],
+  ["lead", "Cracked through the covers, four!"], ["colour", "The fielder had no chance."], ["lead", "Bang! Into the boundary boards."]
+ ],
+ "six": [
+  ["lead", "{bat} sends it into the stands!"], ["lead", "Gone! That is huge!"], ["colour", "Out of the ground, nearly!"],
+  ["lead", "Maximum! What a strike!"], ["colour", "Effortless. Just stood there and launched it."], ["lead", "Up, up, and over the rope!"],
+  ["lead", "That's into the crowd, six!"], ["colour", "The crowd loved that one."], ["lead", "Monster hit from {bat}!"]
+ ],
+ "edge": [
+  ["lead", "Edged, and it runs away!"], ["colour", "Thick edge, but it's safe."], ["lead", "Off the edge, past the slips!"],
+  ["colour", "Bit of luck there."]
+ ],
+ "dropped": [
+  ["lead", "Dropped! He's put it down!"], ["colour", "Oh, that should have been taken."], ["lead", "Spilled! A life for {bat}."],
+  ["colour", "That could be expensive."]
+ ],
+ "wide": [
+  ["lead", "Too wide, that's called."], ["colour", "Strayed down the leg side. Wide."], ["lead", "Wide ball, an extra."]
+ ],
+ "no_ball": [
+  ["lead", "No ball! He's overstepped."], ["colour", "Free hit coming up!"], ["lead", "That's a no ball, and a free hit to follow."]
+ ],
+ "free_hit": [
+  ["lead", "Free hit. Nothing to lose here."], ["colour", "Licence to swing the bat."], ["lead", "Free hit, can't be out except run out."]
+ ],
+ "first_boundary_over": [
+  ["lead", "First boundary of the over."], ["colour", "That's the first boundary this over."], ["lead", "And that's the release shot this over."]
+ ],
+ "big_over": [
+  ["lead", "Big over, that one."], ["colour", "Expensive over for the bowler."], ["lead", "That over has changed the game."]
+ ]
+}

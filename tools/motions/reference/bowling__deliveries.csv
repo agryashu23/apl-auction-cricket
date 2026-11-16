@@ -1,0 +1,123 @@
+Section,No,Delivery,What it does,Clip (over the wicket),Around-the-wicket clip,Release frame,Speed km/h,Swing,Seam off pitch,Spin,Bounce,Default length,Default line
+1,1,Stock seam-up ball,"Upright seam, hits the deck hard",ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,good length,middle stump
+1,2,Outswinger,Swings away from the batter,ra_express_fast_over_outswinger.fbx,ra_express_fast_around_stock.fbx,141,147,"conventional, away, -0.3 m, progressive",,,1.0,good length,off stump
+1,3,Inswinger,Swings into the batter,ra_express_fast_over_inswinger.fbx,ra_express_fast_around_stock.fbx,141,147,"conventional, in, 0.3 m, progressive",,,1.0,good length,middle stump
+1,4,Reverse inswinger,Old ball swings in late,ra_express_fast_over_inswinger.fbx,ra_express_fast_around_stock.fbx,141,147,"reverse, in, 0.22 m, late (last 30% of flight)",,,1.0,good length,middle stump
+1,5,Reverse outswinger,Old ball swings away late,ra_express_fast_over_outswinger.fbx,ra_express_fast_around_stock.fbx,141,147,"reverse, away, -0.22 m, late (last 30% of flight)",,,1.0,good length,off stump
+1,6,Nip-backer,Seams back in off the pitch,ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,"in, 0.1 m",,1.0,good length,middle stump
+1,7,Seamer away,Seams away off the pitch,ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,"away, 0.1 m",,1.0,good length,off stump
+1,8,Bouncer,"Short, rises at head height",ra_express_fast_over_bouncer.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.12,bouncer,middle stump
+1,9,Body-line short ball,"Short, aimed at ribs/chest",ra_express_fast_over_bouncer.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,short,middle stump (at the body)
+1,10,Skiddy short ball,Short but stays low and fast,ra_express_fast_over_bouncer.fbx,ra_express_fast_around_stock.fbx,141,147,,,,0.85,short,middle stump
+1,11,Yorker,"Full, lands at the base of the stumps",ra_express_fast_over_yorker.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,yorker,middle stump
+1,12,Toe-crusher yorker,"Full, aimed at the batter's toes",ra_express_fast_over_yorker.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,yorker,middle stump (at the body)
+1,13,Wide yorker,"Full, just inside the wide line",ra_express_fast_over_yorker.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,yorker,wide outside off
+1,14,Back-of-length ball,"Just short of good length, rises off the pitch",ra_express_fast_over_bouncer.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.12,short,middle stump
+1,15,Good-length ball,Lands where the batter can't decide forward or back,ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,,,1.0,good length,middle stump
+1,16,Wobble seam,"Seam wobbles, unpredictable movement",ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,"random, 0.08 m",,1.0,good length,middle stump
+1,17,Cross-seam ball,"Seam held across, variable bounce",ra_express_fast_over_stock.fbx,ra_express_fast_around_stock.fbx,141,147,,"random, 0.08 m",,1.0,good length,middle stump
+1,18,Slower ball,"(off-cutter) Cut, slower, turns in",ra_express_fast_over_off_cutter.fbx,ra_express_fast_around_stock.fbx,141,115,,"in, 0.14 m",,1.0,good length,middle stump
+1,19,Slower bouncer,"Short and slow, mistimes the pull/hook",ra_express_fast_over_back_of_hand.fbx,ra_express_fast_around_stock.fbx,141,115,,,,1.0,bouncer,middle stump
+2,1,Stock seam-up ball,"Upright seam, relies on seam movement",ra_fast_medium_over_stock.fbx,ra_fast_medium_around_stock.fbx,127,133,,,,1.0,good length,middle stump
+2,2,Outswinger,Swings away from the batter,ra_fast_medium_over_outswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"conventional, away, -0.3 m, progressive",,,1.0,good length,off stump
+2,3,Inswinger,Swings into the batter,ra_fast_medium_over_inswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"conventional, in, 0.3 m, progressive",,,1.0,good length,middle stump
+2,4,Late outswinger,Swings away late in flight,ra_fast_medium_over_outswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"conventional, away, -0.22 m, late (last 30% of flight)",,,1.0,good length,off stump
+2,5,Late inswinger,Swings in late in flight,ra_fast_medium_over_inswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"conventional, in, 0.22 m, late (last 30% of flight)",,,1.0,good length,middle stump
+2,6,Reverse inswinger,Old ball swings in,ra_fast_medium_over_inswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"reverse, in, 0.3 m, late (last 30% of flight)",,,1.0,good length,middle stump
+2,7,Reverse outswinger,Old ball swings away,ra_fast_medium_over_outswinger.fbx,ra_fast_medium_around_stock.fbx,127,133,"reverse, away, -0.3 m, late (last 30% of flight)",,,1.0,good length,off stump
+2,8,Off-cutter,"Fingers cut across the ball, moves in",ra_fast_medium_over_off_cutter.fbx,ra_fast_medium_around_stock.fbx,127,133,,"in, 0.14 m",,1.0,good length,middle stump
+2,9,Leg-cutter,"Fingers cut the other way, moves away",ra_fast_medium_over_leg_cutter.fbx,ra_fast_medium_around_stock.fbx,127,133,,"away, 0.14 m",,1.0,good length,off stump
+2,10,Wobble seam,Unpredictable seam movement,ra_fast_medium_over_stock.fbx,ra_fast_medium_around_stock.fbx,127,133,,"random, 0.08 m",,1.0,good length,middle stump
+2,11,Knuckle ball,"Held on the knuckles, slow and floats",ra_fast_medium_over_knuckle.fbx,ra_fast_medium_around_stock.fbx,127,104,,,,1.0,good length,middle stump
+2,12,Split-finger slower ball,"Wide finger grip, takes pace off",ra_fast_medium_over_knuckle.fbx,ra_fast_medium_around_stock.fbx,127,104,,,,1.0,good length,wide outside off
+2,13,Back-of-hand slower ball,"Released from back of hand, dips",ra_fast_medium_over_back_of_hand.fbx,ra_fast_medium_around_stock.fbx,127,104,,,,1.0,good length,middle stump
+2,14,Off-cut slower ball,Slower and moves in,ra_fast_medium_over_off_cutter.fbx,ra_fast_medium_around_stock.fbx,127,104,,"in, 0.14 m",,1.0,good length,middle stump
+2,15,Leg-cut slower ball,Slower and moves away,ra_fast_medium_over_leg_cutter.fbx,ra_fast_medium_around_stock.fbx,127,104,,"away, 0.14 m",,1.0,good length,off stump
+2,16,Bouncer,"Short, rises sharply",ra_fast_medium_over_bouncer.fbx,ra_fast_medium_around_stock.fbx,127,133,,,,1.12,bouncer,middle stump
+2,17,Yorker,"Full, at the base of the stumps",ra_fast_medium_over_yorker.fbx,ra_fast_medium_around_stock.fbx,127,133,,,,1.0,yorker,middle stump
+2,18,Wide yorker,"Full, outside off near the wide line",ra_fast_medium_over_yorker.fbx,ra_fast_medium_around_stock.fbx,127,133,,,,1.0,yorker,wide outside off
+2,19,Bumper (slower),Short slower ball,ra_fast_medium_over_back_of_hand.fbx,ra_fast_medium_around_stock.fbx,127,104,,,,1.0,bouncer,middle stump
+2,20,Hard length / hit the deck,"Back of length, extra bounce",ra_fast_medium_over_bouncer.fbx,ra_fast_medium_around_stock.fbx,127,133,,,,1.12,back of length,middle stump
+3,1,Stock medium ball,"Line and length, accuracy-based",ra_medium_over_stock.fbx,ra_medium_around_stock.fbx,113,115,,,,1.0,good length,middle stump
+3,2,Outswinger,Swings away from the batter,ra_medium_over_outswinger.fbx,ra_medium_around_stock.fbx,113,115,"conventional, away, -0.3 m, progressive",,,1.0,good length,off stump
+3,3,Inswinger,Swings into the batter,ra_medium_over_inswinger.fbx,ra_medium_around_stock.fbx,113,115,"conventional, in, 0.3 m, progressive",,,1.0,good length,middle stump
+3,4,Off-cutter,Grips and moves in,ra_medium_over_off_cutter.fbx,ra_medium_around_stock.fbx,113,115,,"in, 0.14 m",,1.0,good length,middle stump
+3,5,Leg-cutter,Grips and moves away,ra_medium_over_leg_cutter.fbx,ra_medium_around_stock.fbx,113,115,,"away, 0.14 m",,1.0,good length,off stump
+3,6,Wobble seam,Variable seam movement,ra_medium_over_stock.fbx,ra_medium_around_stock.fbx,113,115,,"random, 0.08 m",,1.0,good length,middle stump
+3,7,Knuckle ball,"Slow, floats, little spin",ra_medium_over_knuckle.fbx,ra_medium_around_stock.fbx,113,90,,,,1.0,good length,middle stump
+3,8,Back-of-hand slower ball,"Dips late, deceives timing",ra_medium_over_back_of_hand.fbx,ra_medium_around_stock.fbx,113,90,,,,1.0,good length,middle stump
+3,9,Cross-seam ball,Variable bounce,ra_medium_over_stock.fbx,ra_medium_around_stock.fbx,113,115,,"random, 0.08 m",,1.0,good length,middle stump
+3,10,Dibbly-dobbly ball,"Very slow, gentle, hard to hit cleanly",ra_slow_medium_over_back_of_hand.fbx,ra_slow_medium_around_stock.fbx,99,95,,,,1.0,good length,middle stump
+3,11,Wide yorker,"Full, near the wide line",ra_medium_over_yorker.fbx,ra_medium_around_stock.fbx,113,115,,,,1.0,yorker,wide outside off
+3,12,Into-the-pitch ball,Slower ball dug into the pitch,ra_medium_over_bouncer.fbx,ra_medium_around_stock.fbx,113,115,,,,1.0,back of length,middle stump
+4,1,Stock angled ball,"Angles across, away from the batter",la_fast_over_stock.fbx,la_fast_around_stock.fbx,141,138,,,,1.0,good length,off stump
+4,2,Inswinger (to RHB),Swings back into the right-hander,la_fast_over_inswinger.fbx,la_fast_around_stock.fbx,141,138,"conventional, in, 0.3 m, progressive",,,1.0,good length,middle stump
+4,3,Outswinger (to RHB),Swings further away from the right-hander,la_fast_over_outswinger.fbx,la_fast_around_stock.fbx,141,138,"conventional, away, -0.3 m, progressive",,,1.0,good length,off stump
+4,4,Reverse inswinger,Old ball swings in late,la_fast_over_inswinger.fbx,la_fast_around_stock.fbx,141,138,"reverse, in, 0.22 m, late (last 30% of flight)",,,1.0,good length,middle stump
+4,5,Reverse outswinger,Old ball swings away late,la_fast_over_outswinger.fbx,la_fast_around_stock.fbx,141,138,"reverse, away, -0.22 m, late (last 30% of flight)",,,1.0,good length,off stump
+4,6,Angle-in delivery,"From around the wicket, angles into the batter",la_fast_around_stock.fbx,la_fast_around_stock.fbx,141,138,,,,1.0,good length,middle stump
+4,7,Nip-backer,Seams back in off the pitch,la_fast_over_stock.fbx,la_fast_around_stock.fbx,141,138,,"in, 0.1 m",,1.0,good length,middle stump
+4,8,Bouncer,"Short, rises at head height",la_fast_over_bouncer.fbx,la_fast_around_stock.fbx,141,138,,,,1.12,bouncer,middle stump
+4,9,Yorker,"Full, at the base of the stumps",la_fast_over_yorker.fbx,la_fast_around_stock.fbx,141,138,,,,1.0,yorker,middle stump
+4,10,Toe-crusher yorker,"Full, aimed at the toes",la_fast_over_yorker.fbx,la_fast_around_stock.fbx,141,138,,,,1.0,yorker,middle stump (at the body)
+4,11,Wide yorker,"Full, near the wide line",la_fast_over_yorker.fbx,la_fast_around_stock.fbx,141,138,,,,1.0,yorker,wide outside off
+4,12,Off-cutter,"Cutter, moves away from RHB",la_fast_over_off_cutter.fbx,la_fast_around_stock.fbx,141,138,,"away, 0.14 m",,1.0,good length,off stump
+4,13,Leg-cutter,"Cutter, moves into RHB",la_fast_over_leg_cutter.fbx,la_fast_around_stock.fbx,141,138,,"in, 0.14 m",,1.0,good length,middle stump
+4,14,Knuckle ball,"Slow, floats",la_fast_over_knuckle.fbx,la_fast_around_stock.fbx,141,108,,,,1.0,good length,middle stump
+4,15,Back-of-hand slower ball,Dips late,la_fast_over_back_of_hand.fbx,la_fast_around_stock.fbx,141,108,,,,1.0,good length,middle stump
+4,16,Slower bouncer,Short and slow,la_fast_over_back_of_hand.fbx,la_fast_around_stock.fbx,141,108,,,,1.0,bouncer,middle stump
+4,17,Wobble seam,Variable movement,la_fast_over_stock.fbx,la_fast_around_stock.fbx,141,138,,"random, 0.08 m",,1.0,good length,middle stump
+5,1,Slinging yorker,"Low arm, ball dips into the toes",ra_slinger_over_yorker.fbx,ra_slinger_around_stock.fbx,129,142,,,,1.0,yorker,middle stump (at the body)
+5,2,Slinging inswinger,"Low trajectory, swings in",ra_slinger_over_inswinger.fbx,ra_slinger_around_stock.fbx,129,142,"conventional, in, 0.3 m, progressive",,,1.0,good length,middle stump
+5,3,Skiddy bouncer,Rises without much warning,ra_slinger_over_bouncer.fbx,ra_slinger_around_stock.fbx,129,142,,,,1.12,bouncer,middle stump
+5,4,Dipping slower ball,"Low release, dips sharply",ra_slinger_over_back_of_hand.fbx,ra_slinger_around_stock.fbx,129,110,,,,1.0,good length,middle stump
+5,5,Round-arm wide yorker,"Full, outside off, hard to reach",ra_slinger_over_yorker.fbx,ra_slinger_around_stock.fbx,129,142,,,,1.0,yorker,wide outside off
+6,1,Off break,"Stock ball, turns into the batter",ra_off_spin_over_off_break.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+6,2,Flighted off break,"Tossed up, slower, more dip",ra_off_spin_over_off_break.fbx,ra_off_spin_around_off_break.fbx,99,79,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+6,3,Quicker off break,Flatter and faster,ra_off_spin_over_off_break.fbx,ra_off_spin_around_off_break.fbx,99,95,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+6,4,Arm ball,"Goes straight on with the arm, no turn",ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"top-spin (forward), 2000 rpm, turns straight on 0 deg",1.15,good length,middle stump
+6,5,Floater,"Drifts away, little spin",ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"seam-up / back-spin, 2000 rpm, turns straight on 0 deg",1.0,good length,off stump
+6,6,Slider,"Skids on, straight and fast",ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,95,,,"seam-up / back-spin, 2000 rpm, turns straight on 0 deg",1.0,good length,middle stump
+6,7,Top spinner,"Over-spin, extra bounce, goes straight",ra_off_spin_over_off_break.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"top-spin (forward), 2000 rpm, turns straight on 0 deg",1.15,good length,middle stump
+6,8,Doosra,"Turns the other way, away from the batter",ra_off_spin_over_doosra.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,off stump
+6,9,Teesra,"Back-spinner, skids straight on (rare)",ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,95,,,"seam-up / back-spin, 2000 rpm, turns straight on 0 deg",1.0,good length,middle stump
+6,10,Carrom ball,"Flicked by finger, turns away",ra_off_spin_over_carrom.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,off stump
+6,11,Undercutter,"Back-spin, stays low",ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,88,,"in, 0.14 m","seam-up / back-spin, 2000 rpm, turns straight on 0 deg",0.8,good length,middle stump
+6,12,Drifter,"Drifts in the air, then turns",ra_off_spin_over_off_break.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+6,13,Round-the-wicket off break,"Angles in, turns more",ra_off_spin_around_off_break.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+7,1,Stock left-arm spin,Turns away from the batter,la_orthodox_over_off_break.fbx,la_orthodox_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,off stump
+7,2,Flighted delivery,"Tossed up, more dip and turn",la_orthodox_over_off_break.fbx,la_orthodox_around_off_break.fbx,99,79,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,middle stump
+7,3,Quicker ball,"Flatter, faster, less turn",la_orthodox_over_off_break.fbx,la_orthodox_around_off_break.fbx,99,95,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,middle stump
+7,4,Arm ball,"Goes straight on, angled in",la_orthodox_over_arm_ball.fbx,la_orthodox_around_off_break.fbx,99,88,,,"top-spin (forward), 2000 rpm, turns straight on 0 deg",1.15,good length,off stump
+7,5,Slider,Skids on with no turn,la_orthodox_over_arm_ball.fbx,la_orthodox_around_off_break.fbx,99,95,,,"seam-up / back-spin, 2000 rpm, turns straight on 0 deg",1.0,good length,middle stump
+7,6,Top spinner,"Extra bounce, goes straight",la_orthodox_over_off_break.fbx,la_orthodox_around_off_break.fbx,99,88,,,"top-spin (forward), 2000 rpm, turns straight on 0 deg",1.15,good length,middle stump
+7,7,Drifter,"Drifts in the air, then turns away",la_orthodox_over_off_break.fbx,la_orthodox_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,off stump
+7,8,Left-arm doosra,Turns into the batter (rare),la_orthodox_over_doosra.fbx,la_orthodox_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+7,9,Carrom ball,"Flicked, turns into the batter",la_orthodox_over_carrom.fbx,la_orthodox_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump
+7,10,Undercutter,"Back-spin, stays low",la_orthodox_over_arm_ball.fbx,la_orthodox_around_off_break.fbx,99,88,,"away, 0.14 m","seam-up / back-spin, 2000 rpm, turns straight on 0 deg",0.8,good length,middle stump
+7,11,Round-the-wicket delivery,"Angles in, then turns away",la_orthodox_around_off_break.fbx,la_orthodox_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,off stump
+8,1,Leg break,"Stock ball, turns away from the batter",ra_leg_spin_over_leg_break.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"side-spin, 2400 rpm, turns away 4 deg",1.0,good length,off stump
+8,2,Big-turning leg break,"Extra revolutions, sharp turn",ra_leg_spin_over_leg_break.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"side-spin, 2900 rpm, turns away 6 deg",1.0,good length,middle stump
+8,3,Googly / wrong'un,"Turns the other way, into the batter",ra_leg_spin_over_googly.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"side-spin, 2400 rpm, turns in 4 deg",1.0,good length,middle stump
+8,4,Top spinner,"Over-spin, extra bounce, goes straight",ra_leg_spin_over_top_spinner.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"top-spin (forward), 2400 rpm, turns straight on 0 deg",1.15,good length,middle stump
+8,5,Flipper,"Back-spin, skids low and fast",ra_leg_spin_over_flipper.fbx,ra_leg_spin_around_leg_break.fbx,100,92,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+8,6,Slider,"Back-spin, skids on straight",ra_leg_spin_over_flipper.fbx,ra_leg_spin_around_leg_break.fbx,100,92,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+8,7,Zooter,"Pushed out of the front of the hand, skids",ra_leg_spin_over_flipper.fbx,ra_leg_spin_around_leg_break.fbx,100,92,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+8,8,Back-spinner,Stops on the batter,ra_leg_spin_over_flipper.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+8,9,Quicker leg break,Flatter and faster,ra_leg_spin_over_leg_break.fbx,ra_leg_spin_around_leg_break.fbx,100,92,,,"side-spin, 2400 rpm, turns away 4 deg",1.0,good length,middle stump
+8,10,Flighted leg break,"Tossed up, dips and turns",ra_leg_spin_over_leg_break.fbx,ra_leg_spin_around_leg_break.fbx,100,76,,,"side-spin, 2400 rpm, turns away 4 deg",1.0,good length,middle stump
+8,11,Side-spinner,"Pure side-spin, drifts and turns",ra_leg_spin_over_leg_break.fbx,ra_leg_spin_around_leg_break.fbx,100,85,,,"side-spin, 2400 rpm, turns away 4 deg",1.0,good length,middle stump
+9,1,Stock chinaman,Turns into the batter,la_chinaman_over_leg_break.fbx,la_chinaman_around_leg_break.fbx,100,83,,,"side-spin, 2400 rpm, turns in 4 deg",1.0,good length,middle stump
+9,2,Flighted chinaman,"Tossed up, more dip and turn",la_chinaman_over_leg_break.fbx,la_chinaman_around_leg_break.fbx,100,75,,,"side-spin, 2400 rpm, turns in 4 deg",1.0,good length,middle stump
+9,3,Googly (left-arm),"Turns the other way, away from the batter",la_chinaman_over_googly.fbx,la_chinaman_around_leg_break.fbx,100,83,,,"side-spin, 2400 rpm, turns away 4 deg",1.0,good length,off stump
+9,4,Top spinner,"Over-spin, extra bounce, goes straight",la_chinaman_over_top_spinner.fbx,la_chinaman_around_leg_break.fbx,100,83,,,"top-spin (forward), 2400 rpm, turns straight on 0 deg",1.15,good length,middle stump
+9,5,Flipper,"Back-spin, skids low",la_chinaman_over_flipper.fbx,la_chinaman_around_leg_break.fbx,100,90,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+9,6,Slider,Skids on with no turn,la_chinaman_over_flipper.fbx,la_chinaman_around_leg_break.fbx,100,90,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+9,7,Quicker ball,Flatter and faster,la_chinaman_over_leg_break.fbx,la_chinaman_around_leg_break.fbx,100,90,,,"side-spin, 2400 rpm, turns in 4 deg",1.0,good length,middle stump
+9,8,Zooter,Skids on from the front of the hand,la_chinaman_over_flipper.fbx,la_chinaman_around_leg_break.fbx,100,90,,,"back-spin, 2400 rpm, turns straight on 0 deg",0.8,good length,middle stump
+10,1,Carrom ball,Flicked off the middle finger,ra_off_spin_over_carrom.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,middle stump
+10,2,Knuckle spin ball,"Gripped on bent fingers, deceptive spin",ra_off_spin_over_carrom.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,middle stump
+10,3,Leg-spin from an off-spin action,Disguised wrong-way turn,ra_off_spin_over_doosra.fbx,ra_off_spin_around_off_break.fbx,99,88,,,"side-spin, 2000 rpm, turns away 4 deg",1.0,good length,middle and leg
+10,4,Off-spin from a leg-spin action,Disguised wrong-way turn,ra_leg_spin_over_googly.fbx,ra_leg_spin_around_leg_break.fbx,100,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle and leg
+10,5,Back-spin skidder,Stays low and fast,ra_off_spin_over_arm_ball.fbx,ra_off_spin_around_off_break.fbx,99,95,,,"seam-up / back-spin, 2000 rpm, turns straight on 0 deg",0.8,good length,middle stump
+10,6,Side-arm variation,Changes release angle,mystery_side_arm_over.fbx,,99,88,,,"side-spin, 2000 rpm, turns in 4 deg",1.0,good length,middle stump

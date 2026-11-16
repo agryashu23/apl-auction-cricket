@@ -1,0 +1,28 @@
+{
+ "about": "Round 13 (audio-modes): a tie gets its own call (was 'lost'), and more two-voice exchanges — after a maiden, a run of dots, a fifty. English only. python -I tools/gen_commentary_r8.py --file commentary_more_en_6.json",
+ "tied": [
+  ["lead", "Scores level! It's a tie!"], ["lead", "Unbelievable! Nothing to separate them. It's tied!"],
+  ["colour", "A tie! Neither side deserved to lose that."], ["lead", "They finish all square! What a game of cricket!"],
+  ["colour", "Level on runs. You couldn't write a closer finish."]
+ ],
+ "xq_maiden": [
+  ["lead", "A maiden, Kiara. How big is that at this stage?"], ["lead", "Not a run off the over. Kiara, what's the bowler doing right?"]
+ ],
+ "xa_maiden": [
+  ["colour", "Huge. Dots win you T20 games, and that was six of them."], ["colour", "Hitting the hard length, every ball. Nothing to free the arms."]
+ ],
+ "xq_pressure": [
+  ["lead", "The dots are piling up, Kiara."], ["lead", "Kiara, does he need to take a risk here?"],
+  ["lead", "They've gone quiet, Kiara. Where's the release?"]
+ ],
+ "xa_pressure": [
+  ["colour", "And the asking rate climbs with every one. Something has to give."], ["colour", "He does. One boundary changes the whole mood."],
+  ["colour", "A quick single would do it. Just rotate the strike."]
+ ],
+ "xq_milestone": [
+  ["lead", "Fifty up, Kiara. What's impressed you most?"], ["lead", "A fine half-century, Kiara. Can he go on?"]
+ ],
+ "xa_milestone": [
+  ["colour", "His shot selection. He's picked the right ball to hit, every time."], ["colour", "If he bats through, they'll win this. He's set now."]
+ ]
+}
